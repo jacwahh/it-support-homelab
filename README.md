@@ -28,3 +28,7 @@ Serveren fungerer både som domenekontroller, navnetjener og filserver. Navnetje
 Alle personnavn i labben er fiktive.
 
 [Kilder](docs/kilder.md)
+
+## Les guiden lokalt
+
+Last ned via **Code → Download ZIP**, pakk ut hele ZIP-filen og åpne `index.html` i nettleseren. Behold `images`-mappen sammen med filen, slik at bildene vises.
