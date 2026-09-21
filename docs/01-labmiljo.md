@@ -84,16 +84,14 @@ Subnettmasken angir hvilket lokalt nettverk maskinen tilhører. DNS settes til s
 
 ![VirtualBox DHCP gir klienten en IP-adresse. Klienten bruker DC01 på 192.168.56.55 som DNS.](../images/diagrams/lab-ip-kart.png)
 
-| Del | Adresse eller område | Hvordan den brukes |
-| --- | --- | --- |
-| DC01 på labnettverket | `192.168.56.55` | Fast IP; også DNS-adressen klienten skal bruke |
-| VirtualBox sin DHCP-tjeneste | `192.168.56.100` | Tjenesten som deler ut adresser |
-| DHCP-området | `192.168.56.101–192.168.56.254` | Adressene tjenesten kan dele ut |
-| CLT-001 | En tildelt adresse fra DHCP-området | Den konkrete adressen er ikke vist i dokumentasjonen |
+| Del | IP-adresse |
+| --- | --- |
+| DC01 og klientens DNS-server | `192.168.56.55` |
+| VirtualBox DHCP | `192.168.56.100` |
+| DHCP-området | `192.168.56.101–192.168.56.254` |
+| CLT-001 | Tildeles automatisk fra DHCP-området |
 
-**DHCP gir klienten en IP-adresse. DNS hjelper klienten å finne maskiner og tjenester ved hjelp av navn.** Det er to forskjellige oppgaver.
-
-Vertsmaskinen er også koblet til Host-only-nettverket, men adressen til vertens nettverkskort er ikke dokumentert her.
+Klienten får IP-adressen fra **DHCP** og bruker **DNS på DC01** for å finne domenet.
 
 ## Valgfritt: større skjerm
 
