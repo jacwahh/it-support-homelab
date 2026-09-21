@@ -1,0 +1,7 @@
+ÅPNE GUIDEN
+
+1. Pakk ut hele ZIP-filen.
+2. Åpne index.html i nettleseren.
+
+README.md og docs-mappen er Markdown-utgaven for GitHub.
+Behold images-mappen sammen med index.html.
