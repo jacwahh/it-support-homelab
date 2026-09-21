@@ -32,14 +32,6 @@
 <td>Klient</td>
 <td><code>CLT-001</code> — Windows 11 Pro</td>
 </tr>
-<tr>
-<td>Domene</td>
-<td><code>LAB.local</code></td>
-</tr>
-<tr>
-<td>Serverens IP-adresse</td>
-<td><code>192.168.56.55</code></td>
-</tr>
 </tbody></table>
 <p>Serveren fungerer både som domenekontroller, navnetjener og filserver. Navnetjenesten <strong>Domain Name System (DNS)</strong> hjelper klienten med å finne domenet og serverens tjenester. Det holder labben enkel. I et produksjonsmiljø ville man normalt brukt en dedikert filserver.</p>
 <p>Alle personnavn i labben er fiktive.</p>
@@ -135,33 +127,27 @@
 <thead>
 <tr>
 <th>Del</th>
-<th>Adresse eller område</th>
-<th>Hvordan den brukes</th>
+<th>IP-adresse</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>DC01 på labnettverket</td>
+<td>DC01 og klientens DNS-server</td>
 <td><code>192.168.56.55</code></td>
-<td>Fast IP; også DNS-adressen klienten skal bruke</td>
 </tr>
 <tr>
-<td>VirtualBox sin DHCP-tjeneste</td>
+<td>VirtualBox DHCP</td>
 <td><code>192.168.56.100</code></td>
-<td>Tjenesten som deler ut adresser</td>
 </tr>
 <tr>
 <td>DHCP-området</td>
 <td><code>192.168.56.101–192.168.56.254</code></td>
-<td>Adressene tjenesten kan dele ut</td>
 </tr>
 <tr>
 <td>CLT-001</td>
-<td>En tildelt adresse fra DHCP-området</td>
-<td>Den konkrete adressen er ikke vist i dokumentasjonen</td>
+<td>Tildeles automatisk fra DHCP-området</td>
 </tr>
 </tbody></table>
-<p><strong>DHCP gir klienten en IP-adresse. DNS hjelper klienten å finne maskiner og tjenester ved hjelp av navn.</strong> Det er to forskjellige oppgaver.</p>
-<p>Vertsmaskinen er også koblet til Host-only-nettverket, men adressen til vertens nettverkskort er ikke dokumentert her.</p>
+<p>Klienten får IP-adressen fra <strong>DHCP</strong> og bruker <strong>DNS på DC01</strong> for å finne domenet.</p>
 <h2>Valgfritt: større skjerm</h2>
 <p>Velg <strong>Devices → Insert Guest Additions CD image</strong> i VM-vinduet. Åpne CD-stasjonen inne i Windows, kjør installasjonsprogrammet og start VM-en på nytt. Juster deretter oppløsning og skalering under <strong>Display settings</strong>.</p>
 <p>Guest Additions installeres i Windows på den virtuelle maskinen. Det gjør blant annet at skjermoppløsningen kan tilpasses når du endrer størrelsen på vinduet i VirtualBox.</p>

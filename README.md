@@ -20,8 +20,6 @@ Den detaljerte fremgangsmåten er dokumentert med skjermbilder i [bilderegistere
 | Vertsmaskin | Windows 11 med VirtualBox 7.2.8 |
 | Server | `DC01` — Windows Server 2022 Standard Evaluation, Desktop Experience |
 | Klient | `CLT-001` — Windows 11 Pro |
-| Domene | `LAB.local` |
-| Serverens IP-adresse | `192.168.56.55` |
 
 Serveren fungerer både som domenekontroller, navnetjener og filserver. Navnetjenesten **Domain Name System (DNS)** hjelper klienten med å finne domenet og serverens tjenester. Det holder labben enkel. I et produksjonsmiljø ville man normalt brukt en dedikert filserver.
 
