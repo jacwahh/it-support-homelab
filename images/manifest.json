@@ -1,0 +1,1446 @@
+{
+  "source": "Dokumentasjon.odt",
+  "unique_images": 143,
+  "image_occurrences": 144,
+  "images": [
+    {
+      "number": 1,
+      "original": "Pictures/100000010000091C0000045A85B0777B.png",
+      "sha256": "cdef7375f2427a82c5ef90cc7f04a9523514879ad6ec27ae65991febd29215a3",
+      "caption": "VirtualBox: offisiell nedlastingsside og versjonen brukt i labben",
+      "path": "screenshots/001.png",
+      "source_paragraph_indices_zero_based": [
+        5
+      ]
+    },
+    {
+      "number": 2,
+      "original": "Pictures/100000010000033C0000023542364D35.png",
+      "sha256": "344299b5574145452b6855a451454b2a3465ef4df1414b38ca04a6da1251d510",
+      "caption": "VirtualBox Manager: opprett en ny virtuell maskin med New",
+      "path": "screenshots/002.png",
+      "source_paragraph_indices_zero_based": [
+        10
+      ]
+    },
+    {
+      "number": 3,
+      "original": "Pictures/10000001000004F5000003379A39438A.png",
+      "sha256": "60ef9a78ecb1b9542c22bbebfc1159d27d722e678fc11379583d8e5cc8343160",
+      "caption": "Serverens VM-navn og installasjonsmedium; profilnavnet i filstiene er sladdet",
+      "path": "screenshots/003.png",
+      "source_paragraph_indices_zero_based": [
+        13
+      ],
+      "source_sha256": "93d2ef8b5837b9fd1f94091ae4af559ee126b616b3cfa610300e896004ffe639",
+      "redaction": "Profilnavn i lokale filstier dekket med ugjennomsiktig sladd. Bearbeidet med bildeverktøy; original bevart privat. PNG-metadata fjernet."
+    },
+    {
+      "number": 4,
+      "original": "Pictures/10000001000004F00000033962EEC009.png",
+      "sha256": "26330855e683e0304cefaca1eb87ccef7bf93e947cfdf4ba3594fd9df7c5ed77",
+      "caption": "Serverens ressurser: 16 GB RAM og fire virtuelle CPU-er i denne labben",
+      "path": "screenshots/004.png",
+      "source_paragraph_indices_zero_based": [
+        17
+      ]
+    },
+    {
+      "number": 5,
+      "original": "Pictures/10000001000004F30000033A97123173.png",
+      "sha256": "cdc910b91b527ab829ea33c3b76f6a5c93f0399083cd6ef8dc9d982ca32de0bb",
+      "caption": "Serverens virtuelle disk på 50 GB; profilnavnet i lagringsstien er sladdet",
+      "path": "screenshots/005.png",
+      "source_paragraph_indices_zero_based": [
+        18
+      ],
+      "source_sha256": "e68d51c1d5f84f98354c980210d1efb4fcb47784c2f3a973328aad3e829dc8c5",
+      "redaction": "Profilnavn i lokale filstier dekket med ugjennomsiktig sladd. Bearbeidet med bildeverktøy; original bevart privat. PNG-metadata fjernet."
+    },
+    {
+      "number": 6,
+      "original": "Pictures/10000001000009FD0000052EB0472C04.png",
+      "sha256": "b61d3bb08ba122a233274ffe6da243cae588d417ae580899b15ee8ac98f1572a",
+      "caption": "DC01 er opprettet i VirtualBox og klar til å starte",
+      "path": "screenshots/006.png",
+      "source_paragraph_indices_zero_based": [
+        23
+      ]
+    },
+    {
+      "number": 7,
+      "original": "Pictures/10000001000004060000030D696B7F70.png",
+      "sha256": "bfb9b9bade475686a96da7031cab8d41ceece3bce1cc1905933340cfa2223618",
+      "caption": "Windows Server 2022 Standard Evaluation med Desktop Experience velges",
+      "path": "screenshots/007.png",
+      "source_paragraph_indices_zero_based": [
+        28
+      ]
+    },
+    {
+      "number": 8,
+      "original": "Pictures/100000010000040000000310E28CE3E4.png",
+      "sha256": "4455e5ba6c8a95cf4591cc7df3ad64d75d590943c364045f774e62bd4968c479",
+      "caption": "Custom velges for en ny installasjon på den virtuelle disken",
+      "path": "screenshots/008.png",
+      "source_paragraph_indices_zero_based": [
+        31
+      ]
+    },
+    {
+      "number": 9,
+      "original": "Pictures/10000001000003FA0000030A7B7F570B.png",
+      "sha256": "dceb14c2df961de4e48e7483765383a2d9dea7d6c9c0ca55a3af95de7307d9e8",
+      "caption": "Serverens tomme virtuelle disk velges som installasjonsmål",
+      "path": "screenshots/009.png",
+      "source_paragraph_indices_zero_based": [
+        35
+      ]
+    },
+    {
+      "number": 10,
+      "original": "Pictures/10000001000004000000030477B377A5.png",
+      "sha256": "70045f8af8b5cb3d4180d64b228ff545e5716501488160df5cb70f67c3b65343",
+      "caption": "Administratorpassord settes; feltene i bildet er tomme",
+      "path": "screenshots/010.png",
+      "source_paragraph_indices_zero_based": [
+        39
+      ]
+    },
+    {
+      "number": 11,
+      "original": "Pictures/10000001000007C30000050ECE2316CF.png",
+      "sha256": "8f105905220a1bbc3e16b0828adccaa09146fdd0ffede60355a6b8646f58c4e5",
+      "caption": "VirtualBox-menyen brukes til å sende Ctrl+Alt+Delete til gjesten",
+      "path": "screenshots/011.png",
+      "source_paragraph_indices_zero_based": [
+        43
+      ]
+    },
+    {
+      "number": 12,
+      "original": "Pictures/10000001000003FD0000030D4B0D2704.png",
+      "sha256": "ac8f66fb3cb7751399387babffff24e96c6351fe16d662889ce71b5eeb2dbbe9",
+      "caption": "Server Manager viser datamaskinnavnet før navneendringen",
+      "path": "screenshots/012.png",
+      "source_paragraph_indices_zero_based": [
+        58
+      ]
+    },
+    {
+      "number": 13,
+      "original": "Pictures/10000001000003FC00000301AFD69841.png",
+      "sha256": "de98ee597637f7cff78eb99d3e2c2d91e565805a01f567fd0042f3f398123cc6",
+      "caption": "System Properties åpnes for å endre servernavnet",
+      "path": "screenshots/013.png",
+      "source_paragraph_indices_zero_based": [
+        64
+      ]
+    },
+    {
+      "number": 14,
+      "original": "Pictures/100000010000040000000301590E4C80.png",
+      "sha256": "d033249bfa0198ec5950776cc49e5d36a057bba568c2b7ccf7fe39097fb2ce3f",
+      "caption": "Windows-navnet settes til DC01 før domenekontrolleroppsettet",
+      "path": "screenshots/014.png",
+      "source_paragraph_indices_zero_based": [
+        66
+      ]
+    },
+    {
+      "number": 15,
+      "original": "Pictures/10000001000004720000040F2927159D.png",
+      "sha256": "52e99e6023e34b2a434f9a1c4e34f41c9bbec182e1e99c98b449cb3072f8f160",
+      "caption": "Originalen viser avslutning via VirtualBox; bruk normalt Shut down i Windows",
+      "path": "screenshots/015.png",
+      "source_paragraph_indices_zero_based": [
+        74
+      ]
+    },
+    {
+      "number": 16,
+      "original": "Pictures/100000010000021C000001367748DBCC.png",
+      "sha256": "b6a1128b404ec08217fb2cab1dbee126cd1c534926815de7e03df70e48096d40",
+      "caption": "Power Off-advarsel: dette kutter strømmen og er ikke anbefalt normal avslutning",
+      "path": "screenshots/016.png",
+      "source_paragraph_indices_zero_based": [
+        78
+      ]
+    },
+    {
+      "number": 17,
+      "original": "Pictures/10000001000004660000039106092A27.png",
+      "sha256": "c6245e2e4d4c4f394d1097748b8f3a2ed52e2660734923bea15b04a48ebdb8e8",
+      "caption": "Innstillinger åpnes for den avslåtte server-VM-en",
+      "path": "screenshots/017.png",
+      "source_paragraph_indices_zero_based": [
+        90
+      ]
+    },
+    {
+      "number": 18,
+      "original": "Pictures/100000010000048900000301745A2FF1.png",
+      "sha256": "4c34a37245d7490d57e2997f169c02a3208510b879eb8cbc6c7b312470828cc2",
+      "caption": "Adapter 1 på DC01 kobles til Host-only-nettverket",
+      "path": "screenshots/018.png",
+      "source_paragraph_indices_zero_based": [
+        97
+      ]
+    },
+    {
+      "number": 19,
+      "original": "Pictures/100000010000048900000304CFAF84DE.png",
+      "sha256": "a36993bdc62b27b816cfa00252192d42b789697672017bd2d20c8214f39d3340",
+      "caption": "Adapter 2 bruker NAT for utgående forbindelser fra DC01",
+      "path": "screenshots/019.png",
+      "source_paragraph_indices_zero_based": [
+        101
+      ]
+    },
+    {
+      "number": 20,
+      "original": "Pictures/100000010000036A0000028631A088C8.png",
+      "sha256": "a99605e5a9da44de85e9b2d415785d6fab0f64d25fd85043eb8b688302f187cf",
+      "caption": "VirtualBox Network-verktøyet åpnes fra File og Tools",
+      "path": "screenshots/020.png",
+      "source_paragraph_indices_zero_based": [
+        108
+      ]
+    },
+    {
+      "number": 21,
+      "original": "Pictures/10000001000009C1000001660ACEA21F.png",
+      "sha256": "e23e7f99d06e5751a7e9fd5d5f779a61577fdae261c4e6c6ea51092721ab5722",
+      "caption": "VirtualBox DHCP-område kontrolleres før valg av fast serveradresse",
+      "path": "screenshots/021.png",
+      "source_paragraph_indices_zero_based": [
+        114
+      ]
+    },
+    {
+      "number": 22,
+      "original": "Pictures/10000001000003FD0000030DE01A8A4B.png",
+      "sha256": "c935556c049143f436792738d7c648225edb58a76866d7e92e5dbe0334bb8897",
+      "caption": "Nettverkstilkoblinger åpnes på serveren",
+      "path": "screenshots/022.png",
+      "source_paragraph_indices_zero_based": [
+        119
+      ]
+    },
+    {
+      "number": 23,
+      "original": "Pictures/10000001000003F4000002FD3C4B7867.png",
+      "sha256": "119974c5693d9c475b5c79ea9eb86e6d6f090b217297d2db51bd626211363f7b",
+      "caption": "Egenskaper åpnes for det aktuelle nettverkskortet",
+      "path": "screenshots/023.png",
+      "source_paragraph_indices_zero_based": [
+        132
+      ]
+    },
+    {
+      "number": 24,
+      "original": "Pictures/10000001000001D70000023207CAAC6F.png",
+      "sha256": "6890b83a657a837f4b3c536a31afa24a1da7757fb7766d2a33110cfd23ef6e89",
+      "caption": "IPv4-egenskaper velges for labkortet",
+      "path": "screenshots/024.png",
+      "source_paragraph_indices_zero_based": [
+        138
+      ]
+    },
+    {
+      "number": 25,
+      "original": "Pictures/10000001000001C500000229832CC341.png",
+      "sha256": "82177d42ea23046265b7fe05fdf5c8a217fb54d9536bea0af6447b530c99f9f6",
+      "caption": "DC01 får 192.168.56.55/24 og peker til seg selv som DNS-server",
+      "path": "screenshots/025.png",
+      "source_paragraph_indices_zero_based": [
+        160
+      ]
+    },
+    {
+      "number": 26,
+      "original": "Pictures/10000001000003FC000003008A312796.png",
+      "sha256": "e97fecd6d0c7d656aa0d3b150d183861f3125360247bef743d7b2ed0e07b3e2b",
+      "caption": "Server Manager åpnes for å installere AD DS-rollen",
+      "path": "screenshots/026.png",
+      "source_paragraph_indices_zero_based": [
+        188
+      ]
+    },
+    {
+      "number": 27,
+      "original": "Pictures/10000001000003BB0000024D3215A7CC.png",
+      "sha256": "e8136fee46b620881f850233b20a6bc586ab736f03b3d5aba18f11261ee5f3e5",
+      "caption": "Add roles and features starter rolleinstallasjonen",
+      "path": "screenshots/027.png",
+      "source_paragraph_indices_zero_based": [
+        197
+      ]
+    },
+    {
+      "number": 28,
+      "original": "Pictures/10000001000003D5000002B6BC2B7101.png",
+      "sha256": "8fb43549fb53a7aa7d7236a65d24322f10b00d7dc3d3c93097bc4163156a7205",
+      "caption": "Veiviserens innledende kontrollpunkter",
+      "path": "screenshots/028.png",
+      "source_paragraph_indices_zero_based": [
+        203
+      ]
+    },
+    {
+      "number": 29,
+      "original": "Pictures/10000001000003D0000002BB1321D306.png",
+      "sha256": "3c44e30ca975e5c55df6c6b5d5af1b07f21e71660fbaed3ab6cb8dc5d2bcaf3a",
+      "caption": "Role-based or feature-based installation velges",
+      "path": "screenshots/029.png",
+      "source_paragraph_indices_zero_based": [
+        205
+      ]
+    },
+    {
+      "number": 30,
+      "original": "Pictures/10000001000003D0000002B961A2299C.png",
+      "sha256": "ca9502c0bc6733f4191479a2cea06d795cd69b8ea92c2a535b53973bb13cb5bf",
+      "caption": "DC01 velges som målserver; serveren har flere nettverksadresser",
+      "path": "screenshots/030.png",
+      "source_paragraph_indices_zero_based": [
+        209
+      ]
+    },
+    {
+      "number": 31,
+      "original": "Pictures/10000001000003CF000002B9086C9A34.png",
+      "sha256": "26b3ce438ff768a7494997e281f60e583cd790450c37d3423060c7026e5c4a64",
+      "caption": "Active Directory Domain Services markeres i rollelisten",
+      "path": "screenshots/031.png",
+      "source_paragraph_indices_zero_based": [
+        220
+      ]
+    },
+    {
+      "number": 32,
+      "original": "Pictures/10000001000001FE0000021A5D52CBC3.png",
+      "sha256": "611927ca3d5e86f90bc7fe94fe3b236dba71edebccf91be81760b73b3458a969",
+      "caption": "Nødvendige administrasjonsverktøy legges til med Add Features",
+      "path": "screenshots/032.png",
+      "source_paragraph_indices_zero_based": [
+        222
+      ]
+    },
+    {
+      "number": 33,
+      "original": "Pictures/10000001000003CD000002B9B0BB7018.png",
+      "sha256": "436c5c5a8bb2249cb5f4d4a1b0d4f862030e72c80e4aa27e8ca0fb3a53fd1c34",
+      "caption": "AD DS er valgt i rollelisten",
+      "path": "screenshots/033.png",
+      "source_paragraph_indices_zero_based": [
+        243
+      ]
+    },
+    {
+      "number": 34,
+      "original": "Pictures/10000001000003CF000002B6145F659D.png",
+      "sha256": "5c67854c878ec2330270591b837e18b07a02a87eea123f682d2c535cbf93e834",
+      "caption": "Tilleggsfunksjoner vises før installasjonen fortsetter",
+      "path": "screenshots/034.png",
+      "source_paragraph_indices_zero_based": [
+        248
+      ]
+    },
+    {
+      "number": 35,
+      "original": "Pictures/10000001000003D2000002B2DFEAA44B.png",
+      "sha256": "9fef675afb9fff2caf21c387c7ec9163cd9b601e13959fa089c24f41bfc467fa",
+      "caption": "Informasjon om AD DS og behovet for DNS",
+      "path": "screenshots/035.png",
+      "source_paragraph_indices_zero_based": [
+        252
+      ]
+    },
+    {
+      "number": 36,
+      "original": "Pictures/10000001000003CF000002B6AA90F006.png",
+      "sha256": "b2f5c56e17a876152be10323801fc26c64188916e396f213c93dccf93f86728b",
+      "caption": "Rolleinstallasjonen bekreftes med Install",
+      "path": "screenshots/036.png",
+      "source_paragraph_indices_zero_based": [
+        256
+      ]
+    },
+    {
+      "number": 37,
+      "original": "Pictures/10000001000003CF000002B3CF5D6E4B.png",
+      "sha256": "b08d7ecfc7b18fb427fbb55e5bd765159ddab32d6f5747365b054ec7eff06637",
+      "caption": "AD DS-rollen er installert; promotering gjenstår",
+      "path": "screenshots/037.png",
+      "source_paragraph_indices_zero_based": [
+        260
+      ]
+    },
+    {
+      "number": 38,
+      "original": "Pictures/10000001000003B8000002472CD1185E.png",
+      "sha256": "5c2b1855ab5c8185cb29f6b9eb9a9c4fefc535aeea60caee301da00cc057cdc0",
+      "caption": "Varselikonet viser at etterkonfigurering er nødvendig",
+      "path": "screenshots/038.png",
+      "source_paragraph_indices_zero_based": [
+        268
+      ]
+    },
+    {
+      "number": 39,
+      "original": "Pictures/10000001000003BA0000024907A23F00.png",
+      "sha256": "5d4a8412e79945894dd9487d60c57b9499432a7d36ab01b1de2542c7cbfeb291",
+      "caption": "Promote this server to a domain controller velges",
+      "path": "screenshots/039.png",
+      "source_paragraph_indices_zero_based": [
+        271
+      ]
+    },
+    {
+      "number": 40,
+      "original": "Pictures/10000001000003AF000002B617885667.png",
+      "sha256": "d1bd7281a41332c9fa77a3ecc8fbf4827c72e2f6900f30dc31bb556e88f937d2",
+      "caption": "En ny skog opprettes med domenenavnet LAB.local",
+      "path": "screenshots/040.png",
+      "source_paragraph_indices_zero_based": [
+        275
+      ]
+    },
+    {
+      "number": 41,
+      "original": "Pictures/10000001000003B2000002AF380E71A3.png",
+      "sha256": "882a4f4414af006be0404618998256cd44edbec1b5aff5fd6ab7607d91fe0648",
+      "caption": "DNS, Global Catalog og funksjonsnivå vises; DSRM-passordet er maskert",
+      "path": "screenshots/041.png",
+      "source_paragraph_indices_zero_based": [
+        277
+      ]
+    },
+    {
+      "number": 42,
+      "original": "Pictures/10000001000003B1000002B8D5F8956C.png",
+      "sha256": "3b469698e0edf995c0ba93b83067f251b772eb665997184f31749b54c48f275c",
+      "caption": "Advarsel om manglende DNS-delegering i laboppsettet",
+      "path": "screenshots/042.png",
+      "source_paragraph_indices_zero_based": [
+        281
+      ]
+    },
+    {
+      "number": 43,
+      "original": "Pictures/10000001000003B1000002B59D357183.png",
+      "sha256": "3d7de3e2a9778e3df6d4e20919296d09b9dd890fa3e8696811573ed687bd6826",
+      "caption": "Plassering av AD-database, logger og SYSVOL; bildet brukes to ganger i kilden",
+      "path": "screenshots/043.png",
+      "source_paragraph_indices_zero_based": [
+        284,
+        288
+      ]
+    },
+    {
+      "number": 44,
+      "original": "Pictures/10000001000003B1000002B32E365AA1.png",
+      "sha256": "afc505fb8e04aeb2f83f6a8fc5081e31937c284a12db90065daf402a83fb67c1",
+      "caption": "NetBIOS-navnet settes til LAB",
+      "path": "screenshots/044.png",
+      "source_paragraph_indices_zero_based": [
+        285
+      ]
+    },
+    {
+      "number": 45,
+      "original": "Pictures/10000001000003AF000002B810CF0275.png",
+      "sha256": "8a1ce39f1d4f98f64397094a024015ede8d8e37ffc69b154ea557819193bda37",
+      "caption": "Oppsummering av domenekontrollerkonfigurasjonen",
+      "path": "screenshots/045.png",
+      "source_paragraph_indices_zero_based": [
+        291
+      ]
+    },
+    {
+      "number": 46,
+      "original": "Pictures/10000001000003AF000002B5D69198A4.png",
+      "sha256": "4300145721eebfb25a26c1ba6c106a2c59026298be5a02b878067b6cae3c051d",
+      "caption": "Forutsetningskontroll med advarsler som må vurderes før installasjon",
+      "path": "screenshots/046.png",
+      "source_paragraph_indices_zero_based": [
+        295
+      ]
+    },
+    {
+      "number": 47,
+      "original": "Pictures/1000000100000763000004D4242C6157.png",
+      "sha256": "940f8b32b60e0e3e38d3b00497d93848201478d2ff002c95bd970c88b86339ea",
+      "caption": "Guest Additions-CD-en monteres fra VirtualBox Devices-menyen",
+      "path": "screenshots/047.png",
+      "source_paragraph_indices_zero_based": [
+        310
+      ]
+    },
+    {
+      "number": 48,
+      "original": "Pictures/10000001000003FD0000030490757595.png",
+      "sha256": "a165cd849a0ab4c9fd71a2e84a959fc57a651241e235f9caa3ca2f52ffd76f3c",
+      "caption": "File Explorer åpnes i gjesteoperativsystemet",
+      "path": "screenshots/048.png",
+      "source_paragraph_indices_zero_based": [
+        313
+      ]
+    },
+    {
+      "number": 49,
+      "original": "Pictures/10000001000003C7000001E46630DF6B.png",
+      "sha256": "5a16cd23750c82bd7f31c6102c309738150e5c64f58137ada8a695fd9492f828",
+      "caption": "Guest Additions-CD-stasjonen finnes under This PC",
+      "path": "screenshots/049.png",
+      "source_paragraph_indices_zero_based": [
+        317
+      ]
+    },
+    {
+      "number": 50,
+      "original": "Pictures/10000001000003CF000002A9E5F80D95.png",
+      "sha256": "e56ec43bae5fbf9f9ba0097c2ccd0545c7f782e7a1567265f8980497af01af33",
+      "caption": "Windows-installasjonsprogrammet for Guest Additions velges",
+      "path": "screenshots/050.png",
+      "source_paragraph_indices_zero_based": [
+        317
+      ]
+    },
+    {
+      "number": 51,
+      "original": "Pictures/100000010000026B000001DB233409E1.png",
+      "sha256": "b8b33be54eb166560c7015b32de063279dc2f4edfcdd87f639cf54482458482e",
+      "caption": "Guest Additions-installasjonen starter",
+      "path": "screenshots/051.png",
+      "source_paragraph_indices_zero_based": [
+        319
+      ]
+    },
+    {
+      "number": 52,
+      "original": "Pictures/100000010000026A000001DBEB8C9CDC.png",
+      "sha256": "2b1175e5a4cab1f064154e7089212ef74d1851b0a17ffabc8183cc7f70545b19",
+      "caption": "Installasjonsplassering for Guest Additions",
+      "path": "screenshots/052.png",
+      "source_paragraph_indices_zero_based": [
+        338
+      ]
+    },
+    {
+      "number": 53,
+      "original": "Pictures/1000000100000265000001DDD753793D.png",
+      "sha256": "9655f14f23e0a1575695e8e70a6d998ae708ea7d176991845262f9144f1fb291",
+      "caption": "Komponentvalg for Guest Additions",
+      "path": "screenshots/053.png",
+      "source_paragraph_indices_zero_based": [
+        356
+      ]
+    },
+    {
+      "number": 54,
+      "original": "Pictures/10000001000001EC0000017D500D5C76.png",
+      "sha256": "d711466faf714d5eacac9e654027c753f74a287873c78faf847c1e8184f25c79",
+      "caption": "Gjesten må startes på nytt etter Guest Additions",
+      "path": "screenshots/054.png",
+      "source_paragraph_indices_zero_based": [
+        372
+      ]
+    },
+    {
+      "number": 55,
+      "original": "Pictures/1000000100000774000004C9F6086D63.png",
+      "sha256": "5c1dfcdbd8601c3922d1fdc8813ac7ec71a397fb53639a0bfb61948131c87e7b",
+      "caption": "VirtualBox viser skjerm- og skaleringsvalg etter installasjonen",
+      "path": "screenshots/055.png",
+      "source_paragraph_indices_zero_based": [
+        385
+      ]
+    },
+    {
+      "number": 56,
+      "original": "Pictures/10000001000009FA000005F5591A2D8F.png",
+      "sha256": "ada0d9adb135b74fc2d23909066cecea4592eb38eda40889e9bdbed5c7db95bd",
+      "caption": "Gjesten vises med større tilgjengelig skjermflate",
+      "path": "screenshots/056.png",
+      "source_paragraph_indices_zero_based": [
+        387
+      ]
+    },
+    {
+      "number": 57,
+      "original": "Pictures/10000001000003F400000301935F1583.png",
+      "sha256": "ebf33f7bf60a9b24e6f2afe362008b2aa42f25772834b98e00b0c1de498702b0",
+      "caption": "Display settings åpnes i Windows",
+      "path": "screenshots/057.png",
+      "source_paragraph_indices_zero_based": [
+        390
+      ]
+    },
+    {
+      "number": 58,
+      "original": "Pictures/100000010000027000000297285E2985.png",
+      "sha256": "b4a45c368d802a07654c1e135f768f7bd7adc5845495162f69eaf0b8ec6c2f68",
+      "caption": "Skalering endres for å gjøre tekst og ikoner større",
+      "path": "screenshots/058.png",
+      "source_paragraph_indices_zero_based": [
+        393
+      ]
+    },
+    {
+      "number": 59,
+      "original": "Pictures/100000010000046C000002BB45D241B0.png",
+      "sha256": "849cdb1aee949a70544dd0b89a9b520a6bc0e725ca33db8c85c2ab7bdc40df39",
+      "caption": "En ny VM opprettes for Windows-klienten",
+      "path": "screenshots/059.png",
+      "source_paragraph_indices_zero_based": [
+        414
+      ]
+    },
+    {
+      "number": 60,
+      "original": "Pictures/10000001000004ED0000033A5EA9F2E6.png",
+      "sha256": "6fa4f22f4104c20a895090fddca01d7d43dc3ef3be3eb191de25b4c2e36e1a34",
+      "caption": "Windows 11-ISO velges; profilnavnet i filstiene er sladdet",
+      "path": "screenshots/060.png",
+      "source_paragraph_indices_zero_based": [
+        417
+      ],
+      "source_sha256": "888e7b529f3d4cbf4dac3a0cf43becb9b2d4cb513ef98c86d5e9f2c58d533590",
+      "redaction": "Profilnavn i lokale filstier dekket med ugjennomsiktig sladd. Bearbeidet med bildeverktøy; original bevart privat. PNG-metadata fjernet."
+    },
+    {
+      "number": 61,
+      "original": "Pictures/10000001000004F3000003349FE9A1B6.png",
+      "sha256": "88a506177295fa28e9e137c8542a838d416a1af2810c7bb68ef8fc771d8fa3c5",
+      "caption": "Klienten får 8 GB RAM og tre virtuelle CPU-er i det dokumenterte forsøket",
+      "path": "screenshots/061.png",
+      "source_paragraph_indices_zero_based": [
+        424
+      ]
+    },
+    {
+      "number": 62,
+      "original": "Pictures/10000001000004ED00000333479A579D.png",
+      "sha256": "c6973848f0b96d9529cf591c095b2ccebb2d41067c82619344498bbf82ae873c",
+      "caption": "Klientens virtuelle disk settes til 80 GB; profilnavnet i lagringsstien er sladdet",
+      "path": "screenshots/062.png",
+      "source_paragraph_indices_zero_based": [
+        429
+      ],
+      "source_sha256": "00e0dcae9226d21659f7122085c9e160cbc843db95a207ecff33c0da0fbbb6be",
+      "redaction": "Profilnavn i lokale filstier dekket med ugjennomsiktig sladd. Bearbeidet med bildeverktøy; original bevart privat. PNG-metadata fjernet."
+    },
+    {
+      "number": 63,
+      "original": "Pictures/100000010000046F0000020A1E12446B.png",
+      "sha256": "f176fa1e28761afc7b4165fc6200488e0b6140eec1261c916d02533151160d70",
+      "caption": "Windows-klientens VM er klar til å starte",
+      "path": "screenshots/063.png",
+      "source_paragraph_indices_zero_based": [
+        432
+      ]
+    },
+    {
+      "number": 64,
+      "original": "Pictures/10000001000003FA00000376848DE111.png",
+      "sha256": "a3b9467b34315f0f48590efe4436509e96161ec8315777b19ceff6bc6c045a9e",
+      "caption": "En tast trykkes for å starte installasjonen fra ISO-en",
+      "path": "screenshots/064.png",
+      "source_paragraph_indices_zero_based": [
+        435
+      ]
+    },
+    {
+      "number": 65,
+      "original": "Pictures/10000001000002C200000229A6D790FB.png",
+      "sha256": "70c1f3c903b21e9cad897e61712bcc0b9a5955f906fc4da85db58d44c9ae9ce4",
+      "caption": "Språk og region velges i Windows 11-installasjonen",
+      "path": "screenshots/065.png",
+      "source_paragraph_indices_zero_based": [
+        438
+      ]
+    },
+    {
+      "number": 66,
+      "original": "Pictures/10000001000002BF00000228CD9B26CC.png",
+      "sha256": "75c40211a31f0b60050bbff2fed25b5da4ead06fff1e704736cdf68e7dddd147",
+      "caption": "Norsk tastaturoppsett velges",
+      "path": "screenshots/066.png",
+      "source_paragraph_indices_zero_based": [
+        456
+      ]
+    },
+    {
+      "number": 67,
+      "original": "Pictures/10000001000002C40000022EAD968D16.png",
+      "sha256": "f2dae38f99ccb7f87084cf259715f8dcb74163c5bb0a9d76bea1d0ac87b134aa",
+      "caption": "Ren Windows-installasjon velges på den virtuelle maskinen",
+      "path": "screenshots/067.png",
+      "source_paragraph_indices_zero_based": [
+        476
+      ]
+    },
+    {
+      "number": 68,
+      "original": "Pictures/10000001000002C50000022C1191516F.png",
+      "sha256": "24162ff2a7a6db963f0f41fe0b888abeab6102bf150d127226ed9bbe7764cbd9",
+      "caption": "Ingen produktnøkkel er skrevet inn i dette installasjonstrinnet",
+      "path": "screenshots/068.png",
+      "source_paragraph_indices_zero_based": [
+        499
+      ]
+    },
+    {
+      "number": 69,
+      "original": "Pictures/10000001000002C5000002292963E4B0.png",
+      "sha256": "5d0a004f1a4bf121f344ab74a281c75f3c96d9fb8e8a1439074863c6a5c57f0b",
+      "caption": "Windows 11 Pro velges for domenetilknytning",
+      "path": "screenshots/069.png",
+      "source_paragraph_indices_zero_based": [
+        520
+      ]
+    },
+    {
+      "number": 70,
+      "original": "Pictures/10000001000002C2000002269264A1E8.png",
+      "sha256": "182fcff473ddcb74dfdf4986f795056ad5a4255983314a0d7917a0c4cc8737de",
+      "caption": "Lisensvilkårene vises før installasjonen",
+      "path": "screenshots/070.png",
+      "source_paragraph_indices_zero_based": [
+        541
+      ]
+    },
+    {
+      "number": 71,
+      "original": "Pictures/10000001000002BF0000022832D6A896.png",
+      "sha256": "26ff694040e4bba5048e69af06c93f21dce0e87abb834a4f605818f9c5cedecd",
+      "caption": "Den tomme virtuelle disken på 80 GB velges",
+      "path": "screenshots/071.png",
+      "source_paragraph_indices_zero_based": [
+        565
+      ]
+    },
+    {
+      "number": 72,
+      "original": "Pictures/10000001000002C200000228D359AEF4.png",
+      "sha256": "7104d2e004af18e09b8e345e16056b177de6030824b5dd7d386c137165281186",
+      "caption": "Installasjonsoppsummering; bildet viser også en merknad om systemkrav",
+      "path": "screenshots/072.png",
+      "source_paragraph_indices_zero_based": [
+        591
+      ]
+    },
+    {
+      "number": 73,
+      "original": "Pictures/10000001000003F0000002FEBFAD5170.png",
+      "sha256": "2d889dca362cae2e8a2b97e404e2d95cb059c8220f1fbc1a308c3016144ae669",
+      "caption": "Windows 11 installeres",
+      "path": "screenshots/073.png",
+      "source_paragraph_indices_zero_based": [
+        615
+      ]
+    },
+    {
+      "number": 74,
+      "original": "Pictures/10000001000003E2000002E05906A0AE.png",
+      "sha256": "0475b9a62660ada78ccb90ab1f38dc2b463d2dd56c08eb90ff3ff9426ed8ae0d",
+      "caption": "Installasjonsfremdrift under omstart",
+      "path": "screenshots/074.png",
+      "source_paragraph_indices_zero_based": [
+        620
+      ]
+    },
+    {
+      "number": 75,
+      "original": "Pictures/10000001000003F1000002F5FD0A65E8.png",
+      "sha256": "a643cedfd8c333deb029d7171e7a2cb2b5a9e3954bafb8b4df21d8983841117b",
+      "caption": "Norge velges som region i førstegangsoppsettet",
+      "path": "screenshots/075.png",
+      "source_paragraph_indices_zero_based": [
+        623
+      ]
+    },
+    {
+      "number": 76,
+      "original": "Pictures/10000001000003F7000002FA8DC2E0BA.png",
+      "sha256": "50ef426fb0a452d2cbf84e202cd88f7acc3258a92fc4f776962ac88aff3f974e",
+      "caption": "Norsk tastatur velges i førstegangsoppsettet",
+      "path": "screenshots/076.png",
+      "source_paragraph_indices_zero_based": [
+        628
+      ]
+    },
+    {
+      "number": 77,
+      "original": "Pictures/10000001000003F7000002FBF995EFC5.png",
+      "sha256": "39e2aae8ff7cde876eccfd9c98981a2c1f0d36e6e2b5ef1ffa680e068ed7ac89",
+      "caption": "Et ekstra tastaturoppsett hoppes over",
+      "path": "screenshots/077.png",
+      "source_paragraph_indices_zero_based": [
+        632
+      ]
+    },
+    {
+      "number": 78,
+      "original": "Pictures/10000001000003EE000002F58A2941E9.png",
+      "sha256": "9b054b0ebeda506d74cffe16419bddf5252bf99ce89627519ed1b3d70300393b",
+      "caption": "Windows-maskinnavnet settes til CLT-001",
+      "path": "screenshots/078.png",
+      "source_paragraph_indices_zero_based": [
+        634
+      ]
+    },
+    {
+      "number": 79,
+      "original": "Pictures/10000001000003F4000002FBF0D6E85D.png",
+      "sha256": "935d77100a45a499e3c0a0e14091d04a59945806f1bd8c51411853924c71cb42",
+      "caption": "Sign-in options åpnes i jobb- eller skoleoppsettet",
+      "path": "screenshots/079.png",
+      "source_paragraph_indices_zero_based": [
+        637
+      ]
+    },
+    {
+      "number": 80,
+      "original": "Pictures/10000001000003F7000002F7C7051546.png",
+      "sha256": "5883462193b08fabd028f595e203bcc2ced53d3b73d2c409ef72da0c47f81464",
+      "caption": "Domain join instead gir lokal oppretting før senere domenetilknytning",
+      "path": "screenshots/080.png",
+      "source_paragraph_indices_zero_based": [
+        639
+      ]
+    },
+    {
+      "number": 81,
+      "original": "Pictures/10000001000003F6000002F8259345DD.png",
+      "sha256": "85c3a9a3a912e4be56129f72534f632e65592111914bcc8395454d04d37d8d54",
+      "caption": "Set up for work or school; dette valget kommer før de to foregående dialogene i arbeidsflyten",
+      "path": "screenshots/081.png",
+      "source_paragraph_indices_zero_based": [
+        643
+      ]
+    },
+    {
+      "number": 82,
+      "original": "Pictures/10000001000003F4000002F8E08B49A5.png",
+      "sha256": "fc7760c8de9bcea69a3515e60caed23f68902c53a30011a39404b6093f3466db",
+      "caption": "Den lokale klientkontoen får navnet Ola Nordmann",
+      "path": "screenshots/082.png",
+      "source_paragraph_indices_zero_based": [
+        646
+      ]
+    },
+    {
+      "number": 83,
+      "original": "Pictures/10000001000003EE000002F855AA150D.png",
+      "sha256": "8e0b261a4dba5314f6066e7cbf1b406f4928ac44eb66daf61cd2be70e5008602",
+      "caption": "Passord til lokal konto oppgis; innholdet er maskert",
+      "path": "screenshots/083.png",
+      "source_paragraph_indices_zero_based": [
+        648
+      ]
+    },
+    {
+      "number": 84,
+      "original": "Pictures/10000001000003F1000002F51462AEC9.png",
+      "sha256": "ca6a89c6e488411b05c3b2a38296925c89bcbf61ee42b66c5aeff866e986a43b",
+      "caption": "Passordet til lokal konto bekreftes; innholdet er maskert",
+      "path": "screenshots/084.png",
+      "source_paragraph_indices_zero_based": [
+        650
+      ]
+    },
+    {
+      "number": 85,
+      "original": "Pictures/10000001000003F1000002F78EC2B89A.png",
+      "sha256": "d077ec27e7db757e9ff31bfce618ef2a3859f8cc379e9b4c043ae55c3d5a5e34",
+      "caption": "Sikkerhetsspørsmål vises, men svarfeltet er tomt",
+      "path": "screenshots/085.png",
+      "source_paragraph_indices_zero_based": [
+        654
+      ]
+    },
+    {
+      "number": 86,
+      "original": "Pictures/10000001000003F1000002F8C9052711.png",
+      "sha256": "480bb9d39d143e68914c227ad80cacc64d9e7fbb5bf5003a728fc918b7dd8289",
+      "caption": "Posisjonstilgang avslås i originalens personvernvalg",
+      "path": "screenshots/086.png",
+      "source_paragraph_indices_zero_based": [
+        657
+      ]
+    },
+    {
+      "number": 87,
+      "original": "Pictures/10000001000003E2000002EB54E02D26.png",
+      "sha256": "bb279df725665da7f671bde523ede47e9d2f26ade8f420c42b65f605e51b8839",
+      "caption": "Find my device avslås i originalens personvernvalg",
+      "path": "screenshots/087.png",
+      "source_paragraph_indices_zero_based": [
+        662
+      ]
+    },
+    {
+      "number": 88,
+      "original": "Pictures/10000001000003EE000002F29E39F1B5.png",
+      "sha256": "68d43cd6380ee66b3fea93f468043b353af2cbeb0f44f4942e74814bd0e76c86",
+      "caption": "Bare nødvendige diagnosedata velges",
+      "path": "screenshots/088.png",
+      "source_paragraph_indices_zero_based": [
+        666
+      ]
+    },
+    {
+      "number": 89,
+      "original": "Pictures/10000001000003EB000002F55429434F.png",
+      "sha256": "fd62181c7431da88bba27e8f0465db25b92beb2633124212849d6da9b986c693",
+      "caption": "Valgfri forbedring av håndskrift og inntasting avslås",
+      "path": "screenshots/089.png",
+      "source_paragraph_indices_zero_based": [
+        670
+      ]
+    },
+    {
+      "number": 90,
+      "original": "Pictures/10000001000003F1000002F5DF9FDD59.png",
+      "sha256": "27d5b1431c3e6e148e1b867bd5f6e136e68347f83fa62166cee64a98b68e0ada",
+      "caption": "Personlige tilbud avslås",
+      "path": "screenshots/090.png",
+      "source_paragraph_indices_zero_based": [
+        675
+      ]
+    },
+    {
+      "number": 91,
+      "original": "Pictures/10000001000003F0000002F5D944A730.png",
+      "sha256": "c9bdc158b5b53fdf774f994bc3cd4b8ae426f59d7604f039253303edbc34cef4",
+      "caption": "Windows fullfører oppdateringer i førstegangsoppsettet",
+      "path": "screenshots/091.png",
+      "source_paragraph_indices_zero_based": [
+        680
+      ]
+    },
+    {
+      "number": 92,
+      "original": "Pictures/10000001000003F9000002F8B39628F3.png",
+      "sha256": "0b95f94cfdf1ee2a5eb4ff5321df1707f82166254e6fe95f656d879db606127a",
+      "caption": "Påloggingsskjerm for den lokale kontoen Ola Nordmann",
+      "path": "screenshots/092.png",
+      "source_paragraph_indices_zero_based": [
+        683
+      ]
+    },
+    {
+      "number": 93,
+      "original": "Pictures/100000010000049500000304E68A5D30.png",
+      "sha256": "927c5e2016dbd4d9309f02a0b552292fd289f48baeb052f359ff4f8115360213",
+      "caption": "Klienten kobles til samme Host-only-nettverk som serveren",
+      "path": "screenshots/093.png",
+      "source_paragraph_indices_zero_based": [
+        691
+      ]
+    },
+    {
+      "number": 94,
+      "original": "Pictures/1000000100000637000004AE7DD77925.png",
+      "sha256": "944a4bcc1fe33200eeb2083d8b0f1c526212beb9d8b15aa9e9fad8c3466813d8",
+      "caption": "Active Directory Users and Computers åpnes på DC01",
+      "path": "screenshots/094.png",
+      "source_paragraph_indices_zero_based": [
+        700
+      ]
+    },
+    {
+      "number": 95,
+      "original": "Pictures/10000001000003D20000028EA46D5F0E.png",
+      "sha256": "c7d905af21744ede8168137b811d8218f9b0b73c522cf8bf3471e0661478ce48",
+      "caption": "New Organizational Unit velges under LAB.local",
+      "path": "screenshots/095.png",
+      "source_paragraph_indices_zero_based": [
+        704
+      ]
+    },
+    {
+      "number": 96,
+      "original": "Pictures/1000000100000544000003720AED5232.png",
+      "sha256": "7694c1dc091db8d8049d25bc02fd8b02dbf0b428ea5b6137feeb9694158961f9",
+      "caption": "OU-en Accounts opprettes med beskyttelse mot utilsiktet sletting",
+      "path": "screenshots/096.png",
+      "source_paragraph_indices_zero_based": [
+        707
+      ]
+    },
+    {
+      "number": 97,
+      "original": "Pictures/100000010000053D0000036DFD64035A.png",
+      "sha256": "8d3a84a317c2c78c213133d6a85c0f6103b1fd483934e5f25e3cdfff383dcf4b",
+      "caption": "OU-en Groups opprettes med beskyttelse mot utilsiktet sletting",
+      "path": "screenshots/097.png",
+      "source_paragraph_indices_zero_based": [
+        709
+      ]
+    },
+    {
+      "number": 98,
+      "original": "Pictures/100000010000039C000002CB1860A640.png",
+      "sha256": "b985187921431f9b5168601a39aa97bcef8987440507f4ada39fd93e782fa122",
+      "caption": "En ny bruker opprettes i Accounts",
+      "path": "screenshots/098.png",
+      "source_paragraph_indices_zero_based": [
+        724
+      ]
+    },
+    {
+      "number": 99,
+      "original": "Pictures/10000001000002FA000002913A406E48.png",
+      "sha256": "b0f3a9f330b9fe447e597f9298155b592ad3be0b5dd52224d5bebfcb45c9eff5",
+      "caption": "Eirik Solbergs navn og påloggingsnavn eirsol fylles inn",
+      "path": "screenshots/099.png",
+      "source_paragraph_indices_zero_based": [
+        727
+      ]
+    },
+    {
+      "number": 100,
+      "original": "Pictures/10000001000002F1000002941966F7E6.png",
+      "sha256": "8969c6bae71e84de1b8f5e870c16118e809c05769b016da61fcfe587f052361d",
+      "caption": "Midlertidig passord er maskert og må endres ved neste pålogging",
+      "path": "screenshots/100.png",
+      "source_paragraph_indices_zero_based": [
+        731
+      ]
+    },
+    {
+      "number": 101,
+      "original": "Pictures/10000001000002F800000292092C054B.png",
+      "sha256": "cee7c0b6cc1a02693bcb217836788d804761844c3d533593d091ed48e5dcefa7",
+      "caption": "Oppsummering før Eiriks konto opprettes",
+      "path": "screenshots/101.png",
+      "source_paragraph_indices_zero_based": [
+        734
+      ]
+    },
+    {
+      "number": 102,
+      "original": "Pictures/100000010000053D000003BAC208AD69.png",
+      "sha256": "c2b78fa06216a025d7073a7f5f1e3312f020951f943084d18899e989b2f5ff77",
+      "caption": "Alle ti labkontoene vises i Accounts",
+      "path": "screenshots/102.png",
+      "source_paragraph_indices_zero_based": [
+        738
+      ]
+    },
+    {
+      "number": 103,
+      "original": "Pictures/100000010000058900000414C9249ADF.png",
+      "sha256": "b86bcd80aeb881dc24a80e2e20b26a39cee18039485449846c5105c2324ec4bd",
+      "caption": "En ny gruppe opprettes i Groups",
+      "path": "screenshots/103.png",
+      "source_paragraph_indices_zero_based": [
+        753
+      ]
+    },
+    {
+      "number": 104,
+      "original": "Pictures/100000010000055B000003C1493C91F2.png",
+      "sha256": "735f18783f5985ad779c9f407c536aaab8975f9929486d94a5fb43f8409a492d",
+      "caption": "HR opprettes som global sikkerhetsgruppe",
+      "path": "screenshots/104.png",
+      "source_paragraph_indices_zero_based": [
+        756
+      ]
+    },
+    {
+      "number": 105,
+      "original": "Pictures/100000010000053D000003B8638B83D4.png",
+      "sha256": "2d9890ac92997c979ee363cd9f020d186cb4cf6af1a82368be961e069d2d9667",
+      "caption": "De fem avdelingsgruppene vises i katalogen",
+      "path": "screenshots/105.png",
+      "source_paragraph_indices_zero_based": [
+        760
+      ]
+    },
+    {
+      "number": 106,
+      "original": "Pictures/100000010000052B000003A0E31D085A.png",
+      "sha256": "7fea28f9a6221fb17618277e9f77e7a6ac47406f1a3ff5f533ab6de617ca791a",
+      "caption": "Eiriks brukeregenskaper åpnes for å endre medlemskap",
+      "path": "screenshots/106.png",
+      "source_paragraph_indices_zero_based": [
+        788
+      ]
+    },
+    {
+      "number": 107,
+      "original": "Pictures/10000001000002C5000003AB0FDA872A.png",
+      "sha256": "e34320515ae5c13fa24ce62d589d57c03d6cc1ce0052b3cfafa60d178169c781",
+      "caption": "Brukerens egenskaper; kontaktfeltene i bildet er tomme",
+      "path": "screenshots/107.png",
+      "source_paragraph_indices_zero_based": [
+        790
+      ]
+    },
+    {
+      "number": 108,
+      "original": "Pictures/10000001000002CB000003B2A5062919.png",
+      "sha256": "fd89ccbe57ddfd424675db6c0bf29aae05dc2577aa412a0efa4af45a9b9c6354",
+      "caption": "Member Of viser Domain Users før avdelingsgruppen legges til",
+      "path": "screenshots/108.png",
+      "source_paragraph_indices_zero_based": [
+        815
+      ]
+    },
+    {
+      "number": 109,
+      "original": "Pictures/1000000100000312000001B62D3CA9B3.png",
+      "sha256": "e4fb302c6196c407f266d15b9875eb04239df6c67ff392064a039a39f9892b87",
+      "caption": "IT søkes opp som gruppenavn i LAB.local",
+      "path": "screenshots/109.png",
+      "source_paragraph_indices_zero_based": [
+        838
+      ]
+    },
+    {
+      "number": 110,
+      "original": "Pictures/1000000100000327000001B97615C740.png",
+      "sha256": "d5b4c9c6556fe31f2e8e8fa3ce468035570d09f3e03f1e7d8c4df3574c2e463e",
+      "caption": "Check Names har løst IT til et gruppeobjekt",
+      "path": "screenshots/110.png",
+      "source_paragraph_indices_zero_based": [
+        840
+      ]
+    },
+    {
+      "number": 111,
+      "original": "Pictures/10000001000002C8000003ABF8525E4C.png",
+      "sha256": "7260b7a2ec3bb713a6c6997457a4260a570c93ab738336a3c66c5ce7268e4cc0",
+      "caption": "Eirik er nå medlem av IT og Domain Users",
+      "path": "screenshots/111.png",
+      "source_paragraph_indices_zero_based": [
+        843
+      ]
+    },
+    {
+      "number": 112,
+      "original": "Pictures/1000000000000A00000005858C607C7C.png",
+      "sha256": "3235943ab7486b1f07123f73bad614ee8096203f8d46157ce04abd7514d4add1",
+      "caption": "Nettverkstilkoblinger åpnes på klienten",
+      "path": "screenshots/112.png",
+      "source_paragraph_indices_zero_based": [
+        872
+      ]
+    },
+    {
+      "number": 113,
+      "original": "Pictures/1000000100000780000003F45D7349D4.png",
+      "sha256": "183d52af700db856ed1bf85f7892cffc3eee03366979900bd7e268c4c74d7d5d",
+      "caption": "Klientens Ethernet-egenskaper åpnes",
+      "path": "screenshots/113.png",
+      "source_paragraph_indices_zero_based": [
+        875
+      ]
+    },
+    {
+      "number": 114,
+      "original": "Pictures/10000001000002730000032B5DD6EBCF.png",
+      "sha256": "dc667146c6f7d589fedaf53add636e1c53c0d530bbbfe0c8739281f6ba39fc99",
+      "caption": "Klientens IPv4-egenskaper velges",
+      "path": "screenshots/114.png",
+      "source_paragraph_indices_zero_based": [
+        879
+      ]
+    },
+    {
+      "number": 115,
+      "original": "Pictures/10000001000002AF00000316D9EF4E81.png",
+      "sha256": "762c94c7ca5cab17019df7ed02e7e9eccb35defb72376685f2118e897a3ea654",
+      "caption": "Klienten beholder DHCP for IP og får 192.168.56.55 som DNS",
+      "path": "screenshots/115.png",
+      "source_paragraph_indices_zero_based": [
+        898
+      ]
+    },
+    {
+      "number": 116,
+      "original": "Pictures/1000000000000A00000005850F87BE75.png",
+      "sha256": "7c5fbbc397d0f89eede01139d7205d4a2cd2d7e8849d154cc7785f09a2d5347d",
+      "caption": "En kommandolinje åpnes; bildet viser serverens skrivebord som illustrasjon",
+      "path": "screenshots/116.png",
+      "source_paragraph_indices_zero_based": [
+        922
+      ]
+    },
+    {
+      "number": 117,
+      "original": "Pictures/10000001000007B400000435129DBC31.png",
+      "sha256": "159cb91098baf77f0396410308e0a0dcd319c30a6b8f9b7d178fc5c2b0a6419e",
+      "caption": "sysdm.cpl kjøres på klienten fra den lokale kontoen",
+      "path": "screenshots/117.png",
+      "source_paragraph_indices_zero_based": [
+        924
+      ]
+    },
+    {
+      "number": 118,
+      "original": "Pictures/10000001000002E600000349D9CB64B0.png",
+      "sha256": "79bab408395529f07d846ad2e420dee5c80a400290071762e38924288a7be81d",
+      "caption": "Klientens System Properties viser CLT-001 i en arbeidsgruppe",
+      "path": "screenshots/118.png",
+      "source_paragraph_indices_zero_based": [
+        931
+      ]
+    },
+    {
+      "number": 119,
+      "original": "Pictures/100000010000024D000002C5E0C3BCF0.png",
+      "sha256": "a7d167578aad8f44c9f00c29fca68feb5653e89be668c3f94431bffc1e08e583",
+      "caption": "LAB.local angis som domene for CLT-001",
+      "path": "screenshots/119.png",
+      "source_paragraph_indices_zero_based": [
+        949
+      ]
+    },
+    {
+      "number": 120,
+      "original": "Pictures/10000001000003130000029870A6FDB0.png",
+      "sha256": "1a36edfff17765ac1e38f6154c835968ea64112ea7b10f0ade03a48263254e6a",
+      "caption": "En konto med innmeldingsrettighet oppgis; administratorpassordet er maskert",
+      "path": "screenshots/120.png",
+      "source_paragraph_indices_zero_based": [
+        977
+      ]
+    },
+    {
+      "number": 121,
+      "original": "Pictures/10000001000001CC00000126BBF326FE.png",
+      "sha256": "26c1c81cd71156f991774ff853badfb05932f88e5f70c1fe211ec2934f0e546c",
+      "caption": "Velkomstmeldingen bekrefter vellykket tilknytning til LAB.local",
+      "path": "screenshots/121.png",
+      "source_paragraph_indices_zero_based": [
+        983
+      ]
+    },
+    {
+      "number": 122,
+      "original": "Pictures/10000001000002620000014881224050.png",
+      "sha256": "24ce249367149d42162c0a074eb304dd63daa79b1076e4d10e645f590ac66980",
+      "caption": "Klienten må startes på nytt etter domenetilknytningen",
+      "path": "screenshots/122.png",
+      "source_paragraph_indices_zero_based": [
+        1003
+      ]
+    },
+    {
+      "number": 123,
+      "original": "Pictures/1000000000000A00000005855C1D474D.png",
+      "sha256": "5d1bbe7ed282965ae80dab913207a791899bd150cfa5f8e4231b402e99adffa9",
+      "caption": "File Explorer åpnes på serveren",
+      "path": "screenshots/123.png",
+      "source_paragraph_indices_zero_based": [
+        1026
+      ]
+    },
+    {
+      "number": 124,
+      "original": "Pictures/10000001000007AB00000409C2A7FA10.png",
+      "sha256": "6bf69edfe8be213c41c9b83bfc1fd74ccc41ddb1e2951f71dbb7a37a241b4084",
+      "caption": "Serverens C-disk åpnes",
+      "path": "screenshots/124.png",
+      "source_paragraph_indices_zero_based": [
+        1030
+      ]
+    },
+    {
+      "number": 125,
+      "original": "Pictures/1000000000000A0000000585922E9B29.png",
+      "sha256": "153364fe2d038acdc35388511caab9d00469204567f9bc717bb2e59f27d27d2c",
+      "caption": "En ny mappe opprettes på serveren",
+      "path": "screenshots/125.png",
+      "source_paragraph_indices_zero_based": [
+        1038
+      ]
+    },
+    {
+      "number": 126,
+      "original": "Pictures/10000001000007B10000040F7A536278.png",
+      "sha256": "bd33e349c2a94d14cdb32fe2c431b39b96a9c945e5c6518e964e8c1eae568dd7",
+      "caption": "Hovedmappen C:\\Shares er opprettet",
+      "path": "screenshots/126.png",
+      "source_paragraph_indices_zero_based": [
+        1042
+      ]
+    },
+    {
+      "number": 127,
+      "original": "Pictures/10000001000007AE0000040C38A36721.png",
+      "sha256": "f93c24a08e6b7f05e4116817e5f465bd4a4dfafb444243d6cea6afad5745605c",
+      "caption": "Avdelingsmappene Finance, HR, IT, Marketing og Sales er opprettet",
+      "path": "screenshots/127.png",
+      "source_paragraph_indices_zero_based": [
+        1047
+      ]
+    },
+    {
+      "number": 128,
+      "original": "Pictures/10000001000007B30000040B3AAA5F27.png",
+      "sha256": "52b8a62cacc432b37a4a0bc0a8455d8c20c1eace2762f90889af71d32da413ce",
+      "caption": "HR Forms og Resumes er opprettet under HR",
+      "path": "screenshots/128.png",
+      "source_paragraph_indices_zero_based": [
+        1060
+      ]
+    },
+    {
+      "number": 129,
+      "original": "Pictures/1000000000000A000000058595007BB2.png",
+      "sha256": "68ad4b48d9457d256c875086a52c97f549b3e5d87f3f32420431371071743860",
+      "caption": "HR-mappens egenskaper åpnes",
+      "path": "screenshots/129.png",
+      "source_paragraph_indices_zero_based": [
+        1069
+      ]
+    },
+    {
+      "number": 130,
+      "original": "Pictures/10000001000002910000036D8C77A1A7.png",
+      "sha256": "6504db938918f1fea9243973e6ddcafde4a25215f1cf4ecd541d4067de752672",
+      "caption": "Sharing-fanen åpnes; mappen er ennå ikke delt i dette bildet",
+      "path": "screenshots/130.png",
+      "source_paragraph_indices_zero_based": [
+        1073
+      ]
+    },
+    {
+      "number": 131,
+      "original": "Pictures/1000000100000267000002771BE85FD9.png",
+      "sha256": "eb05c9d310161851562552e2a5482c871425a92267e3784939ce422edec762d1",
+      "caption": "HR aktiveres som deling i Advanced Sharing",
+      "path": "screenshots/131.png",
+      "source_paragraph_indices_zero_based": [
+        1099
+      ]
+    },
+    {
+      "number": 132,
+      "original": "Pictures/10000001000002700000030D940F276E.png",
+      "sha256": "8817ad5bd300e6c62b71596d73389f4b3e77180f2c598bc21ec546042b4383be",
+      "caption": "Everyone får Full Control på delingsnivå i labmodellen",
+      "path": "screenshots/132.png",
+      "source_paragraph_indices_zero_based": [
+        1121
+      ]
+    },
+    {
+      "number": 133,
+      "original": "Pictures/100000010000025E00000277B598F9E8.png",
+      "sha256": "3480f67ebcd947e902ece72967c803132701a06442dac5e2140ace03eb45f772",
+      "caption": "Delingsinnstillingene bekreftes i Advanced Sharing",
+      "path": "screenshots/133.png",
+      "source_paragraph_indices_zero_based": [
+        1149
+      ]
+    },
+    {
+      "number": 134,
+      "original": "Pictures/10000001000002920000036CBC902843.png",
+      "sha256": "11c62df895a562661b4c3bd5a81ce45a0d73ab53dab6ce32f294c3580b836dcf",
+      "caption": "Security-fanen før HR-gruppen legges til",
+      "path": "screenshots/134.png",
+      "source_paragraph_indices_zero_based": [
+        1182
+      ]
+    },
+    {
+      "number": 135,
+      "original": "Pictures/1000000100000291000003365547D541.png",
+      "sha256": "19b2277097c68bec893f2718f8366c93d05371f26f024d522c3075d04a831213",
+      "caption": "NTFS-redigering åpnes med eksisterende identiteter i listen",
+      "path": "screenshots/135.png",
+      "source_paragraph_indices_zero_based": [
+        1222
+      ]
+    },
+    {
+      "number": 136,
+      "original": "Pictures/1000000100000339000001C29170D13C.png",
+      "sha256": "4e104e2bd0b16dd26d9191b86449800e629b704598732c5249f2eecc97657097",
+      "caption": "HR-gruppen søkes opp og bekreftes med Check Names",
+      "path": "screenshots/136.png",
+      "source_paragraph_indices_zero_based": [
+        1263
+      ]
+    },
+    {
+      "number": 137,
+      "original": "Pictures/10000001000002920000033313A80BDA.png",
+      "sha256": "944c23fd906891b629d7449798773cace37b0c6a135e6b232d1adfed7468bd35",
+      "caption": "HR-gruppen får Modify på HR-mappen",
+      "path": "screenshots/137.png",
+      "source_paragraph_indices_zero_based": [
+        1270
+      ]
+    },
+    {
+      "number": 138,
+      "original": "Pictures/10000001000002920000036D3CC6E693.png",
+      "sha256": "282ea47e3bedb931e07fb3618def24f5522320aac10a78a381b9ea7ede6cb5a0",
+      "caption": "Security-fanen viser de valgte tillatelsene for HR",
+      "path": "screenshots/138.png",
+      "source_paragraph_indices_zero_based": [
+        1294
+      ]
+    },
+    {
+      "number": 139,
+      "original": "Pictures/1000000000000A0000000585BDB52911.png",
+      "sha256": "019ad263265962b863a87e9f4dc31c7c033dcb09f95a04cbb449e59cdae56b28",
+      "caption": "Maja logger på LAB; passordfeltet er maskert",
+      "path": "screenshots/139.png",
+      "source_paragraph_indices_zero_based": [
+        1331
+      ]
+    },
+    {
+      "number": 140,
+      "original": "Pictures/1000000000000A000000058592FFC348.png",
+      "sha256": "0ac2f57b58b731856b6eda62a7cf9cf059a9baa7bf4ca08ed7f7c6546c1cbeea",
+      "caption": "Map network drive åpnes fra klientens File Explorer",
+      "path": "screenshots/140.png",
+      "source_paragraph_indices_zero_based": [
+        1335
+      ]
+    },
+    {
+      "number": 141,
+      "original": "Pictures/10000001000004270000031092D354A3.png",
+      "sha256": "634d21b87ed849499d653c5eba7d605ae7537dcd1e11c52abc4875085d914c81",
+      "caption": "Z: kobles til \\LAB.LOCAL\\HR, den dokumenterte fungerende stien",
+      "path": "screenshots/141.png",
+      "source_paragraph_indices_zero_based": [
+        1340
+      ]
+    },
+    {
+      "number": 142,
+      "original": "Pictures/10000001000007A70000040BF1F54974.png",
+      "sha256": "8fcb4df94bc0017cf5daba0606273a5139a26b7d6b840614b5eab71c1449bf6a",
+      "caption": "HR-delingen åpnes fra klienten og viser undermappene",
+      "path": "screenshots/142.png",
+      "source_paragraph_indices_zero_based": [
+        1345
+      ]
+    },
+    {
+      "number": 143,
+      "original": "Pictures/10000001000007AD00000408D0F6A3A0.png",
+      "sha256": "e1a91d76b4e7ff954403933cdd664715badeeb8270b1696eecb8eab0ede0475f",
+      "caption": "Maja oppretter en mappe i HR-delingen som positiv tilgangstest",
+      "path": "screenshots/143.png",
+      "source_paragraph_indices_zero_based": [
+        1349
+      ]
+    }
+  ]
+}
