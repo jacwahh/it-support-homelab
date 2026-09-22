@@ -61,7 +61,7 @@ Ved tilgang over nettverket må begge lag tillate handlingen. Det er dette vi me
 
 Tabellen forutsetter at dette er brukerens samlede tilgang i hvert lag. Rettigheter fra flere grupper kan bidra til den samlede tilgangen.
 
-Labben åpner delingslaget bredt og bruker NTFS til avdelingsrettighetene. Everyone med Full Control på delingen gir derfor ikke automatisk Full Control på filene.
+Vi gir Everyone **Full Control** under delingsrettighetene og bruker **NTFS-rettighetene** til å styre hva brukerne kan gjøre med filene.
 
 ![Share gir Full Control og NTFS gir HR Modify. Begge tillater at Maja oppretter en mappe.](../images/diagrams/share-og-ntfs.png)
 
@@ -82,7 +82,6 @@ Labben åpner delingslaget bredt og bruker NTFS til avdelingsrettighetene. Every
 
 Gjenta deling og gruppetildeling for Sales, Marketing, Finance og IT.
 
-Å tildele gruppen rettigheter fjerner ikke eksisterende tillatelser. Andre brukere kan derfor fortsatt ha tilgang.
 
 ## Nettverksstien til HR-mappen
 
