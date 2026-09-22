@@ -393,7 +393,7 @@
 </tr>
 </tbody></table>
 <p>Tabellen forutsetter at dette er brukerens samlede tilgang i hvert lag. Rettigheter fra flere grupper kan bidra til den samlede tilgangen.</p>
-<p>Labben åpner delingslaget bredt og bruker NTFS til avdelingsrettighetene. Everyone med Full Control på delingen gir derfor ikke automatisk Full Control på filene.</p>
+<p>Vi gir Everyone <strong>Full Control</strong> under delingsrettighetene og bruker <strong>NTFS-rettighetene</strong> til å styre hva brukerne kan gjøre med filene.</p>
 <p><img src="images/diagrams/share-og-ntfs.png" alt="Share gir Full Control og NTFS gir HR Modify. Begge tillater at Maja oppretter en mappe."></p>
 <h2>Gi HR-gruppen Modify</h2>
 <ol>
@@ -406,7 +406,6 @@
 <p><img src="images/screenshots/137.png" alt="HR-gruppen får Modify på HR-mappen."></p>
 <p><em>HR-gruppen får Modify på HR-mappen.</em></p>
 <p>Gjenta deling og gruppetildeling for Sales, Marketing, Finance og IT.</p>
-<p>Å tildele gruppen rettigheter fjerner ikke eksisterende tillatelser. Andre brukere kan derfor fortsatt ha tilgang.</p>
 <h2>Nettverksstien til HR-mappen</h2>
 <p>Vi bruker <code>\\LAB.LOCAL\HR</code>, som fungerte i labben. Det ville vært mer presist å bruke servernavnet direkte, <code>\\DC01\HR</code>, siden HR-mappen deles fra DC01.</p>
 <hr>
