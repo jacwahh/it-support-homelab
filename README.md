@@ -1,6 +1,6 @@
 # IT-support-homelab
 
-I denne Windows-labben med Active Directory (AD) setter vi opp brukere, grupper og delte mapper. Målet er å lære mer om profesjonelle IT-miljøer gjennom praktisk arbeid i et simulert miljø.
+I denne Windows-labben med Active Directory (AD) setter vi opp brukere, grupper og delte mapper, og løser vanlige supportsaker. Målet er å lære mer om profesjonelle IT-miljøer gjennom praktisk arbeid i et simulert miljø.
 
 Den detaljerte fremgangsmåten er dokumentert med skjermbilder i [bilderegisteret](docs/11-bilderegister.md). Se der hvis du lurer på et konkret steg eller en innstilling.
 
@@ -12,6 +12,7 @@ Den detaljerte fremgangsmåten er dokumentert med skjermbilder i [bilderegistere
 4. [Brukere, grupper og organisatoriske enheter](docs/04-brukere-grupper-ou.md)
 5. [Delte mapper og rettigheter](docs/05-delte-mapper.md)
 6. [Test av tilgang](docs/06-test-av-tilgang.md)
+7. [Vanlige supportsaker](docs/07-supportsaker.md)
 
 ## Dette bruker vi
 

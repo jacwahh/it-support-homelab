@@ -1,8 +1,8 @@
 <!doctype html><html lang="nb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>IT-support-homelab — guiden</title><style>
  *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:#25313c;font:17px/1.7 system-ui,Segoe UI,sans-serif}main{max-width:1000px;margin:auto;padding:30px 32px 80px}section{padding:22px 0 42px;border-bottom:1px solid #e3e7ea;scroll-margin-top:55px}h1{font-size:32px;line-height:1.25;margin:24px 0}h2{font-size:23px;margin-top:32px}h3{font-size:19px}a{color:#276b60;text-underline-offset:3px}img{display:block;max-width:100%;height:auto;margin:26px auto;border-radius:3px}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:16px}td,th{padding:10px 15px;border-bottom:1px solid #dfe5e8;text-align:left}th{background:#f5f7f8}pre{overflow:auto;padding:20px;background:#f5f7f8;border-radius:6px;font-size:14px;line-height:1.6}code{font-family:Consolas,monospace}p code,li code,td code{background:#f3f5f6;padding:2px 4px}li{margin:5px 0}summary{cursor:pointer;color:#276b60;padding:12px 0}header{position:sticky;top:0;background:#ffffffef;border-bottom:1px solid #e3e7ea;padding:10px 24px;z-index:1;font-size:14px}header a{margin-right:20px;text-decoration:none}@media(max-width:600px){main{padding:16px}h1{font-size:27px}body{font-size:16px}td,th{padding:8px}}@media print{header{display:none}section{break-before:page}img{max-height:650px;object-fit:contain}}
- </style></head><body><header><a href="#del-0">IT-support-homelab</a><a href="#del-1">Start guiden</a><a href="#del-7">Alle skjermbilder</a></header><main><section id="del-0"><h1>IT-support-homelab</h1>
-<p>I denne Windows-labben med Active Directory (AD) setter vi opp brukere, grupper og delte mapper. Målet er å lære mer om profesjonelle IT-miljøer gjennom praktisk arbeid i et simulert miljø.</p>
-<p>Den detaljerte fremgangsmåten er dokumentert med skjermbilder i <a href="#del-7">bilderegisteret</a>. Se der hvis du lurer på et konkret steg eller en innstilling.</p>
+ </style></head><body><header><a href="#del-0">IT-support-homelab</a><a href="#del-1">Start guiden</a><a href="#del-8">Alle skjermbilder</a></header><main><section id="del-0"><h1>IT-support-homelab</h1>
+<p>I denne Windows-labben med Active Directory (AD) setter vi opp brukere, grupper og delte mapper, og løser vanlige supportsaker. Målet er å lære mer om profesjonelle IT-miljøer gjennom praktisk arbeid i et simulert miljø.</p>
+<p>Den detaljerte fremgangsmåten er dokumentert med skjermbilder i <a href="#del-8">bilderegisteret</a>. Se der hvis du lurer på et konkret steg eller en innstilling.</p>
 <h2>Følg guiden</h2>
 <ol>
 <li><a href="#del-1">Labmiljø og nettverk</a></li>
@@ -11,6 +11,7 @@
 <li><a href="#del-4">Brukere, grupper og organisatoriske enheter</a></li>
 <li><a href="#del-5">Delte mapper og rettigheter</a></li>
 <li><a href="#del-6">Test av tilgang</a></li>
+<li><a href="#del-7">Vanlige supportsaker</a></li>
 </ol>
 <h2>Dette bruker vi</h2>
 <table>
@@ -35,7 +36,7 @@
 </tbody></table>
 <p>Serveren fungerer både som domenekontroller, navnetjener og filserver. Navnetjenesten <strong>Domain Name System (DNS)</strong> hjelper klienten med å finne domenet og serverens tjenester. Det holder labben enkel. I et produksjonsmiljø ville man normalt brukt en dedikert filserver.</p>
 <p>Alle personnavn i labben er fiktive.</p>
-<p><a href="#del-8">Kilder</a></p>
+<p><a href="#del-9">Kilder</a></p>
 <h2>Les guiden lokalt</h2>
 <p>Last ned via <strong>Code → Download ZIP</strong>, pakk ut hele ZIP-filen og åpne <code>index.html</code> i nettleseren. Behold <code>images</code>-mappen sammen med filen, slik at bildene vises.</p>
 </section>
@@ -411,7 +412,7 @@
 <hr>
 <p><a href="#del-0">Forside</a> · <a href="#del-4">Forrige</a> · <a href="#del-6">Neste</a></p>
 </section>
-<section id="del-6"><p><a href="#del-0">Forside</a> · <a href="#del-5">Forrige</a></p>
+<section id="del-6"><p><a href="#del-0">Forside</a> · <a href="#del-5">Forrige</a> · <a href="#del-7">Neste</a></p>
 <h1>6. Test av tilgang</h1>
 <p>Vi tester fra klienten som <strong>Maja Hovland</strong>, som er medlem av HR-gruppen.</p>
 <ol>
@@ -431,11 +432,103 @@
 <p>Den dokumenterte testen viser at Maja kan åpne HR-delingen og opprette en mappe. Det bekrefter at denne delen av oppsettet fungerer fra klienten.</p>
 <p>Labben har nå en domenekontroller, en tilknyttet klient, ti brukere, fem avdelingsgrupper og delte mapper med gruppetildelte rettigheter.</p>
 <hr>
-<p><a href="#del-0">Forside</a> · <a href="#del-5">Forrige</a></p>
+<p><a href="#del-0">Forside</a> · <a href="#del-5">Forrige</a> · <a href="#del-7">Neste</a></p>
 </section>
-<section id="del-7"><h1>Bilderegister</h1>
+<section id="del-7"><p><a href="#del-0">Forside</a> · <a href="#del-6">Forrige</a></p>
+<h1>7. Vanlige supportsaker</h1>
+<p>Vi bruker Nora Eidem fra markedsføring til å øve på tre vanlige supportsaker: glemt passord, låst konto og deaktivert konto. Endringene gjøres på DC01, og pålogging testes fra klienten.</p>
+<h2>Sak 1: Glemt passord</h2>
+<p>Nora har glemt passordet og trenger hjelp til å logge på. Før et passord tilbakestilles, må vi bekrefte brukerens identitet etter virksomhetens rutiner.</p>
+<ol>
+<li>Åpne <strong>Active Directory Users and Computers</strong> på DC01, marker <strong>Accounts</strong> og velg <strong>Find objects in Active Directory Domain Services</strong> på verktøylinjen.</li>
+<li>Skriv <code>Nora</code> i <strong>Name</strong> og velg <strong>Find Now</strong>. Søk gjør det enklere å finne riktig konto når det er mange brukere.</li>
+<li>Kontroller at du har funnet <strong>Nora Eidem</strong>, høyreklikk på kontoen og velg <strong>Reset Password</strong>.</li>
+<li>Fyll inn et midlertidig passord i <strong>New password</strong> og <strong>Confirm password</strong>. Merk <strong>User must change password at next logon</strong>, og velg <strong>OK</strong>.</li>
+</ol>
+<p><img src="images/screenshots/147.png" alt="Et midlertidig passord settes for Nora, med krav om passordbytte ved neste pålogging."></p>
+<p><em>Nora må velge sitt eget passord ved neste pålogging.</em></p>
+<p>Formidle det midlertidige passordet til Nora gjennom virksomhetens godkjente kanal. På klienten logger hun på med domenekontoen sin og det midlertidige passordet, og blir bedt om å velge et nytt.</p>
+<p><img src="images/screenshots/149.png" alt="Klienten ber Nora endre passordet før hun kan logge på."></p>
+<p><em>Klienten krever passordbytte før påloggingen fullføres.</em></p>
+<p><img src="images/screenshots/151.png" alt="Windows bekrefter at Noras passord er endret."></p>
+<p><em>Passordet er endret. Kontroller at Nora får logget på før saken avsluttes.</em></p>
+<h2>Sak 2: Låst konto</h2>
+<p>Nora får ikke logget på etter flere forsøk med feil passord. Vi setter først opp kontolåsing, slik at vi kan gjenskape problemet i labben.</p>
+<h3>Klargjør kontolåsing</h3>
+<p><strong>Gruppepolicy (Group Policy)</strong> brukes til å styre innstillinger sentralt i domenet. Her setter vi en grense på tre mislykkede påloggingsforsøk for å gjøre låsingen enkel å teste.</p>
+<ol>
+<li>Åpne <strong>Group Policy Management</strong> på DC01 ved å søke etter <code>gpmc.msc</code>.</li>
+<li>Utvid <strong>Forest: LAB.local → Domains → LAB.local</strong>. Høyreklikk <strong>Default Domain Policy</strong> og velg <strong>Edit</strong>.</li>
+<li>Gå til <strong>Computer Configuration → Policies → Windows Settings → Security Settings → Account Policies → Account Lockout Policy</strong>.</li>
+<li>Åpne <strong>Account lockout threshold</strong>, angi <strong>3 invalid logon attempts</strong>, og velg <strong>Apply</strong>. Bekreft de foreslåtte følgeendringene med <strong>OK</strong>.</li>
+<li>Sett de øvrige verdiene som vist i tabellen, og lagre endringene.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Innstilling</th>
+<th>Verdi i labben</th>
+<th>Betydning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Account lockout threshold</td>
+<td>3 forsøk</td>
+<td>Antall feilforsøk før kontoen låses</td>
+</tr>
+<tr>
+<td>Account lockout duration</td>
+<td>30 minutter</td>
+<td>Hvor lenge kontoen forblir låst uten manuell opplåsing</td>
+</tr>
+<tr>
+<td>Reset account lockout counter after</td>
+<td>30 minutter</td>
+<td>Telleren nullstilles etter denne tiden uten nye feilforsøk</td>
+</tr>
+<tr>
+<td>Allow Administrator account lockout</td>
+<td>Disabled</td>
+<td>Kontolåsing for den innebygde Administrator-kontoen er deaktivert i øvelsen</td>
+</tr>
+</tbody></table>
+<p>Dette er labbens testinnstillinger; i et arbeidsmiljø følger vi virksomhetens sikkerhetsrutiner.</p>
+<p><img src="images/screenshots/159.png" alt="Kontolåsingsreglene er satt til tre feilforsøk og 30 minutter."></p>
+<p><em>De ferdige innstillingene for kontolåsing i labben.</em></p>
+<h3>Gjenskap problemet og lås opp kontoen</h3>
+<p>Når policyen har trådt i kraft, prøver vi å logge på klienten med Noras konto og feil passord til meldingen om låst konto vises.</p>
+<p><img src="images/screenshots/161.png" alt="Klienten viser at Noras konto er låst."></p>
+<p><em>En låst konto må låses opp, eller vente til låsetiden utløper.</em></p>
+<ol>
+<li>Finn Nora i <strong>Active Directory Users and Computers</strong> på DC01.</li>
+<li>Dobbeltklikk på kontoen og åpne fanen <strong>Account</strong>.</li>
+<li>Merk <strong>Unlock account</strong>, og velg <strong>Apply → OK</strong>.</li>
+</ol>
+<p><img src="images/screenshots/162.png" alt="Unlock account er tilgjengelig på fanen Account for Noras låste konto."></p>
+<p><em>Unlock account låser opp kontoen uten å endre passordet.</em></p>
+<p>Spør Nora om hun husker passordet. Hvis ikke, tilbakestiller vi det som i sak 1. Test deretter pålogging fra klienten. Med innstillingene våre oppheves låsingen også automatisk etter 30 minutter.</p>
+<h2>Sak 3: Deaktivert konto</h2>
+<p>I denne øvelsen er Noras konto deaktivert mens hun er borte. Når hun kommer tilbake fra ferie, ber hun om tilgang igjen. Vi avklarer med HR eller ansvarlig leder at kontoen skal aktiveres før vi gjør endringen.</p>
+<p>En <strong>låst konto</strong> skyldes feilforsøk og kan låses opp. En <strong>deaktivert konto</strong> er slått av administrativt og må aktiveres igjen.</p>
+<ol>
+<li>For å gjenskape situasjonen finner vi Nora i <strong>Active Directory Users and Computers</strong>, høyreklikker på kontoen og velger <strong>Disable Account</strong>.</li>
+<li>Bekreft meldingen om at kontoen er deaktivert.</li>
+</ol>
+<p><img src="images/screenshots/164.png" alt="Active Directory bekrefter at Noras konto er deaktivert."></p>
+<p><em>Vi deaktiverer kontoen uten å slette den, slik at den kan aktiveres igjen.</em></p>
+<ol start="3">
+<li>Når aktivering er godkjent, høyreklikker vi på kontoen og velger <strong>Enable Account</strong>.</li>
+<li>Bekreft meldingen og be Nora prøve å logge på fra klienten.</li>
+</ol>
+<p><img src="images/screenshots/166.png" alt="Active Directory bekrefter at Noras konto er aktivert igjen."></p>
+<p><em>Kontoen er aktivert igjen. Kontroller påloggingen før saken avsluttes.</em></p>
+<p>Alle stegene og skjermbildene finnes i <a href="#del-8">bilderegisteret</a>.</p>
+<hr>
+<p><a href="#del-0">Forside</a> · <a href="#del-6">Forrige</a></p>
+</section>
+<section id="del-8"><h1>Bilderegister</h1>
 <p><a href="#del-0">Forside</a></p>
-<p>Her finner du alle 143 skjermbilder fra labben, steg for steg. Åpne en seksjon for å se fremgangsmåten.</p>
+<p>Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon for å se fremgangsmåten.</p>
 <h2>Serverinstallasjon og nettverk</h2>
 <details>
 <summary>Vis figur 1–25</summary>
@@ -912,18 +1005,116 @@
 <p><img src="images/screenshots/143.png" alt="Maja oppretter en mappe i HR-delingen som positiv tilgangstest"></p>
 <p><em>Maja oppretter en mappe i HR-delingen som positiv tilgangstest.</em></p>
 </details>
+
+
+<h2>Supportsaker</h2>
+<details>
+<summary>Glemt passord – vis figur 144–151</summary>
+
+<h3>Figur 144</h3>
+<p><img src="images/screenshots/144.png" alt="Søk etter brukere i Active Directory Users and Computers"></p>
+<p><em>Søk etter brukere i Active Directory Users and Computers.</em></p>
+<h3>Figur 145</h3>
+<p><img src="images/screenshots/145.png" alt="Nora Eidem finnes med Find Now"></p>
+<p><em>Nora Eidem finnes med Find Now.</em></p>
+<h3>Figur 146</h3>
+<p><img src="images/screenshots/146.png" alt="Reset Password velges for Noras konto"></p>
+<p><em>Reset Password velges for Noras konto.</em></p>
+<h3>Figur 147</h3>
+<p><img src="images/screenshots/147.png" alt="Midlertidig passord settes med krav om passordbytte"></p>
+<p><em>Midlertidig passord settes med krav om passordbytte.</em></p>
+<h3>Figur 148</h3>
+<p><img src="images/screenshots/148.png" alt="Active Directory bekrefter at passordet er tilbakestilt"></p>
+<p><em>Active Directory bekrefter at passordet er tilbakestilt.</em></p>
+<h3>Figur 149</h3>
+<p><img src="images/screenshots/149.png" alt="Klienten krever passordbytte før pålogging"></p>
+<p><em>Klienten krever passordbytte før pålogging.</em></p>
+<h3>Figur 150</h3>
+<p><img src="images/screenshots/150.png" alt="Nora fyller inn et nytt passord"></p>
+<p><em>Nora fyller inn et nytt passord.</em></p>
+<h3>Figur 151</h3>
+<p><img src="images/screenshots/151.png" alt="Windows bekrefter at passordet er endret"></p>
+<p><em>Windows bekrefter at passordet er endret.</em></p>
+</details>
+
+<details>
+<summary>Låst konto – vis figur 152–162</summary>
+
+<h3>Figur 152</h3>
+<p><img src="images/screenshots/152.png" alt="Group Policy Management åpnes med gpmc.msc"></p>
+<p><em>Group Policy Management åpnes med gpmc.msc.</em></p>
+<h3>Figur 153</h3>
+<p><img src="images/screenshots/153.png" alt="Domenet vises i Group Policy Management"></p>
+<p><em>Domenet vises i Group Policy Management.</em></p>
+<h3>Figur 154</h3>
+<p><img src="images/screenshots/154.png" alt="Default Domain Policy åpnes for redigering"></p>
+<p><em>Default Domain Policy åpnes for redigering.</em></p>
+<h3>Figur 155</h3>
+<p><img src="images/screenshots/155.png" alt="Account Lockout Policy viser innstillingene for kontolåsing"></p>
+<p><em>Account Lockout Policy viser innstillingene for kontolåsing.</em></p>
+<h3>Figur 156</h3>
+<p><img src="images/screenshots/156.png" alt="Account lockout threshold åpnes for endring"></p>
+<p><em>Account lockout threshold åpnes for endring.</em></p>
+<h3>Figur 157</h3>
+<p><img src="images/screenshots/157.png" alt="Windows foreslår følgeendringer til kontolåsingen"></p>
+<p><em>Windows foreslår følgeendringer til kontolåsingen.</em></p>
+<h3>Figur 158</h3>
+<p><img src="images/screenshots/158.png" alt="Terskelen settes til tre mislykkede påloggingsforsøk"></p>
+<p><em>Terskelen settes til tre mislykkede påloggingsforsøk.</em></p>
+<h3>Figur 159</h3>
+<p><img src="images/screenshots/159.png" alt="Ferdige innstillinger: tre forsøk og 30 minutter"></p>
+<p><em>Ferdige innstillinger: tre forsøk og 30 minutter.</em></p>
+<h3>Figur 160</h3>
+<p><img src="images/screenshots/160.png" alt="Klienten viser feil passord"></p>
+<p><em>Klienten viser feil passord.</em></p>
+<h3>Figur 161</h3>
+<p><img src="images/screenshots/161.png" alt="Klienten viser at kontoen er låst"></p>
+<p><em>Klienten viser at kontoen er låst.</em></p>
+<h3>Figur 162</h3>
+<p><img src="images/screenshots/162.png" alt="Unlock account brukes på Noras konto"></p>
+<p><em>Unlock account brukes på Noras konto.</em></p>
+</details>
+
+<details>
+<summary>Deaktivere og aktivere konto – vis figur 163–166</summary>
+
+<h3>Figur 163</h3>
+<p><img src="images/screenshots/163.png" alt="Disable Account velges for Nora"></p>
+<p><em>Disable Account velges for Nora.</em></p>
+<h3>Figur 164</h3>
+<p><img src="images/screenshots/164.png" alt="Active Directory bekrefter at kontoen er deaktivert"></p>
+<p><em>Active Directory bekrefter at kontoen er deaktivert.</em></p>
+<h3>Figur 165</h3>
+<p><img src="images/screenshots/165.png" alt="Enable Account velges for Nora"></p>
+<p><em>Enable Account velges for Nora.</em></p>
+<h3>Figur 166</h3>
+<p><img src="images/screenshots/166.png" alt="Active Directory bekrefter at kontoen er aktivert"></p>
+<p><em>Active Directory bekrefter at kontoen er aktivert.</em></p>
+</details>
 </section>
-<section id="del-8"><h1>Kilder</h1>
+<section id="del-9"><h1>Kilder</h1>
 <p><a href="#del-0">Forside</a></p>
 <p>Disse kildene underbygger begrepsforklaringene i guiden:</p>
 <ul>
-<li><a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox: nedlastinger</a></li>
-<li><a href="https://docs.oracle.com/en/virtualization/virtualbox/7.2/user/networkingdetails.html">Oracle VirtualBox: virtuelle nettverk og innebygd DHCP</a></li>
-<li><a href="https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/troubleshoot-dhcp-guidance">Microsoft: DHCP og automatisk tildeling av IP-adresser</a></li>
-<li><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview">Microsoft: Active Directory Domain Services</a></li>
-<li><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups">Microsoft: sikkerhetsgrupper i Active Directory</a></li>
-<li><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/delegating-administration-by-using-ou-objects">Microsoft: organisatoriske enheter</a></li>
-<li><a href="https://learn.microsoft.com/en-us/windows/security/identity-protection/access-control/access-control">Microsoft: tilgangsstyring</a></li>
-<li><a href="https://download.microsoft.com/download/0/0/9/0097f576-1960-4ca5-874a-60a98fb7a5a1/9780735673168_samplechapters.pdf">Microsoft Press: Share- og NTFS-rettigheter, prøvekapittel (PDF)</a></li>
+<li><p><a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox: nedlastinger</a></p>
+</li>
+<li><p><a href="https://docs.oracle.com/en/virtualization/virtualbox/7.2/user/networkingdetails.html">Oracle VirtualBox: virtuelle nettverk og innebygd DHCP</a></p>
+</li>
+<li><p><a href="https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/troubleshoot-dhcp-guidance">Microsoft: DHCP og automatisk tildeling av IP-adresser</a></p>
+</li>
+<li><p><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview">Microsoft: Active Directory Domain Services</a></p>
+</li>
+<li><p><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups">Microsoft: sikkerhetsgrupper i Active Directory</a></p>
+</li>
+<li><p><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/delegating-administration-by-using-ou-objects">Microsoft: organisatoriske enheter</a></p>
+</li>
+<li><p><a href="https://learn.microsoft.com/en-us/windows/security/identity-protection/access-control/access-control">Microsoft: tilgangsstyring</a></p>
+</li>
+<li><p><a href="https://download.microsoft.com/download/0/0/9/0097f576-1960-4ca5-874a-60a98fb7a5a1/9780735673168_samplechapters.pdf">Microsoft Press: Share- og NTFS-rettigheter, prøvekapittel (PDF)</a></p>
+</li>
+<li><p><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage-user-accounts-in-windows-server">Microsoft: tilbakestille passord og deaktivere eller aktivere brukerkontoer</a></p>
+</li>
+<li><p><a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/account-lockout-threshold">Microsoft: terskel for kontolåsing</a></p>
+</li>
 </ul>
 </section></main></body></html>
