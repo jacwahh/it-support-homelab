@@ -2,7 +2,7 @@
 
 [Forside](../README.md)
 
-Her finner du alle 143 skjermbilder fra labben, steg for steg. Åpne en seksjon for å se fremgangsmåten.
+Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon for å se fremgangsmåten.
 
 ## Serverinstallasjon og nettverk
 
@@ -915,5 +915,161 @@ Her finner du alle 143 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 ![Maja oppretter en mappe i HR-delingen som positiv tilgangstest](../images/screenshots/143.png)
 
 *Maja oppretter en mappe i HR-delingen som positiv tilgangstest.*
+
+</details>
+
+
+## Supportsaker
+
+<details>
+<summary>Glemt passord – vis figur 144–151</summary>
+
+### Figur 144
+
+![Søk etter brukere i Active Directory Users and Computers](../images/screenshots/144.png)
+
+*Søk etter brukere i Active Directory Users and Computers.*
+
+### Figur 145
+
+![Nora Eidem finnes med Find Now](../images/screenshots/145.png)
+
+*Nora Eidem finnes med Find Now.*
+
+### Figur 146
+
+![Reset Password velges for Noras konto](../images/screenshots/146.png)
+
+*Reset Password velges for Noras konto.*
+
+### Figur 147
+
+![Midlertidig passord settes med krav om passordbytte](../images/screenshots/147.png)
+
+*Midlertidig passord settes med krav om passordbytte.*
+
+### Figur 148
+
+![Active Directory bekrefter at passordet er tilbakestilt](../images/screenshots/148.png)
+
+*Active Directory bekrefter at passordet er tilbakestilt.*
+
+### Figur 149
+
+![Klienten krever passordbytte før pålogging](../images/screenshots/149.png)
+
+*Klienten krever passordbytte før pålogging.*
+
+### Figur 150
+
+![Nora fyller inn et nytt passord](../images/screenshots/150.png)
+
+*Nora fyller inn et nytt passord.*
+
+### Figur 151
+
+![Windows bekrefter at passordet er endret](../images/screenshots/151.png)
+
+*Windows bekrefter at passordet er endret.*
+
+</details>
+
+<details>
+<summary>Låst konto – vis figur 152–162</summary>
+
+### Figur 152
+
+![Group Policy Management åpnes med gpmc.msc](../images/screenshots/152.png)
+
+*Group Policy Management åpnes med gpmc.msc.*
+
+### Figur 153
+
+![Domenet vises i Group Policy Management](../images/screenshots/153.png)
+
+*Domenet vises i Group Policy Management.*
+
+### Figur 154
+
+![Default Domain Policy åpnes for redigering](../images/screenshots/154.png)
+
+*Default Domain Policy åpnes for redigering.*
+
+### Figur 155
+
+![Account Lockout Policy viser innstillingene for kontolåsing](../images/screenshots/155.png)
+
+*Account Lockout Policy viser innstillingene for kontolåsing.*
+
+### Figur 156
+
+![Account lockout threshold åpnes for endring](../images/screenshots/156.png)
+
+*Account lockout threshold åpnes for endring.*
+
+### Figur 157
+
+![Windows foreslår følgeendringer til kontolåsingen](../images/screenshots/157.png)
+
+*Windows foreslår følgeendringer til kontolåsingen.*
+
+### Figur 158
+
+![Terskelen settes til tre mislykkede påloggingsforsøk](../images/screenshots/158.png)
+
+*Terskelen settes til tre mislykkede påloggingsforsøk.*
+
+### Figur 159
+
+![Ferdige innstillinger: tre forsøk og 30 minutter](../images/screenshots/159.png)
+
+*Ferdige innstillinger: tre forsøk og 30 minutter.*
+
+### Figur 160
+
+![Klienten viser feil passord](../images/screenshots/160.png)
+
+*Klienten viser feil passord.*
+
+### Figur 161
+
+![Klienten viser at kontoen er låst](../images/screenshots/161.png)
+
+*Klienten viser at kontoen er låst.*
+
+### Figur 162
+
+![Unlock account brukes på Noras konto](../images/screenshots/162.png)
+
+*Unlock account brukes på Noras konto.*
+
+</details>
+
+<details>
+<summary>Deaktivere og aktivere konto – vis figur 163–166</summary>
+
+### Figur 163
+
+![Disable Account velges for Nora](../images/screenshots/163.png)
+
+*Disable Account velges for Nora.*
+
+### Figur 164
+
+![Active Directory bekrefter at kontoen er deaktivert](../images/screenshots/164.png)
+
+*Active Directory bekrefter at kontoen er deaktivert.*
+
+### Figur 165
+
+![Enable Account velges for Nora](../images/screenshots/165.png)
+
+*Enable Account velges for Nora.*
+
+### Figur 166
+
+![Active Directory bekrefter at kontoen er aktivert](../images/screenshots/166.png)
+
+*Active Directory bekrefter at kontoen er aktivert.*
 
 </details>

@@ -1,4 +1,4 @@
-[Forside](../README.md) · [Forrige](05-delte-mapper.md)
+[Forside](../README.md) · [Forrige](05-delte-mapper.md) · [Neste](07-supportsaker.md)
 
 
 # 6. Test av tilgang
@@ -36,4 +36,4 @@ Labben har nå en domenekontroller, en tilknyttet klient, ti brukere, fem avdeli
 
 ---
 
-[Forside](../README.md) · [Forrige](05-delte-mapper.md)
+[Forside](../README.md) · [Forrige](05-delte-mapper.md) · [Neste](07-supportsaker.md)

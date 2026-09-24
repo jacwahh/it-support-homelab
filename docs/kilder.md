@@ -12,3 +12,6 @@ Disse kildene underbygger begrepsforklaringene i guiden:
 - [Microsoft: organisatoriske enheter](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/delegating-administration-by-using-ou-objects)
 - [Microsoft: tilgangsstyring](https://learn.microsoft.com/en-us/windows/security/identity-protection/access-control/access-control)
 - [Microsoft Press: Share- og NTFS-rettigheter, prøvekapittel (PDF)](https://download.microsoft.com/download/0/0/9/0097f576-1960-4ca5-874a-60a98fb7a5a1/9780735673168_samplechapters.pdf)
+
+- [Microsoft: tilbakestille passord og deaktivere eller aktivere brukerkontoer](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage-user-accounts-in-windows-server)
+- [Microsoft: terskel for kontolåsing](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/account-lockout-threshold)
