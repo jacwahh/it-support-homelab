@@ -1,7 +1,7 @@
 {
   "source": "Dokumentasjon.odt",
-  "unique_images": 143,
-  "image_occurrences": 144,
+  "unique_images": 166,
+  "image_occurrences": 167,
   "images": [
     {
       "number": 1,
@@ -1441,6 +1441,194 @@
       "source_paragraph_indices_zero_based": [
         1349
       ]
+    },
+    {
+      "number": 144,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/10000001000005250000039D1E0A7098.png",
+      "sha256": "baade2ad00ff711b6d7ca3c59e9433ddb98c0debac4aab1c2b7cf140f421e742",
+      "caption": "Søk etter brukere i Active Directory Users and Computers",
+      "path": "screenshots/144.png"
+    },
+    {
+      "number": 145,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/100000010000038400000396B9CD3685.png",
+      "sha256": "01443d4d8ec92938afef62d2598b539e3d1233fa0343662891df21bc0f4eaa8d",
+      "caption": "Nora Eidem finnes med Find Now",
+      "path": "screenshots/145.png"
+    },
+    {
+      "number": 146,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/10000000000009FF00000585AF257D16.png",
+      "sha256": "a12a2f61c4205880b24901c0b51fca44041037bb660a9582d25ced93f1ede8e2",
+      "caption": "Reset Password velges for Noras konto",
+      "path": "screenshots/146.png"
+    },
+    {
+      "number": 147,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/1000000100000291000001BFE8258A88.png",
+      "sha256": "15f6bf94b1ed23629f192f522693753df50e6098d7c12c8a20ab63db4d8b1fe7",
+      "caption": "Midlertidig passord settes med krav om passordbytte",
+      "path": "screenshots/147.png"
+    },
+    {
+      "number": 148,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/100000010000024D0000012730300370.png",
+      "sha256": "95024fd787d895434ae6047114fff42367487a8b80ab1c8077c023b5a71d869e",
+      "caption": "Active Directory bekrefter at passordet er tilbakestilt",
+      "path": "screenshots/148.png"
+    },
+    {
+      "number": 149,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/1000000000000A0000000585F5CC769F.png",
+      "sha256": "7a3bfe8a4814be886ded12cc727cf8af0574d354e987d635c2e720f7006ac5ab",
+      "caption": "Klienten krever passordbytte før pålogging",
+      "path": "screenshots/149.png"
+    },
+    {
+      "number": 150,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/1000000000000A0000000585A9A8AF12.png",
+      "sha256": "0d13d78b1f117d0ec8d407ec21640952577a19705c0949ed5afb06eeeca6217a",
+      "caption": "Nora fyller inn et nytt passord",
+      "path": "screenshots/150.png"
+    },
+    {
+      "number": 151,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/1000000000000A000000058527EC5A4D.png",
+      "sha256": "f691fa4875bc213f70bdd0c137b74fc2a421fcaec596ebc436cbd64a00d18ed3",
+      "caption": "Windows bekrefter at passordet er endret",
+      "path": "screenshots/151.png"
+    },
+    {
+      "number": 152,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/1000000000000A0000000585EA9E7DE7.png",
+      "sha256": "e5d3b3de709357bc59c3fd4e54630d8b65fe6b4467e3a4393443b417f84401e8",
+      "caption": "Group Policy Management åpnes med gpmc.msc",
+      "path": "screenshots/152.png"
+    },
+    {
+      "number": 153,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/1000000000000A0000000585AC4BE976.png",
+      "sha256": "caa47eac8414b154b93428bead0ae52ce68acd8e10bfc9189ef98f3e7fecf190",
+      "caption": "Domenet vises i Group Policy Management",
+      "path": "screenshots/153.png"
+    },
+    {
+      "number": 154,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/1000000000000A0000000585939168CC.png",
+      "sha256": "4b964df6cc5edf37c69e810da96c26b153816127a6d963b611bcc6e6b4f8fb7a",
+      "caption": "Default Domain Policy åpnes for redigering",
+      "path": "screenshots/154.png"
+    },
+    {
+      "number": 155,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/10000001000006EE000003D67E7CB818.png",
+      "sha256": "e516dff8a8cf906f3cff90e0e621a959491b6109fddce20c828ed79a18894bb6",
+      "caption": "Account Lockout Policy viser innstillingene for kontolåsing",
+      "path": "screenshots/155.png"
+    },
+    {
+      "number": 156,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/10000001000002CD000003736A47E09C.png",
+      "sha256": "07709f44c3eb3fc5be184d2c7a6bf5431f6d0e9ef0e2f350291bad8821a04fab",
+      "caption": "Account lockout threshold åpnes for endring",
+      "path": "screenshots/156.png"
+    },
+    {
+      "number": 157,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/1000000100000382000001D2640E0D9E.png",
+      "sha256": "976eac54775209175901b32f2c8b00e4baaec104aeeded3e8f362775cbbc687e",
+      "caption": "Windows foreslår følgeendringer til kontolåsingen",
+      "path": "screenshots/157.png"
+    },
+    {
+      "number": 158,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/10000001000002D000000373920AFE88.png",
+      "sha256": "1805ce9e895c287560a6f58e0e63fa37ceb871c4f1af9cb23d7fe41212dd0111",
+      "caption": "Terskelen settes til tre mislykkede påloggingsforsøk",
+      "path": "screenshots/158.png"
+    },
+    {
+      "number": 159,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/10000001000006E1000003D36DC7ED8E.png",
+      "sha256": "d0432c84cb04e3f5519b47b9ef60eb578e555f9ae2c6eae84333657b49cfaf0c",
+      "caption": "Ferdige innstillinger: tre forsøk og 30 minutter",
+      "path": "screenshots/159.png"
+    },
+    {
+      "number": 160,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/1000000000000A00000005855CB65E94.png",
+      "sha256": "bd94355f3cede1f0959eb7a9cf784dc54c9f2c89d880f261145e6a9bb807b4d5",
+      "caption": "Klienten viser feil passord",
+      "path": "screenshots/160.png"
+    },
+    {
+      "number": 161,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/1000000000000A0000000585F531B111.png",
+      "sha256": "26810a7e088977236c6ac9d6da24bfda6c4ea6ce6acb05fa9fdcdf0737e00d70",
+      "caption": "Klienten viser at kontoen er låst",
+      "path": "screenshots/161.png"
+    },
+    {
+      "number": 162,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/10000001000002C5000003A63CA483D4.png",
+      "sha256": "a3c0ac5f0e2db5cca6aae987be6bb9a2b7750214dc9512d58344e1c7ac17be62",
+      "caption": "Unlock account brukes på Noras konto",
+      "path": "screenshots/162.png"
+    },
+    {
+      "number": 163,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/1000000000000A000000058530A60AB0.png",
+      "sha256": "21d2943b669ac57e7fc327a10f628378ddbc52f6b6d6349d2f24d074a4ce7461",
+      "caption": "Disable Account velges for Nora",
+      "path": "screenshots/163.png"
+    },
+    {
+      "number": 164,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/10000001000001F60000011E0E115FD9.png",
+      "sha256": "a38833b1f3895343211c1ecc3ef5805042825b46e231b2789d03a652395d2441",
+      "caption": "Active Directory bekrefter at kontoen er deaktivert",
+      "path": "screenshots/164.png"
+    },
+    {
+      "number": 165,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/1000000000000A0000000585BCDA655D.png",
+      "sha256": "7f61e4e1510699eea34cbdb63d830bf68658ae5a5ea37b544afd6d132300c80b",
+      "caption": "Enable Account velges for Nora",
+      "path": "screenshots/165.png"
+    },
+    {
+      "number": 166,
+      "source": "Dokumentasjon_del2.odt",
+      "original": "Pictures/10000001000001F000000123C1D7D1C0.png",
+      "sha256": "4965c7b80e15d8d2bbc1de2e8bf95f050fcd0af207ded1cc5dca03fd4d56d70a",
+      "caption": "Active Directory bekrefter at kontoen er aktivert",
+      "path": "screenshots/166.png"
     }
+  ],
+  "sources": [
+    "Dokumentasjon.odt",
+    "Dokumentasjon_del2.odt"
   ]
 }
