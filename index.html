@@ -187,7 +187,7 @@
 <p><img src="images/screenshots/040.png" alt="LAB.local opprettes som labbens første domene."></p>
 <p><em>LAB.local opprettes som labbens første domene.</em></p>
 <h2>Hvorfor trenger vi DNS?</h2>
-<p>Klienten bruker DC01 (<code>192.168.56.55</code>) som <strong>DNS-server</strong> for å finne domenet <code>LAB.local</code> og domenekontrolleren. Dette gjør at klienten kan kobles til domenet og brukerne kan logge på med domenekontoene sine.</p>
+<p>Klienten spør <strong>DNS-serveren</strong> på <code>192.168.56.55</code> hvor domenekontrolleren for <code>LAB.local</code> finnes. DNS peker til DC01 på samme IP-adresse, slik at klienten kan kontakte serveren og kobles til domenet.</p>
 <hr>
 <p><a href="#del-0">Forside</a> · <a href="#del-1">Forrige</a> · <a href="#del-3">Neste</a></p>
 </section>
