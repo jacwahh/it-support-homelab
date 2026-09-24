@@ -50,7 +50,7 @@ Rollen er nå installert. Neste steg er å gjøre serveren til domenekontroller.
 
 ## Hvorfor trenger vi DNS?
 
-Klienten bruker DC01 (`192.168.56.55`) som **DNS-server** for å finne domenet `LAB.local` og domenekontrolleren. Dette gjør at klienten kan kobles til domenet og brukerne kan logge på med domenekontoene sine.
+Klienten spør **DNS-serveren** på `192.168.56.55` hvor domenekontrolleren for `LAB.local` finnes. DNS peker til DC01 på samme IP-adresse, slik at klienten kan kontakte serveren og kobles til domenet.
 
 
 ---
