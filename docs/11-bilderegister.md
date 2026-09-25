@@ -11,9 +11,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 1
 
-![VirtualBox: offisiell nedlastingsside og versjonen brukt i labben](../images/screenshots/001.png)
+![VirtualBox lastes ned fra den offisielle nettsiden](../images/screenshots/001.png)
 
-*VirtualBox: offisiell nedlastingsside og versjonen brukt i labben.*
+*VirtualBox lastes ned fra den offisielle nettsiden.*
 
 ### Figur 2
 
@@ -23,21 +23,21 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 3
 
-![Serverens VM-navn og installasjonsmedium; profilnavnet i filstiene er sladdet](../images/screenshots/003.png)
+![Den virtuelle serveren får navn og installasjonsmedium](../images/screenshots/003.png)
 
-*Serverens VM-navn og installasjonsmedium; profilnavnet i filstiene er sladdet.*
+*Den virtuelle serveren får navn og installasjonsmedium.*
 
 ### Figur 4
 
-![Serverens ressurser: 16 GB arbeidsminne og fire virtuelle prosessorer i denne labben](../images/screenshots/004.png)
+![Serveren får 16 GB arbeidsminne og fire virtuelle prosessorer](../images/screenshots/004.png)
 
-*Serverens ressurser: 16 GB arbeidsminne og fire virtuelle prosessorer i denne labben.*
+*Serveren får 16 GB arbeidsminne og fire virtuelle prosessorer.*
 
 ### Figur 5
 
-![Serverens virtuelle disk på 50 GB; profilnavnet i lagringsstien er sladdet](../images/screenshots/005.png)
+![Serverens virtuelle disk settes til 50 GB](../images/screenshots/005.png)
 
-*Serverens virtuelle disk på 50 GB; profilnavnet i lagringsstien er sladdet.*
+*Serverens virtuelle disk settes til 50 GB.*
 
 ### Figur 6
 
@@ -70,15 +70,15 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 10
 
-![Administratorpassord settes; feltene i bildet er tomme](../images/screenshots/010.png)
+![Passordet til Administrator-kontoen opprettes](../images/screenshots/010.png)
 
-*Administratorpassord settes; feltene i bildet er tomme.*
+*Passordet til Administrator-kontoen opprettes.*
 
 ### Figur 11
 
-![VirtualBox-menyen brukes til å sende Ctrl+Alt+Delete til gjesten](../images/screenshots/011.png)
+![Ctrl+Alt+Delete sendes til den virtuelle serveren fra VirtualBox-menyen](../images/screenshots/011.png)
 
-*VirtualBox-menyen brukes til å sende Ctrl+Alt+Delete til gjesten.*
+*Ctrl+Alt+Delete sendes til den virtuelle serveren fra VirtualBox-menyen.*
 
 </details>
 
@@ -99,9 +99,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 14
 
-![Windows-navnet settes til DC01 før domenekontrolleroppsettet](../images/screenshots/014.png)
+![Servernavnet endres til DC01](../images/screenshots/014.png)
 
-*Windows-navnet settes til DC01 før domenekontrolleroppsettet.*
+*Servernavnet endres til DC01.*
 
 </details>
 
@@ -110,21 +110,21 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 15
 
-![Avslutning via VirtualBox; bruk normalt Shut down i Windows](../images/screenshots/015.png)
+![Avslutningsmenyen åpnes i VirtualBox](../images/screenshots/015.png)
 
-*Avslutning via VirtualBox; bruk normalt Shut down i Windows.*
+*Avslutningsmenyen åpnes i VirtualBox.*
 
 ### Figur 16
 
-![Power Off-advarsel: dette kutter strømmen og er ikke anbefalt normal avslutning](../images/screenshots/016.png)
+![VirtualBox ber om bekreftelse før maskinen slås av med Power Off](../images/screenshots/016.png)
 
-*Power Off-advarsel: dette kutter strømmen og er ikke anbefalt normal avslutning.*
+*VirtualBox ber om bekreftelse før maskinen slås av med Power Off.*
 
 ### Figur 17
 
-![Innstillinger åpnes for den avslåtte server-VM-en](../images/screenshots/017.png)
+![Innstillingene åpnes for den avslåtte serveren](../images/screenshots/017.png)
 
-*Innstillinger åpnes for den avslåtte server-VM-en.*
+*Innstillingene åpnes for den avslåtte serveren.*
 
 ### Figur 18
 
@@ -145,15 +145,15 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 20
 
-![VirtualBox Network-verktøyet åpnes fra File og Tools](../images/screenshots/020.png)
+![Nettverksinnstillingene i VirtualBox åpnes via File → Tools → Network](../images/screenshots/020.png)
 
-*VirtualBox Network-verktøyet åpnes fra File og Tools.*
+*Nettverksinnstillingene i VirtualBox åpnes via File → Tools → Network.*
 
 ### Figur 21
 
-![VirtualBox DHCP-område kontrolleres før valg av fast serveradresse](../images/screenshots/021.png)
+![DHCP-området kontrolleres før vi velger en fast IP-adresse til serveren](../images/screenshots/021.png)
 
-*VirtualBox DHCP-område kontrolleres før valg av fast serveradresse.*
+*DHCP-området kontrolleres før vi velger en fast IP-adresse til serveren.*
 
 </details>
 
@@ -168,21 +168,21 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 23
 
-![Egenskaper åpnes for det aktuelle nettverkskortet](../images/screenshots/023.png)
+![Egenskapene åpnes for serverens nettverkskort på labnettverket](../images/screenshots/023.png)
 
-*Egenskaper åpnes for det aktuelle nettverkskortet.*
+*Egenskapene åpnes for serverens nettverkskort på labnettverket.*
 
 ### Figur 24
 
-![IPv4-egenskaper velges for labkortet](../images/screenshots/024.png)
+![IPv4-innstillingene åpnes for nettverkskortet](../images/screenshots/024.png)
 
-*IPv4-egenskaper velges for labkortet.*
+*IPv4-innstillingene åpnes for nettverkskortet.*
 
 ### Figur 25
 
-![DC01 får 192.168.56.55 med nettverksmasken 255.255.255.0 og peker til seg selv som DNS-server](../images/screenshots/025.png)
+![DC01 får IP-adressen 192.168.56.55, masken 255.255.255.0 og samme adresse som DNS-server](../images/screenshots/025.png)
 
-*DC01 får 192.168.56.55 med nettverksmasken 255.255.255.0 og peker til seg selv som DNS-server.*
+*DC01 får IP-adressen 192.168.56.55, masken 255.255.255.0 og samme adresse som DNS-server.*
 
 </details>
 
@@ -197,9 +197,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 48
 
-![File Explorer åpnes i gjesteoperativsystemet](../images/screenshots/048.png)
+![Filutforskeren åpnes inne i den virtuelle maskinen](../images/screenshots/048.png)
 
-*File Explorer åpnes i gjesteoperativsystemet.*
+*Filutforskeren åpnes inne i den virtuelle maskinen.*
 
 ### Figur 49
 
@@ -233,9 +233,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 54
 
-![Gjesten må startes på nytt etter Guest Additions](../images/screenshots/054.png)
+![Den virtuelle maskinen startes på nytt etter installasjonen](../images/screenshots/054.png)
 
-*Gjesten må startes på nytt etter Guest Additions.*
+*Den virtuelle maskinen startes på nytt etter installasjonen.*
 
 </details>
 
@@ -250,9 +250,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 56
 
-![Gjesten vises med større tilgjengelig skjermflate](../images/screenshots/056.png)
+![Den virtuelle maskinen vises med større skjermflate](../images/screenshots/056.png)
 
-*Gjesten vises med større tilgjengelig skjermflate.*
+*Den virtuelle maskinen vises med større skjermflate.*
 
 ### Figur 57
 
@@ -287,9 +287,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 28
 
-![Veiviserens innledende kontrollpunkter](../images/screenshots/028.png)
+![Veiviseren viser hva som bør være klart før rolleinstallasjonen](../images/screenshots/028.png)
 
-*Veiviserens innledende kontrollpunkter.*
+*Veiviseren viser hva som bør være klart før rolleinstallasjonen.*
 
 ### Figur 29
 
@@ -299,9 +299,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 30
 
-![DC01 velges som målserver; serveren har flere nettverksadresser](../images/screenshots/030.png)
+![DC01 velges som serveren rollen skal installeres på](../images/screenshots/030.png)
 
-*DC01 velges som målserver; serveren har flere nettverksadresser.*
+*DC01 velges som serveren rollen skal installeres på.*
 
 ### Figur 31
 
@@ -341,9 +341,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 37
 
-![AD DS-rollen er installert; promotering gjenstår](../images/screenshots/037.png)
+![AD DS er installert. Serveren skal nå settes opp som domenekontroller](../images/screenshots/037.png)
 
-*AD DS-rollen er installert; promotering gjenstår.*
+*AD DS er installert. Serveren skal nå settes opp som domenekontroller.*
 
 </details>
 
@@ -352,9 +352,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 38
 
-![Varselikonet viser at etterkonfigurering er nødvendig](../images/screenshots/038.png)
+![Varselikonet åpner neste steg i oppsettet av domenekontrolleren](../images/screenshots/038.png)
 
-*Varselikonet viser at etterkonfigurering er nødvendig.*
+*Varselikonet åpner neste steg i oppsettet av domenekontrolleren.*
 
 ### Figur 39
 
@@ -370,9 +370,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 41
 
-![DNS, Global Catalog og funksjonsnivå vises; DSRM-passordet er maskert](../images/screenshots/041.png)
+![Innstillingene for domenekontrolleren velges, og passord for gjenoppretting angis](../images/screenshots/041.png)
 
-*DNS, Global Catalog og funksjonsnivå vises; DSRM-passordet er maskert.*
+*Innstillingene for domenekontrolleren velges, og passord for gjenoppretting angis.*
 
 ### Figur 42
 
@@ -394,15 +394,15 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 45
 
-![Oppsummering av domenekontrollerkonfigurasjonen](../images/screenshots/045.png)
+![Innstillingene for domenekontrolleren oppsummeres før installasjon](../images/screenshots/045.png)
 
-*Oppsummering av domenekontrollerkonfigurasjonen.*
+*Innstillingene for domenekontrolleren oppsummeres før installasjon.*
 
 ### Figur 46
 
-![Forutsetningskontroll med advarsler som må vurderes før installasjon](../images/screenshots/046.png)
+![Veiviseren kontrollerer at serveren er klar for installasjon](../images/screenshots/046.png)
 
-*Forutsetningskontroll med advarsler som må vurderes før installasjon.*
+*Veiviseren kontrollerer at serveren er klar for installasjon.*
 
 </details>
 
@@ -413,33 +413,33 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 59
 
-![En ny VM opprettes for Windows-klienten](../images/screenshots/059.png)
+![En ny virtuell maskin opprettes for Windows-klienten](../images/screenshots/059.png)
 
-*En ny VM opprettes for Windows-klienten.*
+*En ny virtuell maskin opprettes for Windows-klienten.*
 
 ### Figur 60
 
-![Windows 11-ISO velges; profilnavnet i filstiene er sladdet](../images/screenshots/060.png)
+![Windows 11 velges som installasjonsmedium](../images/screenshots/060.png)
 
-*Windows 11-ISO velges; profilnavnet i filstiene er sladdet.*
+*Windows 11 velges som installasjonsmedium.*
 
 ### Figur 61
 
-![Klienten får 8 GB arbeidsminne og tre virtuelle prosessorer i labben](../images/screenshots/061.png)
+![Klienten får 8 GB arbeidsminne og tre virtuelle prosessorer](../images/screenshots/061.png)
 
-*Klienten får 8 GB arbeidsminne og tre virtuelle prosessorer i labben.*
+*Klienten får 8 GB arbeidsminne og tre virtuelle prosessorer.*
 
 ### Figur 62
 
-![Klientens virtuelle disk settes til 80 GB; profilnavnet i lagringsstien er sladdet](../images/screenshots/062.png)
+![Klientens virtuelle disk settes til 80 GB](../images/screenshots/062.png)
 
-*Klientens virtuelle disk settes til 80 GB; profilnavnet i lagringsstien er sladdet.*
+*Klientens virtuelle disk settes til 80 GB.*
 
 ### Figur 63
 
-![Windows-klientens VM er klar til å starte](../images/screenshots/063.png)
+![Den virtuelle klienten er klar til å starte](../images/screenshots/063.png)
 
-*Windows-klientens VM er klar til å starte.*
+*Den virtuelle klienten er klar til å starte.*
 
 </details>
 
@@ -472,9 +472,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 68
 
-![Ingen produktnøkkel er skrevet inn i dette installasjonstrinnet](../images/screenshots/068.png)
+![Installasjonen fortsetter uten produktnøkkel](../images/screenshots/068.png)
 
-*Ingen produktnøkkel er skrevet inn i dette installasjonstrinnet.*
+*Installasjonen fortsetter uten produktnøkkel.*
 
 ### Figur 69
 
@@ -496,9 +496,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 72
 
-![Installasjonsoppsummering; bildet viser også en merknad om systemkrav](../images/screenshots/072.png)
+![Installasjonsvalgene oppsummeres før Windows installeres](../images/screenshots/072.png)
 
-*Installasjonsoppsummering; bildet viser også en merknad om systemkrav.*
+*Installasjonsvalgene oppsummeres før Windows installeres.*
 
 ### Figur 73
 
@@ -508,9 +508,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 74
 
-![Installasjonsfremdrift under omstart](../images/screenshots/074.png)
+![Windows fortsetter installasjonen etter omstart](../images/screenshots/074.png)
 
-*Installasjonsfremdrift under omstart.*
+*Windows fortsetter installasjonen etter omstart.*
 
 </details>
 
@@ -554,15 +554,15 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 80
 
-![Domain join instead gir lokal oppretting før senere domenetilknytning](../images/screenshots/080.png)
+![Domain join instead velges for å opprette en lokal konto før klienten meldes inn i domenet](../images/screenshots/080.png)
 
-*Domain join instead gir lokal oppretting før senere domenetilknytning.*
+*Domain join instead velges for å opprette en lokal konto før klienten meldes inn i domenet.*
 
 ### Figur 81
 
-![Set up for work or school; dette valget kommer før de to foregående dialogene i arbeidsflyten](../images/screenshots/081.png)
+![Set up for work or school velges i førstegangsoppsettet](../images/screenshots/081.png)
 
-*Set up for work or school; dette valget kommer før de to foregående dialogene i arbeidsflyten.*
+*Set up for work or school velges i førstegangsoppsettet.*
 
 ### Figur 82
 
@@ -572,21 +572,21 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 83
 
-![Passord til lokal konto oppgis; innholdet er maskert](../images/screenshots/083.png)
+![Passordet til den lokale kontoen opprettes](../images/screenshots/083.png)
 
-*Passord til lokal konto oppgis; innholdet er maskert.*
+*Passordet til den lokale kontoen opprettes.*
 
 ### Figur 84
 
-![Passordet til lokal konto bekreftes; innholdet er maskert](../images/screenshots/084.png)
+![Passordet til den lokale kontoen bekreftes](../images/screenshots/084.png)
 
-*Passordet til lokal konto bekreftes; innholdet er maskert.*
+*Passordet til den lokale kontoen bekreftes.*
 
 ### Figur 85
 
-![Sikkerhetsspørsmål vises, men svarfeltet er tomt](../images/screenshots/085.png)
+![Sikkerhetsspørsmål settes opp for den lokale kontoen](../images/screenshots/085.png)
 
-*Sikkerhetsspørsmål vises, men svarfeltet er tomt.*
+*Sikkerhetsspørsmål settes opp for den lokale kontoen.*
 
 </details>
 
@@ -671,9 +671,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 115
 
-![Klienten beholder DHCP for IP og får 192.168.56.55 som DNS](../images/screenshots/115.png)
+![Klienten får IP-adresse automatisk og bruker 192.168.56.55 som DNS-server](../images/screenshots/115.png)
 
-*Klienten beholder DHCP for IP og får 192.168.56.55 som DNS.*
+*Klienten får IP-adresse automatisk og bruker 192.168.56.55 som DNS-server.*
 
 </details>
 
@@ -682,15 +682,15 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 116
 
-![En kommandolinje åpnes; bildet viser serverens skrivebord som illustrasjon](../images/screenshots/116.png)
+![Kommandolinjen åpnes fra Start-menyen](../images/screenshots/116.png)
 
-*En kommandolinje åpnes; bildet viser serverens skrivebord som illustrasjon.*
+*Kommandolinjen åpnes fra Start-menyen.*
 
 ### Figur 117
 
-![sysdm.cpl kjøres på klienten fra den lokale kontoen](../images/screenshots/117.png)
+![sysdm.cpl åpner systemegenskapene på klienten](../images/screenshots/117.png)
 
-*sysdm.cpl kjøres på klienten fra den lokale kontoen.*
+*sysdm.cpl åpner systemegenskapene på klienten.*
 
 ### Figur 118
 
@@ -706,9 +706,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 120
 
-![En konto med innmeldingsrettighet oppgis; administratorpassordet er maskert](../images/screenshots/120.png)
+![En konto med rettighet til å melde klienten inn i domenet oppgis](../images/screenshots/120.png)
 
-*En konto med innmeldingsrettighet oppgis; administratorpassordet er maskert.*
+*En konto med rettighet til å melde klienten inn i domenet oppgis.*
 
 ### Figur 121
 
@@ -772,9 +772,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 100
 
-![Midlertidig passord er maskert og må endres ved neste pålogging](../images/screenshots/100.png)
+![Brukeren får et midlertidig passord som må endres ved neste pålogging](../images/screenshots/100.png)
 
-*Midlertidig passord er maskert og må endres ved neste pålogging.*
+*Brukeren får et midlertidig passord som må endres ved neste pålogging.*
 
 ### Figur 101
 
@@ -824,9 +824,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 107
 
-![Brukerens egenskaper; kontaktfeltene i bildet er tomme](../images/screenshots/107.png)
+![Egenskapene for Eiriks brukerkonto vises](../images/screenshots/107.png)
 
-*Brukerens egenskaper; kontaktfeltene i bildet er tomme.*
+*Egenskapene for Eiriks brukerkonto vises.*
 
 ### Figur 108
 
@@ -842,9 +842,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 110
 
-![Check Names har løst IT til et gruppeobjekt](../images/screenshots/110.png)
+![Check Names bekrefter at IT-gruppen finnes](../images/screenshots/110.png)
 
-*Check Names har løst IT til et gruppeobjekt.*
+*Check Names bekrefter at IT-gruppen finnes.*
 
 ### Figur 111
 
@@ -908,9 +908,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 130
 
-![Sharing-fanen åpnes; mappen er ennå ikke delt i dette bildet](../images/screenshots/130.png)
+![Sharing-fanen åpnes for å dele HR-mappen](../images/screenshots/130.png)
 
-*Sharing-fanen åpnes; mappen er ennå ikke delt i dette bildet.*
+*Sharing-fanen åpnes for å dele HR-mappen.*
 
 ### Figur 131
 
@@ -920,9 +920,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 132
 
-![Everyone får Full Control på delingsnivå i labmodellen](../images/screenshots/132.png)
+![Everyone får Full Control under delingsrettighetene](../images/screenshots/132.png)
 
-*Everyone får Full Control på delingsnivå i labmodellen.*
+*Everyone får Full Control under delingsrettighetene.*
 
 ### Figur 133
 
@@ -937,15 +937,15 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 134
 
-![Security-fanen før HR-gruppen legges til](../images/screenshots/134.png)
+![Security-fanen åpnes for å endre NTFS-rettighetene](../images/screenshots/134.png)
 
-*Security-fanen før HR-gruppen legges til.*
+*Security-fanen åpnes for å endre NTFS-rettighetene.*
 
 ### Figur 135
 
-![NTFS-redigering åpnes med eksisterende identiteter i listen](../images/screenshots/135.png)
+![Edit åpner redigering av NTFS-rettighetene](../images/screenshots/135.png)
 
-*NTFS-redigering åpnes med eksisterende identiteter i listen.*
+*Edit åpner redigering av NTFS-rettighetene.*
 
 ### Figur 136
 
@@ -955,9 +955,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 137
 
-![HR-gruppen får Modify på HR-mappen](../images/screenshots/137.png)
+![HR-gruppen får Modify-tilgang til HR-mappen](../images/screenshots/137.png)
 
-*HR-gruppen får Modify på HR-mappen.*
+*HR-gruppen får Modify-tilgang til HR-mappen.*
 
 ### Figur 138
 
@@ -974,9 +974,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 139
 
-![Maja logger på LAB; passordfeltet er maskert](../images/screenshots/139.png)
+![Maja logger på klienten med domenekontoen sin](../images/screenshots/139.png)
 
-*Maja logger på LAB; passordfeltet er maskert.*
+*Maja logger på klienten med domenekontoen sin.*
 
 </details>
 
@@ -991,9 +991,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 141
 
-![Z: kobles til HR via LAB.LOCAL, den dokumenterte fungerende domenebaserte stien](../images/screenshots/141.png)
+![Nettverksstasjonen Z: kobles til \\LAB.LOCAL\HR](../images/screenshots/141.png)
 
-*Z: kobles til HR via LAB.LOCAL, den dokumenterte fungerende domenebaserte stien.*
+*Nettverksstasjonen Z: kobles til \\LAB.LOCAL\HR.*
 
 ### Figur 142
 
@@ -1008,9 +1008,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 143
 
-![Maja oppretter en mappe i HR-delingen som positiv tilgangstest](../images/screenshots/143.png)
+![Maja oppretter en mappe i HR-delingen for å teste skrivetilgangen](../images/screenshots/143.png)
 
-*Maja oppretter en mappe i HR-delingen som positiv tilgangstest.*
+*Maja oppretter en mappe i HR-delingen for å teste skrivetilgangen.*
 
 </details>
 
@@ -1039,9 +1039,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 147
 
-![Midlertidig passord settes med krav om passordbytte](../images/screenshots/147.png)
+![Et midlertidig passord settes med krav om passordbytte ved neste pålogging](../images/screenshots/147.png)
 
-*Midlertidig passord settes med krav om passordbytte.*
+*Et midlertidig passord settes med krav om passordbytte ved neste pålogging.*
 
 ### Figur 148
 
@@ -1116,15 +1116,15 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 159
 
-![Ferdige innstillinger: tre forsøk og 30 minutter](../images/screenshots/159.png)
+![Kontoen låses i 30 minutter etter tre mislykkede påloggingsforsøk](../images/screenshots/159.png)
 
-*Ferdige innstillinger: tre forsøk og 30 minutter.*
+*Kontoen låses i 30 minutter etter tre mislykkede påloggingsforsøk.*
 
 ### Figur 160
 
-![Klienten viser feil passord](../images/screenshots/160.png)
+![Klienten viser en feilmelding ved feil passord](../images/screenshots/160.png)
 
-*Klienten viser feil passord.*
+*Klienten viser en feilmelding ved feil passord.*
 
 ### Figur 161
 
@@ -1134,9 +1134,9 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 ### Figur 162
 
-![Unlock account brukes på Noras konto](../images/screenshots/162.png)
+![Unlock account låser opp Noras konto](../images/screenshots/162.png)
 
-*Unlock account brukes på Noras konto.*
+*Unlock account låser opp Noras konto.*
 
 </details>
 
