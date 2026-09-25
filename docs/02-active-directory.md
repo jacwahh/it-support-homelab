@@ -3,9 +3,11 @@
 
 # 2. Active Directory
 
-**Active Directory Domain Services (AD DS)** samler brukere, grupper og datamaskiner i en felles katalog. Det gjør at vi kan administrere kontoer sentralt i stedet for å opprette dem på hver enkelt PC.
+Et **domene** samler brukere og datamaskiner under felles administrasjon og regler for innlogging og tilgang. I labben heter domenet `LAB.local`.
 
-Et **domene** er området disse kontoene og maskinene tilhører. Vårt domene heter `LAB.local`. Serveren som kjører AD DS, kalles en **domenekontroller** — her er det DC01.
+**Active Directory Domain Services (AD DS)** lagrer informasjon om domenets brukere, grupper og datamaskiner. Det gjør at vi kan administrere kontoer sentralt i stedet for å opprette dem på hver enkelt PC.
+
+**DC01 er domenekontrolleren**: serveren som kjører AD DS og håndterer innlogging i domenet. Ved innlogging kontrollerer den at passordet er riktig og at kontoen er aktiv og ikke låst.
 
 ## Slik henger labben sammen
 
