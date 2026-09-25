@@ -16,12 +16,14 @@
     {
       "number": 2,
       "original": "Pictures/100000010000033C0000023542364D35.png",
-      "sha256": "344299b5574145452b6855a451454b2a3465ef4df1414b38ca04a6da1251d510",
+      "sha256": "019edf033f9ed196360560906a8b8653561e0efc0ce7ef4643a63e94a83c7fac",
       "caption": "VirtualBox Manager: opprett en ny virtuell maskin med New",
       "path": "screenshots/002.png",
       "source_paragraph_indices_zero_based": [
         10
-      ]
+      ],
+      "source_sha256": "344299b5574145452b6855a451454b2a3465ef4df1414b38ca04a6da1251d510",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 3,
@@ -80,12 +82,14 @@
     {
       "number": 8,
       "original": "Pictures/100000010000040000000310E28CE3E4.png",
-      "sha256": "4455e5ba6c8a95cf4591cc7df3ad64d75d590943c364045f774e62bd4968c479",
+      "sha256": "0084f7ccc814191c6de7206a6658842fbfc557be47f689136579b6c7be9903f4",
       "caption": "Custom velges for en ny installasjon på den virtuelle disken",
       "path": "screenshots/008.png",
       "source_paragraph_indices_zero_based": [
         31
-      ]
+      ],
+      "source_sha256": "4455e5ba6c8a95cf4591cc7df3ad64d75d590943c364045f774e62bd4968c479",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 9,
@@ -110,32 +114,38 @@
     {
       "number": 11,
       "original": "Pictures/10000001000007C30000050ECE2316CF.png",
-      "sha256": "8f105905220a1bbc3e16b0828adccaa09146fdd0ffede60355a6b8646f58c4e5",
+      "sha256": "338c172405841c9ef0fd4f3116533e4e169a29358d60b8440f476e1a3c932b72",
       "caption": "Ctrl+Alt+Delete sendes til den virtuelle serveren fra VirtualBox-menyen",
       "path": "screenshots/011.png",
       "source_paragraph_indices_zero_based": [
         43
-      ]
+      ],
+      "source_sha256": "8f105905220a1bbc3e16b0828adccaa09146fdd0ffede60355a6b8646f58c4e5",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 12,
       "original": "Pictures/10000001000003FD0000030D4B0D2704.png",
-      "sha256": "ac8f66fb3cb7751399387babffff24e96c6351fe16d662889ce71b5eeb2dbbe9",
+      "sha256": "a83bf44fe034a75845052cbf0f32fc616b02c20ff58dbf97879ff1e53b4a7dd0",
       "caption": "Server Manager viser datamaskinnavnet før navneendringen",
       "path": "screenshots/012.png",
       "source_paragraph_indices_zero_based": [
         58
-      ]
+      ],
+      "source_sha256": "ac8f66fb3cb7751399387babffff24e96c6351fe16d662889ce71b5eeb2dbbe9",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 13,
       "original": "Pictures/10000001000003FC00000301AFD69841.png",
-      "sha256": "de98ee597637f7cff78eb99d3e2c2d91e565805a01f567fd0042f3f398123cc6",
+      "sha256": "828511824d0a18e6db5e2f36699d57c0451d233ec09430a540689c1f8704d4bc",
       "caption": "System Properties åpnes for å endre servernavnet",
       "path": "screenshots/013.png",
       "source_paragraph_indices_zero_based": [
         64
-      ]
+      ],
+      "source_sha256": "de98ee597637f7cff78eb99d3e2c2d91e565805a01f567fd0042f3f398123cc6",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 14,
@@ -170,52 +180,62 @@
     {
       "number": 17,
       "original": "Pictures/10000001000004660000039106092A27.png",
-      "sha256": "c6245e2e4d4c4f394d1097748b8f3a2ed52e2660734923bea15b04a48ebdb8e8",
+      "sha256": "68bc616901c0c67eb266cbdb091fa401fa92e9c5daf82c88e07c2d9415151223",
       "caption": "Innstillingene åpnes for den avslåtte serveren",
       "path": "screenshots/017.png",
       "source_paragraph_indices_zero_based": [
         90
-      ]
+      ],
+      "source_sha256": "c6245e2e4d4c4f394d1097748b8f3a2ed52e2660734923bea15b04a48ebdb8e8",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 18,
       "original": "Pictures/100000010000048900000301745A2FF1.png",
-      "sha256": "4c34a37245d7490d57e2997f169c02a3208510b879eb8cbc6c7b312470828cc2",
+      "sha256": "b23d634163592e8712baace06edc3f90700cabb189640ed7ca7381cb2b5ca85c",
       "caption": "Adapter 1 på DC01 kobles til Host-only-nettverket",
       "path": "screenshots/018.png",
       "source_paragraph_indices_zero_based": [
         97
-      ]
+      ],
+      "source_sha256": "4c34a37245d7490d57e2997f169c02a3208510b879eb8cbc6c7b312470828cc2",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 19,
       "original": "Pictures/100000010000048900000304CFAF84DE.png",
-      "sha256": "a36993bdc62b27b816cfa00252192d42b789697672017bd2d20c8214f39d3340",
+      "sha256": "d9c1ad41e4bd2daa0d4b7ba619290ecdd65476ffaee72c90c4d015d2d73b1417",
       "caption": "Adapter 2 bruker NAT for utgående forbindelser fra DC01",
       "path": "screenshots/019.png",
       "source_paragraph_indices_zero_based": [
         101
-      ]
+      ],
+      "source_sha256": "a36993bdc62b27b816cfa00252192d42b789697672017bd2d20c8214f39d3340",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 20,
       "original": "Pictures/100000010000036A0000028631A088C8.png",
-      "sha256": "a99605e5a9da44de85e9b2d415785d6fab0f64d25fd85043eb8b688302f187cf",
+      "sha256": "a0a486e4ba3dea84fe18569f2cc324cf74dcbcc70f97d55ead354981c1821e63",
       "caption": "Nettverksinnstillingene i VirtualBox åpnes via File → Tools → Network",
       "path": "screenshots/020.png",
       "source_paragraph_indices_zero_based": [
         108
-      ]
+      ],
+      "source_sha256": "a99605e5a9da44de85e9b2d415785d6fab0f64d25fd85043eb8b688302f187cf",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 21,
       "original": "Pictures/10000001000009C1000001660ACEA21F.png",
-      "sha256": "e23e7f99d06e5751a7e9fd5d5f779a61577fdae261c4e6c6ea51092721ab5722",
+      "sha256": "a1dea3a472634b52b2ae44c1a0a8c02f14e512906e47b82ae6f88bf614016836",
       "caption": "DHCP-området kontrolleres før vi velger en fast IP-adresse til serveren",
       "path": "screenshots/021.png",
       "source_paragraph_indices_zero_based": [
         114
-      ]
+      ],
+      "source_sha256": "e23e7f99d06e5751a7e9fd5d5f779a61577fdae261c4e6c6ea51092721ab5722",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 22,
@@ -230,32 +250,38 @@
     {
       "number": 23,
       "original": "Pictures/10000001000003F4000002FD3C4B7867.png",
-      "sha256": "119974c5693d9c475b5c79ea9eb86e6d6f090b217297d2db51bd626211363f7b",
+      "sha256": "b3e130a63cca51328378669f46b5167f91aeacb3c369f688f7b667001c327530",
       "caption": "Egenskapene åpnes for serverens nettverkskort på labnettverket",
       "path": "screenshots/023.png",
       "source_paragraph_indices_zero_based": [
         132
-      ]
+      ],
+      "source_sha256": "119974c5693d9c475b5c79ea9eb86e6d6f090b217297d2db51bd626211363f7b",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 24,
       "original": "Pictures/10000001000001D70000023207CAAC6F.png",
-      "sha256": "6890b83a657a837f4b3c536a31afa24a1da7757fb7766d2a33110cfd23ef6e89",
+      "sha256": "1e6bd060cba213c7e92a06c0c5f78decc6c36527ad889d3257823aa728250ad8",
       "caption": "IPv4-innstillingene åpnes for nettverkskortet",
       "path": "screenshots/024.png",
       "source_paragraph_indices_zero_based": [
         138
-      ]
+      ],
+      "source_sha256": "6890b83a657a837f4b3c536a31afa24a1da7757fb7766d2a33110cfd23ef6e89",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 25,
       "original": "Pictures/10000001000001C500000229832CC341.png",
-      "sha256": "82177d42ea23046265b7fe05fdf5c8a217fb54d9536bea0af6447b530c99f9f6",
+      "sha256": "6595b94a80c50dab9fd6e3f68554c82c2751878dbc7166de2bc3d0701d4e89af",
       "caption": "DC01 får IP-adressen 192.168.56.55, masken 255.255.255.0 og samme adresse som DNS-server",
       "path": "screenshots/025.png",
       "source_paragraph_indices_zero_based": [
         160
-      ]
+      ],
+      "source_sha256": "82177d42ea23046265b7fe05fdf5c8a217fb54d9536bea0af6447b530c99f9f6",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 26,
@@ -270,12 +296,14 @@
     {
       "number": 27,
       "original": "Pictures/10000001000003BB0000024D3215A7CC.png",
-      "sha256": "e8136fee46b620881f850233b20a6bc586ab736f03b3d5aba18f11261ee5f3e5",
+      "sha256": "cc7c8ecade71caed5eb99a040c9b3a78a64bfa85f3fb0cd93df70b1deeda9b29",
       "caption": "Add roles and features starter rolleinstallasjonen",
       "path": "screenshots/027.png",
       "source_paragraph_indices_zero_based": [
         197
-      ]
+      ],
+      "source_sha256": "e8136fee46b620881f850233b20a6bc586ab736f03b3d5aba18f11261ee5f3e5",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 28,
@@ -310,22 +338,26 @@
     {
       "number": 31,
       "original": "Pictures/10000001000003CF000002B9086C9A34.png",
-      "sha256": "26b3ce438ff768a7494997e281f60e583cd790450c37d3423060c7026e5c4a64",
+      "sha256": "bd3e4c0cb5624823cc3eefeaba0f42e581d98f874a4e5901e79181ca8d719adc",
       "caption": "Active Directory Domain Services markeres i rollelisten",
       "path": "screenshots/031.png",
       "source_paragraph_indices_zero_based": [
         220
-      ]
+      ],
+      "source_sha256": "26b3ce438ff768a7494997e281f60e583cd790450c37d3423060c7026e5c4a64",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 32,
       "original": "Pictures/10000001000001FE0000021A5D52CBC3.png",
-      "sha256": "611927ca3d5e86f90bc7fe94fe3b236dba71edebccf91be81760b73b3458a969",
+      "sha256": "79ae5ce25e3f87ab7c83af959e754129f2aa68b9c2750d88bd08ccbafa7147a5",
       "caption": "Nødvendige administrasjonsverktøy legges til med Add Features",
       "path": "screenshots/032.png",
       "source_paragraph_indices_zero_based": [
         222
-      ]
+      ],
+      "source_sha256": "611927ca3d5e86f90bc7fe94fe3b236dba71edebccf91be81760b73b3458a969",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 33,
@@ -380,32 +412,38 @@
     {
       "number": 38,
       "original": "Pictures/10000001000003B8000002472CD1185E.png",
-      "sha256": "5c2b1855ab5c8185cb29f6b9eb9a9c4fefc535aeea60caee301da00cc057cdc0",
+      "sha256": "a16d9013bbd6c95f72480be9940bcb9d88a09686c6446d8481e74e4dc19259c5",
       "caption": "Varselikonet åpner neste steg i oppsettet av domenekontrolleren",
       "path": "screenshots/038.png",
       "source_paragraph_indices_zero_based": [
         268
-      ]
+      ],
+      "source_sha256": "5c2b1855ab5c8185cb29f6b9eb9a9c4fefc535aeea60caee301da00cc057cdc0",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 39,
       "original": "Pictures/10000001000003BA0000024907A23F00.png",
-      "sha256": "5d4a8412e79945894dd9487d60c57b9499432a7d36ab01b1de2542c7cbfeb291",
+      "sha256": "154fa85324eecf6f50e44fb2af6312b4c2a24a664a0bea69a9533d2966045f9a",
       "caption": "Promote this server to a domain controller velges",
       "path": "screenshots/039.png",
       "source_paragraph_indices_zero_based": [
         271
-      ]
+      ],
+      "source_sha256": "5d4a8412e79945894dd9487d60c57b9499432a7d36ab01b1de2542c7cbfeb291",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 40,
       "original": "Pictures/10000001000003AF000002B617885667.png",
-      "sha256": "d1bd7281a41332c9fa77a3ecc8fbf4827c72e2f6900f30dc31bb556e88f937d2",
+      "sha256": "1b8ceccb3e7eb729ff47fec321976e0835e1b82ad2a689e89fa3476e80af78fa",
       "caption": "En ny skog opprettes med domenenavnet LAB.local",
       "path": "screenshots/040.png",
       "source_paragraph_indices_zero_based": [
         275
-      ]
+      ],
+      "source_sha256": "d1bd7281a41332c9fa77a3ecc8fbf4827c72e2f6900f30dc31bb556e88f937d2",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 41,
@@ -471,12 +509,14 @@
     {
       "number": 47,
       "original": "Pictures/1000000100000763000004D4242C6157.png",
-      "sha256": "940f8b32b60e0e3e38d3b00497d93848201478d2ff002c95bd970c88b86339ea",
+      "sha256": "7c996e278ef95b4fae293c8e6f5a15a743c468570055eccbbe00306150ac24bb",
       "caption": "Guest Additions-CD-en monteres fra VirtualBox Devices-menyen",
       "path": "screenshots/047.png",
       "source_paragraph_indices_zero_based": [
         310
-      ]
+      ],
+      "source_sha256": "940f8b32b60e0e3e38d3b00497d93848201478d2ff002c95bd970c88b86339ea",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 48,
@@ -491,22 +531,26 @@
     {
       "number": 49,
       "original": "Pictures/10000001000003C7000001E46630DF6B.png",
-      "sha256": "5a16cd23750c82bd7f31c6102c309738150e5c64f58137ada8a695fd9492f828",
+      "sha256": "32d039f84d2b9fb2d92d043ed49d30c7e203bf2eea44e95ad1ee99671e74bb3c",
       "caption": "Guest Additions-CD-stasjonen finnes under This PC",
       "path": "screenshots/049.png",
       "source_paragraph_indices_zero_based": [
         317
-      ]
+      ],
+      "source_sha256": "5a16cd23750c82bd7f31c6102c309738150e5c64f58137ada8a695fd9492f828",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 50,
       "original": "Pictures/10000001000003CF000002A9E5F80D95.png",
-      "sha256": "e56ec43bae5fbf9f9ba0097c2ccd0545c7f782e7a1567265f8980497af01af33",
+      "sha256": "5a6dbd02c37f21eb920a696222e33fd0120cfb28c91bf14483dc03b567f0db64",
       "caption": "Windows-installasjonsprogrammet for Guest Additions velges",
       "path": "screenshots/050.png",
       "source_paragraph_indices_zero_based": [
         317
-      ]
+      ],
+      "source_sha256": "e56ec43bae5fbf9f9ba0097c2ccd0545c7f782e7a1567265f8980497af01af33",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 51,
@@ -571,12 +615,14 @@
     {
       "number": 57,
       "original": "Pictures/10000001000003F400000301935F1583.png",
-      "sha256": "ebf33f7bf60a9b24e6f2afe362008b2aa42f25772834b98e00b0c1de498702b0",
+      "sha256": "9704d91d4c2523cc5f172ae1b66cccd3a324c7feb5dcc7f83199e92f1846a486",
       "caption": "Display settings åpnes i Windows",
       "path": "screenshots/057.png",
       "source_paragraph_indices_zero_based": [
         390
-      ]
+      ],
+      "source_sha256": "ebf33f7bf60a9b24e6f2afe362008b2aa42f25772834b98e00b0c1de498702b0",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 58,
@@ -685,12 +731,14 @@
     {
       "number": 68,
       "original": "Pictures/10000001000002C50000022C1191516F.png",
-      "sha256": "24162ff2a7a6db963f0f41fe0b888abeab6102bf150d127226ed9bbe7764cbd9",
+      "sha256": "81e9c3e82ed6bc6ad1fbfea7ecff9aea6315f3357978169396959436033516b0",
       "caption": "Installasjonen fortsetter uten produktnøkkel",
       "path": "screenshots/068.png",
       "source_paragraph_indices_zero_based": [
         499
-      ]
+      ],
+      "source_sha256": "24162ff2a7a6db963f0f41fe0b888abeab6102bf150d127226ed9bbe7764cbd9",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 69,
@@ -795,22 +843,26 @@
     {
       "number": 79,
       "original": "Pictures/10000001000003F4000002FBF0D6E85D.png",
-      "sha256": "935d77100a45a499e3c0a0e14091d04a59945806f1bd8c51411853924c71cb42",
+      "sha256": "d64b421e80b87e06f212a2128813aa186229a3dedc6a069a469df37ac5f22d37",
       "caption": "Sign-in options åpnes i jobb- eller skoleoppsettet",
       "path": "screenshots/079.png",
       "source_paragraph_indices_zero_based": [
         637
-      ]
+      ],
+      "source_sha256": "935d77100a45a499e3c0a0e14091d04a59945806f1bd8c51411853924c71cb42",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 80,
       "original": "Pictures/10000001000003F7000002F7C7051546.png",
-      "sha256": "5883462193b08fabd028f595e203bcc2ced53d3b73d2c409ef72da0c47f81464",
+      "sha256": "5386a51c548b9a361cca2585185141ddecf8e57645037e2a57c5190e4ec029e1",
       "caption": "Domain join instead velges for å opprette en lokal konto før klienten meldes inn i domenet",
       "path": "screenshots/080.png",
       "source_paragraph_indices_zero_based": [
         639
-      ]
+      ],
+      "source_sha256": "5883462193b08fabd028f595e203bcc2ced53d3b73d2c409ef72da0c47f81464",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 81,
@@ -935,32 +987,38 @@
     {
       "number": 93,
       "original": "Pictures/100000010000049500000304E68A5D30.png",
-      "sha256": "927c5e2016dbd4d9309f02a0b552292fd289f48baeb052f359ff4f8115360213",
+      "sha256": "667e6261c16738271979f29c16f4f3687c3be8d3ca6080857c766c629bf1013e",
       "caption": "Klienten kobles til samme Host-only-nettverk som serveren",
       "path": "screenshots/093.png",
       "source_paragraph_indices_zero_based": [
         691
-      ]
+      ],
+      "source_sha256": "927c5e2016dbd4d9309f02a0b552292fd289f48baeb052f359ff4f8115360213",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 94,
       "original": "Pictures/1000000100000637000004AE7DD77925.png",
-      "sha256": "944a4bcc1fe33200eeb2083d8b0f1c526212beb9d8b15aa9e9fad8c3466813d8",
+      "sha256": "a1db92fcbe2f28e34517106dab218c94b5933a25cafcaa95b5dcf2dae13f4083",
       "caption": "Active Directory Users and Computers åpnes på DC01",
       "path": "screenshots/094.png",
       "source_paragraph_indices_zero_based": [
         700
-      ]
+      ],
+      "source_sha256": "944a4bcc1fe33200eeb2083d8b0f1c526212beb9d8b15aa9e9fad8c3466813d8",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 95,
       "original": "Pictures/10000001000003D20000028EA46D5F0E.png",
-      "sha256": "c7d905af21744ede8168137b811d8218f9b0b73c522cf8bf3471e0661478ce48",
+      "sha256": "f16cdd0441ed3e7e86d182c96296804f06e8b7740101c42f1a8cbdbc6a5c24f7",
       "caption": "New Organizational Unit velges under LAB.local",
       "path": "screenshots/095.png",
       "source_paragraph_indices_zero_based": [
         704
-      ]
+      ],
+      "source_sha256": "c7d905af21744ede8168137b811d8218f9b0b73c522cf8bf3471e0661478ce48",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 96,
@@ -985,12 +1043,14 @@
     {
       "number": 98,
       "original": "Pictures/100000010000039C000002CB1860A640.png",
-      "sha256": "b985187921431f9b5168601a39aa97bcef8987440507f4ada39fd93e782fa122",
+      "sha256": "bb624ee0821c69edf238415f6a5e2c8fa7387fee7067d6f6dccb6f64e5ff1526",
       "caption": "En ny bruker opprettes i Accounts",
       "path": "screenshots/098.png",
       "source_paragraph_indices_zero_based": [
         724
-      ]
+      ],
+      "source_sha256": "b985187921431f9b5168601a39aa97bcef8987440507f4ada39fd93e782fa122",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 99,
@@ -1005,12 +1065,14 @@
     {
       "number": 100,
       "original": "Pictures/10000001000002F1000002941966F7E6.png",
-      "sha256": "8969c6bae71e84de1b8f5e870c16118e809c05769b016da61fcfe587f052361d",
+      "sha256": "5496e3ba760846e84be46cf3314a4ccfa5b0c64881f45ed1bf12907adc1b4d84",
       "caption": "Brukeren får et midlertidig passord som må endres ved neste pålogging",
       "path": "screenshots/100.png",
       "source_paragraph_indices_zero_based": [
         731
-      ]
+      ],
+      "source_sha256": "8969c6bae71e84de1b8f5e870c16118e809c05769b016da61fcfe587f052361d",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 101,
@@ -1035,22 +1097,26 @@
     {
       "number": 103,
       "original": "Pictures/100000010000058900000414C9249ADF.png",
-      "sha256": "b86bcd80aeb881dc24a80e2e20b26a39cee18039485449846c5105c2324ec4bd",
+      "sha256": "fb1bddbca20013747c68b64daccd2e113e63abe4f26cfc19217f91baeaee29bb",
       "caption": "En ny gruppe opprettes i Groups",
       "path": "screenshots/103.png",
       "source_paragraph_indices_zero_based": [
         753
-      ]
+      ],
+      "source_sha256": "b86bcd80aeb881dc24a80e2e20b26a39cee18039485449846c5105c2324ec4bd",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 104,
       "original": "Pictures/100000010000055B000003C1493C91F2.png",
-      "sha256": "735f18783f5985ad779c9f407c536aaab8975f9929486d94a5fb43f8409a492d",
+      "sha256": "d1ae03b8990a2cdd0110e9c39aa40291beb151d38b9b90a0423e4cd72d2d6ffc",
       "caption": "HR opprettes som global sikkerhetsgruppe",
       "path": "screenshots/104.png",
       "source_paragraph_indices_zero_based": [
         756
-      ]
+      ],
+      "source_sha256": "735f18783f5985ad779c9f407c536aaab8975f9929486d94a5fb43f8409a492d",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 105,
@@ -1075,32 +1141,38 @@
     {
       "number": 107,
       "original": "Pictures/10000001000002C5000003AB0FDA872A.png",
-      "sha256": "e34320515ae5c13fa24ce62d589d57c03d6cc1ce0052b3cfafa60d178169c781",
+      "sha256": "fb3c33cca9c0f6a1508a3625198bbe1bae15e617d84318ad4ca1a565044d86f6",
       "caption": "Egenskapene for Eiriks brukerkonto vises",
       "path": "screenshots/107.png",
       "source_paragraph_indices_zero_based": [
         790
-      ]
+      ],
+      "source_sha256": "e34320515ae5c13fa24ce62d589d57c03d6cc1ce0052b3cfafa60d178169c781",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 108,
       "original": "Pictures/10000001000002CB000003B2A5062919.png",
-      "sha256": "fd89ccbe57ddfd424675db6c0bf29aae05dc2577aa412a0efa4af45a9b9c6354",
+      "sha256": "15f722ae0d56dc983da805f4295344b0bde03eddb13c9d3a64ed0a7e49cc224e",
       "caption": "Member Of viser Domain Users før avdelingsgruppen legges til",
       "path": "screenshots/108.png",
       "source_paragraph_indices_zero_based": [
         815
-      ]
+      ],
+      "source_sha256": "fd89ccbe57ddfd424675db6c0bf29aae05dc2577aa412a0efa4af45a9b9c6354",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 109,
       "original": "Pictures/1000000100000312000001B62D3CA9B3.png",
-      "sha256": "e4fb302c6196c407f266d15b9875eb04239df6c67ff392064a039a39f9892b87",
+      "sha256": "415cc15d78e9e9840d8d144bd6bb88bde3b85ffa4e0be8c9c5241129fd8eebe6",
       "caption": "IT søkes opp som gruppenavn i LAB.local",
       "path": "screenshots/109.png",
       "source_paragraph_indices_zero_based": [
         838
-      ]
+      ],
+      "source_sha256": "e4fb302c6196c407f266d15b9875eb04239df6c67ff392064a039a39f9892b87",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 110,
@@ -1135,32 +1207,38 @@
     {
       "number": 113,
       "original": "Pictures/1000000100000780000003F45D7349D4.png",
-      "sha256": "183d52af700db856ed1bf85f7892cffc3eee03366979900bd7e268c4c74d7d5d",
+      "sha256": "d340076476d0947869630a14b954bcc1eb724e80326254828bef581a61ad4546",
       "caption": "Klientens Ethernet-egenskaper åpnes",
       "path": "screenshots/113.png",
       "source_paragraph_indices_zero_based": [
         875
-      ]
+      ],
+      "source_sha256": "183d52af700db856ed1bf85f7892cffc3eee03366979900bd7e268c4c74d7d5d",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 114,
       "original": "Pictures/10000001000002730000032B5DD6EBCF.png",
-      "sha256": "dc667146c6f7d589fedaf53add636e1c53c0d530bbbfe0c8739281f6ba39fc99",
+      "sha256": "19f8a359799f3fdaaf233a9d80c8c0558ca81d98fb2cb90bb75911e3827a94f8",
       "caption": "Klientens IPv4-egenskaper velges",
       "path": "screenshots/114.png",
       "source_paragraph_indices_zero_based": [
         879
-      ]
+      ],
+      "source_sha256": "dc667146c6f7d589fedaf53add636e1c53c0d530bbbfe0c8739281f6ba39fc99",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 115,
       "original": "Pictures/10000001000002AF00000316D9EF4E81.png",
-      "sha256": "762c94c7ca5cab17019df7ed02e7e9eccb35defb72376685f2118e897a3ea654",
+      "sha256": "b79ebc7a3589119736b14ea4e3915a26f2256e9e31956686f45fb3303203b118",
       "caption": "Klienten får IP-adresse automatisk og bruker 192.168.56.55 som DNS-server",
       "path": "screenshots/115.png",
       "source_paragraph_indices_zero_based": [
         898
-      ]
+      ],
+      "source_sha256": "762c94c7ca5cab17019df7ed02e7e9eccb35defb72376685f2118e897a3ea654",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 116,
@@ -1185,22 +1263,26 @@
     {
       "number": 118,
       "original": "Pictures/10000001000002E600000349D9CB64B0.png",
-      "sha256": "79bab408395529f07d846ad2e420dee5c80a400290071762e38924288a7be81d",
+      "sha256": "61706d19966b8b540605629d1d655c61678816e218b0c4cb857d2b65b1311d29",
       "caption": "Klientens System Properties viser CLT-001 i en arbeidsgruppe",
       "path": "screenshots/118.png",
       "source_paragraph_indices_zero_based": [
         931
-      ]
+      ],
+      "source_sha256": "79bab408395529f07d846ad2e420dee5c80a400290071762e38924288a7be81d",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 119,
       "original": "Pictures/100000010000024D000002C5E0C3BCF0.png",
-      "sha256": "a7d167578aad8f44c9f00c29fca68feb5653e89be668c3f94431bffc1e08e583",
+      "sha256": "e2606cb563b0e05e6aea54de3bdcbc703af182051c35f3313cfc7524db58bed4",
       "caption": "LAB.local angis som domene for CLT-001",
       "path": "screenshots/119.png",
       "source_paragraph_indices_zero_based": [
         949
-      ]
+      ],
+      "source_sha256": "a7d167578aad8f44c9f00c29fca68feb5653e89be668c3f94431bffc1e08e583",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 120,
@@ -1295,42 +1377,50 @@
     {
       "number": 129,
       "original": "Pictures/1000000000000A000000058595007BB2.png",
-      "sha256": "68ad4b48d9457d256c875086a52c97f549b3e5d87f3f32420431371071743860",
+      "sha256": "c04a43b724df707d46f006a2d7fc4ee26b835a47f2e8760781997ce651203629",
       "caption": "HR-mappens egenskaper åpnes",
       "path": "screenshots/129.png",
       "source_paragraph_indices_zero_based": [
         1069
-      ]
+      ],
+      "source_sha256": "68ad4b48d9457d256c875086a52c97f549b3e5d87f3f32420431371071743860",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 130,
       "original": "Pictures/10000001000002910000036D8C77A1A7.png",
-      "sha256": "6504db938918f1fea9243973e6ddcafde4a25215f1cf4ecd541d4067de752672",
+      "sha256": "3d479f9c14f3d73ce68272e4242b9669f2382f377e229b4ec1ea2e716f523f8c",
       "caption": "Sharing-fanen åpnes for å dele HR-mappen",
       "path": "screenshots/130.png",
       "source_paragraph_indices_zero_based": [
         1073
-      ]
+      ],
+      "source_sha256": "6504db938918f1fea9243973e6ddcafde4a25215f1cf4ecd541d4067de752672",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 131,
       "original": "Pictures/1000000100000267000002771BE85FD9.png",
-      "sha256": "eb05c9d310161851562552e2a5482c871425a92267e3784939ce422edec762d1",
+      "sha256": "0d6d5ef1a0a8d05cf19d2f036faa350fb3422b5903b5f23eb858ee275a19fd74",
       "caption": "HR aktiveres som deling i Advanced Sharing",
       "path": "screenshots/131.png",
       "source_paragraph_indices_zero_based": [
         1099
-      ]
+      ],
+      "source_sha256": "eb05c9d310161851562552e2a5482c871425a92267e3784939ce422edec762d1",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 132,
       "original": "Pictures/10000001000002700000030D940F276E.png",
-      "sha256": "8817ad5bd300e6c62b71596d73389f4b3e77180f2c598bc21ec546042b4383be",
+      "sha256": "a7d1000091f7e45766384f429497b8cbe53d71808dca52d1de61fa2e210bf301",
       "caption": "Everyone får Full Control under delingsrettighetene",
       "path": "screenshots/132.png",
       "source_paragraph_indices_zero_based": [
         1121
-      ]
+      ],
+      "source_sha256": "8817ad5bd300e6c62b71596d73389f4b3e77180f2c598bc21ec546042b4383be",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 133,
@@ -1345,42 +1435,50 @@
     {
       "number": 134,
       "original": "Pictures/10000001000002920000036CBC902843.png",
-      "sha256": "11c62df895a562661b4c3bd5a81ce45a0d73ab53dab6ce32f294c3580b836dcf",
+      "sha256": "d0dd977545632829f399c55f920459beb4c51e802b1223e04427a6722a824f06",
       "caption": "Security-fanen åpnes for å endre NTFS-rettighetene",
       "path": "screenshots/134.png",
       "source_paragraph_indices_zero_based": [
         1182
-      ]
+      ],
+      "source_sha256": "11c62df895a562661b4c3bd5a81ce45a0d73ab53dab6ce32f294c3580b836dcf",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 135,
       "original": "Pictures/1000000100000291000003365547D541.png",
-      "sha256": "19b2277097c68bec893f2718f8366c93d05371f26f024d522c3075d04a831213",
+      "sha256": "49869d214018ef27836f83742c2b6e9552f8bb16b9440a0b37c84fd31b294622",
       "caption": "Edit åpner redigering av NTFS-rettighetene",
       "path": "screenshots/135.png",
       "source_paragraph_indices_zero_based": [
         1222
-      ]
+      ],
+      "source_sha256": "19b2277097c68bec893f2718f8366c93d05371f26f024d522c3075d04a831213",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 136,
       "original": "Pictures/1000000100000339000001C29170D13C.png",
-      "sha256": "4e104e2bd0b16dd26d9191b86449800e629b704598732c5249f2eecc97657097",
+      "sha256": "1408c8164e7dc8ad2e6fa4b880800af465a4b62b5d4d07289baed98741fb78ad",
       "caption": "HR-gruppen søkes opp og bekreftes med Check Names",
       "path": "screenshots/136.png",
       "source_paragraph_indices_zero_based": [
         1263
-      ]
+      ],
+      "source_sha256": "4e104e2bd0b16dd26d9191b86449800e629b704598732c5249f2eecc97657097",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 137,
       "original": "Pictures/10000001000002920000033313A80BDA.png",
-      "sha256": "944c23fd906891b629d7449798773cace37b0c6a135e6b232d1adfed7468bd35",
+      "sha256": "33421e7869f8b436b5343f2eef902fde949e519a21bb638c26491130979d9330",
       "caption": "HR-gruppen får Modify-tilgang til HR-mappen",
       "path": "screenshots/137.png",
       "source_paragraph_indices_zero_based": [
         1270
-      ]
+      ],
+      "source_sha256": "944c23fd906891b629d7449798773cace37b0c6a135e6b232d1adfed7468bd35",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 138,
@@ -1405,22 +1503,26 @@
     {
       "number": 140,
       "original": "Pictures/1000000000000A000000058592FFC348.png",
-      "sha256": "0ac2f57b58b731856b6eda62a7cf9cf059a9baa7bf4ca08ed7f7c6546c1cbeea",
+      "sha256": "2ab9aeb04dc044bca9f50cd7484653cb65e29b4ad7e9537c58e3dcde0efabaa8",
       "caption": "Map network drive åpnes fra klientens File Explorer",
       "path": "screenshots/140.png",
       "source_paragraph_indices_zero_based": [
         1335
-      ]
+      ],
+      "source_sha256": "0ac2f57b58b731856b6eda62a7cf9cf059a9baa7bf4ca08ed7f7c6546c1cbeea",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 141,
       "original": "Pictures/10000001000004270000031092D354A3.png",
-      "sha256": "634d21b87ed849499d653c5eba7d605ae7537dcd1e11c52abc4875085d914c81",
+      "sha256": "eed5f2e2f0e35a490ff7b92eee774b20512cd66620adb280b8ec7db7d9951a20",
       "caption": "Nettverksstasjonen Z: kobles til \\\\LAB.LOCAL\\HR",
       "path": "screenshots/141.png",
       "source_paragraph_indices_zero_based": [
         1340
-      ]
+      ],
+      "source_sha256": "634d21b87ed849499d653c5eba7d605ae7537dcd1e11c52abc4875085d914c81",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 142,
@@ -1462,17 +1564,21 @@
       "number": 146,
       "source": "Dokumentasjon_del2.odt",
       "original": "Pictures/10000000000009FF00000585AF257D16.png",
-      "sha256": "a12a2f61c4205880b24901c0b51fca44041037bb660a9582d25ced93f1ede8e2",
+      "sha256": "102dc62dae0c74ef42fbcdc5ece1b7967baa954810837fe92eb830ee66336e76",
       "caption": "Reset Password velges for Noras konto",
-      "path": "screenshots/146.png"
+      "path": "screenshots/146.png",
+      "source_sha256": "a12a2f61c4205880b24901c0b51fca44041037bb660a9582d25ced93f1ede8e2",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 147,
       "source": "Dokumentasjon_del2.odt",
       "original": "Pictures/1000000100000291000001BFE8258A88.png",
-      "sha256": "15f6bf94b1ed23629f192f522693753df50e6098d7c12c8a20ab63db4d8b1fe7",
+      "sha256": "fa0480d625353ab1655a8f52d5492898f104ee07a45b2f2c14c15ab940cf495e",
       "caption": "Et midlertidig passord settes med krav om passordbytte ved neste pålogging",
-      "path": "screenshots/147.png"
+      "path": "screenshots/147.png",
+      "source_sha256": "15f6bf94b1ed23629f192f522693753df50e6098d7c12c8a20ab63db4d8b1fe7",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 148,
@@ -1526,17 +1632,21 @@
       "number": 154,
       "source": "Dokumentasjon_del2.odt",
       "original": "Pictures/1000000000000A0000000585939168CC.png",
-      "sha256": "4b964df6cc5edf37c69e810da96c26b153816127a6d963b611bcc6e6b4f8fb7a",
+      "sha256": "71857ab3ecc30d2e8f23f127005e7df69e09f6aeb80b50d8793ce6ab13351a56",
       "caption": "Default Domain Policy åpnes for redigering",
-      "path": "screenshots/154.png"
+      "path": "screenshots/154.png",
+      "source_sha256": "4b964df6cc5edf37c69e810da96c26b153816127a6d963b611bcc6e6b4f8fb7a",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 155,
       "source": "Dokumentasjon_del2.odt",
       "original": "Pictures/10000001000006EE000003D67E7CB818.png",
-      "sha256": "e516dff8a8cf906f3cff90e0e621a959491b6109fddce20c828ed79a18894bb6",
+      "sha256": "762e3521c3e5d773538ca21e87206ff8a1f9a7eaa35afb1fe99f5a6e1f3e6b60",
       "caption": "Account Lockout Policy viser innstillingene for kontolåsing",
-      "path": "screenshots/155.png"
+      "path": "screenshots/155.png",
+      "source_sha256": "e516dff8a8cf906f3cff90e0e621a959491b6109fddce20c828ed79a18894bb6",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 156,
@@ -1558,17 +1668,21 @@
       "number": 158,
       "source": "Dokumentasjon_del2.odt",
       "original": "Pictures/10000001000002D000000373920AFE88.png",
-      "sha256": "1805ce9e895c287560a6f58e0e63fa37ceb871c4f1af9cb23d7fe41212dd0111",
+      "sha256": "963247bf55524b12e411b0ecbafc7f420a6afc6450081beae09ce9f8eea5b516",
       "caption": "Terskelen settes til tre mislykkede påloggingsforsøk",
-      "path": "screenshots/158.png"
+      "path": "screenshots/158.png",
+      "source_sha256": "1805ce9e895c287560a6f58e0e63fa37ceb871c4f1af9cb23d7fe41212dd0111",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 159,
       "source": "Dokumentasjon_del2.odt",
       "original": "Pictures/10000001000006E1000003D36DC7ED8E.png",
-      "sha256": "d0432c84cb04e3f5519b47b9ef60eb578e555f9ae2c6eae84333657b49cfaf0c",
+      "sha256": "c21b18328494ab5aef4617527d9511afa058bb7214358b27424a6ad0c7153fa5",
       "caption": "Kontoen låses i 30 minutter etter tre mislykkede påloggingsforsøk",
-      "path": "screenshots/159.png"
+      "path": "screenshots/159.png",
+      "source_sha256": "d0432c84cb04e3f5519b47b9ef60eb578e555f9ae2c6eae84333657b49cfaf0c",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 160,
@@ -1598,9 +1712,11 @@
       "number": 163,
       "source": "Dokumentasjon_del2.odt",
       "original": "Pictures/1000000000000A000000058530A60AB0.png",
-      "sha256": "21d2943b669ac57e7fc327a10f628378ddbc52f6b6d6349d2f24d074a4ce7461",
+      "sha256": "842784daf5b08a7a8f0fe115dbb70e4058e48346e37cfcb1c4e69bc77db1b78d",
       "caption": "Disable Account velges for Nora",
-      "path": "screenshots/163.png"
+      "path": "screenshots/163.png",
+      "source_sha256": "21d2943b669ac57e7fc327a10f628378ddbc52f6b6d6349d2f24d074a4ce7461",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 164,
@@ -1614,9 +1730,11 @@
       "number": 165,
       "source": "Dokumentasjon_del2.odt",
       "original": "Pictures/1000000000000A0000000585BCDA655D.png",
-      "sha256": "7f61e4e1510699eea34cbdb63d830bf68658ae5a5ea37b544afd6d132300c80b",
+      "sha256": "9c252e64f8690ba96132c290bd7433366a9ecf0fe6ba84a0d36b1aaaebf64eb6",
       "caption": "Enable Account velges for Nora",
-      "path": "screenshots/165.png"
+      "path": "screenshots/165.png",
+      "source_sha256": "7f61e4e1510699eea34cbdb63d830bf68658ae5a5ea37b544afd6d132300c80b",
+      "annotation": "Red frames highlighting the relevant controls; screenshot content otherwise unchanged."
     },
     {
       "number": 166,
