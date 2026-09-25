@@ -2,12 +2,12 @@
 
 [Forside](../README.md)
 
-Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon for å se fremgangsmåten.
+Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden. Åpne steget du vil se nærmere på.
 
-## Serverinstallasjon og nettverk
+## 1. Labmiljø og nettverk
 
 <details>
-<summary>Vis figur 1–25</summary>
+<summary>Installer VirtualBox og opprett serveren – vis figur 1–6</summary>
 
 ### Figur 1
 
@@ -45,6 +45,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 *DC01 er opprettet i VirtualBox og klar til å starte.*
 
+</details>
+
+<details>
+<summary>Installer Windows Server – vis figur 7–11</summary>
+
 ### Figur 7
 
 ![Windows Server 2022 Standard Evaluation med Desktop Experience velges](../images/screenshots/007.png)
@@ -75,6 +80,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 *VirtualBox-menyen brukes til å sende Ctrl+Alt+Delete til gjesten.*
 
+</details>
+
+<details>
+<summary>Gi serveren navnet DC01 – vis figur 12–14</summary>
+
 ### Figur 12
 
 ![Server Manager viser datamaskinnavnet før navneendringen](../images/screenshots/012.png)
@@ -92,6 +102,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 ![Windows-navnet settes til DC01 før domenekontrolleroppsettet](../images/screenshots/014.png)
 
 *Windows-navnet settes til DC01 før domenekontrolleroppsettet.*
+
+</details>
+
+<details>
+<summary>Sett opp nettverkskortene – vis figur 15–19</summary>
 
 ### Figur 15
 
@@ -123,6 +138,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 *Adapter 2 bruker NAT for utgående forbindelser fra DC01.*
 
+</details>
+
+<details>
+<summary>Finn DHCP-området i VirtualBox – vis figur 20–21</summary>
+
 ### Figur 20
 
 ![VirtualBox Network-verktøyet åpnes fra File og Tools](../images/screenshots/020.png)
@@ -134,6 +154,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 ![VirtualBox DHCP-område kontrolleres før valg av fast serveradresse](../images/screenshots/021.png)
 
 *VirtualBox DHCP-område kontrolleres før valg av fast serveradresse.*
+
+</details>
+
+<details>
+<summary>Gi serveren en fast IP-adresse – vis figur 22–25</summary>
 
 ### Figur 22
 
@@ -161,10 +186,92 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 </details>
 
-## Active Directory
+<details>
+<summary>Installer Guest Additions – vis figur 47–54</summary>
+
+### Figur 47
+
+![Guest Additions-CD-en monteres fra VirtualBox Devices-menyen](../images/screenshots/047.png)
+
+*Guest Additions-CD-en monteres fra VirtualBox Devices-menyen.*
+
+### Figur 48
+
+![File Explorer åpnes i gjesteoperativsystemet](../images/screenshots/048.png)
+
+*File Explorer åpnes i gjesteoperativsystemet.*
+
+### Figur 49
+
+![Guest Additions-CD-stasjonen finnes under This PC](../images/screenshots/049.png)
+
+*Guest Additions-CD-stasjonen finnes under This PC.*
+
+### Figur 50
+
+![Windows-installasjonsprogrammet for Guest Additions velges](../images/screenshots/050.png)
+
+*Windows-installasjonsprogrammet for Guest Additions velges.*
+
+### Figur 51
+
+![Guest Additions-installasjonen starter](../images/screenshots/051.png)
+
+*Guest Additions-installasjonen starter.*
+
+### Figur 52
+
+![Installasjonsplassering for Guest Additions](../images/screenshots/052.png)
+
+*Installasjonsplassering for Guest Additions.*
+
+### Figur 53
+
+![Komponentvalg for Guest Additions](../images/screenshots/053.png)
+
+*Komponentvalg for Guest Additions.*
+
+### Figur 54
+
+![Gjesten må startes på nytt etter Guest Additions](../images/screenshots/054.png)
+
+*Gjesten må startes på nytt etter Guest Additions.*
+
+</details>
 
 <details>
-<summary>Vis figur 26–46</summary>
+<summary>Juster skjerm og skalering – vis figur 55–58</summary>
+
+### Figur 55
+
+![VirtualBox viser skjerm- og skaleringsvalg etter installasjonen](../images/screenshots/055.png)
+
+*VirtualBox viser skjerm- og skaleringsvalg etter installasjonen.*
+
+### Figur 56
+
+![Gjesten vises med større tilgjengelig skjermflate](../images/screenshots/056.png)
+
+*Gjesten vises med større tilgjengelig skjermflate.*
+
+### Figur 57
+
+![Display settings åpnes i Windows](../images/screenshots/057.png)
+
+*Display settings åpnes i Windows.*
+
+### Figur 58
+
+![Skalering endres for å gjøre tekst og ikoner større](../images/screenshots/058.png)
+
+*Skalering endres for å gjøre tekst og ikoner større.*
+
+</details>
+
+## 2. Active Directory
+
+<details>
+<summary>Installer AD DS – vis figur 26–37</summary>
 
 ### Figur 26
 
@@ -238,6 +345,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 *AD DS-rollen er installert; promotering gjenstår.*
 
+</details>
+
+<details>
+<summary>Opprett domenet og gjør DC01 til domenekontroller – vis figur 38–46</summary>
+
 ### Figur 38
 
 ![Varselikonet viser at etterkonfigurering er nødvendig](../images/screenshots/038.png)
@@ -294,89 +406,10 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 </details>
 
-## Guest Additions og skjerm
+## 3. Windows-klienten
 
 <details>
-<summary>Vis figur 47–58</summary>
-
-### Figur 47
-
-![Guest Additions-CD-en monteres fra VirtualBox Devices-menyen](../images/screenshots/047.png)
-
-*Guest Additions-CD-en monteres fra VirtualBox Devices-menyen.*
-
-### Figur 48
-
-![File Explorer åpnes i gjesteoperativsystemet](../images/screenshots/048.png)
-
-*File Explorer åpnes i gjesteoperativsystemet.*
-
-### Figur 49
-
-![Guest Additions-CD-stasjonen finnes under This PC](../images/screenshots/049.png)
-
-*Guest Additions-CD-stasjonen finnes under This PC.*
-
-### Figur 50
-
-![Windows-installasjonsprogrammet for Guest Additions velges](../images/screenshots/050.png)
-
-*Windows-installasjonsprogrammet for Guest Additions velges.*
-
-### Figur 51
-
-![Guest Additions-installasjonen starter](../images/screenshots/051.png)
-
-*Guest Additions-installasjonen starter.*
-
-### Figur 52
-
-![Installasjonsplassering for Guest Additions](../images/screenshots/052.png)
-
-*Installasjonsplassering for Guest Additions.*
-
-### Figur 53
-
-![Komponentvalg for Guest Additions](../images/screenshots/053.png)
-
-*Komponentvalg for Guest Additions.*
-
-### Figur 54
-
-![Gjesten må startes på nytt etter Guest Additions](../images/screenshots/054.png)
-
-*Gjesten må startes på nytt etter Guest Additions.*
-
-### Figur 55
-
-![VirtualBox viser skjerm- og skaleringsvalg etter installasjonen](../images/screenshots/055.png)
-
-*VirtualBox viser skjerm- og skaleringsvalg etter installasjonen.*
-
-### Figur 56
-
-![Gjesten vises med større tilgjengelig skjermflate](../images/screenshots/056.png)
-
-*Gjesten vises med større tilgjengelig skjermflate.*
-
-### Figur 57
-
-![Display settings åpnes i Windows](../images/screenshots/057.png)
-
-*Display settings åpnes i Windows.*
-
-### Figur 58
-
-![Skalering endres for å gjøre tekst og ikoner større](../images/screenshots/058.png)
-
-*Skalering endres for å gjøre tekst og ikoner større.*
-
-</details>
-
-## Klientinstallasjon
-
-<details>
-<summary>Vis figur 59–93</summary>
+<summary>Opprett klienten i VirtualBox – vis figur 59–63</summary>
 
 ### Figur 59
 
@@ -407,6 +440,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 ![Windows-klientens VM er klar til å starte](../images/screenshots/063.png)
 
 *Windows-klientens VM er klar til å starte.*
+
+</details>
+
+<details>
+<summary>Installer Windows 11 Pro – vis figur 64–74</summary>
 
 ### Figur 64
 
@@ -474,6 +512,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 *Installasjonsfremdrift under omstart.*
 
+</details>
+
+<details>
+<summary>Velg region, tastatur og maskinnavn – vis figur 75–78</summary>
+
 ### Figur 75
 
 ![Norge velges som region i førstegangsoppsettet](../images/screenshots/075.png)
@@ -497,6 +540,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 ![Windows-maskinnavnet settes til CLT-001](../images/screenshots/078.png)
 
 *Windows-maskinnavnet settes til CLT-001.*
+
+</details>
+
+<details>
+<summary>Opprett en lokal konto – vis figur 79–85</summary>
 
 ### Figur 79
 
@@ -540,6 +588,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 *Sikkerhetsspørsmål vises, men svarfeltet er tomt.*
 
+</details>
+
+<details>
+<summary>Velg personverninnstillinger og fullfør oppsettet – vis figur 86–92</summary>
+
 ### Figur 86
 
 ![Posisjonstilgang avslås i personverninnstillingene](../images/screenshots/086.png)
@@ -582,6 +635,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 *Påloggingsskjerm for den lokale kontoen Ola Nordmann.*
 
+</details>
+
+<details>
+<summary>Koble klienten til labnettverket – vis figur 93</summary>
+
 ### Figur 93
 
 ![Klienten kobles til samme Host-only-nettverk som serveren](../images/screenshots/093.png)
@@ -590,125 +648,8 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 </details>
 
-## OU-er, brukere og grupper
-
 <details>
-<summary>Vis figur 94–111</summary>
-
-### Figur 94
-
-![Active Directory Users and Computers åpnes på DC01](../images/screenshots/094.png)
-
-*Active Directory Users and Computers åpnes på DC01.*
-
-### Figur 95
-
-![New Organizational Unit velges under LAB.local](../images/screenshots/095.png)
-
-*New Organizational Unit velges under LAB.local.*
-
-### Figur 96
-
-![OU-en Accounts opprettes med beskyttelse mot utilsiktet sletting](../images/screenshots/096.png)
-
-*OU-en Accounts opprettes med beskyttelse mot utilsiktet sletting.*
-
-### Figur 97
-
-![OU-en Groups opprettes med beskyttelse mot utilsiktet sletting](../images/screenshots/097.png)
-
-*OU-en Groups opprettes med beskyttelse mot utilsiktet sletting.*
-
-### Figur 98
-
-![En ny bruker opprettes i Accounts](../images/screenshots/098.png)
-
-*En ny bruker opprettes i Accounts.*
-
-### Figur 99
-
-![Eirik Solbergs navn og påloggingsnavn eirsol fylles inn](../images/screenshots/099.png)
-
-*Eirik Solbergs navn og påloggingsnavn eirsol fylles inn.*
-
-### Figur 100
-
-![Midlertidig passord er maskert og må endres ved neste pålogging](../images/screenshots/100.png)
-
-*Midlertidig passord er maskert og må endres ved neste pålogging.*
-
-### Figur 101
-
-![Oppsummering før Eiriks konto opprettes](../images/screenshots/101.png)
-
-*Oppsummering før Eiriks konto opprettes.*
-
-### Figur 102
-
-![Alle ti labkontoene vises i Accounts](../images/screenshots/102.png)
-
-*Alle ti labkontoene vises i Accounts.*
-
-### Figur 103
-
-![En ny gruppe opprettes i Groups](../images/screenshots/103.png)
-
-*En ny gruppe opprettes i Groups.*
-
-### Figur 104
-
-![HR opprettes som global sikkerhetsgruppe](../images/screenshots/104.png)
-
-*HR opprettes som global sikkerhetsgruppe.*
-
-### Figur 105
-
-![De fem avdelingsgruppene vises i katalogen](../images/screenshots/105.png)
-
-*De fem avdelingsgruppene vises i katalogen.*
-
-### Figur 106
-
-![Eiriks brukeregenskaper åpnes for å endre medlemskap](../images/screenshots/106.png)
-
-*Eiriks brukeregenskaper åpnes for å endre medlemskap.*
-
-### Figur 107
-
-![Brukerens egenskaper; kontaktfeltene i bildet er tomme](../images/screenshots/107.png)
-
-*Brukerens egenskaper; kontaktfeltene i bildet er tomme.*
-
-### Figur 108
-
-![Member Of viser Domain Users før avdelingsgruppen legges til](../images/screenshots/108.png)
-
-*Member Of viser Domain Users før avdelingsgruppen legges til.*
-
-### Figur 109
-
-![IT søkes opp som gruppenavn i LAB.local](../images/screenshots/109.png)
-
-*IT søkes opp som gruppenavn i LAB.local.*
-
-### Figur 110
-
-![Check Names har løst IT til et gruppeobjekt](../images/screenshots/110.png)
-
-*Check Names har løst IT til et gruppeobjekt.*
-
-### Figur 111
-
-![Eirik er nå medlem av IT og Domain Users](../images/screenshots/111.png)
-
-*Eirik er nå medlem av IT og Domain Users.*
-
-</details>
-
-## Domenetilknytning
-
-<details>
-<summary>Vis figur 112–122</summary>
+<summary>Sett klientens DNS-server – vis figur 112–115</summary>
 
 ### Figur 112
 
@@ -733,6 +674,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 ![Klienten beholder DHCP for IP og får 192.168.56.55 som DNS](../images/screenshots/115.png)
 
 *Klienten beholder DHCP for IP og får 192.168.56.55 som DNS.*
+
+</details>
+
+<details>
+<summary>Meld klienten inn i domenet – vis figur 116–122</summary>
 
 ### Figur 116
 
@@ -778,10 +724,140 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 </details>
 
-## Delte mapper og rettigheter
+## 4. Brukere, grupper og OU-er
 
 <details>
-<summary>Vis figur 123–138</summary>
+<summary>Opprett OU-ene Accounts og Groups – vis figur 94–97</summary>
+
+### Figur 94
+
+![Active Directory Users and Computers åpnes på DC01](../images/screenshots/094.png)
+
+*Active Directory Users and Computers åpnes på DC01.*
+
+### Figur 95
+
+![New Organizational Unit velges under LAB.local](../images/screenshots/095.png)
+
+*New Organizational Unit velges under LAB.local.*
+
+### Figur 96
+
+![OU-en Accounts opprettes med beskyttelse mot utilsiktet sletting](../images/screenshots/096.png)
+
+*OU-en Accounts opprettes med beskyttelse mot utilsiktet sletting.*
+
+### Figur 97
+
+![OU-en Groups opprettes med beskyttelse mot utilsiktet sletting](../images/screenshots/097.png)
+
+*OU-en Groups opprettes med beskyttelse mot utilsiktet sletting.*
+
+</details>
+
+<details>
+<summary>Opprett brukerkontoene – vis figur 98–102</summary>
+
+### Figur 98
+
+![En ny bruker opprettes i Accounts](../images/screenshots/098.png)
+
+*En ny bruker opprettes i Accounts.*
+
+### Figur 99
+
+![Eirik Solbergs navn og påloggingsnavn eirsol fylles inn](../images/screenshots/099.png)
+
+*Eirik Solbergs navn og påloggingsnavn eirsol fylles inn.*
+
+### Figur 100
+
+![Midlertidig passord er maskert og må endres ved neste pålogging](../images/screenshots/100.png)
+
+*Midlertidig passord er maskert og må endres ved neste pålogging.*
+
+### Figur 101
+
+![Oppsummering før Eiriks konto opprettes](../images/screenshots/101.png)
+
+*Oppsummering før Eiriks konto opprettes.*
+
+### Figur 102
+
+![Alle ti labkontoene vises i Accounts](../images/screenshots/102.png)
+
+*Alle ti labkontoene vises i Accounts.*
+
+</details>
+
+<details>
+<summary>Opprett avdelingsgruppene – vis figur 103–105</summary>
+
+### Figur 103
+
+![En ny gruppe opprettes i Groups](../images/screenshots/103.png)
+
+*En ny gruppe opprettes i Groups.*
+
+### Figur 104
+
+![HR opprettes som global sikkerhetsgruppe](../images/screenshots/104.png)
+
+*HR opprettes som global sikkerhetsgruppe.*
+
+### Figur 105
+
+![De fem avdelingsgruppene vises i katalogen](../images/screenshots/105.png)
+
+*De fem avdelingsgruppene vises i katalogen.*
+
+</details>
+
+<details>
+<summary>Legg brukerne i riktig gruppe – vis figur 106–111</summary>
+
+### Figur 106
+
+![Eiriks brukeregenskaper åpnes for å endre medlemskap](../images/screenshots/106.png)
+
+*Eiriks brukeregenskaper åpnes for å endre medlemskap.*
+
+### Figur 107
+
+![Brukerens egenskaper; kontaktfeltene i bildet er tomme](../images/screenshots/107.png)
+
+*Brukerens egenskaper; kontaktfeltene i bildet er tomme.*
+
+### Figur 108
+
+![Member Of viser Domain Users før avdelingsgruppen legges til](../images/screenshots/108.png)
+
+*Member Of viser Domain Users før avdelingsgruppen legges til.*
+
+### Figur 109
+
+![IT søkes opp som gruppenavn i LAB.local](../images/screenshots/109.png)
+
+*IT søkes opp som gruppenavn i LAB.local.*
+
+### Figur 110
+
+![Check Names har løst IT til et gruppeobjekt](../images/screenshots/110.png)
+
+*Check Names har løst IT til et gruppeobjekt.*
+
+### Figur 111
+
+![Eirik er nå medlem av IT og Domain Users](../images/screenshots/111.png)
+
+*Eirik er nå medlem av IT og Domain Users.*
+
+</details>
+
+## 5. Delte mapper og rettigheter
+
+<details>
+<summary>Opprett mappene – vis figur 123–128</summary>
 
 ### Figur 123
 
@@ -819,6 +895,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 *HR Forms og Resumes er opprettet under HR.*
 
+</details>
+
+<details>
+<summary>Del HR-mappen og sett delingsrettigheter – vis figur 129–133</summary>
+
 ### Figur 129
 
 ![HR-mappens egenskaper åpnes](../images/screenshots/129.png)
@@ -848,6 +929,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 ![Delingsinnstillingene bekreftes i Advanced Sharing](../images/screenshots/133.png)
 
 *Delingsinnstillingene bekreftes i Advanced Sharing.*
+
+</details>
+
+<details>
+<summary>Gi HR-gruppen Modify-tilgang med NTFS – vis figur 134–138</summary>
 
 ### Figur 134
 
@@ -881,16 +967,21 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 </details>
 
-## Tilgangstest fra klienten
+## 6. Test av tilgang
 
 <details>
-<summary>Vis figur 139–143</summary>
+<summary>Logg på med en domenekonto – vis figur 139</summary>
 
 ### Figur 139
 
 ![Maja logger på LAB; passordfeltet er maskert](../images/screenshots/139.png)
 
 *Maja logger på LAB; passordfeltet er maskert.*
+
+</details>
+
+<details>
+<summary>Koble til HR-mappen som nettverksstasjon – vis figur 140–142</summary>
 
 ### Figur 140
 
@@ -910,6 +1001,11 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 *HR-delingen åpnes fra klienten og viser undermappene.*
 
+</details>
+
+<details>
+<summary>Test at brukeren kan opprette en mappe – vis figur 143</summary>
+
 ### Figur 143
 
 ![Maja oppretter en mappe i HR-delingen som positiv tilgangstest](../images/screenshots/143.png)
@@ -918,8 +1014,7 @@ Her finner du alle 166 skjermbilder fra labben, steg for steg. Åpne en seksjon 
 
 </details>
 
-
-## Supportsaker
+## 7. Vanlige supportsaker
 
 <details>
 <summary>Glemt passord – vis figur 144–151</summary>
