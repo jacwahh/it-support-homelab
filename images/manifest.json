@@ -7,7 +7,7 @@
       "number": 1,
       "original": "Pictures/100000010000091C0000045A85B0777B.png",
       "sha256": "cdef7375f2427a82c5ef90cc7f04a9523514879ad6ec27ae65991febd29215a3",
-      "caption": "VirtualBox: offisiell nedlastingsside og versjonen brukt i labben",
+      "caption": "VirtualBox lastes ned fra den offisielle nettsiden",
       "path": "screenshots/001.png",
       "source_paragraph_indices_zero_based": [
         5
@@ -27,7 +27,7 @@
       "number": 3,
       "original": "Pictures/10000001000004F5000003379A39438A.png",
       "sha256": "60ef9a78ecb1b9542c22bbebfc1159d27d722e678fc11379583d8e5cc8343160",
-      "caption": "Serverens VM-navn og installasjonsmedium; profilnavnet i filstiene er sladdet",
+      "caption": "Den virtuelle serveren får navn og installasjonsmedium",
       "path": "screenshots/003.png",
       "source_paragraph_indices_zero_based": [
         13
@@ -39,7 +39,7 @@
       "number": 4,
       "original": "Pictures/10000001000004F00000033962EEC009.png",
       "sha256": "26330855e683e0304cefaca1eb87ccef7bf93e947cfdf4ba3594fd9df7c5ed77",
-      "caption": "Serverens ressurser: 16 GB RAM og fire virtuelle CPU-er i denne labben",
+      "caption": "Serveren får 16 GB arbeidsminne og fire virtuelle prosessorer",
       "path": "screenshots/004.png",
       "source_paragraph_indices_zero_based": [
         17
@@ -49,7 +49,7 @@
       "number": 5,
       "original": "Pictures/10000001000004F30000033A97123173.png",
       "sha256": "cdc910b91b527ab829ea33c3b76f6a5c93f0399083cd6ef8dc9d982ca32de0bb",
-      "caption": "Serverens virtuelle disk på 50 GB; profilnavnet i lagringsstien er sladdet",
+      "caption": "Serverens virtuelle disk settes til 50 GB",
       "path": "screenshots/005.png",
       "source_paragraph_indices_zero_based": [
         18
@@ -101,7 +101,7 @@
       "number": 10,
       "original": "Pictures/10000001000004000000030477B377A5.png",
       "sha256": "70045f8af8b5cb3d4180d64b228ff545e5716501488160df5cb70f67c3b65343",
-      "caption": "Administratorpassord settes; feltene i bildet er tomme",
+      "caption": "Passordet til Administrator-kontoen opprettes",
       "path": "screenshots/010.png",
       "source_paragraph_indices_zero_based": [
         39
@@ -111,7 +111,7 @@
       "number": 11,
       "original": "Pictures/10000001000007C30000050ECE2316CF.png",
       "sha256": "8f105905220a1bbc3e16b0828adccaa09146fdd0ffede60355a6b8646f58c4e5",
-      "caption": "VirtualBox-menyen brukes til å sende Ctrl+Alt+Delete til gjesten",
+      "caption": "Ctrl+Alt+Delete sendes til den virtuelle serveren fra VirtualBox-menyen",
       "path": "screenshots/011.png",
       "source_paragraph_indices_zero_based": [
         43
@@ -141,7 +141,7 @@
       "number": 14,
       "original": "Pictures/100000010000040000000301590E4C80.png",
       "sha256": "d033249bfa0198ec5950776cc49e5d36a057bba568c2b7ccf7fe39097fb2ce3f",
-      "caption": "Windows-navnet settes til DC01 før domenekontrolleroppsettet",
+      "caption": "Servernavnet endres til DC01",
       "path": "screenshots/014.png",
       "source_paragraph_indices_zero_based": [
         66
@@ -151,7 +151,7 @@
       "number": 15,
       "original": "Pictures/10000001000004720000040F2927159D.png",
       "sha256": "52e99e6023e34b2a434f9a1c4e34f41c9bbec182e1e99c98b449cb3072f8f160",
-      "caption": "Originalen viser avslutning via VirtualBox; bruk normalt Shut down i Windows",
+      "caption": "Avslutningsmenyen åpnes i VirtualBox",
       "path": "screenshots/015.png",
       "source_paragraph_indices_zero_based": [
         74
@@ -161,7 +161,7 @@
       "number": 16,
       "original": "Pictures/100000010000021C000001367748DBCC.png",
       "sha256": "b6a1128b404ec08217fb2cab1dbee126cd1c534926815de7e03df70e48096d40",
-      "caption": "Power Off-advarsel: dette kutter strømmen og er ikke anbefalt normal avslutning",
+      "caption": "VirtualBox ber om bekreftelse før maskinen slås av med Power Off",
       "path": "screenshots/016.png",
       "source_paragraph_indices_zero_based": [
         78
@@ -171,7 +171,7 @@
       "number": 17,
       "original": "Pictures/10000001000004660000039106092A27.png",
       "sha256": "c6245e2e4d4c4f394d1097748b8f3a2ed52e2660734923bea15b04a48ebdb8e8",
-      "caption": "Innstillinger åpnes for den avslåtte server-VM-en",
+      "caption": "Innstillingene åpnes for den avslåtte serveren",
       "path": "screenshots/017.png",
       "source_paragraph_indices_zero_based": [
         90
@@ -201,7 +201,7 @@
       "number": 20,
       "original": "Pictures/100000010000036A0000028631A088C8.png",
       "sha256": "a99605e5a9da44de85e9b2d415785d6fab0f64d25fd85043eb8b688302f187cf",
-      "caption": "VirtualBox Network-verktøyet åpnes fra File og Tools",
+      "caption": "Nettverksinnstillingene i VirtualBox åpnes via File → Tools → Network",
       "path": "screenshots/020.png",
       "source_paragraph_indices_zero_based": [
         108
@@ -211,7 +211,7 @@
       "number": 21,
       "original": "Pictures/10000001000009C1000001660ACEA21F.png",
       "sha256": "e23e7f99d06e5751a7e9fd5d5f779a61577fdae261c4e6c6ea51092721ab5722",
-      "caption": "VirtualBox DHCP-område kontrolleres før valg av fast serveradresse",
+      "caption": "DHCP-området kontrolleres før vi velger en fast IP-adresse til serveren",
       "path": "screenshots/021.png",
       "source_paragraph_indices_zero_based": [
         114
@@ -231,7 +231,7 @@
       "number": 23,
       "original": "Pictures/10000001000003F4000002FD3C4B7867.png",
       "sha256": "119974c5693d9c475b5c79ea9eb86e6d6f090b217297d2db51bd626211363f7b",
-      "caption": "Egenskaper åpnes for det aktuelle nettverkskortet",
+      "caption": "Egenskapene åpnes for serverens nettverkskort på labnettverket",
       "path": "screenshots/023.png",
       "source_paragraph_indices_zero_based": [
         132
@@ -241,7 +241,7 @@
       "number": 24,
       "original": "Pictures/10000001000001D70000023207CAAC6F.png",
       "sha256": "6890b83a657a837f4b3c536a31afa24a1da7757fb7766d2a33110cfd23ef6e89",
-      "caption": "IPv4-egenskaper velges for labkortet",
+      "caption": "IPv4-innstillingene åpnes for nettverkskortet",
       "path": "screenshots/024.png",
       "source_paragraph_indices_zero_based": [
         138
@@ -251,7 +251,7 @@
       "number": 25,
       "original": "Pictures/10000001000001C500000229832CC341.png",
       "sha256": "82177d42ea23046265b7fe05fdf5c8a217fb54d9536bea0af6447b530c99f9f6",
-      "caption": "DC01 får 192.168.56.55/24 og peker til seg selv som DNS-server",
+      "caption": "DC01 får IP-adressen 192.168.56.55, masken 255.255.255.0 og samme adresse som DNS-server",
       "path": "screenshots/025.png",
       "source_paragraph_indices_zero_based": [
         160
@@ -281,7 +281,7 @@
       "number": 28,
       "original": "Pictures/10000001000003D5000002B6BC2B7101.png",
       "sha256": "8fb43549fb53a7aa7d7236a65d24322f10b00d7dc3d3c93097bc4163156a7205",
-      "caption": "Veiviserens innledende kontrollpunkter",
+      "caption": "Veiviseren viser hva som bør være klart før rolleinstallasjonen",
       "path": "screenshots/028.png",
       "source_paragraph_indices_zero_based": [
         203
@@ -301,7 +301,7 @@
       "number": 30,
       "original": "Pictures/10000001000003D0000002B961A2299C.png",
       "sha256": "ca9502c0bc6733f4191479a2cea06d795cd69b8ea92c2a535b53973bb13cb5bf",
-      "caption": "DC01 velges som målserver; serveren har flere nettverksadresser",
+      "caption": "DC01 velges som serveren rollen skal installeres på",
       "path": "screenshots/030.png",
       "source_paragraph_indices_zero_based": [
         209
@@ -371,7 +371,7 @@
       "number": 37,
       "original": "Pictures/10000001000003CF000002B3CF5D6E4B.png",
       "sha256": "b08d7ecfc7b18fb427fbb55e5bd765159ddab32d6f5747365b054ec7eff06637",
-      "caption": "AD DS-rollen er installert; promotering gjenstår",
+      "caption": "AD DS er installert. Serveren skal nå settes opp som domenekontroller",
       "path": "screenshots/037.png",
       "source_paragraph_indices_zero_based": [
         260
@@ -381,7 +381,7 @@
       "number": 38,
       "original": "Pictures/10000001000003B8000002472CD1185E.png",
       "sha256": "5c2b1855ab5c8185cb29f6b9eb9a9c4fefc535aeea60caee301da00cc057cdc0",
-      "caption": "Varselikonet viser at etterkonfigurering er nødvendig",
+      "caption": "Varselikonet åpner neste steg i oppsettet av domenekontrolleren",
       "path": "screenshots/038.png",
       "source_paragraph_indices_zero_based": [
         268
@@ -411,7 +411,7 @@
       "number": 41,
       "original": "Pictures/10000001000003B2000002AF380E71A3.png",
       "sha256": "882a4f4414af006be0404618998256cd44edbec1b5aff5fd6ab7607d91fe0648",
-      "caption": "DNS, Global Catalog og funksjonsnivå vises; DSRM-passordet er maskert",
+      "caption": "Innstillingene for domenekontrolleren velges, og passord for gjenoppretting angis",
       "path": "screenshots/041.png",
       "source_paragraph_indices_zero_based": [
         277
@@ -452,7 +452,7 @@
       "number": 45,
       "original": "Pictures/10000001000003AF000002B810CF0275.png",
       "sha256": "8a1ce39f1d4f98f64397094a024015ede8d8e37ffc69b154ea557819193bda37",
-      "caption": "Oppsummering av domenekontrollerkonfigurasjonen",
+      "caption": "Innstillingene for domenekontrolleren oppsummeres før installasjon",
       "path": "screenshots/045.png",
       "source_paragraph_indices_zero_based": [
         291
@@ -462,7 +462,7 @@
       "number": 46,
       "original": "Pictures/10000001000003AF000002B5D69198A4.png",
       "sha256": "4300145721eebfb25a26c1ba6c106a2c59026298be5a02b878067b6cae3c051d",
-      "caption": "Forutsetningskontroll med advarsler som må vurderes før installasjon",
+      "caption": "Veiviseren kontrollerer at serveren er klar for installasjon",
       "path": "screenshots/046.png",
       "source_paragraph_indices_zero_based": [
         295
@@ -482,7 +482,7 @@
       "number": 48,
       "original": "Pictures/10000001000003FD0000030490757595.png",
       "sha256": "a165cd849a0ab4c9fd71a2e84a959fc57a651241e235f9caa3ca2f52ffd76f3c",
-      "caption": "File Explorer åpnes i gjesteoperativsystemet",
+      "caption": "Filutforskeren åpnes inne i den virtuelle maskinen",
       "path": "screenshots/048.png",
       "source_paragraph_indices_zero_based": [
         313
@@ -542,7 +542,7 @@
       "number": 54,
       "original": "Pictures/10000001000001EC0000017D500D5C76.png",
       "sha256": "d711466faf714d5eacac9e654027c753f74a287873c78faf847c1e8184f25c79",
-      "caption": "Gjesten må startes på nytt etter Guest Additions",
+      "caption": "Den virtuelle maskinen startes på nytt etter installasjonen",
       "path": "screenshots/054.png",
       "source_paragraph_indices_zero_based": [
         372
@@ -562,7 +562,7 @@
       "number": 56,
       "original": "Pictures/10000001000009FA000005F5591A2D8F.png",
       "sha256": "ada0d9adb135b74fc2d23909066cecea4592eb38eda40889e9bdbed5c7db95bd",
-      "caption": "Gjesten vises med større tilgjengelig skjermflate",
+      "caption": "Den virtuelle maskinen vises med større skjermflate",
       "path": "screenshots/056.png",
       "source_paragraph_indices_zero_based": [
         387
@@ -592,7 +592,7 @@
       "number": 59,
       "original": "Pictures/100000010000046C000002BB45D241B0.png",
       "sha256": "849cdb1aee949a70544dd0b89a9b520a6bc0e725ca33db8c85c2ab7bdc40df39",
-      "caption": "En ny VM opprettes for Windows-klienten",
+      "caption": "En ny virtuell maskin opprettes for Windows-klienten",
       "path": "screenshots/059.png",
       "source_paragraph_indices_zero_based": [
         414
@@ -602,7 +602,7 @@
       "number": 60,
       "original": "Pictures/10000001000004ED0000033A5EA9F2E6.png",
       "sha256": "6fa4f22f4104c20a895090fddca01d7d43dc3ef3be3eb191de25b4c2e36e1a34",
-      "caption": "Windows 11-ISO velges; profilnavnet i filstiene er sladdet",
+      "caption": "Windows 11 velges som installasjonsmedium",
       "path": "screenshots/060.png",
       "source_paragraph_indices_zero_based": [
         417
@@ -614,7 +614,7 @@
       "number": 61,
       "original": "Pictures/10000001000004F3000003349FE9A1B6.png",
       "sha256": "88a506177295fa28e9e137c8542a838d416a1af2810c7bb68ef8fc771d8fa3c5",
-      "caption": "Klienten får 8 GB RAM og tre virtuelle CPU-er i det dokumenterte forsøket",
+      "caption": "Klienten får 8 GB arbeidsminne og tre virtuelle prosessorer",
       "path": "screenshots/061.png",
       "source_paragraph_indices_zero_based": [
         424
@@ -624,7 +624,7 @@
       "number": 62,
       "original": "Pictures/10000001000004ED00000333479A579D.png",
       "sha256": "c6973848f0b96d9529cf591c095b2ccebb2d41067c82619344498bbf82ae873c",
-      "caption": "Klientens virtuelle disk settes til 80 GB; profilnavnet i lagringsstien er sladdet",
+      "caption": "Klientens virtuelle disk settes til 80 GB",
       "path": "screenshots/062.png",
       "source_paragraph_indices_zero_based": [
         429
@@ -636,7 +636,7 @@
       "number": 63,
       "original": "Pictures/100000010000046F0000020A1E12446B.png",
       "sha256": "f176fa1e28761afc7b4165fc6200488e0b6140eec1261c916d02533151160d70",
-      "caption": "Windows-klientens VM er klar til å starte",
+      "caption": "Den virtuelle klienten er klar til å starte",
       "path": "screenshots/063.png",
       "source_paragraph_indices_zero_based": [
         432
@@ -686,7 +686,7 @@
       "number": 68,
       "original": "Pictures/10000001000002C50000022C1191516F.png",
       "sha256": "24162ff2a7a6db963f0f41fe0b888abeab6102bf150d127226ed9bbe7764cbd9",
-      "caption": "Ingen produktnøkkel er skrevet inn i dette installasjonstrinnet",
+      "caption": "Installasjonen fortsetter uten produktnøkkel",
       "path": "screenshots/068.png",
       "source_paragraph_indices_zero_based": [
         499
@@ -726,7 +726,7 @@
       "number": 72,
       "original": "Pictures/10000001000002C200000228D359AEF4.png",
       "sha256": "7104d2e004af18e09b8e345e16056b177de6030824b5dd7d386c137165281186",
-      "caption": "Installasjonsoppsummering; bildet viser også en merknad om systemkrav",
+      "caption": "Installasjonsvalgene oppsummeres før Windows installeres",
       "path": "screenshots/072.png",
       "source_paragraph_indices_zero_based": [
         591
@@ -746,7 +746,7 @@
       "number": 74,
       "original": "Pictures/10000001000003E2000002E05906A0AE.png",
       "sha256": "0475b9a62660ada78ccb90ab1f38dc2b463d2dd56c08eb90ff3ff9426ed8ae0d",
-      "caption": "Installasjonsfremdrift under omstart",
+      "caption": "Windows fortsetter installasjonen etter omstart",
       "path": "screenshots/074.png",
       "source_paragraph_indices_zero_based": [
         620
@@ -806,7 +806,7 @@
       "number": 80,
       "original": "Pictures/10000001000003F7000002F7C7051546.png",
       "sha256": "5883462193b08fabd028f595e203bcc2ced53d3b73d2c409ef72da0c47f81464",
-      "caption": "Domain join instead gir lokal oppretting før senere domenetilknytning",
+      "caption": "Domain join instead velges for å opprette en lokal konto før klienten meldes inn i domenet",
       "path": "screenshots/080.png",
       "source_paragraph_indices_zero_based": [
         639
@@ -816,7 +816,7 @@
       "number": 81,
       "original": "Pictures/10000001000003F6000002F8259345DD.png",
       "sha256": "85c3a9a3a912e4be56129f72534f632e65592111914bcc8395454d04d37d8d54",
-      "caption": "Set up for work or school; dette valget kommer før de to foregående dialogene i arbeidsflyten",
+      "caption": "Set up for work or school velges i førstegangsoppsettet",
       "path": "screenshots/081.png",
       "source_paragraph_indices_zero_based": [
         643
@@ -836,7 +836,7 @@
       "number": 83,
       "original": "Pictures/10000001000003EE000002F855AA150D.png",
       "sha256": "8e0b261a4dba5314f6066e7cbf1b406f4928ac44eb66daf61cd2be70e5008602",
-      "caption": "Passord til lokal konto oppgis; innholdet er maskert",
+      "caption": "Passordet til den lokale kontoen opprettes",
       "path": "screenshots/083.png",
       "source_paragraph_indices_zero_based": [
         648
@@ -846,7 +846,7 @@
       "number": 84,
       "original": "Pictures/10000001000003F1000002F51462AEC9.png",
       "sha256": "ca6a89c6e488411b05c3b2a38296925c89bcbf61ee42b66c5aeff866e986a43b",
-      "caption": "Passordet til lokal konto bekreftes; innholdet er maskert",
+      "caption": "Passordet til den lokale kontoen bekreftes",
       "path": "screenshots/084.png",
       "source_paragraph_indices_zero_based": [
         650
@@ -856,7 +856,7 @@
       "number": 85,
       "original": "Pictures/10000001000003F1000002F78EC2B89A.png",
       "sha256": "d077ec27e7db757e9ff31bfce618ef2a3859f8cc379e9b4c043ae55c3d5a5e34",
-      "caption": "Sikkerhetsspørsmål vises, men svarfeltet er tomt",
+      "caption": "Sikkerhetsspørsmål settes opp for den lokale kontoen",
       "path": "screenshots/085.png",
       "source_paragraph_indices_zero_based": [
         654
@@ -1006,7 +1006,7 @@
       "number": 100,
       "original": "Pictures/10000001000002F1000002941966F7E6.png",
       "sha256": "8969c6bae71e84de1b8f5e870c16118e809c05769b016da61fcfe587f052361d",
-      "caption": "Midlertidig passord er maskert og må endres ved neste pålogging",
+      "caption": "Brukeren får et midlertidig passord som må endres ved neste pålogging",
       "path": "screenshots/100.png",
       "source_paragraph_indices_zero_based": [
         731
@@ -1076,7 +1076,7 @@
       "number": 107,
       "original": "Pictures/10000001000002C5000003AB0FDA872A.png",
       "sha256": "e34320515ae5c13fa24ce62d589d57c03d6cc1ce0052b3cfafa60d178169c781",
-      "caption": "Brukerens egenskaper; kontaktfeltene i bildet er tomme",
+      "caption": "Egenskapene for Eiriks brukerkonto vises",
       "path": "screenshots/107.png",
       "source_paragraph_indices_zero_based": [
         790
@@ -1106,7 +1106,7 @@
       "number": 110,
       "original": "Pictures/1000000100000327000001B97615C740.png",
       "sha256": "d5b4c9c6556fe31f2e8e8fa3ce468035570d09f3e03f1e7d8c4df3574c2e463e",
-      "caption": "Check Names har løst IT til et gruppeobjekt",
+      "caption": "Check Names bekrefter at IT-gruppen finnes",
       "path": "screenshots/110.png",
       "source_paragraph_indices_zero_based": [
         840
@@ -1156,7 +1156,7 @@
       "number": 115,
       "original": "Pictures/10000001000002AF00000316D9EF4E81.png",
       "sha256": "762c94c7ca5cab17019df7ed02e7e9eccb35defb72376685f2118e897a3ea654",
-      "caption": "Klienten beholder DHCP for IP og får 192.168.56.55 som DNS",
+      "caption": "Klienten får IP-adresse automatisk og bruker 192.168.56.55 som DNS-server",
       "path": "screenshots/115.png",
       "source_paragraph_indices_zero_based": [
         898
@@ -1166,7 +1166,7 @@
       "number": 116,
       "original": "Pictures/1000000000000A00000005850F87BE75.png",
       "sha256": "7c5fbbc397d0f89eede01139d7205d4a2cd2d7e8849d154cc7785f09a2d5347d",
-      "caption": "En kommandolinje åpnes; bildet viser serverens skrivebord som illustrasjon",
+      "caption": "Kommandolinjen åpnes fra Start-menyen",
       "path": "screenshots/116.png",
       "source_paragraph_indices_zero_based": [
         922
@@ -1176,7 +1176,7 @@
       "number": 117,
       "original": "Pictures/10000001000007B400000435129DBC31.png",
       "sha256": "159cb91098baf77f0396410308e0a0dcd319c30a6b8f9b7d178fc5c2b0a6419e",
-      "caption": "sysdm.cpl kjøres på klienten fra den lokale kontoen",
+      "caption": "sysdm.cpl åpner systemegenskapene på klienten",
       "path": "screenshots/117.png",
       "source_paragraph_indices_zero_based": [
         924
@@ -1206,7 +1206,7 @@
       "number": 120,
       "original": "Pictures/10000001000003130000029870A6FDB0.png",
       "sha256": "1a36edfff17765ac1e38f6154c835968ea64112ea7b10f0ade03a48263254e6a",
-      "caption": "En konto med innmeldingsrettighet oppgis; administratorpassordet er maskert",
+      "caption": "En konto med rettighet til å melde klienten inn i domenet oppgis",
       "path": "screenshots/120.png",
       "source_paragraph_indices_zero_based": [
         977
@@ -1306,7 +1306,7 @@
       "number": 130,
       "original": "Pictures/10000001000002910000036D8C77A1A7.png",
       "sha256": "6504db938918f1fea9243973e6ddcafde4a25215f1cf4ecd541d4067de752672",
-      "caption": "Sharing-fanen åpnes; mappen er ennå ikke delt i dette bildet",
+      "caption": "Sharing-fanen åpnes for å dele HR-mappen",
       "path": "screenshots/130.png",
       "source_paragraph_indices_zero_based": [
         1073
@@ -1326,7 +1326,7 @@
       "number": 132,
       "original": "Pictures/10000001000002700000030D940F276E.png",
       "sha256": "8817ad5bd300e6c62b71596d73389f4b3e77180f2c598bc21ec546042b4383be",
-      "caption": "Everyone får Full Control på delingsnivå i labmodellen",
+      "caption": "Everyone får Full Control under delingsrettighetene",
       "path": "screenshots/132.png",
       "source_paragraph_indices_zero_based": [
         1121
@@ -1346,7 +1346,7 @@
       "number": 134,
       "original": "Pictures/10000001000002920000036CBC902843.png",
       "sha256": "11c62df895a562661b4c3bd5a81ce45a0d73ab53dab6ce32f294c3580b836dcf",
-      "caption": "Security-fanen før HR-gruppen legges til",
+      "caption": "Security-fanen åpnes for å endre NTFS-rettighetene",
       "path": "screenshots/134.png",
       "source_paragraph_indices_zero_based": [
         1182
@@ -1356,7 +1356,7 @@
       "number": 135,
       "original": "Pictures/1000000100000291000003365547D541.png",
       "sha256": "19b2277097c68bec893f2718f8366c93d05371f26f024d522c3075d04a831213",
-      "caption": "NTFS-redigering åpnes med eksisterende identiteter i listen",
+      "caption": "Edit åpner redigering av NTFS-rettighetene",
       "path": "screenshots/135.png",
       "source_paragraph_indices_zero_based": [
         1222
@@ -1376,7 +1376,7 @@
       "number": 137,
       "original": "Pictures/10000001000002920000033313A80BDA.png",
       "sha256": "944c23fd906891b629d7449798773cace37b0c6a135e6b232d1adfed7468bd35",
-      "caption": "HR-gruppen får Modify på HR-mappen",
+      "caption": "HR-gruppen får Modify-tilgang til HR-mappen",
       "path": "screenshots/137.png",
       "source_paragraph_indices_zero_based": [
         1270
@@ -1396,7 +1396,7 @@
       "number": 139,
       "original": "Pictures/1000000000000A0000000585BDB52911.png",
       "sha256": "019ad263265962b863a87e9f4dc31c7c033dcb09f95a04cbb449e59cdae56b28",
-      "caption": "Maja logger på LAB; passordfeltet er maskert",
+      "caption": "Maja logger på klienten med domenekontoen sin",
       "path": "screenshots/139.png",
       "source_paragraph_indices_zero_based": [
         1331
@@ -1416,7 +1416,7 @@
       "number": 141,
       "original": "Pictures/10000001000004270000031092D354A3.png",
       "sha256": "634d21b87ed849499d653c5eba7d605ae7537dcd1e11c52abc4875085d914c81",
-      "caption": "Z: kobles til \\LAB.LOCAL\\HR, den dokumenterte fungerende stien",
+      "caption": "Nettverksstasjonen Z: kobles til \\\\LAB.LOCAL\\HR",
       "path": "screenshots/141.png",
       "source_paragraph_indices_zero_based": [
         1340
@@ -1436,7 +1436,7 @@
       "number": 143,
       "original": "Pictures/10000001000007AD00000408D0F6A3A0.png",
       "sha256": "e1a91d76b4e7ff954403933cdd664715badeeb8270b1696eecb8eab0ede0475f",
-      "caption": "Maja oppretter en mappe i HR-delingen som positiv tilgangstest",
+      "caption": "Maja oppretter en mappe i HR-delingen for å teste skrivetilgangen",
       "path": "screenshots/143.png",
       "source_paragraph_indices_zero_based": [
         1349
@@ -1471,7 +1471,7 @@
       "source": "Dokumentasjon_del2.odt",
       "original": "Pictures/1000000100000291000001BFE8258A88.png",
       "sha256": "15f6bf94b1ed23629f192f522693753df50e6098d7c12c8a20ab63db4d8b1fe7",
-      "caption": "Midlertidig passord settes med krav om passordbytte",
+      "caption": "Et midlertidig passord settes med krav om passordbytte ved neste pålogging",
       "path": "screenshots/147.png"
     },
     {
@@ -1567,7 +1567,7 @@
       "source": "Dokumentasjon_del2.odt",
       "original": "Pictures/10000001000006E1000003D36DC7ED8E.png",
       "sha256": "d0432c84cb04e3f5519b47b9ef60eb578e555f9ae2c6eae84333657b49cfaf0c",
-      "caption": "Ferdige innstillinger: tre forsøk og 30 minutter",
+      "caption": "Kontoen låses i 30 minutter etter tre mislykkede påloggingsforsøk",
       "path": "screenshots/159.png"
     },
     {
@@ -1575,7 +1575,7 @@
       "source": "Dokumentasjon_del2.odt",
       "original": "Pictures/1000000000000A00000005855CB65E94.png",
       "sha256": "bd94355f3cede1f0959eb7a9cf784dc54c9f2c89d880f261145e6a9bb807b4d5",
-      "caption": "Klienten viser feil passord",
+      "caption": "Klienten viser en feilmelding ved feil passord",
       "path": "screenshots/160.png"
     },
     {
@@ -1591,7 +1591,7 @@
       "source": "Dokumentasjon_del2.odt",
       "original": "Pictures/10000001000002C5000003A63CA483D4.png",
       "sha256": "a3c0ac5f0e2db5cca6aae987be6bb9a2b7750214dc9512d58344e1c7ac17be62",
-      "caption": "Unlock account brukes på Noras konto",
+      "caption": "Unlock account låser opp Noras konto",
       "path": "screenshots/162.png"
     },
     {
