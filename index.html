@@ -157,8 +157,9 @@
 </section>
 <section id="del-2"><p><a href="#del-0">Forside</a> · <a href="#del-1">Forrige</a> · <a href="#del-3">Neste</a></p>
 <h1>2. Active Directory</h1>
-<p><strong>Active Directory Domain Services (AD DS)</strong> samler brukere, grupper og datamaskiner i en felles katalog. Det gjør at vi kan administrere kontoer sentralt i stedet for å opprette dem på hver enkelt PC.</p>
-<p>Et <strong>domene</strong> er området disse kontoene og maskinene tilhører. Vårt domene heter <code>LAB.local</code>. Serveren som kjører AD DS, kalles en <strong>domenekontroller</strong> — her er det DC01.</p>
+<p>Et <strong>domene</strong> samler brukere og datamaskiner under felles administrasjon og regler for innlogging og tilgang. I labben heter domenet <code>LAB.local</code>.</p>
+<p><strong>Active Directory Domain Services (AD DS)</strong> lagrer informasjon om domenets brukere, grupper og datamaskiner. Det gjør at vi kan administrere kontoer sentralt i stedet for å opprette dem på hver enkelt PC.</p>
+<p><strong>DC01 er domenekontrolleren</strong>: serveren som kjører AD DS og håndterer innlogging i domenet. Ved innlogging kontrollerer den at passordet er riktig og at kontoen er aktiv og ikke låst.</p>
 <h2>Slik henger labben sammen</h2>
 <p>En <strong>organisatorisk enhet (Organizational Unit, OU)</strong> er en administrativ mappe i AD. Vi bruker Accounts til brukerkontoer og Groups til sikkerhetsgrupper.</p>
 <p><img src="images/diagrams/skog-domene-lab.png" alt="Skogen LAB.local inneholder domenet LAB.local. DC01 er domenekontroller og CLT-001 er klient. Accounts er OU-en for brukere, mens Groups er OU-en for sikkerhetsgrupper."></p>
