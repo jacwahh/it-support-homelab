@@ -69,9 +69,9 @@ Gruppene samler brukere som skal ha samme tilgang. Vi bruker de engelske avdelin
 
 Vi tildeler senere rettigheter til gruppen, slik at medlemmene får tilgang til avdelingsmappen. Da slipper vi å sette rettigheter for hver bruker separat:
 
-![Maja er medlem av HR-gruppen, som har Modify-tilgang til HR-mappen.](../images/diagrams/gruppetilgang.png)
+![Maja er medlem av HR-gruppen og Eirik av IT-gruppen. Gruppene gir Modify-tilgang til hver sin avdelingsmappe.](../images/diagrams/gruppetilgang.png)
 
-*Gruppen knytter brukeren til rettighetene på mappen.*
+*Maja og Eirik får tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.*
 
 
 ---
