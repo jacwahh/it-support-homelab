@@ -43,6 +43,8 @@
 <section id="del-1"><p><a href="#del-0">Forside</a> · <a href="#del-2">Neste</a></p>
 <h1>1. Labmiljø og nettverk</h1>
 <p>En <strong>virtuell maskin (VM)</strong> er en datamaskin som kjører inne på den vanlige PC-en din. Vi bruker VirtualBox til å lage en server og en klient med hvert sitt operativsystem.</p>
+<br>
+
 <p><img src="images/diagrams/labnettverk.png" alt="Vertsmaskinen er den fysiske PC-en. VirtualBox kjører på denne og har to virtuelle maskiner: klienten CLT-001 og serveren DC01, koblet til et felles labnettverk."></p>
 <p><em>Begge de virtuelle maskinene kjører på den samme fysiske PC-en, men har hvert sitt operativsystem.</em></p>
 <h2>Installer VirtualBox og serveren</h2>
@@ -55,6 +57,8 @@
 <li>Sett et administratorpassord og logg inn.</li>
 <li>Åpne <strong>Server Manager → Local Server → Computer name → Change</strong>. Sett Windows-maskinnavnet til <code>DC01</code> og start på nytt.</li>
 </ol>
+<br>
+
 <p><img src="images/screenshots/007.png" alt="Velg Windows Server med Desktop Experience."></p>
 <p><em>Velg Windows Server med Desktop Experience.</em></p>
 <h2>Sett opp nettverket</h2>
@@ -80,13 +84,19 @@
 </tr>
 </tbody></table>
 <p>Klienten får ikke automatisk internett bare fordi serveren har et NAT-kort.</p>
+<br>
+
 <p><img src="images/screenshots/018.png" alt="Serverens første nettverkskort bruker Host-only. Klienten skal senere bruke samme nettverk."></p>
 <p><em>Serverens første nettverkskort bruker Host-only. Klienten skal senere bruke samme nettverk.</em></p>
 <h2>Gi serveren en fast IP-adresse</h2>
 <p>Serveren skal ha en fast IP-adresse, slik at klienten alltid finner den på samme sted.</p>
 <p><strong>Dynamic Host Configuration Protocol (DHCP)</strong> deler automatisk ut IP-adresser. Åpne <strong>File → Tools → Network</strong> i VirtualBox, velg labbens Host-only-nettverk og åpne fanen <strong>DHCP Server</strong>.</p>
+<br>
+
 <p><img src="images/screenshots/021.png" alt="DHCP Server-fanen i VirtualBox viser Lower Address Bound som 192.168.56.101 og Upper Address Bound som 192.168.56.254."></p>
 <p><em>Lower Address Bound er den første adressen DHCP kan dele ut, og Upper Address Bound er den siste. I labben er området 192.168.56.101–192.168.56.254. Server Address (192.168.56.100) er adressen til VirtualBox sin DHCP-tjeneste, ikke Windows-serveren DC01.</em></p>
+<br>
+
 <p>Vi velger <code>192.168.56.55</code> til DC01. Den ligger utenfor DHCP-området; kontroller også at ingen annen maskin bruker den.</p>
 <p>Inne i Windows Server åpner du <strong>View network connections</strong>. I denne labben heter nettverkskortet vi skal endre <strong>Ethernet</strong>. Det er kortet vi koblet til <strong>Host-only Adapter</strong> i VirtualBox tidligere.</p>
 <ol>
@@ -120,10 +130,14 @@
 </tr>
 </tbody></table>
 <p>Subnettmasken angir hvilket lokalt nettverk maskinen tilhører. DNS settes til serverens egen adresse fordi vi installerer DNS sammen med Active Directory i neste kapittel.</p>
+<br>
+
 <p><img src="images/screenshots/025.png" alt="Fast IP-adresse og DNS på serverens labkort."></p>
 <p><em>Fast IP-adresse og DNS på serverens labkort.</em></p>
 <h2>Adresseoversikt for labben</h2>
 <p><img src="images/diagrams/lab-ip-kart.png" alt="VirtualBox DHCP gir klienten en IP-adresse. Klienten bruker DC01 på 192.168.56.55 som DNS."></p>
+<br>
+
 <table>
 <thead>
 <tr>
@@ -162,7 +176,11 @@
 <p><strong>DC01 er domenekontrolleren</strong>: serveren som kjører AD DS og håndterer innlogging i domenet. Ved innlogging kontrollerer den at passordet er riktig og at kontoen er aktiv og ikke låst.</p>
 <h2>Slik henger labben sammen</h2>
 <p>En <strong>organisatorisk enhet (Organizational Unit, OU)</strong> er en administrativ mappe i AD. Vi bruker Accounts til brukerkontoer og Groups til sikkerhetsgrupper.</p>
+<br>
+
 <p><img src="images/diagrams/skog-domene-lab.png" alt="Skogen LAB.local inneholder domenet LAB.local. DC01 er domenekontroller og CLT-001 er klient. Accounts er OU-en for brukere, mens Groups er OU-en for sikkerhetsgrupper."></p>
+<br>
+
 <p><strong>Skogen</strong> er den ytterste rammen. Den kan inneholde flere domener, men i labben har vi bare ett. Skogen får navn etter det første domenet, så begge heter <code>LAB.local</code>.</p>
 <p><strong>DC01 er maskinen som kjører AD DS</strong>, mens <code>LAB.local</code> er domenet den betjener. Klienten <code>CLT-001</code> kobles til dette domenet. Inne i AD bruker vi OU-ene <strong>Accounts</strong> og <strong>Groups</strong> til å organisere brukerkontoer og sikkerhetsgrupper; disse oppretter vi i kapittel 4.</p>
 <h2>Installer AD DS</h2>
@@ -173,6 +191,8 @@
 <li>Fortsett gjennom veiviseren og velg <strong>Install</strong>.</li>
 </ol>
 <p>Rollen er nå installert. Neste steg er å gjøre serveren til domenekontroller.</p>
+<br>
+
 <p><img src="images/screenshots/033.png" alt="AD DS-rollen er valgt med de nødvendige administrasjonsverktøyene."></p>
 <p><em>AD DS-rollen er valgt med de nødvendige administrasjonsverktøyene.</em></p>
 <h2>Opprett domenet</h2>
@@ -185,6 +205,8 @@
 <li>Les oppsummeringen og eventuelle advarsler i forutsetningskontrollen. Velg deretter <strong>Install</strong>.</li>
 <li>Serveren starter på nytt når oppsettet er ferdig.</li>
 </ol>
+<br>
+
 <p><img src="images/screenshots/040.png" alt="LAB.local opprettes som labbens første domene."></p>
 <p><em>LAB.local opprettes som labbens første domene.</em></p>
 <h2>Hvorfor trenger vi DNS?</h2>
@@ -206,6 +228,8 @@
 </ol>
 <p>Valgene i førstegangsoppsettet kan variere mellom Windows-versjoner. <strong>Domain join instead</strong> oppretter her en lokal konto; selve tilknytningen til LAB.local gjør vi nedenfor.</p>
 <p>I denne labben ga to virtuelle prosessorer svart skjerm, mens tre fungerte. Bruk en VM-konfigurasjon som oppfyller systemkravene til din Windows-utgave.</p>
+<br>
+
 <p><img src="images/screenshots/069.png" alt="Windows 11 Pro velges under installasjonen."></p>
 <p><em>Windows 11 Pro velges under installasjonen.</em></p>
 <h2>Koble klienten til labnettverket</h2>
@@ -219,6 +243,8 @@
 </ol>
 <p>Serveren og klienten er nå koblet til samme labnettverk, slik at de kan kommunisere med hverandre.</p>
 <p>Åpne <strong>View network connections</strong>, høyreklikk <strong>Ethernet</strong> og velg <strong>Properties</strong>. Marker <strong>Internet Protocol Version 4</strong> og klikk på <strong>Properties</strong>. Behold automatisk IP-adresse og sett <strong>Preferred DNS server</strong> til <code>192.168.56.55</code>.</p>
+<br>
+
 <p><img src="images/screenshots/115.png" alt="Klienten får IP-adresse automatisk, men bruker DC01 som DNS-server."></p>
 <p><em>Klienten får IP-adresse automatisk, men bruker DC01 som DNS-server.</em></p>
 <h2>Meld klienten inn i domenet</h2>
@@ -229,8 +255,12 @@
 <li>Oppgi en domenekonto som har rettighet til å melde inn maskinen. I labben brukes Administrator.</li>
 <li>Bekreft velkomstmeldingen og start klienten på nytt.</li>
 </ol>
+<br>
+
 <p><img src="images/screenshots/121.png" alt="Velkomstmeldingen bekrefter at klienten er meldt inn i LAB.local."></p>
 <p><em>Velkomstmeldingen bekrefter at klienten er meldt inn i LAB.local.</em></p>
+<br>
+
 <p>Etter omstart kan domenebrukerne logge på. Vi oppretter dem i neste kapittel. Den lokale kontoen Ola Nordmann og kontoene i LAB er separate kontoer.</p>
 <hr>
 <p><a href="#del-0">Forside</a> · <a href="#del-2">Forrige</a> · <a href="#del-4">Neste</a></p>
@@ -447,10 +477,16 @@
 <li>Velg en ledig stasjonsbokstav, for eksempel <code>Z:</code>.</li>
 <li>Skriv <code>\\LAB.LOCAL\HR</code> under <strong>Folder</strong>, og velg <strong>Finish</strong>.</li>
 </ol>
+<br>
+
 <p><img src="images/screenshots/141.png" alt="HR-delingen kobles til Z: via LAB.LOCAL, slik den ble brukt i labben."></p>
 <p><em>HR-delingen kobles til Z: via LAB.LOCAL, slik den ble brukt i labben.</em></p>
+<br>
+
 <p>Stasjonsbokstaven er bare en praktisk snarvei på klienten. Det er gruppemedlemskapet og rettighetene på serveren som bestemmer tilgangen.</p>
 <p>Når delingen åpnes, ser vi <strong>HR Forms</strong> og <strong>Resumes</strong>. Opprett en ny mappe for å kontrollere at Maja også kan skrive til delingen.</p>
+<br>
+
 <p><img src="images/screenshots/143.png" alt="Maja oppretter en ny mappe i HR-delingen."></p>
 <p><em>Maja oppretter en ny mappe i HR-delingen.</em></p>
 <h2>Resultat</h2>
@@ -470,11 +506,19 @@
 <li>Kontroller at du har funnet <strong>Nora Eidem</strong>, høyreklikk på kontoen og velg <strong>Reset Password</strong>.</li>
 <li>Fyll inn et midlertidig passord i <strong>New password</strong> og <strong>Confirm password</strong>. Merk <strong>User must change password at next logon</strong>, og velg <strong>OK</strong>.</li>
 </ol>
+<br>
+
 <p><img src="images/screenshots/147.png" alt="Et midlertidig passord settes for Nora, med krav om passordbytte ved neste pålogging."></p>
 <p><em>Nora må velge sitt eget passord ved neste pålogging.</em></p>
+<br>
+
 <p>Formidle det midlertidige passordet til Nora gjennom virksomhetens godkjente kanal. På klienten logger hun på med domenekontoen sin og det midlertidige passordet, og blir bedt om å velge et nytt.</p>
+<br>
+
 <p><img src="images/screenshots/149.png" alt="Klienten ber Nora endre passordet før hun kan logge på."></p>
 <p><em>Klienten krever passordbytte før påloggingen fullføres.</em></p>
+<br>
+
 <p><img src="images/screenshots/151.png" alt="Windows bekrefter at Noras passord er endret."></p>
 <p><em>Passordet er endret. Kontroller at Nora får logget på før saken avsluttes.</em></p>
 <h2>Sak 2: Låst konto</h2>
@@ -518,19 +562,29 @@
 </tr>
 </tbody></table>
 <p>Dette er labbens testinnstillinger; i et arbeidsmiljø følger vi virksomhetens sikkerhetsrutiner.</p>
+<br>
+
 <p><img src="images/screenshots/159.png" alt="Kontolåsingsreglene er satt til tre feilforsøk og 30 minutter."></p>
 <p><em>De ferdige innstillingene for kontolåsing i labben.</em></p>
 <h3>Gjenskap problemet og lås opp kontoen</h3>
 <p>Når policyen har trådt i kraft, prøver vi å logge på klienten med Noras konto og feil passord til meldingen om låst konto vises.</p>
+<br>
+
 <p><img src="images/screenshots/161.png" alt="Klienten viser at Noras konto er låst."></p>
 <p><em>En låst konto må låses opp, eller vente til låsetiden utløper.</em></p>
+<br>
+
 <ol>
 <li>Finn Nora i <strong>Active Directory Users and Computers</strong> på DC01.</li>
 <li>Dobbeltklikk på kontoen og åpne fanen <strong>Account</strong>.</li>
 <li>Merk <strong>Unlock account</strong>, og velg <strong>Apply → OK</strong>.</li>
 </ol>
+<br>
+
 <p><img src="images/screenshots/162.png" alt="Unlock account er tilgjengelig på fanen Account for Noras låste konto."></p>
 <p><em>Unlock account låser opp kontoen uten å endre passordet.</em></p>
+<br>
+
 <p>Spør Nora om hun husker passordet. Hvis ikke, tilbakestiller vi det som i sak 1. Test deretter pålogging fra klienten. Med innstillingene våre oppheves låsingen også automatisk etter 30 minutter.</p>
 <h2>Sak 3: Deaktivert konto</h2>
 <p>I denne øvelsen er Noras konto deaktivert mens hun er borte. Når hun kommer tilbake fra ferie, ber hun om tilgang igjen. Vi avklarer med HR eller ansvarlig leder at kontoen skal aktiveres før vi gjør endringen.</p>
@@ -539,14 +593,22 @@
 <li>For å gjenskape situasjonen finner vi Nora i <strong>Active Directory Users and Computers</strong>, høyreklikker på kontoen og velger <strong>Disable Account</strong>.</li>
 <li>Bekreft meldingen om at kontoen er deaktivert.</li>
 </ol>
+<br>
+
 <p><img src="images/screenshots/164.png" alt="Active Directory bekrefter at Noras konto er deaktivert."></p>
 <p><em>Vi deaktiverer kontoen uten å slette den, slik at den kan aktiveres igjen.</em></p>
+<br>
+
 <ol start="3">
 <li>Når aktivering er godkjent, høyreklikker vi på kontoen og velger <strong>Enable Account</strong>.</li>
 <li>Bekreft meldingen og be Nora prøve å logge på fra klienten.</li>
 </ol>
+<br>
+
 <p><img src="images/screenshots/166.png" alt="Active Directory bekrefter at Noras konto er aktivert igjen."></p>
 <p><em>Kontoen er aktivert igjen. Kontroller påloggingen før saken avsluttes.</em></p>
+<br>
+
 <p>Alle stegene og skjermbildene finnes i <a href="#del-8">bilderegisteret</a>.</p>
 <hr>
 <p><a href="#del-0">Forside</a> · <a href="#del-6">Forrige</a></p>
@@ -1187,25 +1249,15 @@
 <p><a href="#del-0">Forside</a></p>
 <p>Disse kildene underbygger begrepsforklaringene i guiden:</p>
 <ul>
-<li><p><a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox: nedlastinger</a></p>
-</li>
-<li><p><a href="https://docs.oracle.com/en/virtualization/virtualbox/7.2/user/networkingdetails.html">Oracle VirtualBox: virtuelle nettverk og innebygd DHCP</a></p>
-</li>
-<li><p><a href="https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/troubleshoot-dhcp-guidance">Microsoft: DHCP og automatisk tildeling av IP-adresser</a></p>
-</li>
-<li><p><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview">Microsoft: Active Directory Domain Services</a></p>
-</li>
-<li><p><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups">Microsoft: sikkerhetsgrupper i Active Directory</a></p>
-</li>
-<li><p><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/delegating-administration-by-using-ou-objects">Microsoft: organisatoriske enheter</a></p>
-</li>
-<li><p><a href="https://learn.microsoft.com/en-us/windows/security/identity-protection/access-control/access-control">Microsoft: tilgangsstyring</a></p>
-</li>
-<li><p><a href="https://download.microsoft.com/download/0/0/9/0097f576-1960-4ca5-874a-60a98fb7a5a1/9780735673168_samplechapters.pdf">Microsoft Press: Share- og NTFS-rettigheter, prøvekapittel (PDF)</a></p>
-</li>
-<li><p><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage-user-accounts-in-windows-server">Microsoft: tilbakestille passord og deaktivere eller aktivere brukerkontoer</a></p>
-</li>
-<li><p><a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/account-lockout-threshold">Microsoft: terskel for kontolåsing</a></p>
-</li>
+<li><a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox: nedlastinger</a></li>
+<li><a href="https://docs.oracle.com/en/virtualization/virtualbox/7.2/user/networkingdetails.html">Oracle VirtualBox: virtuelle nettverk og innebygd DHCP</a></li>
+<li><a href="https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/troubleshoot-dhcp-guidance">Microsoft: DHCP og automatisk tildeling av IP-adresser</a></li>
+<li><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview">Microsoft: Active Directory Domain Services</a></li>
+<li><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups">Microsoft: sikkerhetsgrupper i Active Directory</a></li>
+<li><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/delegating-administration-by-using-ou-objects">Microsoft: organisatoriske enheter</a></li>
+<li><a href="https://learn.microsoft.com/en-us/windows/security/identity-protection/access-control/access-control">Microsoft: tilgangsstyring</a></li>
+<li><a href="https://download.microsoft.com/download/0/0/9/0097f576-1960-4ca5-874a-60a98fb7a5a1/9780735673168_samplechapters.pdf">Microsoft Press: Share- og NTFS-rettigheter, prøvekapittel (PDF)</a></li>
+<li><a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage-user-accounts-in-windows-server">Microsoft: tilbakestille passord og deaktivere eller aktivere brukerkontoer</a></li>
+<li><a href="https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/account-lockout-threshold">Microsoft: terskel for kontolåsing</a></li>
 </ul>
 </section></main></body></html>
