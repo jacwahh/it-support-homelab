@@ -70,7 +70,7 @@ Gruppene samler brukere som skal ha samme tilgang. Vi bruker de engelske avdelin
 
 <br>
 
-![Maja Hovland er medlem av HR-gruppen. Eirik Solberg er medlem av IT-gruppen.](../images/diagrams/gruppemedlemskap.png)
+![Maja Hovland er medlem av HR-gruppen. Eirik Solberg er medlem av IT-gruppen.](../images/diagrams/gruppemedlemskap-avrundet.png)
 
 *Maja Hovland og Eirik Solberg er medlemmer av hver sin avdelingsgruppe.*
 

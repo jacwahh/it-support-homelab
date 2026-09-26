@@ -14,7 +14,7 @@ En **organisatorisk enhet (Organizational Unit, OU)** er en administrativ mappe 
 
 <br>
 
-![Skogen LAB.local inneholder domenet LAB.local. DC01 er domenekontroller og CLT-001 er klient. Accounts er OU-en for brukere, mens Groups er OU-en for sikkerhetsgrupper.](../images/diagrams/skog-domene-lab.png)
+![Skogen LAB.local inneholder domenet LAB.local. DC01 er domenekontroller og CLT-001 er klient. Accounts er OU-en for brukere, mens Groups er OU-en for sikkerhetsgrupper.](../images/diagrams/skog-domene-lab-avrundet.png)
 
 <br>
 
