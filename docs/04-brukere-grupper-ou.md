@@ -1,6 +1,5 @@
 [Forside](../README.md) · [Forrige](03-klient.md) · [Neste](05-delte-mapper.md)
 
-
 # 4. Brukere, grupper og OU-er
 
 Vi lager brukerkontoer for de ansatte i den fiktive virksomheten og grupper for avdelingene.
@@ -21,11 +20,13 @@ Høyreklikk **Accounts → New → User**. Fyll inn fornavn, etternavn og pålog
 
 I brukernavn bruker vi **æ → ae, ø → oe og å → aa**, for eksempel Rønning → `roenning`. Det gjør navnene enklere å skrive på utenlandske tastaturer og reduserer problemer i systemer som ikke støtter norske tegn. Dette er en praktisk navnekonvensjon med bokstavene a–z, ikke en egen AD-standard. Fullt navn beholder norske tegn.
 
+<br>
 
 ![Eirik opprettes som bruker. Påloggingsnavnet er et eget felt, adskilt fra fullt navn.](../images/screenshots/099.png)
 
 *Eirik opprettes som bruker. Påloggingsnavnet er et eget felt, adskilt fra fullt navn.*
 
+<br>
 
 Opprett de øvrige brukerne. Tabellen viser alle ti og hvilken avdeling de tilhører:
 
@@ -48,11 +49,11 @@ Høyreklikk **Groups → New → Group**. Opprett `HR`, `Sales`, `Marketing`, `F
 
 Gruppene samler brukere som skal ha samme tilgang. Vi bruker de engelske avdelingsnavnene som gruppenavn.
 
+<br>
 
 ![HR opprettes som en global sikkerhetsgruppe.](../images/screenshots/104.png)
 
 *HR opprettes som en global sikkerhetsgruppe.*
-
 
 ## Legg brukerne i riktig gruppe
 
@@ -61,16 +62,17 @@ Gruppene samler brukere som skal ha samme tilgang. Vi bruker de engelske avdelin
 3. Bekreft med **OK → Apply**.
 4. Gjenta for resten av brukerne etter tabellen.
 
+<br>
 
 ![Eirik er lagt til i IT-gruppen.](../images/screenshots/111.png)
 
 *Eirik er lagt til i IT-gruppen.*
 
+<br>
 
 ![Maja Hovland er medlem av HR-gruppen. Eirik Solberg er medlem av IT-gruppen.](../images/diagrams/gruppemedlemskap.png)
 
 *Maja Hovland og Eirik Solberg er medlemmer av hver sin avdelingsgruppe.*
-
 
 ---
 
