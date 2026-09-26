@@ -13,21 +13,31 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *VirtualBox lastes ned fra den offisielle nettsiden.*
 
+<br><br>
+
 ![VirtualBox Manager: opprett en ny virtuell maskin med New](../images/screenshots/002.png)
 
 *VirtualBox Manager: opprett en ny virtuell maskin med New.*
+
+<br><br>
 
 ![Den virtuelle serveren får navn og installasjonsmedium](../images/screenshots/003.png)
 
 *Den virtuelle serveren får navn og installasjonsmedium.*
 
+<br><br>
+
 ![Serveren får 16 GB arbeidsminne og fire virtuelle prosessorer](../images/screenshots/004.png)
 
 *Serveren får 16 GB arbeidsminne og fire virtuelle prosessorer.*
 
+<br><br>
+
 ![Serverens virtuelle disk settes til 50 GB](../images/screenshots/005.png)
 
 *Serverens virtuelle disk settes til 50 GB.*
+
+<br><br>
 
 ![DC01 er opprettet i VirtualBox og klar til å starte](../images/screenshots/006.png)
 
@@ -42,17 +52,25 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Windows Server 2022 Standard Evaluation med Desktop Experience velges.*
 
+<br><br>
+
 ![Custom velges for en ny installasjon på den virtuelle disken](../images/screenshots/008.png)
 
 *Custom velges for en ny installasjon på den virtuelle disken.*
+
+<br><br>
 
 ![Serverens tomme virtuelle disk velges som installasjonsmål](../images/screenshots/009.png)
 
 *Serverens tomme virtuelle disk velges som installasjonsmål.*
 
+<br><br>
+
 ![Passordet til Administrator-kontoen opprettes](../images/screenshots/010.png)
 
 *Passordet til Administrator-kontoen opprettes.*
+
+<br><br>
 
 ![Ctrl+Alt+Delete sendes til den virtuelle serveren fra VirtualBox-menyen](../images/screenshots/011.png)
 
@@ -67,9 +85,13 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Server Manager viser datamaskinnavnet før navneendringen.*
 
+<br><br>
+
 ![System Properties åpnes for å endre servernavnet](../images/screenshots/013.png)
 
 *System Properties åpnes for å endre servernavnet.*
+
+<br><br>
 
 ![Servernavnet endres til DC01](../images/screenshots/014.png)
 
@@ -84,17 +106,25 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Avslutningsmenyen åpnes i VirtualBox.*
 
+<br><br>
+
 ![VirtualBox ber om bekreftelse før maskinen slås av med Power Off](../images/screenshots/016.png)
 
 *VirtualBox ber om bekreftelse før maskinen slås av med Power Off.*
+
+<br><br>
 
 ![Innstillingene åpnes for den avslåtte serveren](../images/screenshots/017.png)
 
 *Innstillingene åpnes for den avslåtte serveren.*
 
+<br><br>
+
 ![Adapter 1 på DC01 kobles til Host-only-nettverket](../images/screenshots/018.png)
 
 *Adapter 1 på DC01 kobles til Host-only-nettverket.*
+
+<br><br>
 
 ![Adapter 2 bruker NAT for utgående forbindelser fra DC01](../images/screenshots/019.png)
 
@@ -109,6 +139,8 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Nettverksinnstillingene i VirtualBox åpnes via File → Tools → Network.*
 
+<br><br>
+
 ![DHCP-området kontrolleres før vi velger en fast IP-adresse til serveren](../images/screenshots/021.png)
 
 *DHCP-området kontrolleres før vi velger en fast IP-adresse til serveren.*
@@ -122,13 +154,19 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Nettverkstilkoblinger åpnes på serveren.*
 
+<br><br>
+
 ![Egenskapene åpnes for serverens nettverkskort på labnettverket](../images/screenshots/023.png)
 
 *Egenskapene åpnes for serverens nettverkskort på labnettverket.*
 
+<br><br>
+
 ![IPv4-innstillingene åpnes for nettverkskortet](../images/screenshots/024.png)
 
 *IPv4-innstillingene åpnes for nettverkskortet.*
+
+<br><br>
 
 ![DC01 får IP-adressen 192.168.56.55, masken 255.255.255.0 og samme adresse som DNS-server](../images/screenshots/025.png)
 
@@ -143,29 +181,43 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Guest Additions-CD-en monteres fra VirtualBox Devices-menyen.*
 
+<br><br>
+
 ![Filutforskeren åpnes inne i den virtuelle maskinen](../images/screenshots/048.png)
 
 *Filutforskeren åpnes inne i den virtuelle maskinen.*
+
+<br><br>
 
 ![Guest Additions-CD-stasjonen finnes under This PC](../images/screenshots/049.png)
 
 *Guest Additions-CD-stasjonen finnes under This PC.*
 
+<br><br>
+
 ![Windows-installasjonsprogrammet for Guest Additions velges](../images/screenshots/050.png)
 
 *Windows-installasjonsprogrammet for Guest Additions velges.*
+
+<br><br>
 
 ![Guest Additions-installasjonen starter](../images/screenshots/051.png)
 
 *Guest Additions-installasjonen starter.*
 
+<br><br>
+
 ![Installasjonsplassering for Guest Additions](../images/screenshots/052.png)
 
 *Installasjonsplassering for Guest Additions.*
 
+<br><br>
+
 ![Komponentvalg for Guest Additions](../images/screenshots/053.png)
 
 *Komponentvalg for Guest Additions.*
+
+<br><br>
 
 ![Den virtuelle maskinen startes på nytt etter installasjonen](../images/screenshots/054.png)
 
@@ -180,13 +232,19 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *VirtualBox viser skjerm- og skaleringsvalg etter installasjonen.*
 
+<br><br>
+
 ![Den virtuelle maskinen vises med større skjermflate](../images/screenshots/056.png)
 
 *Den virtuelle maskinen vises med større skjermflate.*
 
+<br><br>
+
 ![Display settings åpnes i Windows](../images/screenshots/057.png)
 
 *Display settings åpnes i Windows.*
+
+<br><br>
 
 ![Skalering endres for å gjøre tekst og ikoner større](../images/screenshots/058.png)
 
@@ -203,45 +261,67 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Server Manager åpnes for å installere AD DS-rollen.*
 
+<br><br>
+
 ![Add roles and features starter rolleinstallasjonen](../images/screenshots/027.png)
 
 *Add roles and features starter rolleinstallasjonen.*
+
+<br><br>
 
 ![Veiviseren viser hva som bør være klart før rolleinstallasjonen](../images/screenshots/028.png)
 
 *Veiviseren viser hva som bør være klart før rolleinstallasjonen.*
 
+<br><br>
+
 ![Role-based or feature-based installation velges](../images/screenshots/029.png)
 
 *Role-based or feature-based installation velges.*
+
+<br><br>
 
 ![DC01 velges som serveren rollen skal installeres på](../images/screenshots/030.png)
 
 *DC01 velges som serveren rollen skal installeres på.*
 
+<br><br>
+
 ![Active Directory Domain Services markeres i rollelisten](../images/screenshots/031.png)
 
 *Active Directory Domain Services markeres i rollelisten.*
+
+<br><br>
 
 ![Nødvendige administrasjonsverktøy legges til med Add Features](../images/screenshots/032.png)
 
 *Nødvendige administrasjonsverktøy legges til med Add Features.*
 
+<br><br>
+
 ![AD DS er valgt i rollelisten](../images/screenshots/033.png)
 
 *AD DS er valgt i rollelisten.*
+
+<br><br>
 
 ![Tilleggsfunksjoner vises før installasjonen fortsetter](../images/screenshots/034.png)
 
 *Tilleggsfunksjoner vises før installasjonen fortsetter.*
 
+<br><br>
+
 ![Informasjon om AD DS og behovet for DNS](../images/screenshots/035.png)
 
 *Informasjon om AD DS og behovet for DNS.*
 
+<br><br>
+
 ![Rolleinstallasjonen bekreftes med Install](../images/screenshots/036.png)
 
 *Rolleinstallasjonen bekreftes med Install.*
+
+<br><br>
 
 ![AD DS er installert. Serveren skal nå settes opp som domenekontroller](../images/screenshots/037.png)
 
@@ -256,33 +336,49 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Varselikonet åpner neste steg i oppsettet av domenekontrolleren.*
 
+<br><br>
+
 ![Promote this server to a domain controller velges](../images/screenshots/039.png)
 
 *Promote this server to a domain controller velges.*
+
+<br><br>
 
 ![En ny skog opprettes med domenenavnet LAB.local](../images/screenshots/040.png)
 
 *En ny skog opprettes med domenenavnet LAB.local.*
 
+<br><br>
+
 ![Innstillingene for domenekontrolleren velges, og passord for gjenoppretting angis](../images/screenshots/041.png)
 
 *Innstillingene for domenekontrolleren velges, og passord for gjenoppretting angis.*
+
+<br><br>
 
 ![Advarsel om manglende DNS-delegering i laboppsettet](../images/screenshots/042.png)
 
 *Advarsel om manglende DNS-delegering i laboppsettet.*
 
+<br><br>
+
 ![Plassering av AD-databasen, loggene og den delte systemmappen SYSVOL](../images/screenshots/043.png)
 
 *Plassering av AD-databasen, loggene og den delte systemmappen SYSVOL.*
+
+<br><br>
 
 ![NetBIOS-navnet settes til LAB](../images/screenshots/044.png)
 
 *NetBIOS-navnet settes til LAB.*
 
+<br><br>
+
 ![Innstillingene for domenekontrolleren oppsummeres før installasjon](../images/screenshots/045.png)
 
 *Innstillingene for domenekontrolleren oppsummeres før installasjon.*
+
+<br><br>
 
 ![Veiviseren kontrollerer at serveren er klar for installasjon](../images/screenshots/046.png)
 
@@ -299,17 +395,25 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *En ny virtuell maskin opprettes for Windows-klienten.*
 
+<br><br>
+
 ![Windows 11 velges som installasjonsmedium](../images/screenshots/060.png)
 
 *Windows 11 velges som installasjonsmedium.*
+
+<br><br>
 
 ![Klienten får 8 GB arbeidsminne og tre virtuelle prosessorer](../images/screenshots/061.png)
 
 *Klienten får 8 GB arbeidsminne og tre virtuelle prosessorer.*
 
+<br><br>
+
 ![Klientens virtuelle disk settes til 80 GB](../images/screenshots/062.png)
 
 *Klientens virtuelle disk settes til 80 GB.*
+
+<br><br>
 
 ![Den virtuelle klienten er klar til å starte](../images/screenshots/063.png)
 
@@ -324,41 +428,61 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *En tast trykkes for å starte installasjonen fra ISO-en.*
 
+<br><br>
+
 ![Språk og region velges i Windows 11-installasjonen](../images/screenshots/065.png)
 
 *Språk og region velges i Windows 11-installasjonen.*
+
+<br><br>
 
 ![Norsk tastaturoppsett velges](../images/screenshots/066.png)
 
 *Norsk tastaturoppsett velges.*
 
+<br><br>
+
 ![Ren Windows-installasjon velges på den virtuelle maskinen](../images/screenshots/067.png)
 
 *Ren Windows-installasjon velges på den virtuelle maskinen.*
+
+<br><br>
 
 ![Installasjonen fortsetter uten produktnøkkel](../images/screenshots/068.png)
 
 *Installasjonen fortsetter uten produktnøkkel.*
 
+<br><br>
+
 ![Windows 11 Pro velges for domenetilknytning](../images/screenshots/069.png)
 
 *Windows 11 Pro velges for domenetilknytning.*
+
+<br><br>
 
 ![Lisensvilkårene vises før installasjonen](../images/screenshots/070.png)
 
 *Lisensvilkårene vises før installasjonen.*
 
+<br><br>
+
 ![Den tomme virtuelle disken på 80 GB velges](../images/screenshots/071.png)
 
 *Den tomme virtuelle disken på 80 GB velges.*
+
+<br><br>
 
 ![Installasjonsvalgene oppsummeres før Windows installeres](../images/screenshots/072.png)
 
 *Installasjonsvalgene oppsummeres før Windows installeres.*
 
+<br><br>
+
 ![Windows 11 installeres](../images/screenshots/073.png)
 
 *Windows 11 installeres.*
+
+<br><br>
 
 ![Windows fortsetter installasjonen etter omstart](../images/screenshots/074.png)
 
@@ -373,13 +497,19 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Norge velges som region i førstegangsoppsettet.*
 
+<br><br>
+
 ![Norsk tastatur velges i førstegangsoppsettet](../images/screenshots/076.png)
 
 *Norsk tastatur velges i førstegangsoppsettet.*
 
+<br><br>
+
 ![Et ekstra tastaturoppsett hoppes over](../images/screenshots/077.png)
 
 *Et ekstra tastaturoppsett hoppes over.*
+
+<br><br>
 
 ![Windows-maskinnavnet settes til CLT-001](../images/screenshots/078.png)
 
@@ -394,25 +524,37 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Sign-in options åpnes i jobb- eller skoleoppsettet.*
 
+<br><br>
+
 ![Domain join instead velges for å opprette en lokal konto før klienten meldes inn i domenet](../images/screenshots/080.png)
 
 *Domain join instead velges for å opprette en lokal konto før klienten meldes inn i domenet.*
+
+<br><br>
 
 ![Set up for work or school velges i førstegangsoppsettet](../images/screenshots/081.png)
 
 *Set up for work or school velges i førstegangsoppsettet.*
 
+<br><br>
+
 ![Den lokale klientkontoen får navnet Ola Nordmann](../images/screenshots/082.png)
 
 *Den lokale klientkontoen får navnet Ola Nordmann.*
+
+<br><br>
 
 ![Passordet til den lokale kontoen opprettes](../images/screenshots/083.png)
 
 *Passordet til den lokale kontoen opprettes.*
 
+<br><br>
+
 ![Passordet til den lokale kontoen bekreftes](../images/screenshots/084.png)
 
 *Passordet til den lokale kontoen bekreftes.*
+
+<br><br>
 
 ![Sikkerhetsspørsmål settes opp for den lokale kontoen](../images/screenshots/085.png)
 
@@ -427,25 +569,37 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Posisjonstilgang avslås i personverninnstillingene.*
 
+<br><br>
+
 ![Find my device avslås i personverninnstillingene](../images/screenshots/087.png)
 
 *Find my device avslås i personverninnstillingene.*
+
+<br><br>
 
 ![Bare nødvendige diagnosedata velges](../images/screenshots/088.png)
 
 *Bare nødvendige diagnosedata velges.*
 
+<br><br>
+
 ![Valgfri forbedring av håndskrift og inntasting avslås](../images/screenshots/089.png)
 
 *Valgfri forbedring av håndskrift og inntasting avslås.*
+
+<br><br>
 
 ![Personlige tilbud avslås](../images/screenshots/090.png)
 
 *Personlige tilbud avslås.*
 
+<br><br>
+
 ![Windows fullfører oppdateringer i førstegangsoppsettet](../images/screenshots/091.png)
 
 *Windows fullfører oppdateringer i førstegangsoppsettet.*
+
+<br><br>
 
 ![Påloggingsskjerm for den lokale kontoen Ola Nordmann](../images/screenshots/092.png)
 
@@ -469,13 +623,19 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Nettverkstilkoblinger åpnes på klienten.*
 
+<br><br>
+
 ![Klientens Ethernet-egenskaper åpnes](../images/screenshots/113.png)
 
 *Klientens Ethernet-egenskaper åpnes.*
 
+<br><br>
+
 ![Klientens IPv4-egenskaper velges](../images/screenshots/114.png)
 
 *Klientens IPv4-egenskaper velges.*
+
+<br><br>
 
 ![Klienten får IP-adresse automatisk og bruker 192.168.56.55 som DNS-server](../images/screenshots/115.png)
 
@@ -490,25 +650,37 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Kommandolinjen åpnes fra Start-menyen.*
 
+<br><br>
+
 ![sysdm.cpl åpner systemegenskapene på klienten](../images/screenshots/117.png)
 
 *sysdm.cpl åpner systemegenskapene på klienten.*
+
+<br><br>
 
 ![Klientens System Properties viser CLT-001 i en arbeidsgruppe](../images/screenshots/118.png)
 
 *Klientens System Properties viser CLT-001 i en arbeidsgruppe.*
 
+<br><br>
+
 ![LAB.local angis som domene for CLT-001](../images/screenshots/119.png)
 
 *LAB.local angis som domene for CLT-001.*
+
+<br><br>
 
 ![En konto med rettighet til å melde klienten inn i domenet oppgis](../images/screenshots/120.png)
 
 *En konto med rettighet til å melde klienten inn i domenet oppgis.*
 
+<br><br>
+
 ![Velkomstmeldingen bekrefter vellykket tilknytning til LAB.local](../images/screenshots/121.png)
 
 *Velkomstmeldingen bekrefter vellykket tilknytning til LAB.local.*
+
+<br><br>
 
 ![Klienten må startes på nytt etter domenetilknytningen](../images/screenshots/122.png)
 
@@ -525,13 +697,19 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Active Directory Users and Computers åpnes på DC01.*
 
+<br><br>
+
 ![New Organizational Unit velges under LAB.local](../images/screenshots/095.png)
 
 *New Organizational Unit velges under LAB.local.*
 
+<br><br>
+
 ![OU-en Accounts opprettes med beskyttelse mot utilsiktet sletting](../images/screenshots/096.png)
 
 *OU-en Accounts opprettes med beskyttelse mot utilsiktet sletting.*
+
+<br><br>
 
 ![OU-en Groups opprettes med beskyttelse mot utilsiktet sletting](../images/screenshots/097.png)
 
@@ -546,17 +724,25 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *En ny bruker opprettes i Accounts.*
 
+<br><br>
+
 ![Eirik Solbergs navn og påloggingsnavn eirsol fylles inn](../images/screenshots/099.png)
 
 *Eirik Solbergs navn og påloggingsnavn eirsol fylles inn.*
+
+<br><br>
 
 ![Brukeren får et midlertidig passord som må endres ved neste pålogging](../images/screenshots/100.png)
 
 *Brukeren får et midlertidig passord som må endres ved neste pålogging.*
 
+<br><br>
+
 ![Oppsummering før Eiriks konto opprettes](../images/screenshots/101.png)
 
 *Oppsummering før Eiriks konto opprettes.*
+
+<br><br>
 
 ![Alle ti labkontoene vises i Accounts](../images/screenshots/102.png)
 
@@ -571,9 +757,13 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *En ny gruppe opprettes i Groups.*
 
+<br><br>
+
 ![HR opprettes som global sikkerhetsgruppe](../images/screenshots/104.png)
 
 *HR opprettes som global sikkerhetsgruppe.*
+
+<br><br>
 
 ![De fem avdelingsgruppene vises i katalogen](../images/screenshots/105.png)
 
@@ -588,21 +778,31 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Eiriks brukeregenskaper åpnes for å endre medlemskap.*
 
+<br><br>
+
 ![Egenskapene for Eiriks brukerkonto vises](../images/screenshots/107.png)
 
 *Egenskapene for Eiriks brukerkonto vises.*
+
+<br><br>
 
 ![Member Of viser Domain Users før avdelingsgruppen legges til](../images/screenshots/108.png)
 
 *Member Of viser Domain Users før avdelingsgruppen legges til.*
 
+<br><br>
+
 ![IT søkes opp som gruppenavn i LAB.local](../images/screenshots/109.png)
 
 *IT søkes opp som gruppenavn i LAB.local.*
 
+<br><br>
+
 ![Check Names bekrefter at IT-gruppen finnes](../images/screenshots/110.png)
 
 *Check Names bekrefter at IT-gruppen finnes.*
+
+<br><br>
 
 ![Eirik er nå medlem av IT og Domain Users](../images/screenshots/111.png)
 
@@ -619,21 +819,31 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *File Explorer åpnes på serveren.*
 
+<br><br>
+
 ![Serverens C-disk åpnes](../images/screenshots/124.png)
 
 *Serverens C-disk åpnes.*
+
+<br><br>
 
 ![En ny mappe opprettes på serveren](../images/screenshots/125.png)
 
 *En ny mappe opprettes på serveren.*
 
+<br><br>
+
 ![Hovedmappen C:\Shares er opprettet](../images/screenshots/126.png)
 
 *Hovedmappen C:\Shares er opprettet.*
 
+<br><br>
+
 ![Avdelingsmappene Finance, HR, IT, Marketing og Sales er opprettet](../images/screenshots/127.png)
 
 *Avdelingsmappene Finance, HR, IT, Marketing og Sales er opprettet.*
+
+<br><br>
 
 ![HR Forms og Resumes er opprettet under HR](../images/screenshots/128.png)
 
@@ -648,17 +858,25 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *HR-mappens egenskaper åpnes.*
 
+<br><br>
+
 ![Sharing-fanen åpnes for å dele HR-mappen](../images/screenshots/130.png)
 
 *Sharing-fanen åpnes for å dele HR-mappen.*
+
+<br><br>
 
 ![HR aktiveres som deling i Advanced Sharing](../images/screenshots/131.png)
 
 *HR aktiveres som deling i Advanced Sharing.*
 
+<br><br>
+
 ![Everyone får Full Control under delingsrettighetene](../images/screenshots/132.png)
 
 *Everyone får Full Control under delingsrettighetene.*
+
+<br><br>
 
 ![Delingsinnstillingene bekreftes i Advanced Sharing](../images/screenshots/133.png)
 
@@ -673,17 +891,25 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Security-fanen åpnes for å endre NTFS-rettighetene.*
 
+<br><br>
+
 ![Edit åpner redigering av NTFS-rettighetene](../images/screenshots/135.png)
 
 *Edit åpner redigering av NTFS-rettighetene.*
+
+<br><br>
 
 ![HR-gruppen søkes opp og bekreftes med Check Names](../images/screenshots/136.png)
 
 *HR-gruppen søkes opp og bekreftes med Check Names.*
 
+<br><br>
+
 ![HR-gruppen får Modify-tilgang til HR-mappen](../images/screenshots/137.png)
 
 *HR-gruppen får Modify-tilgang til HR-mappen.*
+
+<br><br>
 
 ![Security-fanen viser de valgte tillatelsene for HR](../images/screenshots/138.png)
 
@@ -709,9 +935,13 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Map network drive åpnes fra klientens File Explorer.*
 
+<br><br>
+
 ![Nettverksstasjonen Z: kobles til \\LAB.LOCAL\HR](../images/screenshots/141.png)
 
 *Nettverksstasjonen Z: kobles til \\LAB.LOCAL\HR.*
+
+<br><br>
 
 ![HR-delingen åpnes fra klienten og viser undermappene](../images/screenshots/142.png)
 
@@ -737,29 +967,43 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Søk etter brukere i Active Directory Users and Computers.*
 
+<br><br>
+
 ![Nora Eidem finnes med Find Now](../images/screenshots/145.png)
 
 *Nora Eidem finnes med Find Now.*
+
+<br><br>
 
 ![Reset Password velges for Noras konto](../images/screenshots/146.png)
 
 *Reset Password velges for Noras konto.*
 
+<br><br>
+
 ![Et midlertidig passord settes med krav om passordbytte ved neste pålogging](../images/screenshots/147.png)
 
 *Et midlertidig passord settes med krav om passordbytte ved neste pålogging.*
+
+<br><br>
 
 ![Active Directory bekrefter at passordet er tilbakestilt](../images/screenshots/148.png)
 
 *Active Directory bekrefter at passordet er tilbakestilt.*
 
+<br><br>
+
 ![Klienten krever passordbytte før pålogging](../images/screenshots/149.png)
 
 *Klienten krever passordbytte før pålogging.*
 
+<br><br>
+
 ![Nora fyller inn et nytt passord](../images/screenshots/150.png)
 
 *Nora fyller inn et nytt passord.*
+
+<br><br>
 
 ![Windows bekrefter at passordet er endret](../images/screenshots/151.png)
 
@@ -774,41 +1018,61 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Group Policy Management åpnes med gpmc.msc.*
 
+<br><br>
+
 ![Domenet vises i Group Policy Management](../images/screenshots/153.png)
 
 *Domenet vises i Group Policy Management.*
+
+<br><br>
 
 ![Default Domain Policy åpnes for redigering](../images/screenshots/154.png)
 
 *Default Domain Policy åpnes for redigering.*
 
+<br><br>
+
 ![Account Lockout Policy viser innstillingene for kontolåsing](../images/screenshots/155.png)
 
 *Account Lockout Policy viser innstillingene for kontolåsing.*
+
+<br><br>
 
 ![Account lockout threshold åpnes for endring](../images/screenshots/156.png)
 
 *Account lockout threshold åpnes for endring.*
 
+<br><br>
+
 ![Windows foreslår følgeendringer til kontolåsingen](../images/screenshots/157.png)
 
 *Windows foreslår følgeendringer til kontolåsingen.*
+
+<br><br>
 
 ![Terskelen settes til tre mislykkede påloggingsforsøk](../images/screenshots/158.png)
 
 *Terskelen settes til tre mislykkede påloggingsforsøk.*
 
+<br><br>
+
 ![Kontoen låses i 30 minutter etter tre mislykkede påloggingsforsøk](../images/screenshots/159.png)
 
 *Kontoen låses i 30 minutter etter tre mislykkede påloggingsforsøk.*
+
+<br><br>
 
 ![Klienten viser en feilmelding ved feil passord](../images/screenshots/160.png)
 
 *Klienten viser en feilmelding ved feil passord.*
 
+<br><br>
+
 ![Klienten viser at kontoen er låst](../images/screenshots/161.png)
 
 *Klienten viser at kontoen er låst.*
+
+<br><br>
 
 ![Unlock account låser opp Noras konto](../images/screenshots/162.png)
 
@@ -823,13 +1087,19 @@ Her finner du alle 166 skjermbilder fra labben, sortert etter kapitlene i guiden
 
 *Disable Account velges for Nora.*
 
+<br><br>
+
 ![Active Directory bekrefter at kontoen er deaktivert](../images/screenshots/164.png)
 
 *Active Directory bekrefter at kontoen er deaktivert.*
 
+<br><br>
+
 ![Enable Account velges for Nora](../images/screenshots/165.png)
 
 *Enable Account velges for Nora.*
+
+<br><br>
 
 ![Active Directory bekrefter at kontoen er aktivert](../images/screenshots/166.png)
 
