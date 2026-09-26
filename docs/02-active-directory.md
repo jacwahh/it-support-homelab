@@ -1,6 +1,5 @@
 [Forside](../README.md) · [Forrige](01-labmiljo.md) · [Neste](03-klient.md)
 
-
 # 2. Active Directory
 
 Et **domene** samler brukere og datamaskiner under felles administrasjon og regler for innlogging og tilgang. I labben heter domenet `LAB.local`.
@@ -13,7 +12,11 @@ Et **domene** samler brukere og datamaskiner under felles administrasjon og regl
 
 En **organisatorisk enhet (Organizational Unit, OU)** er en administrativ mappe i AD. Vi bruker Accounts til brukerkontoer og Groups til sikkerhetsgrupper.
 
+<br>
+
 ![Skogen LAB.local inneholder domenet LAB.local. DC01 er domenekontroller og CLT-001 er klient. Accounts er OU-en for brukere, mens Groups er OU-en for sikkerhetsgrupper.](../images/diagrams/skog-domene-lab.png)
+
+<br>
 
 **Skogen** er den ytterste rammen. Den kan inneholde flere domener, men i labben har vi bare ett. Skogen får navn etter det første domenet, så begge heter `LAB.local`.
 
@@ -28,11 +31,11 @@ En **organisatorisk enhet (Organizational Unit, OU)** er en administrativ mappe 
 
 Rollen er nå installert. Neste steg er å gjøre serveren til domenekontroller.
 
+<br>
 
 ![AD DS-rollen er valgt med de nødvendige administrasjonsverktøyene.](../images/screenshots/033.png)
 
 *AD DS-rollen er valgt med de nødvendige administrasjonsverktøyene.*
-
 
 ## Opprett domenet
 
@@ -44,16 +47,15 @@ Rollen er nå installert. Neste steg er å gjøre serveren til domenekontroller.
 6. Les oppsummeringen og eventuelle advarsler i forutsetningskontrollen. Velg deretter **Install**.
 7. Serveren starter på nytt når oppsettet er ferdig.
 
+<br>
 
 ![LAB.local opprettes som labbens første domene.](../images/screenshots/040.png)
 
 *LAB.local opprettes som labbens første domene.*
 
-
 ## Hvorfor trenger vi DNS?
 
 Klienten spør **DNS-serveren** på `192.168.56.55` hvor domenekontrolleren for `LAB.local` finnes. DNS peker til DC01 på samme IP-adresse, slik at klienten kan kontakte serveren og kobles til domenet.
-
 
 ---
 

@@ -1,9 +1,10 @@
 [Forside](../README.md) · [Neste](02-active-directory.md)
 
-
 # 1. Labmiljø og nettverk
 
 En **virtuell maskin (VM)** er en datamaskin som kjører inne på den vanlige PC-en din. Vi bruker VirtualBox til å lage en server og en klient med hvert sitt operativsystem.
+
+<br>
 
 ![Vertsmaskinen er den fysiske PC-en. VirtualBox kjører på denne og har to virtuelle maskiner: klienten CLT-001 og serveren DC01, koblet til et felles labnettverk.](../images/diagrams/labnettverk.png)
 
@@ -20,11 +21,11 @@ Last ned VirtualBox for Windows fra [den offisielle siden](https://www.virtualbo
 5. Sett et administratorpassord og logg inn.
 6. Åpne **Server Manager → Local Server → Computer name → Change**. Sett Windows-maskinnavnet til `DC01` og start på nytt.
 
+<br>
 
 ![Velg Windows Server med Desktop Experience.](../images/screenshots/007.png)
 
 *Velg Windows Server med Desktop Experience.*
-
 
 ## Sett opp nettverket
 
@@ -39,11 +40,11 @@ Slå av serveren på vanlig måte før du endrer nettverkskortene i VirtualBox. 
 
 Klienten får ikke automatisk internett bare fordi serveren har et NAT-kort.
 
+<br>
 
 ![Serverens første nettverkskort bruker Host-only. Klienten skal senere bruke samme nettverk.](../images/screenshots/018.png)
 
 *Serverens første nettverkskort bruker Host-only. Klienten skal senere bruke samme nettverk.*
-
 
 ## Gi serveren en fast IP-adresse
 
@@ -51,9 +52,13 @@ Serveren skal ha en fast IP-adresse, slik at klienten alltid finner den på samm
 
 **Dynamic Host Configuration Protocol (DHCP)** deler automatisk ut IP-adresser. Åpne **File → Tools → Network** i VirtualBox, velg labbens Host-only-nettverk og åpne fanen **DHCP Server**.
 
+<br>
+
 ![DHCP Server-fanen i VirtualBox viser Lower Address Bound som 192.168.56.101 og Upper Address Bound som 192.168.56.254.](../images/screenshots/021.png)
 
 *Lower Address Bound er den første adressen DHCP kan dele ut, og Upper Address Bound er den siste. I labben er området 192.168.56.101–192.168.56.254. Server Address (192.168.56.100) er adressen til VirtualBox sin DHCP-tjeneste, ikke Windows-serveren DC01.*
+
+<br>
 
 Vi velger `192.168.56.55` til DC01. Den ligger utenfor DHCP-området; kontroller også at ingen annen maskin bruker den.
 
@@ -74,15 +79,17 @@ Fyll deretter inn verdiene i tabellen nedenfor. Det andre kortet, **Ethernet 2**
 
 Subnettmasken angir hvilket lokalt nettverk maskinen tilhører. DNS settes til serverens egen adresse fordi vi installerer DNS sammen med Active Directory i neste kapittel.
 
+<br>
 
 ![Fast IP-adresse og DNS på serverens labkort.](../images/screenshots/025.png)
 
 *Fast IP-adresse og DNS på serverens labkort.*
 
-
 ## Adresseoversikt for labben
 
 ![VirtualBox DHCP gir klienten en IP-adresse. Klienten bruker DC01 på 192.168.56.55 som DNS.](../images/diagrams/lab-ip-kart.png)
+
+<br>
 
 | Del | IP-adresse |
 | --- | --- |
@@ -98,7 +105,6 @@ Klienten får IP-adressen fra **DHCP** og bruker **DNS på DC01** for å finne d
 Velg **Devices → Insert Guest Additions CD image** i VM-vinduet. Åpne CD-stasjonen inne i Windows, kjør installasjonsprogrammet og start VM-en på nytt. Juster deretter oppløsning og skalering under **Display settings**.
 
 Guest Additions installeres i Windows på den virtuelle maskinen. Det gjør blant annet at skjermoppløsningen kan tilpasses når du endrer størrelsen på vinduet i VirtualBox.
-
 
 ---
 

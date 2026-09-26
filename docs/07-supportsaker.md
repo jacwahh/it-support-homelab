@@ -13,15 +13,23 @@ Nora har glemt passordet og trenger hjelp til å logge på. Før et passord tilb
 3. Kontroller at du har funnet **Nora Eidem**, høyreklikk på kontoen og velg **Reset Password**.
 4. Fyll inn et midlertidig passord i **New password** og **Confirm password**. Merk **User must change password at next logon**, og velg **OK**.
 
+<br>
+
 ![Et midlertidig passord settes for Nora, med krav om passordbytte ved neste pålogging.](../images/screenshots/147.png)
 
 *Nora må velge sitt eget passord ved neste pålogging.*
 
+<br>
+
 Formidle det midlertidige passordet til Nora gjennom virksomhetens godkjente kanal. På klienten logger hun på med domenekontoen sin og det midlertidige passordet, og blir bedt om å velge et nytt.
+
+<br>
 
 ![Klienten ber Nora endre passordet før hun kan logge på.](../images/screenshots/149.png)
 
 *Klienten krever passordbytte før påloggingen fullføres.*
+
+<br>
 
 ![Windows bekrefter at Noras passord er endret.](../images/screenshots/151.png)
 
@@ -50,6 +58,8 @@ Nora får ikke logget på etter flere forsøk med feil passord. Vi setter først
 
 Dette er labbens testinnstillinger; i et arbeidsmiljø følger vi virksomhetens sikkerhetsrutiner.
 
+<br>
+
 ![Kontolåsingsreglene er satt til tre feilforsøk og 30 minutter.](../images/screenshots/159.png)
 
 *De ferdige innstillingene for kontolåsing i labben.*
@@ -58,17 +68,25 @@ Dette er labbens testinnstillinger; i et arbeidsmiljø følger vi virksomhetens 
 
 Når policyen har trådt i kraft, prøver vi å logge på klienten med Noras konto og feil passord til meldingen om låst konto vises.
 
+<br>
+
 ![Klienten viser at Noras konto er låst.](../images/screenshots/161.png)
 
 *En låst konto må låses opp, eller vente til låsetiden utløper.*
+
+<br>
 
 1. Finn Nora i **Active Directory Users and Computers** på DC01.
 2. Dobbeltklikk på kontoen og åpne fanen **Account**.
 3. Merk **Unlock account**, og velg **Apply → OK**.
 
+<br>
+
 ![Unlock account er tilgjengelig på fanen Account for Noras låste konto.](../images/screenshots/162.png)
 
 *Unlock account låser opp kontoen uten å endre passordet.*
+
+<br>
 
 Spør Nora om hun husker passordet. Hvis ikke, tilbakestiller vi det som i sak 1. Test deretter pålogging fra klienten. Med innstillingene våre oppheves låsingen også automatisk etter 30 minutter.
 
@@ -81,16 +99,24 @@ En **låst konto** skyldes feilforsøk og kan låses opp. En **deaktivert konto*
 1. For å gjenskape situasjonen finner vi Nora i **Active Directory Users and Computers**, høyreklikker på kontoen og velger **Disable Account**.
 2. Bekreft meldingen om at kontoen er deaktivert.
 
+<br>
+
 ![Active Directory bekrefter at Noras konto er deaktivert.](../images/screenshots/164.png)
 
 *Vi deaktiverer kontoen uten å slette den, slik at den kan aktiveres igjen.*
 
+<br>
+
 3. Når aktivering er godkjent, høyreklikker vi på kontoen og velger **Enable Account**.
 4. Bekreft meldingen og be Nora prøve å logge på fra klienten.
+
+<br>
 
 ![Active Directory bekrefter at Noras konto er aktivert igjen.](../images/screenshots/166.png)
 
 *Kontoen er aktivert igjen. Kontroller påloggingen før saken avsluttes.*
+
+<br>
 
 Alle stegene og skjermbildene finnes i [bilderegisteret](11-bilderegister.md).
 
