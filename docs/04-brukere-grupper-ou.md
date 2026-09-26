@@ -67,11 +67,9 @@ Gruppene samler brukere som skal ha samme tilgang. Vi bruker de engelske avdelin
 *Eirik er lagt til i IT-gruppen.*
 
 
-Vi tildeler senere rettigheter til gruppen, slik at medlemmene får tilgang til avdelingsmappen. Da slipper vi å sette rettigheter for hver bruker separat:
+![Maja Hovland er medlem av HR-gruppen. Eirik Solberg er medlem av IT-gruppen.](../images/diagrams/gruppemedlemskap.png)
 
-![Maja er medlem av HR-gruppen og Eirik av IT-gruppen. Gruppene gir Modify-tilgang til hver sin avdelingsmappe.](../images/diagrams/gruppetilgang.png)
-
-*Maja og Eirik får tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.*
+*Maja Hovland og Eirik Solberg er medlemmer av hver sin avdelingsgruppe.*
 
 
 ---

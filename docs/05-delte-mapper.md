@@ -55,32 +55,38 @@ Ved tilgang over nettverket må begge lag tillate handlingen. Det er dette vi me
 
 | Share Permissions | NTFS Permissions | Tilgang over nettverket |
 | --- | --- | --- |
-| Full Control | Modify | Lese, opprette, endre og slette |
-| Read | Modify | Bare lese |
+| Full Control | Modify-tilgang | Lese, opprette, endre og slette |
+| Read | Modify-tilgang | Bare lese |
 | Full Control | Read | Bare lese |
 
 Tabellen forutsetter at dette er brukerens samlede tilgang i hvert lag. Rettigheter fra flere grupper kan bidra til den samlede tilgangen.
 
 Vi gir Everyone **Full Control** under delingsrettighetene og bruker **NTFS-rettighetene** til å styre hva brukerne kan gjøre med filene.
 
-![Share gir Full Control og NTFS gir HR Modify. Begge tillater at Maja oppretter en mappe.](../images/diagrams/share-og-ntfs.png)
+![Share gir Full Control og NTFS gir HR-gruppen Modify-tilgang. Begge tillater at Maja oppretter en mappe.](../images/diagrams/share-og-ntfs.png)
 
-## Gi HR-gruppen Modify
+## Gi HR-gruppen Modify-tilgang
 
 1. Åpne **HR → Properties → Security**.
 2. Velg **Edit → Add**, skriv `HR`, og bruk **Check Names**.
 3. Marker HR-gruppen og merk **Allow → Modify**.
 4. Lagre med **Apply → OK**.
 
-**Modify** lar gruppens medlemmer lese, opprette, endre og slette innhold. **Full Control** omfatter også administrasjon av rettigheter og er mer enn gruppen trenger i denne øvelsen.
+**Modify-tilgang** lar gruppens medlemmer lese, opprette, endre og slette innhold. **Full Control** omfatter også administrasjon av rettigheter og er mer enn gruppen trenger i denne øvelsen.
 
 
-![HR-gruppen får Modify på HR-mappen.](../images/screenshots/137.png)
+![HR-gruppen får Modify-tilgang til HR-mappen.](../images/screenshots/137.png)
 
-*HR-gruppen får Modify på HR-mappen.*
+*HR-gruppen får Modify-tilgang til HR-mappen.*
 
 
 Gjenta deling og gruppetildeling for Sales, Marketing, Finance og IT.
+
+Vi tildeler rettigheter til gruppene, slik at vi slipper å sette dem for hver bruker separat.
+
+![Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.](../images/diagrams/gruppetilgang.png)
+
+*Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.*
 
 
 ## Nettverksstien til HR-mappen
