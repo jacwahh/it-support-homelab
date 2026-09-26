@@ -263,8 +263,12 @@
 <p>Åpne <strong>Active Directory Users and Computers</strong> på DC01. Høyreklikk <code>LAB.local</code> og velg <strong>New → Organizational Unit</strong>. Opprett OU-ene <code>Accounts</code> og <code>Groups</code>.</p>
 <p>Høyreklikk <strong>Accounts → New → User</strong>. Fyll inn fornavn, etternavn og påloggingsnavn. Vi bruker <code>eirsol</code> for Eirik Solberg. Sett et midlertidig passord og merk <strong>User must change password at next logon</strong>.</p>
 <p>I brukernavn bruker vi <strong>æ → ae, ø → oe og å → aa</strong>, for eksempel Rønning → <code>roenning</code>. Det gjør navnene enklere å skrive på utenlandske tastaturer og reduserer problemer i systemer som ikke støtter norske tegn. Dette er en praktisk navnekonvensjon med bokstavene a–z, ikke en egen AD-standard. Fullt navn beholder norske tegn.</p>
+<br>
+
 <p><img src="images/screenshots/099.png" alt="Eirik opprettes som bruker. Påloggingsnavnet er et eget felt, adskilt fra fullt navn."></p>
 <p><em>Eirik opprettes som bruker. Påloggingsnavnet er et eget felt, adskilt fra fullt navn.</em></p>
+<br>
+
 <p>Opprett de øvrige brukerne. Tabellen viser alle ti og hvilken avdeling de tilhører:</p>
 <table>
 <thead>
@@ -317,6 +321,8 @@
 <h2>Opprett gruppene</h2>
 <p>Høyreklikk <strong>Groups → New → Group</strong>. Opprett <code>HR</code>, <code>Sales</code>, <code>Marketing</code>, <code>Finance</code> og <code>IT</code>. Velg <strong>Global</strong> som gruppeomfang og <strong>Security</strong> som gruppetype.</p>
 <p>Gruppene samler brukere som skal ha samme tilgang. Vi bruker de engelske avdelingsnavnene som gruppenavn.</p>
+<br>
+
 <p><img src="images/screenshots/104.png" alt="HR opprettes som en global sikkerhetsgruppe."></p>
 <p><em>HR opprettes som en global sikkerhetsgruppe.</em></p>
 <h2>Legg brukerne i riktig gruppe</h2>
@@ -326,8 +332,12 @@
 <li>Bekreft med <strong>OK → Apply</strong>.</li>
 <li>Gjenta for resten av brukerne etter tabellen.</li>
 </ol>
+<br>
+
 <p><img src="images/screenshots/111.png" alt="Eirik er lagt til i IT-gruppen."></p>
 <p><em>Eirik er lagt til i IT-gruppen.</em></p>
+<br>
+
 <p><img src="images/diagrams/gruppemedlemskap.png" alt="Maja Hovland er medlem av HR-gruppen. Eirik Solberg er medlem av IT-gruppen."></p>
 <p><em>Maja Hovland og Eirik Solberg er medlemmer av hver sin avdelingsgruppe.</em></p>
 <hr>
@@ -355,6 +365,8 @@
     ├── Documentation
     └── Scripts
 </code></pre>
+<br>
+
 <p><img src="images/screenshots/127.png" alt="De fem avdelingsmappene samles under C:\Shares."></p>
 <p><em>De fem avdelingsmappene samles under C:\Shares.</em></p>
 <h2>Del HR-mappen</h2>
@@ -364,6 +376,8 @@
 <li>Åpne <strong>Permissions</strong>, velg <strong>Everyone</strong> og merk <strong>Allow → Full Control</strong>.</li>
 <li>Lagre med <strong>Apply → OK</strong>.</li>
 </ol>
+<br>
+
 <p><img src="images/screenshots/132.png" alt="Everyone får Full Control på delingsnivå."></p>
 <p><em>Everyone får Full Control på delingsnivå.</em></p>
 <h2>Hvorfor finnes det to typer rettigheter?</h2>
@@ -395,6 +409,8 @@
 </tbody></table>
 <p>Tabellen forutsetter at dette er brukerens samlede tilgang i hvert lag. Rettigheter fra flere grupper kan bidra til den samlede tilgangen.</p>
 <p>Vi gir Everyone <strong>Full Control</strong> under delingsrettighetene og bruker <strong>NTFS-rettighetene</strong> til å styre hva brukerne kan gjøre med filene.</p>
+<br>
+
 <p><img src="images/diagrams/share-og-ntfs.png" alt="Share gir Full Control og NTFS gir HR-gruppen Modify-tilgang. Begge tillater at Maja oppretter en mappe."></p>
 <h2>Gi HR-gruppen Modify-tilgang</h2>
 <ol>
@@ -404,10 +420,16 @@
 <li>Lagre med <strong>Apply → OK</strong>.</li>
 </ol>
 <p><strong>Modify-tilgang</strong> lar gruppens medlemmer lese, opprette, endre og slette innhold. <strong>Full Control</strong> omfatter også administrasjon av rettigheter og er mer enn gruppen trenger i denne øvelsen.</p>
+<br>
+
 <p><img src="images/screenshots/137.png" alt="HR-gruppen får Modify-tilgang til HR-mappen."></p>
 <p><em>HR-gruppen får Modify-tilgang til HR-mappen.</em></p>
+<br>
+
 <p>Gjenta deling og gruppetildeling for Sales, Marketing, Finance og IT.</p>
 <p>Vi tildeler rettigheter til gruppene, slik at vi slipper å sette dem for hver bruker separat.</p>
+<br>
+
 <p><img src="images/diagrams/gruppetilgang.png" alt="Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet."></p>
 <p><em>Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.</em></p>
 <h2>Nettverksstien til HR-mappen</h2>
