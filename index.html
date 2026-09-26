@@ -45,7 +45,7 @@
 <p>En <strong>virtuell maskin (VM)</strong> er en datamaskin som kjører inne på den vanlige PC-en din. Vi bruker VirtualBox til å lage en server og en klient med hvert sitt operativsystem.</p>
 <br>
 
-<p><img src="images/diagrams/labnettverk.png" alt="Vertsmaskinen er den fysiske PC-en. VirtualBox kjører på denne og har to virtuelle maskiner: klienten CLT-001 og serveren DC01, koblet til et felles labnettverk."></p>
+<p><img src="images/diagrams/labnettverk-avrundet.png" alt="Vertsmaskinen er den fysiske PC-en. VirtualBox kjører på denne og har to virtuelle maskiner: klienten CLT-001 og serveren DC01, koblet til et felles labnettverk."></p>
 <p><em>Begge de virtuelle maskinene kjører på den samme fysiske PC-en, men har hvert sitt operativsystem.</em></p>
 <h2>Installer VirtualBox og serveren</h2>
 <p>Last ned VirtualBox for Windows fra <a href="https://www.virtualbox.org/wiki/Downloads">den offisielle siden</a>. Labben bruker versjon 7.2.8. Vi installerer også Extension Pack, et separat tillegg til VirtualBox.</p>
@@ -135,7 +135,7 @@
 <p><img src="images/screenshots/025.png" alt="Fast IP-adresse og DNS på serverens labkort."></p>
 <p><em>Fast IP-adresse og DNS på serverens labkort.</em></p>
 <h2>Adresseoversikt for labben</h2>
-<p><img src="images/diagrams/lab-ip-kart.png" alt="VirtualBox DHCP gir klienten en IP-adresse. Klienten bruker DC01 på 192.168.56.55 som DNS."></p>
+<p><img src="images/diagrams/lab-ip-kart-avrundet.png" alt="VirtualBox DHCP gir klienten en IP-adresse. Klienten bruker DC01 på 192.168.56.55 som DNS."></p>
 <br>
 
 <table>
@@ -178,7 +178,7 @@
 <p>En <strong>organisatorisk enhet (Organizational Unit, OU)</strong> er en administrativ mappe i AD. Vi bruker Accounts til brukerkontoer og Groups til sikkerhetsgrupper.</p>
 <br>
 
-<p><img src="images/diagrams/skog-domene-lab.png" alt="Skogen LAB.local inneholder domenet LAB.local. DC01 er domenekontroller og CLT-001 er klient. Accounts er OU-en for brukere, mens Groups er OU-en for sikkerhetsgrupper."></p>
+<p><img src="images/diagrams/skog-domene-lab-avrundet.png" alt="Skogen LAB.local inneholder domenet LAB.local. DC01 er domenekontroller og CLT-001 er klient. Accounts er OU-en for brukere, mens Groups er OU-en for sikkerhetsgrupper."></p>
 <br>
 
 <p><strong>Skogen</strong> er den ytterste rammen. Den kan inneholde flere domener, men i labben har vi bare ett. Skogen får navn etter det første domenet, så begge heter <code>LAB.local</code>.</p>
@@ -368,7 +368,7 @@
 <p><em>Eirik er lagt til i IT-gruppen.</em></p>
 <br>
 
-<p><img src="images/diagrams/gruppemedlemskap.png" alt="Maja Hovland er medlem av HR-gruppen. Eirik Solberg er medlem av IT-gruppen."></p>
+<p><img src="images/diagrams/gruppemedlemskap-avrundet.png" alt="Maja Hovland er medlem av HR-gruppen. Eirik Solberg er medlem av IT-gruppen."></p>
 <p><em>Maja Hovland og Eirik Solberg er medlemmer av hver sin avdelingsgruppe.</em></p>
 <hr>
 <p><a href="#del-0">Forside</a> · <a href="#del-3">Forrige</a> · <a href="#del-5">Neste</a></p>
@@ -441,7 +441,7 @@
 <p>Vi gir Everyone <strong>Full Control</strong> under delingsrettighetene og bruker <strong>NTFS-rettighetene</strong> til å styre hva brukerne kan gjøre med filene.</p>
 <br>
 
-<p><img src="images/diagrams/share-og-ntfs.png" alt="Share gir Full Control og NTFS gir HR-gruppen Modify-tilgang. Begge tillater at Maja oppretter en mappe."></p>
+<p><img src="images/diagrams/share-og-ntfs-avrundet.png" alt="Share gir Full Control og NTFS gir HR-gruppen Modify-tilgang. Begge tillater at Maja oppretter en mappe."></p>
 <h2>Gi HR-gruppen Modify-tilgang</h2>
 <ol>
 <li>Åpne <strong>HR → Properties → Security</strong>.</li>
@@ -460,7 +460,7 @@
 <p>Vi tildeler rettigheter til gruppene, slik at vi slipper å sette dem for hver bruker separat.</p>
 <br>
 
-<p><img src="images/diagrams/gruppetilgang.png" alt="Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet."></p>
+<p><img src="images/diagrams/gruppetilgang-avrundet.png" alt="Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet."></p>
 <p><em>Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.</em></p>
 <h2>Nettverksstien til HR-mappen</h2>
 <p>Vi bruker <code>\\LAB.LOCAL\HR</code>, som fungerte i labben. Det ville vært mer presist å bruke servernavnet direkte, <code>\\DC01\HR</code>, siden HR-mappen deles fra DC01.</p>
