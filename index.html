@@ -328,9 +328,8 @@
 </ol>
 <p><img src="images/screenshots/111.png" alt="Eirik er lagt til i IT-gruppen."></p>
 <p><em>Eirik er lagt til i IT-gruppen.</em></p>
-<p>Vi tildeler senere rettigheter til gruppen, slik at medlemmene får tilgang til avdelingsmappen. Da slipper vi å sette rettigheter for hver bruker separat:</p>
-<p><img src="images/diagrams/gruppetilgang.png" alt="Maja er medlem av HR-gruppen og Eirik av IT-gruppen. Gruppene gir Modify-tilgang til hver sin avdelingsmappe."></p>
-<p><em>Maja og Eirik får tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.</em></p>
+<p><img src="images/diagrams/gruppemedlemskap.png" alt="Maja Hovland er medlem av HR-gruppen. Eirik Solberg er medlem av IT-gruppen."></p>
+<p><em>Maja Hovland og Eirik Solberg er medlemmer av hver sin avdelingsgruppe.</em></p>
 <hr>
 <p><a href="#del-0">Forside</a> · <a href="#del-3">Forrige</a> · <a href="#del-5">Neste</a></p>
 </section>
@@ -380,12 +379,12 @@
 </thead>
 <tbody><tr>
 <td>Full Control</td>
-<td>Modify</td>
+<td>Modify-tilgang</td>
 <td>Lese, opprette, endre og slette</td>
 </tr>
 <tr>
 <td>Read</td>
-<td>Modify</td>
+<td>Modify-tilgang</td>
 <td>Bare lese</td>
 </tr>
 <tr>
@@ -396,18 +395,21 @@
 </tbody></table>
 <p>Tabellen forutsetter at dette er brukerens samlede tilgang i hvert lag. Rettigheter fra flere grupper kan bidra til den samlede tilgangen.</p>
 <p>Vi gir Everyone <strong>Full Control</strong> under delingsrettighetene og bruker <strong>NTFS-rettighetene</strong> til å styre hva brukerne kan gjøre med filene.</p>
-<p><img src="images/diagrams/share-og-ntfs.png" alt="Share gir Full Control og NTFS gir HR Modify. Begge tillater at Maja oppretter en mappe."></p>
-<h2>Gi HR-gruppen Modify</h2>
+<p><img src="images/diagrams/share-og-ntfs.png" alt="Share gir Full Control og NTFS gir HR-gruppen Modify-tilgang. Begge tillater at Maja oppretter en mappe."></p>
+<h2>Gi HR-gruppen Modify-tilgang</h2>
 <ol>
 <li>Åpne <strong>HR → Properties → Security</strong>.</li>
 <li>Velg <strong>Edit → Add</strong>, skriv <code>HR</code>, og bruk <strong>Check Names</strong>.</li>
 <li>Marker HR-gruppen og merk <strong>Allow → Modify</strong>.</li>
 <li>Lagre med <strong>Apply → OK</strong>.</li>
 </ol>
-<p><strong>Modify</strong> lar gruppens medlemmer lese, opprette, endre og slette innhold. <strong>Full Control</strong> omfatter også administrasjon av rettigheter og er mer enn gruppen trenger i denne øvelsen.</p>
-<p><img src="images/screenshots/137.png" alt="HR-gruppen får Modify på HR-mappen."></p>
-<p><em>HR-gruppen får Modify på HR-mappen.</em></p>
+<p><strong>Modify-tilgang</strong> lar gruppens medlemmer lese, opprette, endre og slette innhold. <strong>Full Control</strong> omfatter også administrasjon av rettigheter og er mer enn gruppen trenger i denne øvelsen.</p>
+<p><img src="images/screenshots/137.png" alt="HR-gruppen får Modify-tilgang til HR-mappen."></p>
+<p><em>HR-gruppen får Modify-tilgang til HR-mappen.</em></p>
 <p>Gjenta deling og gruppetildeling for Sales, Marketing, Finance og IT.</p>
+<p>Vi tildeler rettigheter til gruppene, slik at vi slipper å sette dem for hver bruker separat.</p>
+<p><img src="images/diagrams/gruppetilgang.png" alt="Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet."></p>
+<p><em>Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.</em></p>
 <h2>Nettverksstien til HR-mappen</h2>
 <p>Vi bruker <code>\\LAB.LOCAL\HR</code>, som fungerte i labben. Det ville vært mer presist å bruke servernavnet direkte, <code>\\DC01\HR</code>, siden HR-mappen deles fra DC01.</p>
 <hr>
