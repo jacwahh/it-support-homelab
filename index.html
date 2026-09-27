@@ -1,5 +1,5 @@
 <!doctype html><html lang="nb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>IT-support-homelab — guiden</title><style>
- *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:#25313c;font:17px/1.7 system-ui,Segoe UI,sans-serif}main{max-width:1000px;margin:auto;padding:30px 32px 80px}section{padding:22px 0 42px;border-bottom:1px solid #e3e7ea;scroll-margin-top:55px}h1{font-size:32px;line-height:1.25;margin:24px 0}h2{font-size:23px;margin-top:32px}h3{font-size:19px}a{color:#276b60;text-underline-offset:3px}img{display:block;max-width:100%;height:auto;margin:26px auto;border-radius:3px}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:16px}td,th{padding:10px 15px;border-bottom:1px solid #dfe5e8;text-align:left}th{background:#f5f7f8}pre{overflow:auto;padding:20px;background:#f5f7f8;border-radius:6px;font-size:14px;line-height:1.6}code{font-family:Consolas,monospace}p code,li code,td code{background:#f3f5f6;padding:2px 4px}li{margin:5px 0}summary{cursor:pointer;color:#276b60;padding:12px 0}header{position:sticky;top:0;background:#ffffffef;border-bottom:1px solid #e3e7ea;padding:10px 24px;z-index:1;font-size:14px}header a{margin-right:20px;text-decoration:none}@media(max-width:600px){main{padding:16px}h1{font-size:27px}body{font-size:16px}td,th{padding:8px}}@media print{header{display:none}section{break-before:page}img{max-height:650px;object-fit:contain}}
+ *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:#25313c;font:17px/1.7 system-ui,Segoe UI,sans-serif}main{max-width:1000px;margin:auto;padding:30px 32px 80px}section{padding:22px 0 42px;border-bottom:1px solid #e3e7ea;scroll-margin-top:55px}h1{font-size:32px;line-height:1.25;margin:24px 0}h2{font-size:23px;margin-top:32px}h3{font-size:19px}a{color:#276b60;text-underline-offset:3px}img{display:block;max-width:100%;height:auto;margin:0 auto 8px;border-radius:3px}p:has(>img){margin:24px 0 0}p:has(>img)>br{display:none}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:16px}td,th{padding:10px 15px;border-bottom:1px solid #dfe5e8;text-align:left}th{background:#f5f7f8}pre{overflow:auto;padding:20px;background:#f5f7f8;border-radius:6px;font-size:14px;line-height:1.6}code{font-family:Consolas,monospace}p code,li code,td code{background:#f3f5f6;padding:2px 4px}li{margin:5px 0}summary{cursor:pointer;color:#276b60;padding:12px 0}header{position:sticky;top:0;background:#ffffffef;border-bottom:1px solid #e3e7ea;padding:10px 24px;z-index:1;font-size:14px}header a{margin-right:20px;text-decoration:none}@media(max-width:600px){main{padding:16px}h1{font-size:27px}body{font-size:16px}td,th{padding:8px}}@media print{header{display:none}section{break-before:page}img{max-height:650px;object-fit:contain}}
  </style></head><body><header><a href="#del-0">IT-support-homelab</a><a href="#del-1">Start guiden</a><a href="#del-8">Alle skjermbilder</a></header><main><section id="del-0"><h1>IT-support-homelab</h1>
 <p>I denne Windows-labben med Active Directory (AD) setter vi opp brukere, grupper og delte mapper, og løser vanlige supportsaker. Målet er å lære mer om profesjonelle IT-miljøer gjennom praktisk arbeid i et simulert miljø.</p>
 <p>Den detaljerte fremgangsmåten er dokumentert med skjermbilder i <a href="#del-8">bilderegisteret</a>. Se der hvis du lurer på et konkret steg eller en innstilling.</p>
@@ -45,8 +45,9 @@
 <p>En <strong>virtuell maskin (VM)</strong> er en datamaskin som kjører inne på den vanlige PC-en din. Vi bruker VirtualBox til å lage en server og en klient med hvert sitt operativsystem.</p>
 <br>
 
-<p><img src="images/diagrams/labnettverk-avrundet.png" alt="Vertsmaskinen er den fysiske PC-en. VirtualBox kjører på denne og har to virtuelle maskiner: klienten CLT-001 og serveren DC01, koblet til et felles labnettverk."></p>
-<p><em>Begge de virtuelle maskinene kjører på den samme fysiske PC-en, men har hvert sitt operativsystem.</em></p>
+<p><img src="images/diagrams/labnettverk-avrundet.png" alt="Vertsmaskinen er den fysiske PC-en. VirtualBox kjører på denne og har to virtuelle maskiner: klienten CLT-001 og serveren DC01, koblet til et felles labnettverk."><br><em>Begge de virtuelle maskinene kjører på den samme fysiske PC-en, men har hvert sitt operativsystem.</em></p>
+<br>
+
 <h2>Installer VirtualBox og serveren</h2>
 <p>Last ned VirtualBox for Windows fra <a href="https://www.virtualbox.org/wiki/Downloads">den offisielle siden</a>. Labben bruker versjon 7.2.8. Vi installerer også Extension Pack, et separat tillegg til VirtualBox.</p>
 <ol>
@@ -59,8 +60,9 @@
 </ol>
 <br>
 
-<p><img src="images/screenshots/007.png" alt="Velg Windows Server med Desktop Experience."></p>
-<p><em>Velg Windows Server med Desktop Experience.</em></p>
+<p><img src="images/screenshots/007.png" alt="Velg Windows Server med Desktop Experience."><br><em>Velg Windows Server med Desktop Experience.</em></p>
+<br>
+
 <h2>Sett opp nettverket</h2>
 <p>Slå av serveren på vanlig måte før du endrer nettverkskortene i VirtualBox. Åpne <strong>Settings → Network</strong>.</p>
 <p><strong>Network Address Translation (NAT)</strong> gir serveren internettilgang gjennom vertsmaskinen. <strong>Host-only</strong> lager et eget labnettverk.</p>
@@ -86,15 +88,15 @@
 <p>Klienten får ikke automatisk internett bare fordi serveren har et NAT-kort.</p>
 <br>
 
-<p><img src="images/screenshots/018.png" alt="Serverens første nettverkskort bruker Host-only. Klienten skal senere bruke samme nettverk."></p>
-<p><em>Serverens første nettverkskort bruker Host-only. Klienten skal senere bruke samme nettverk.</em></p>
+<p><img src="images/screenshots/018.png" alt="Serverens første nettverkskort bruker Host-only. Klienten skal senere bruke samme nettverk."><br><em>Serverens første nettverkskort bruker Host-only. Klienten skal senere bruke samme nettverk.</em></p>
+<br>
+
 <h2>Gi serveren en fast IP-adresse</h2>
 <p>Serveren skal ha en fast IP-adresse, slik at klienten alltid finner den på samme sted.</p>
 <p><strong>Dynamic Host Configuration Protocol (DHCP)</strong> deler automatisk ut IP-adresser. Åpne <strong>File → Tools → Network</strong> i VirtualBox, velg labbens Host-only-nettverk og åpne fanen <strong>DHCP Server</strong>.</p>
 <br>
 
-<p><img src="images/screenshots/021.png" alt="DHCP Server-fanen i VirtualBox viser Lower Address Bound som 192.168.56.101 og Upper Address Bound som 192.168.56.254."></p>
-<p><em>Lower Address Bound er den første adressen DHCP kan dele ut, og Upper Address Bound er den siste. I labben er området 192.168.56.101–192.168.56.254. Server Address (192.168.56.100) er adressen til VirtualBox sin DHCP-tjeneste, ikke Windows-serveren DC01.</em></p>
+<p><img src="images/screenshots/021.png" alt="DHCP Server-fanen i VirtualBox viser Lower Address Bound som 192.168.56.101 og Upper Address Bound som 192.168.56.254."><br><em>Lower Address Bound er den første adressen DHCP kan dele ut, og Upper Address Bound er den siste. I labben er området 192.168.56.101–192.168.56.254. Server Address (192.168.56.100) er adressen til VirtualBox sin DHCP-tjeneste, ikke Windows-serveren DC01.</em></p>
 <br>
 
 <p>Vi velger <code>192.168.56.55</code> til DC01. Den ligger utenfor DHCP-området; kontroller også at ingen annen maskin bruker den.</p>
@@ -132,8 +134,9 @@
 <p>Subnettmasken angir hvilket lokalt nettverk maskinen tilhører. DNS settes til serverens egen adresse fordi vi installerer DNS sammen med Active Directory i neste kapittel.</p>
 <br>
 
-<p><img src="images/screenshots/025.png" alt="Fast IP-adresse og DNS på serverens labkort."></p>
-<p><em>Fast IP-adresse og DNS på serverens labkort.</em></p>
+<p><img src="images/screenshots/025.png" alt="Fast IP-adresse og DNS på serverens labkort."><br><em>Fast IP-adresse og DNS på serverens labkort.</em></p>
+<br>
+
 <h2>Adresseoversikt for labben</h2>
 <p><img src="images/diagrams/lab-ip-kart-avrundet.png" alt="VirtualBox DHCP gir klienten en IP-adresse. Klienten bruker DC01 på 192.168.56.55 som DNS."></p>
 <br>
@@ -193,8 +196,9 @@
 <p>Rollen er nå installert. Neste steg er å gjøre serveren til domenekontroller.</p>
 <br>
 
-<p><img src="images/screenshots/033.png" alt="AD DS-rollen er valgt med de nødvendige administrasjonsverktøyene."></p>
-<p><em>AD DS-rollen er valgt med de nødvendige administrasjonsverktøyene.</em></p>
+<p><img src="images/screenshots/033.png" alt="AD DS-rollen er valgt med de nødvendige administrasjonsverktøyene."><br><em>AD DS-rollen er valgt med de nødvendige administrasjonsverktøyene.</em></p>
+<br>
+
 <h2>Opprett domenet</h2>
 <ol>
 <li>Åpne varselflagget i Server Manager og velg <strong>Promote this server to a domain controller</strong>.</li>
@@ -207,8 +211,9 @@
 </ol>
 <br>
 
-<p><img src="images/screenshots/040.png" alt="LAB.local opprettes som labbens første domene."></p>
-<p><em>LAB.local opprettes som labbens første domene.</em></p>
+<p><img src="images/screenshots/040.png" alt="LAB.local opprettes som labbens første domene."><br><em>LAB.local opprettes som labbens første domene.</em></p>
+<br>
+
 <h2>Hvorfor trenger vi DNS?</h2>
 <p>Klienten spør <strong>DNS-serveren</strong> på <code>192.168.56.55</code> hvor domenekontrolleren for <code>LAB.local</code> finnes. DNS peker til DC01 på samme IP-adresse, slik at klienten kan kontakte serveren og kobles til domenet.</p>
 <hr>
@@ -230,8 +235,9 @@
 <p>I denne labben ga to virtuelle prosessorer svart skjerm, mens tre fungerte. Bruk en VM-konfigurasjon som oppfyller systemkravene til din Windows-utgave.</p>
 <br>
 
-<p><img src="images/screenshots/069.png" alt="Windows 11 Pro velges under installasjonen."></p>
-<p><em>Windows 11 Pro velges under installasjonen.</em></p>
+<p><img src="images/screenshots/069.png" alt="Windows 11 Pro velges under installasjonen."><br><em>Windows 11 Pro velges under installasjonen.</em></p>
+<br>
+
 <h2>Koble klienten til labnettverket</h2>
 <p>Koble klienten til det samme virtuelle nettverket som serveren:</p>
 <ol>
@@ -245,8 +251,9 @@
 <p>Åpne <strong>View network connections</strong>, høyreklikk <strong>Ethernet</strong> og velg <strong>Properties</strong>. Marker <strong>Internet Protocol Version 4</strong> og klikk på <strong>Properties</strong>. Behold automatisk IP-adresse og sett <strong>Preferred DNS server</strong> til <code>192.168.56.55</code>.</p>
 <br>
 
-<p><img src="images/screenshots/115.png" alt="Klienten får IP-adresse automatisk, men bruker DC01 som DNS-server."></p>
-<p><em>Klienten får IP-adresse automatisk, men bruker DC01 som DNS-server.</em></p>
+<p><img src="images/screenshots/115.png" alt="Klienten får IP-adresse automatisk, men bruker DC01 som DNS-server."><br><em>Klienten får IP-adresse automatisk, men bruker DC01 som DNS-server.</em></p>
+<br>
+
 <h2>Meld klienten inn i domenet</h2>
 <ol>
 <li>Åpne <strong>Run</strong> eller en terminal og skriv <code>sysdm.cpl</code>.</li>
@@ -257,8 +264,7 @@
 </ol>
 <br>
 
-<p><img src="images/screenshots/121.png" alt="Velkomstmeldingen bekrefter at klienten er meldt inn i LAB.local."></p>
-<p><em>Velkomstmeldingen bekrefter at klienten er meldt inn i LAB.local.</em></p>
+<p><img src="images/screenshots/121.png" alt="Velkomstmeldingen bekrefter at klienten er meldt inn i LAB.local."><br><em>Velkomstmeldingen bekrefter at klienten er meldt inn i LAB.local.</em></p>
 <br>
 
 <p>Etter omstart kan domenebrukerne logge på. Vi oppretter dem i neste kapittel. Den lokale kontoen Ola Nordmann og kontoene i LAB er separate kontoer.</p>
@@ -295,8 +301,7 @@
 <p>I brukernavn bruker vi <strong>æ → ae, ø → oe og å → aa</strong>, for eksempel Rønning → <code>roenning</code>. Det gjør navnene enklere å skrive på utenlandske tastaturer og reduserer problemer i systemer som ikke støtter norske tegn. Dette er en praktisk navnekonvensjon med bokstavene a–z, ikke en egen AD-standard. Fullt navn beholder norske tegn.</p>
 <br>
 
-<p><img src="images/screenshots/099.png" alt="Eirik opprettes som bruker. Påloggingsnavnet er et eget felt, adskilt fra fullt navn."></p>
-<p><em>Eirik opprettes som bruker. Påloggingsnavnet er et eget felt, adskilt fra fullt navn.</em></p>
+<p><img src="images/screenshots/099.png" alt="Eirik opprettes som bruker. Påloggingsnavnet er et eget felt, adskilt fra fullt navn."><br><em>Eirik opprettes som bruker. Påloggingsnavnet er et eget felt, adskilt fra fullt navn.</em></p>
 <br>
 
 <p>Opprett de øvrige brukerne. Tabellen viser alle ti og hvilken avdeling de tilhører:</p>
@@ -353,8 +358,9 @@
 <p>Gruppene samler brukere som skal ha samme tilgang. Vi bruker de engelske avdelingsnavnene som gruppenavn.</p>
 <br>
 
-<p><img src="images/screenshots/104.png" alt="HR opprettes som en global sikkerhetsgruppe."></p>
-<p><em>HR opprettes som en global sikkerhetsgruppe.</em></p>
+<p><img src="images/screenshots/104.png" alt="HR opprettes som en global sikkerhetsgruppe."><br><em>HR opprettes som en global sikkerhetsgruppe.</em></p>
+<br>
+
 <h2>Legg brukerne i riktig gruppe</h2>
 <ol>
 <li>Åpne Eiriks brukeregenskaper og velg <strong>Member Of → Add</strong>.</li>
@@ -364,12 +370,12 @@
 </ol>
 <br>
 
-<p><img src="images/screenshots/111.png" alt="Eirik er lagt til i IT-gruppen."></p>
-<p><em>Eirik er lagt til i IT-gruppen.</em></p>
+<p><img src="images/screenshots/111.png" alt="Eirik er lagt til i IT-gruppen."><br><em>Eirik er lagt til i IT-gruppen.</em></p>
 <br>
 
-<p><img src="images/diagrams/gruppemedlemskap-avrundet.png" alt="Maja Hovland er medlem av HR-gruppen. Eirik Solberg er medlem av IT-gruppen."></p>
-<p><em>Maja Hovland og Eirik Solberg er medlemmer av hver sin avdelingsgruppe.</em></p>
+<p><img src="images/diagrams/gruppemedlemskap-avrundet.png" alt="Maja Hovland er medlem av HR-gruppen. Eirik Solberg er medlem av IT-gruppen."><br><em>Maja Hovland og Eirik Solberg er medlemmer av hver sin avdelingsgruppe.</em></p>
+<br>
+
 <hr>
 <p><a href="#del-0">Forside</a> · <a href="#del-3">Forrige</a> · <a href="#del-5">Neste</a></p>
 </section>
@@ -397,8 +403,9 @@
 </code></pre>
 <br>
 
-<p><img src="images/screenshots/127.png" alt="De fem avdelingsmappene samles under C:\Shares."></p>
-<p><em>De fem avdelingsmappene samles under C:\Shares.</em></p>
+<p><img src="images/screenshots/127.png" alt="De fem avdelingsmappene samles under C:\Shares."><br><em>De fem avdelingsmappene samles under C:\Shares.</em></p>
+<br>
+
 <h2>Del HR-mappen</h2>
 <ol>
 <li>Høyreklikk HR-mappen og velg <strong>Properties → Sharing → Advanced Sharing</strong>.</li>
@@ -408,8 +415,9 @@
 </ol>
 <br>
 
-<p><img src="images/screenshots/132.png" alt="Everyone får Full Control på delingsnivå."></p>
-<p><em>Everyone får Full Control på delingsnivå.</em></p>
+<p><img src="images/screenshots/132.png" alt="Everyone får Full Control på delingsnivå."><br><em>Everyone får Full Control på delingsnivå.</em></p>
+<br>
+
 <h2>Hvorfor finnes det to typer rettigheter?</h2>
 <p><strong>Share Permissions</strong> gjelder når mappen åpnes gjennom nettverksdelingen. <strong>New Technology File System (NTFS)</strong> er filsystemet på disken. <strong>NTFS Permissions</strong>, under Security-fanen, gjelder selve mappen og filene.</p>
 <p>Ved tilgang over nettverket må begge lag tillate handlingen. Det er dette vi mener med <strong>mest restriktiv tilgang</strong>:</p>
@@ -452,16 +460,16 @@
 <p><strong>Modify-tilgang</strong> lar gruppens medlemmer lese, opprette, endre og slette innhold. <strong>Full Control</strong> omfatter også administrasjon av rettigheter og er mer enn gruppen trenger i denne øvelsen.</p>
 <br>
 
-<p><img src="images/screenshots/137.png" alt="HR-gruppen får Modify-tilgang til HR-mappen."></p>
-<p><em>HR-gruppen får Modify-tilgang til HR-mappen.</em></p>
+<p><img src="images/screenshots/137.png" alt="HR-gruppen får Modify-tilgang til HR-mappen."><br><em>HR-gruppen får Modify-tilgang til HR-mappen.</em></p>
 <br>
 
 <p>Gjenta deling og gruppetildeling for Sales, Marketing, Finance og IT.</p>
 <p>Vi tildeler rettigheter til gruppene, slik at vi slipper å sette dem for hver bruker separat.</p>
 <br>
 
-<p><img src="images/diagrams/gruppetilgang-avrundet.png" alt="Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet."></p>
-<p><em>Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.</em></p>
+<p><img src="images/diagrams/gruppetilgang-avrundet.png" alt="Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet."><br><em>Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.</em></p>
+<br>
+
 <h2>Nettverksstien til HR-mappen</h2>
 <p>Vi bruker <code>\\LAB.LOCAL\HR</code>, som fungerte i labben. Det ville vært mer presist å bruke servernavnet direkte, <code>\\DC01\HR</code>, siden HR-mappen deles fra DC01.</p>
 <hr>
@@ -479,16 +487,16 @@
 </ol>
 <br>
 
-<p><img src="images/screenshots/141.png" alt="HR-delingen kobles til Z: via LAB.LOCAL, slik den ble brukt i labben."></p>
-<p><em>HR-delingen kobles til Z: via LAB.LOCAL, slik den ble brukt i labben.</em></p>
+<p><img src="images/screenshots/141.png" alt="HR-delingen kobles til Z: via LAB.LOCAL, slik den ble brukt i labben."><br><em>HR-delingen kobles til Z: via LAB.LOCAL, slik den ble brukt i labben.</em></p>
 <br>
 
 <p>Stasjonsbokstaven er bare en praktisk snarvei på klienten. Det er gruppemedlemskapet og rettighetene på serveren som bestemmer tilgangen.</p>
 <p>Når delingen åpnes, ser vi <strong>HR Forms</strong> og <strong>Resumes</strong>. Opprett en ny mappe for å kontrollere at Maja også kan skrive til delingen.</p>
 <br>
 
-<p><img src="images/screenshots/143.png" alt="Maja oppretter en ny mappe i HR-delingen."></p>
-<p><em>Maja oppretter en ny mappe i HR-delingen.</em></p>
+<p><img src="images/screenshots/143.png" alt="Maja oppretter en ny mappe i HR-delingen."><br><em>Maja oppretter en ny mappe i HR-delingen.</em></p>
+<br>
+
 <h2>Resultat</h2>
 <p>Den dokumenterte testen viser at Maja kan åpne HR-delingen og opprette en mappe. Det bekrefter at denne delen av oppsettet fungerer fra klienten.</p>
 <p>Labben har nå en domenekontroller, en tilknyttet klient, ti brukere, fem avdelingsgrupper og delte mapper med gruppetildelte rettigheter.</p>
@@ -508,19 +516,18 @@
 </ol>
 <br>
 
-<p><img src="images/screenshots/147.png" alt="Et midlertidig passord settes for Nora, med krav om passordbytte ved neste pålogging."></p>
-<p><em>Nora må velge sitt eget passord ved neste pålogging.</em></p>
+<p><img src="images/screenshots/147.png" alt="Et midlertidig passord settes for Nora, med krav om passordbytte ved neste pålogging."><br><em>Nora må velge sitt eget passord ved neste pålogging.</em></p>
 <br>
 
 <p>Formidle det midlertidige passordet til Nora gjennom virksomhetens godkjente kanal. På klienten logger hun på med domenekontoen sin og det midlertidige passordet, og blir bedt om å velge et nytt.</p>
 <br>
 
-<p><img src="images/screenshots/149.png" alt="Klienten ber Nora endre passordet før hun kan logge på."></p>
-<p><em>Klienten krever passordbytte før påloggingen fullføres.</em></p>
+<p><img src="images/screenshots/149.png" alt="Klienten ber Nora endre passordet før hun kan logge på."><br><em>Klienten krever passordbytte før påloggingen fullføres.</em></p>
 <br>
 
-<p><img src="images/screenshots/151.png" alt="Windows bekrefter at Noras passord er endret."></p>
-<p><em>Passordet er endret. Kontroller at Nora får logget på før saken avsluttes.</em></p>
+<p><img src="images/screenshots/151.png" alt="Windows bekrefter at Noras passord er endret."><br><em>Passordet er endret. Kontroller at Nora får logget på før saken avsluttes.</em></p>
+<br>
+
 <h2>Sak 2: Låst konto</h2>
 <p>Nora får ikke logget på etter flere forsøk med feil passord. Vi setter først opp kontolåsing, slik at vi kan gjenskape problemet i labben.</p>
 <h3>Klargjør kontolåsing</h3>
@@ -564,14 +571,14 @@
 <p>Dette er labbens testinnstillinger; i et arbeidsmiljø følger vi virksomhetens sikkerhetsrutiner.</p>
 <br>
 
-<p><img src="images/screenshots/159.png" alt="Kontolåsingsreglene er satt til tre feilforsøk og 30 minutter."></p>
-<p><em>De ferdige innstillingene for kontolåsing i labben.</em></p>
+<p><img src="images/screenshots/159.png" alt="Kontolåsingsreglene er satt til tre feilforsøk og 30 minutter."><br><em>De ferdige innstillingene for kontolåsing i labben.</em></p>
+<br>
+
 <h3>Gjenskap problemet og lås opp kontoen</h3>
 <p>Når policyen har trådt i kraft, prøver vi å logge på klienten med Noras konto og feil passord til meldingen om låst konto vises.</p>
 <br>
 
-<p><img src="images/screenshots/161.png" alt="Klienten viser at Noras konto er låst."></p>
-<p><em>En låst konto må låses opp, eller vente til låsetiden utløper.</em></p>
+<p><img src="images/screenshots/161.png" alt="Klienten viser at Noras konto er låst."><br><em>En låst konto må låses opp, eller vente til låsetiden utløper.</em></p>
 <br>
 
 <ol>
@@ -581,8 +588,7 @@
 </ol>
 <br>
 
-<p><img src="images/screenshots/162.png" alt="Unlock account er tilgjengelig på fanen Account for Noras låste konto."></p>
-<p><em>Unlock account låser opp kontoen uten å endre passordet.</em></p>
+<p><img src="images/screenshots/162.png" alt="Unlock account er tilgjengelig på fanen Account for Noras låste konto."><br><em>Unlock account låser opp kontoen uten å endre passordet.</em></p>
 <br>
 
 <p>Spør Nora om hun husker passordet. Hvis ikke, tilbakestiller vi det som i sak 1. Test deretter pålogging fra klienten. Med innstillingene våre oppheves låsingen også automatisk etter 30 minutter.</p>
@@ -595,8 +601,7 @@
 </ol>
 <br>
 
-<p><img src="images/screenshots/164.png" alt="Active Directory bekrefter at Noras konto er deaktivert."></p>
-<p><em>Vi deaktiverer kontoen uten å slette den, slik at den kan aktiveres igjen.</em></p>
+<p><img src="images/screenshots/164.png" alt="Active Directory bekrefter at Noras konto er deaktivert."><br><em>Vi deaktiverer kontoen uten å slette den, slik at den kan aktiveres igjen.</em></p>
 <br>
 
 <ol start="3">
@@ -605,8 +610,7 @@
 </ol>
 <br>
 
-<p><img src="images/screenshots/166.png" alt="Active Directory bekrefter at Noras konto er aktivert igjen."></p>
-<p><em>Kontoen er aktivert igjen. Kontroller påloggingen før saken avsluttes.</em></p>
+<p><img src="images/screenshots/166.png" alt="Active Directory bekrefter at Noras konto er aktivert igjen."><br><em>Kontoen er aktivert igjen. Kontroller påloggingen før saken avsluttes.</em></p>
 <br>
 
 <p>Alle stegene og skjermbildene finnes i <a href="#del-8">bilderegisteret</a>.</p>
@@ -620,629 +624,463 @@
 <details>
 <summary>Installer VirtualBox og opprett serveren</summary>
 
-<p><img src="images/screenshots/001.png" alt="VirtualBox lastes ned fra den offisielle nettsiden"></p>
-<p><em>VirtualBox lastes ned fra den offisielle nettsiden.</em></p>
+<p><img src="images/screenshots/001.png" alt="VirtualBox lastes ned fra den offisielle nettsiden"><br><em>VirtualBox lastes ned fra den offisielle nettsiden.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/002.png" alt="VirtualBox Manager: opprett en ny virtuell maskin med New"></p>
-<p><em>VirtualBox Manager: opprett en ny virtuell maskin med New.</em></p>
+<p><img src="images/screenshots/002.png" alt="VirtualBox Manager: opprett en ny virtuell maskin med New"><br><em>VirtualBox Manager: opprett en ny virtuell maskin med New.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/003.png" alt="Den virtuelle serveren får navn og installasjonsmedium"></p>
-<p><em>Den virtuelle serveren får navn og installasjonsmedium.</em></p>
+<p><img src="images/screenshots/003.png" alt="Den virtuelle serveren får navn og installasjonsmedium"><br><em>Den virtuelle serveren får navn og installasjonsmedium.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/004.png" alt="Serveren får 16 GB arbeidsminne og fire virtuelle prosessorer"></p>
-<p><em>Serveren får 16 GB arbeidsminne og fire virtuelle prosessorer.</em></p>
+<p><img src="images/screenshots/004.png" alt="Serveren får 16 GB arbeidsminne og fire virtuelle prosessorer"><br><em>Serveren får 16 GB arbeidsminne og fire virtuelle prosessorer.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/005.png" alt="Serverens virtuelle disk settes til 50 GB"></p>
-<p><em>Serverens virtuelle disk settes til 50 GB.</em></p>
+<p><img src="images/screenshots/005.png" alt="Serverens virtuelle disk settes til 50 GB"><br><em>Serverens virtuelle disk settes til 50 GB.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/006.png" alt="DC01 er opprettet i VirtualBox og klar til å starte"></p>
-<p><em>DC01 er opprettet i VirtualBox og klar til å starte.</em></p>
+<p><img src="images/screenshots/006.png" alt="DC01 er opprettet i VirtualBox og klar til å starte"><br><em>DC01 er opprettet i VirtualBox og klar til å starte.</em></p>
 </details>
 
 <details>
 <summary>Installer Windows Server</summary>
 
-<p><img src="images/screenshots/007.png" alt="Windows Server 2022 Standard Evaluation med Desktop Experience velges"></p>
-<p><em>Windows Server 2022 Standard Evaluation med Desktop Experience velges.</em></p>
+<p><img src="images/screenshots/007.png" alt="Windows Server 2022 Standard Evaluation med Desktop Experience velges"><br><em>Windows Server 2022 Standard Evaluation med Desktop Experience velges.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/008.png" alt="Custom velges for en ny installasjon på den virtuelle disken"></p>
-<p><em>Custom velges for en ny installasjon på den virtuelle disken.</em></p>
+<p><img src="images/screenshots/008.png" alt="Custom velges for en ny installasjon på den virtuelle disken"><br><em>Custom velges for en ny installasjon på den virtuelle disken.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/009.png" alt="Serverens tomme virtuelle disk velges som installasjonsmål"></p>
-<p><em>Serverens tomme virtuelle disk velges som installasjonsmål.</em></p>
+<p><img src="images/screenshots/009.png" alt="Serverens tomme virtuelle disk velges som installasjonsmål"><br><em>Serverens tomme virtuelle disk velges som installasjonsmål.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/010.png" alt="Passordet til Administrator-kontoen opprettes"></p>
-<p><em>Passordet til Administrator-kontoen opprettes.</em></p>
+<p><img src="images/screenshots/010.png" alt="Passordet til Administrator-kontoen opprettes"><br><em>Passordet til Administrator-kontoen opprettes.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/011.png" alt="Ctrl+Alt+Delete sendes til den virtuelle serveren fra VirtualBox-menyen"></p>
-<p><em>Ctrl+Alt+Delete sendes til den virtuelle serveren fra VirtualBox-menyen.</em></p>
+<p><img src="images/screenshots/011.png" alt="Ctrl+Alt+Delete sendes til den virtuelle serveren fra VirtualBox-menyen"><br><em>Ctrl+Alt+Delete sendes til den virtuelle serveren fra VirtualBox-menyen.</em></p>
 </details>
 
 <details>
 <summary>Gi serveren navnet DC01</summary>
 
-<p><img src="images/screenshots/012.png" alt="Server Manager viser datamaskinnavnet før navneendringen"></p>
-<p><em>Server Manager viser datamaskinnavnet før navneendringen.</em></p>
+<p><img src="images/screenshots/012.png" alt="Server Manager viser datamaskinnavnet før navneendringen"><br><em>Server Manager viser datamaskinnavnet før navneendringen.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/013.png" alt="System Properties åpnes for å endre servernavnet"></p>
-<p><em>System Properties åpnes for å endre servernavnet.</em></p>
+<p><img src="images/screenshots/013.png" alt="System Properties åpnes for å endre servernavnet"><br><em>System Properties åpnes for å endre servernavnet.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/014.png" alt="Servernavnet endres til DC01"></p>
-<p><em>Servernavnet endres til DC01.</em></p>
+<p><img src="images/screenshots/014.png" alt="Servernavnet endres til DC01"><br><em>Servernavnet endres til DC01.</em></p>
 </details>
 
 <details>
 <summary>Sett opp nettverkskortene</summary>
 
-<p><img src="images/screenshots/015.png" alt="Avslutningsmenyen åpnes i VirtualBox"></p>
-<p><em>Avslutningsmenyen åpnes i VirtualBox.</em></p>
+<p><img src="images/screenshots/015.png" alt="Avslutningsmenyen åpnes i VirtualBox"><br><em>Avslutningsmenyen åpnes i VirtualBox.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/016.png" alt="VirtualBox ber om bekreftelse før maskinen slås av med Power Off"></p>
-<p><em>VirtualBox ber om bekreftelse før maskinen slås av med Power Off.</em></p>
+<p><img src="images/screenshots/016.png" alt="VirtualBox ber om bekreftelse før maskinen slås av med Power Off"><br><em>VirtualBox ber om bekreftelse før maskinen slås av med Power Off.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/017.png" alt="Innstillingene åpnes for den avslåtte serveren"></p>
-<p><em>Innstillingene åpnes for den avslåtte serveren.</em></p>
+<p><img src="images/screenshots/017.png" alt="Innstillingene åpnes for den avslåtte serveren"><br><em>Innstillingene åpnes for den avslåtte serveren.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/018.png" alt="Adapter 1 på DC01 kobles til Host-only-nettverket"></p>
-<p><em>Adapter 1 på DC01 kobles til Host-only-nettverket.</em></p>
+<p><img src="images/screenshots/018.png" alt="Adapter 1 på DC01 kobles til Host-only-nettverket"><br><em>Adapter 1 på DC01 kobles til Host-only-nettverket.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/019.png" alt="Adapter 2 bruker NAT for utgående forbindelser fra DC01"></p>
-<p><em>Adapter 2 bruker NAT for utgående forbindelser fra DC01.</em></p>
+<p><img src="images/screenshots/019.png" alt="Adapter 2 bruker NAT for utgående forbindelser fra DC01"><br><em>Adapter 2 bruker NAT for utgående forbindelser fra DC01.</em></p>
 </details>
 
 <details>
 <summary>Finn DHCP-området i VirtualBox</summary>
 
-<p><img src="images/screenshots/020.png" alt="Nettverksinnstillingene i VirtualBox åpnes via File → Tools → Network"></p>
-<p><em>Nettverksinnstillingene i VirtualBox åpnes via File → Tools → Network.</em></p>
+<p><img src="images/screenshots/020.png" alt="Nettverksinnstillingene i VirtualBox åpnes via File → Tools → Network"><br><em>Nettverksinnstillingene i VirtualBox åpnes via File → Tools → Network.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/021.png" alt="DHCP-området kontrolleres før vi velger en fast IP-adresse til serveren"></p>
-<p><em>DHCP-området kontrolleres før vi velger en fast IP-adresse til serveren.</em></p>
+<p><img src="images/screenshots/021.png" alt="DHCP-området kontrolleres før vi velger en fast IP-adresse til serveren"><br><em>DHCP-området kontrolleres før vi velger en fast IP-adresse til serveren.</em></p>
 </details>
 
 <details>
 <summary>Gi serveren en fast IP-adresse</summary>
 
-<p><img src="images/screenshots/022.png" alt="Nettverkstilkoblinger åpnes på serveren"></p>
-<p><em>Nettverkstilkoblinger åpnes på serveren.</em></p>
+<p><img src="images/screenshots/022.png" alt="Nettverkstilkoblinger åpnes på serveren"><br><em>Nettverkstilkoblinger åpnes på serveren.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/023.png" alt="Egenskapene åpnes for serverens nettverkskort på labnettverket"></p>
-<p><em>Egenskapene åpnes for serverens nettverkskort på labnettverket.</em></p>
+<p><img src="images/screenshots/023.png" alt="Egenskapene åpnes for serverens nettverkskort på labnettverket"><br><em>Egenskapene åpnes for serverens nettverkskort på labnettverket.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/024.png" alt="IPv4-innstillingene åpnes for nettverkskortet"></p>
-<p><em>IPv4-innstillingene åpnes for nettverkskortet.</em></p>
+<p><img src="images/screenshots/024.png" alt="IPv4-innstillingene åpnes for nettverkskortet"><br><em>IPv4-innstillingene åpnes for nettverkskortet.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/025.png" alt="DC01 får IP-adressen 192.168.56.55, masken 255.255.255.0 og samme adresse som DNS-server"></p>
-<p><em>DC01 får IP-adressen 192.168.56.55, masken 255.255.255.0 og samme adresse som DNS-server.</em></p>
+<p><img src="images/screenshots/025.png" alt="DC01 får IP-adressen 192.168.56.55, masken 255.255.255.0 og samme adresse som DNS-server"><br><em>DC01 får IP-adressen 192.168.56.55, masken 255.255.255.0 og samme adresse som DNS-server.</em></p>
 </details>
 
 <details>
 <summary>Installer Guest Additions</summary>
 
-<p><img src="images/screenshots/047.png" alt="Guest Additions-CD-en monteres fra VirtualBox Devices-menyen"></p>
-<p><em>Guest Additions-CD-en monteres fra VirtualBox Devices-menyen.</em></p>
+<p><img src="images/screenshots/047.png" alt="Guest Additions-CD-en monteres fra VirtualBox Devices-menyen"><br><em>Guest Additions-CD-en monteres fra VirtualBox Devices-menyen.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/048.png" alt="Filutforskeren åpnes inne i den virtuelle maskinen"></p>
-<p><em>Filutforskeren åpnes inne i den virtuelle maskinen.</em></p>
+<p><img src="images/screenshots/048.png" alt="Filutforskeren åpnes inne i den virtuelle maskinen"><br><em>Filutforskeren åpnes inne i den virtuelle maskinen.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/049.png" alt="Guest Additions-CD-stasjonen finnes under This PC"></p>
-<p><em>Guest Additions-CD-stasjonen finnes under This PC.</em></p>
+<p><img src="images/screenshots/049.png" alt="Guest Additions-CD-stasjonen finnes under This PC"><br><em>Guest Additions-CD-stasjonen finnes under This PC.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/050.png" alt="Windows-installasjonsprogrammet for Guest Additions velges"></p>
-<p><em>Windows-installasjonsprogrammet for Guest Additions velges.</em></p>
+<p><img src="images/screenshots/050.png" alt="Windows-installasjonsprogrammet for Guest Additions velges"><br><em>Windows-installasjonsprogrammet for Guest Additions velges.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/051.png" alt="Guest Additions-installasjonen starter"></p>
-<p><em>Guest Additions-installasjonen starter.</em></p>
+<p><img src="images/screenshots/051.png" alt="Guest Additions-installasjonen starter"><br><em>Guest Additions-installasjonen starter.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/052.png" alt="Installasjonsplassering for Guest Additions"></p>
-<p><em>Installasjonsplassering for Guest Additions.</em></p>
+<p><img src="images/screenshots/052.png" alt="Installasjonsplassering for Guest Additions"><br><em>Installasjonsplassering for Guest Additions.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/053.png" alt="Komponentvalg for Guest Additions"></p>
-<p><em>Komponentvalg for Guest Additions.</em></p>
+<p><img src="images/screenshots/053.png" alt="Komponentvalg for Guest Additions"><br><em>Komponentvalg for Guest Additions.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/054.png" alt="Den virtuelle maskinen startes på nytt etter installasjonen"></p>
-<p><em>Den virtuelle maskinen startes på nytt etter installasjonen.</em></p>
+<p><img src="images/screenshots/054.png" alt="Den virtuelle maskinen startes på nytt etter installasjonen"><br><em>Den virtuelle maskinen startes på nytt etter installasjonen.</em></p>
 </details>
 
 <details>
 <summary>Juster skjerm og skalering</summary>
 
-<p><img src="images/screenshots/055.png" alt="VirtualBox viser skjerm- og skaleringsvalg etter installasjonen"></p>
-<p><em>VirtualBox viser skjerm- og skaleringsvalg etter installasjonen.</em></p>
+<p><img src="images/screenshots/055.png" alt="VirtualBox viser skjerm- og skaleringsvalg etter installasjonen"><br><em>VirtualBox viser skjerm- og skaleringsvalg etter installasjonen.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/056.png" alt="Den virtuelle maskinen vises med større skjermflate"></p>
-<p><em>Den virtuelle maskinen vises med større skjermflate.</em></p>
+<p><img src="images/screenshots/056.png" alt="Den virtuelle maskinen vises med større skjermflate"><br><em>Den virtuelle maskinen vises med større skjermflate.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/057.png" alt="Display settings åpnes i Windows"></p>
-<p><em>Display settings åpnes i Windows.</em></p>
+<p><img src="images/screenshots/057.png" alt="Display settings åpnes i Windows"><br><em>Display settings åpnes i Windows.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/058.png" alt="Skalering endres for å gjøre tekst og ikoner større"></p>
-<p><em>Skalering endres for å gjøre tekst og ikoner større.</em></p>
+<p><img src="images/screenshots/058.png" alt="Skalering endres for å gjøre tekst og ikoner større"><br><em>Skalering endres for å gjøre tekst og ikoner større.</em></p>
 </details>
 
 <h2>2. Active Directory</h2>
 <details>
 <summary>Installer AD DS</summary>
 
-<p><img src="images/screenshots/026.png" alt="Server Manager åpnes for å installere AD DS-rollen"></p>
-<p><em>Server Manager åpnes for å installere AD DS-rollen.</em></p>
+<p><img src="images/screenshots/026.png" alt="Server Manager åpnes for å installere AD DS-rollen"><br><em>Server Manager åpnes for å installere AD DS-rollen.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/027.png" alt="Add roles and features starter rolleinstallasjonen"></p>
-<p><em>Add roles and features starter rolleinstallasjonen.</em></p>
+<p><img src="images/screenshots/027.png" alt="Add roles and features starter rolleinstallasjonen"><br><em>Add roles and features starter rolleinstallasjonen.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/028.png" alt="Veiviseren viser hva som bør være klart før rolleinstallasjonen"></p>
-<p><em>Veiviseren viser hva som bør være klart før rolleinstallasjonen.</em></p>
+<p><img src="images/screenshots/028.png" alt="Veiviseren viser hva som bør være klart før rolleinstallasjonen"><br><em>Veiviseren viser hva som bør være klart før rolleinstallasjonen.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/029.png" alt="Role-based or feature-based installation velges"></p>
-<p><em>Role-based or feature-based installation velges.</em></p>
+<p><img src="images/screenshots/029.png" alt="Role-based or feature-based installation velges"><br><em>Role-based or feature-based installation velges.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/030.png" alt="DC01 velges som serveren rollen skal installeres på"></p>
-<p><em>DC01 velges som serveren rollen skal installeres på.</em></p>
+<p><img src="images/screenshots/030.png" alt="DC01 velges som serveren rollen skal installeres på"><br><em>DC01 velges som serveren rollen skal installeres på.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/031.png" alt="Active Directory Domain Services markeres i rollelisten"></p>
-<p><em>Active Directory Domain Services markeres i rollelisten.</em></p>
+<p><img src="images/screenshots/031.png" alt="Active Directory Domain Services markeres i rollelisten"><br><em>Active Directory Domain Services markeres i rollelisten.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/032.png" alt="Nødvendige administrasjonsverktøy legges til med Add Features"></p>
-<p><em>Nødvendige administrasjonsverktøy legges til med Add Features.</em></p>
+<p><img src="images/screenshots/032.png" alt="Nødvendige administrasjonsverktøy legges til med Add Features"><br><em>Nødvendige administrasjonsverktøy legges til med Add Features.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/033.png" alt="AD DS er valgt i rollelisten"></p>
-<p><em>AD DS er valgt i rollelisten.</em></p>
+<p><img src="images/screenshots/033.png" alt="AD DS er valgt i rollelisten"><br><em>AD DS er valgt i rollelisten.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/034.png" alt="Tilleggsfunksjoner vises før installasjonen fortsetter"></p>
-<p><em>Tilleggsfunksjoner vises før installasjonen fortsetter.</em></p>
+<p><img src="images/screenshots/034.png" alt="Tilleggsfunksjoner vises før installasjonen fortsetter"><br><em>Tilleggsfunksjoner vises før installasjonen fortsetter.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/035.png" alt="Informasjon om AD DS og behovet for DNS"></p>
-<p><em>Informasjon om AD DS og behovet for DNS.</em></p>
+<p><img src="images/screenshots/035.png" alt="Informasjon om AD DS og behovet for DNS"><br><em>Informasjon om AD DS og behovet for DNS.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/036.png" alt="Rolleinstallasjonen bekreftes med Install"></p>
-<p><em>Rolleinstallasjonen bekreftes med Install.</em></p>
+<p><img src="images/screenshots/036.png" alt="Rolleinstallasjonen bekreftes med Install"><br><em>Rolleinstallasjonen bekreftes med Install.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/037.png" alt="AD DS er installert. Serveren skal nå settes opp som domenekontroller"></p>
-<p><em>AD DS er installert. Serveren skal nå settes opp som domenekontroller.</em></p>
+<p><img src="images/screenshots/037.png" alt="AD DS er installert. Serveren skal nå settes opp som domenekontroller"><br><em>AD DS er installert. Serveren skal nå settes opp som domenekontroller.</em></p>
 </details>
 
 <details>
 <summary>Opprett domenet og gjør DC01 til domenekontroller</summary>
 
-<p><img src="images/screenshots/038.png" alt="Varselikonet åpner neste steg i oppsettet av domenekontrolleren"></p>
-<p><em>Varselikonet åpner neste steg i oppsettet av domenekontrolleren.</em></p>
+<p><img src="images/screenshots/038.png" alt="Varselikonet åpner neste steg i oppsettet av domenekontrolleren"><br><em>Varselikonet åpner neste steg i oppsettet av domenekontrolleren.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/039.png" alt="Promote this server to a domain controller velges"></p>
-<p><em>Promote this server to a domain controller velges.</em></p>
+<p><img src="images/screenshots/039.png" alt="Promote this server to a domain controller velges"><br><em>Promote this server to a domain controller velges.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/040.png" alt="En ny skog opprettes med domenenavnet LAB.local"></p>
-<p><em>En ny skog opprettes med domenenavnet LAB.local.</em></p>
+<p><img src="images/screenshots/040.png" alt="En ny skog opprettes med domenenavnet LAB.local"><br><em>En ny skog opprettes med domenenavnet LAB.local.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/041.png" alt="Innstillingene for domenekontrolleren velges, og passord for gjenoppretting angis"></p>
-<p><em>Innstillingene for domenekontrolleren velges, og passord for gjenoppretting angis.</em></p>
+<p><img src="images/screenshots/041.png" alt="Innstillingene for domenekontrolleren velges, og passord for gjenoppretting angis"><br><em>Innstillingene for domenekontrolleren velges, og passord for gjenoppretting angis.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/042.png" alt="Advarsel om manglende DNS-delegering i laboppsettet"></p>
-<p><em>Advarsel om manglende DNS-delegering i laboppsettet.</em></p>
+<p><img src="images/screenshots/042.png" alt="Advarsel om manglende DNS-delegering i laboppsettet"><br><em>Advarsel om manglende DNS-delegering i laboppsettet.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/043.png" alt="Plassering av AD-databasen, loggene og den delte systemmappen SYSVOL"></p>
-<p><em>Plassering av AD-databasen, loggene og den delte systemmappen SYSVOL.</em></p>
+<p><img src="images/screenshots/043.png" alt="Plassering av AD-databasen, loggene og den delte systemmappen SYSVOL"><br><em>Plassering av AD-databasen, loggene og den delte systemmappen SYSVOL.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/044.png" alt="NetBIOS-navnet settes til LAB"></p>
-<p><em>NetBIOS-navnet settes til LAB.</em></p>
+<p><img src="images/screenshots/044.png" alt="NetBIOS-navnet settes til LAB"><br><em>NetBIOS-navnet settes til LAB.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/045.png" alt="Innstillingene for domenekontrolleren oppsummeres før installasjon"></p>
-<p><em>Innstillingene for domenekontrolleren oppsummeres før installasjon.</em></p>
+<p><img src="images/screenshots/045.png" alt="Innstillingene for domenekontrolleren oppsummeres før installasjon"><br><em>Innstillingene for domenekontrolleren oppsummeres før installasjon.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/046.png" alt="Veiviseren kontrollerer at serveren er klar for installasjon"></p>
-<p><em>Veiviseren kontrollerer at serveren er klar for installasjon.</em></p>
+<p><img src="images/screenshots/046.png" alt="Veiviseren kontrollerer at serveren er klar for installasjon"><br><em>Veiviseren kontrollerer at serveren er klar for installasjon.</em></p>
 </details>
 
 <h2>3. Windows-klienten</h2>
 <details>
 <summary>Opprett klienten i VirtualBox</summary>
 
-<p><img src="images/screenshots/059.png" alt="En ny virtuell maskin opprettes for Windows-klienten"></p>
-<p><em>En ny virtuell maskin opprettes for Windows-klienten.</em></p>
+<p><img src="images/screenshots/059.png" alt="En ny virtuell maskin opprettes for Windows-klienten"><br><em>En ny virtuell maskin opprettes for Windows-klienten.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/060.png" alt="Windows 11 velges som installasjonsmedium"></p>
-<p><em>Windows 11 velges som installasjonsmedium.</em></p>
+<p><img src="images/screenshots/060.png" alt="Windows 11 velges som installasjonsmedium"><br><em>Windows 11 velges som installasjonsmedium.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/061.png" alt="Klienten får 8 GB arbeidsminne og tre virtuelle prosessorer"></p>
-<p><em>Klienten får 8 GB arbeidsminne og tre virtuelle prosessorer.</em></p>
+<p><img src="images/screenshots/061.png" alt="Klienten får 8 GB arbeidsminne og tre virtuelle prosessorer"><br><em>Klienten får 8 GB arbeidsminne og tre virtuelle prosessorer.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/062.png" alt="Klientens virtuelle disk settes til 80 GB"></p>
-<p><em>Klientens virtuelle disk settes til 80 GB.</em></p>
+<p><img src="images/screenshots/062.png" alt="Klientens virtuelle disk settes til 80 GB"><br><em>Klientens virtuelle disk settes til 80 GB.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/063.png" alt="Den virtuelle klienten er klar til å starte"></p>
-<p><em>Den virtuelle klienten er klar til å starte.</em></p>
+<p><img src="images/screenshots/063.png" alt="Den virtuelle klienten er klar til å starte"><br><em>Den virtuelle klienten er klar til å starte.</em></p>
 </details>
 
 <details>
 <summary>Installer Windows 11 Pro</summary>
 
-<p><img src="images/screenshots/064.png" alt="En tast trykkes for å starte installasjonen fra ISO-en"></p>
-<p><em>En tast trykkes for å starte installasjonen fra ISO-en.</em></p>
+<p><img src="images/screenshots/064.png" alt="En tast trykkes for å starte installasjonen fra ISO-en"><br><em>En tast trykkes for å starte installasjonen fra ISO-en.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/065.png" alt="Språk og region velges i Windows 11-installasjonen"></p>
-<p><em>Språk og region velges i Windows 11-installasjonen.</em></p>
+<p><img src="images/screenshots/065.png" alt="Språk og region velges i Windows 11-installasjonen"><br><em>Språk og region velges i Windows 11-installasjonen.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/066.png" alt="Norsk tastaturoppsett velges"></p>
-<p><em>Norsk tastaturoppsett velges.</em></p>
+<p><img src="images/screenshots/066.png" alt="Norsk tastaturoppsett velges"><br><em>Norsk tastaturoppsett velges.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/067.png" alt="Ren Windows-installasjon velges på den virtuelle maskinen"></p>
-<p><em>Ren Windows-installasjon velges på den virtuelle maskinen.</em></p>
+<p><img src="images/screenshots/067.png" alt="Ren Windows-installasjon velges på den virtuelle maskinen"><br><em>Ren Windows-installasjon velges på den virtuelle maskinen.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/068.png" alt="Installasjonen fortsetter uten produktnøkkel"></p>
-<p><em>Installasjonen fortsetter uten produktnøkkel.</em></p>
+<p><img src="images/screenshots/068.png" alt="Installasjonen fortsetter uten produktnøkkel"><br><em>Installasjonen fortsetter uten produktnøkkel.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/069.png" alt="Windows 11 Pro velges for domenetilknytning"></p>
-<p><em>Windows 11 Pro velges for domenetilknytning.</em></p>
+<p><img src="images/screenshots/069.png" alt="Windows 11 Pro velges for domenetilknytning"><br><em>Windows 11 Pro velges for domenetilknytning.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/070.png" alt="Lisensvilkårene vises før installasjonen"></p>
-<p><em>Lisensvilkårene vises før installasjonen.</em></p>
+<p><img src="images/screenshots/070.png" alt="Lisensvilkårene vises før installasjonen"><br><em>Lisensvilkårene vises før installasjonen.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/071.png" alt="Den tomme virtuelle disken på 80 GB velges"></p>
-<p><em>Den tomme virtuelle disken på 80 GB velges.</em></p>
+<p><img src="images/screenshots/071.png" alt="Den tomme virtuelle disken på 80 GB velges"><br><em>Den tomme virtuelle disken på 80 GB velges.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/072.png" alt="Installasjonsvalgene oppsummeres før Windows installeres"></p>
-<p><em>Installasjonsvalgene oppsummeres før Windows installeres.</em></p>
+<p><img src="images/screenshots/072.png" alt="Installasjonsvalgene oppsummeres før Windows installeres"><br><em>Installasjonsvalgene oppsummeres før Windows installeres.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/073.png" alt="Windows 11 installeres"></p>
-<p><em>Windows 11 installeres.</em></p>
+<p><img src="images/screenshots/073.png" alt="Windows 11 installeres"><br><em>Windows 11 installeres.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/074.png" alt="Windows fortsetter installasjonen etter omstart"></p>
-<p><em>Windows fortsetter installasjonen etter omstart.</em></p>
+<p><img src="images/screenshots/074.png" alt="Windows fortsetter installasjonen etter omstart"><br><em>Windows fortsetter installasjonen etter omstart.</em></p>
 </details>
 
 <details>
 <summary>Velg region, tastatur og maskinnavn</summary>
 
-<p><img src="images/screenshots/075.png" alt="Norge velges som region i førstegangsoppsettet"></p>
-<p><em>Norge velges som region i førstegangsoppsettet.</em></p>
+<p><img src="images/screenshots/075.png" alt="Norge velges som region i førstegangsoppsettet"><br><em>Norge velges som region i førstegangsoppsettet.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/076.png" alt="Norsk tastatur velges i førstegangsoppsettet"></p>
-<p><em>Norsk tastatur velges i førstegangsoppsettet.</em></p>
+<p><img src="images/screenshots/076.png" alt="Norsk tastatur velges i førstegangsoppsettet"><br><em>Norsk tastatur velges i førstegangsoppsettet.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/077.png" alt="Et ekstra tastaturoppsett hoppes over"></p>
-<p><em>Et ekstra tastaturoppsett hoppes over.</em></p>
+<p><img src="images/screenshots/077.png" alt="Et ekstra tastaturoppsett hoppes over"><br><em>Et ekstra tastaturoppsett hoppes over.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/078.png" alt="Windows-maskinnavnet settes til CLT-001"></p>
-<p><em>Windows-maskinnavnet settes til CLT-001.</em></p>
+<p><img src="images/screenshots/078.png" alt="Windows-maskinnavnet settes til CLT-001"><br><em>Windows-maskinnavnet settes til CLT-001.</em></p>
 </details>
 
 <details>
 <summary>Opprett en lokal konto</summary>
 
-<p><img src="images/screenshots/079.png" alt="Sign-in options åpnes i jobb- eller skoleoppsettet"></p>
-<p><em>Sign-in options åpnes i jobb- eller skoleoppsettet.</em></p>
+<p><img src="images/screenshots/079.png" alt="Sign-in options åpnes i jobb- eller skoleoppsettet"><br><em>Sign-in options åpnes i jobb- eller skoleoppsettet.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/080.png" alt="Domain join instead velges for å opprette en lokal konto før klienten meldes inn i domenet"></p>
-<p><em>Domain join instead velges for å opprette en lokal konto før klienten meldes inn i domenet.</em></p>
+<p><img src="images/screenshots/080.png" alt="Domain join instead velges for å opprette en lokal konto før klienten meldes inn i domenet"><br><em>Domain join instead velges for å opprette en lokal konto før klienten meldes inn i domenet.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/081.png" alt="Set up for work or school velges i førstegangsoppsettet"></p>
-<p><em>Set up for work or school velges i førstegangsoppsettet.</em></p>
+<p><img src="images/screenshots/081.png" alt="Set up for work or school velges i førstegangsoppsettet"><br><em>Set up for work or school velges i førstegangsoppsettet.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/082.png" alt="Den lokale klientkontoen får navnet Ola Nordmann"></p>
-<p><em>Den lokale klientkontoen får navnet Ola Nordmann.</em></p>
+<p><img src="images/screenshots/082.png" alt="Den lokale klientkontoen får navnet Ola Nordmann"><br><em>Den lokale klientkontoen får navnet Ola Nordmann.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/083.png" alt="Passordet til den lokale kontoen opprettes"></p>
-<p><em>Passordet til den lokale kontoen opprettes.</em></p>
+<p><img src="images/screenshots/083.png" alt="Passordet til den lokale kontoen opprettes"><br><em>Passordet til den lokale kontoen opprettes.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/084.png" alt="Passordet til den lokale kontoen bekreftes"></p>
-<p><em>Passordet til den lokale kontoen bekreftes.</em></p>
+<p><img src="images/screenshots/084.png" alt="Passordet til den lokale kontoen bekreftes"><br><em>Passordet til den lokale kontoen bekreftes.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/085.png" alt="Sikkerhetsspørsmål settes opp for den lokale kontoen"></p>
-<p><em>Sikkerhetsspørsmål settes opp for den lokale kontoen.</em></p>
+<p><img src="images/screenshots/085.png" alt="Sikkerhetsspørsmål settes opp for den lokale kontoen"><br><em>Sikkerhetsspørsmål settes opp for den lokale kontoen.</em></p>
 </details>
 
 <details>
 <summary>Velg personverninnstillinger og fullfør oppsettet</summary>
 
-<p><img src="images/screenshots/086.png" alt="Posisjonstilgang avslås i personverninnstillingene"></p>
-<p><em>Posisjonstilgang avslås i personverninnstillingene.</em></p>
+<p><img src="images/screenshots/086.png" alt="Posisjonstilgang avslås i personverninnstillingene"><br><em>Posisjonstilgang avslås i personverninnstillingene.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/087.png" alt="Find my device avslås i personverninnstillingene"></p>
-<p><em>Find my device avslås i personverninnstillingene.</em></p>
+<p><img src="images/screenshots/087.png" alt="Find my device avslås i personverninnstillingene"><br><em>Find my device avslås i personverninnstillingene.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/088.png" alt="Bare nødvendige diagnosedata velges"></p>
-<p><em>Bare nødvendige diagnosedata velges.</em></p>
+<p><img src="images/screenshots/088.png" alt="Bare nødvendige diagnosedata velges"><br><em>Bare nødvendige diagnosedata velges.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/089.png" alt="Valgfri forbedring av håndskrift og inntasting avslås"></p>
-<p><em>Valgfri forbedring av håndskrift og inntasting avslås.</em></p>
+<p><img src="images/screenshots/089.png" alt="Valgfri forbedring av håndskrift og inntasting avslås"><br><em>Valgfri forbedring av håndskrift og inntasting avslås.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/090.png" alt="Personlige tilbud avslås"></p>
-<p><em>Personlige tilbud avslås.</em></p>
+<p><img src="images/screenshots/090.png" alt="Personlige tilbud avslås"><br><em>Personlige tilbud avslås.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/091.png" alt="Windows fullfører oppdateringer i førstegangsoppsettet"></p>
-<p><em>Windows fullfører oppdateringer i førstegangsoppsettet.</em></p>
+<p><img src="images/screenshots/091.png" alt="Windows fullfører oppdateringer i førstegangsoppsettet"><br><em>Windows fullfører oppdateringer i førstegangsoppsettet.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/092.png" alt="Påloggingsskjerm for den lokale kontoen Ola Nordmann"></p>
-<p><em>Påloggingsskjerm for den lokale kontoen Ola Nordmann.</em></p>
+<p><img src="images/screenshots/092.png" alt="Påloggingsskjerm for den lokale kontoen Ola Nordmann"><br><em>Påloggingsskjerm for den lokale kontoen Ola Nordmann.</em></p>
 </details>
 
 <details>
 <summary>Koble klienten til labnettverket</summary>
 
-<p><img src="images/screenshots/093.png" alt="Klienten kobles til samme Host-only-nettverk som serveren"></p>
-<p><em>Klienten kobles til samme Host-only-nettverk som serveren.</em></p>
+<p><img src="images/screenshots/093.png" alt="Klienten kobles til samme Host-only-nettverk som serveren"><br><em>Klienten kobles til samme Host-only-nettverk som serveren.</em></p>
 </details>
 
 <details>
 <summary>Sett klientens DNS-server</summary>
 
-<p><img src="images/screenshots/112.png" alt="Nettverkstilkoblinger åpnes på klienten"></p>
-<p><em>Nettverkstilkoblinger åpnes på klienten.</em></p>
+<p><img src="images/screenshots/112.png" alt="Nettverkstilkoblinger åpnes på klienten"><br><em>Nettverkstilkoblinger åpnes på klienten.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/113.png" alt="Klientens Ethernet-egenskaper åpnes"></p>
-<p><em>Klientens Ethernet-egenskaper åpnes.</em></p>
+<p><img src="images/screenshots/113.png" alt="Klientens Ethernet-egenskaper åpnes"><br><em>Klientens Ethernet-egenskaper åpnes.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/114.png" alt="Klientens IPv4-egenskaper velges"></p>
-<p><em>Klientens IPv4-egenskaper velges.</em></p>
+<p><img src="images/screenshots/114.png" alt="Klientens IPv4-egenskaper velges"><br><em>Klientens IPv4-egenskaper velges.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/115.png" alt="Klienten får IP-adresse automatisk og bruker 192.168.56.55 som DNS-server"></p>
-<p><em>Klienten får IP-adresse automatisk og bruker 192.168.56.55 som DNS-server.</em></p>
+<p><img src="images/screenshots/115.png" alt="Klienten får IP-adresse automatisk og bruker 192.168.56.55 som DNS-server"><br><em>Klienten får IP-adresse automatisk og bruker 192.168.56.55 som DNS-server.</em></p>
 </details>
 
 <details>
 <summary>Meld klienten inn i domenet</summary>
 
-<p><img src="images/screenshots/116.png" alt="Kommandolinjen åpnes fra Start-menyen"></p>
-<p><em>Kommandolinjen åpnes fra Start-menyen.</em></p>
+<p><img src="images/screenshots/116.png" alt="Kommandolinjen åpnes fra Start-menyen"><br><em>Kommandolinjen åpnes fra Start-menyen.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/117.png" alt="sysdm.cpl åpner systemegenskapene på klienten"></p>
-<p><em>sysdm.cpl åpner systemegenskapene på klienten.</em></p>
+<p><img src="images/screenshots/117.png" alt="sysdm.cpl åpner systemegenskapene på klienten"><br><em>sysdm.cpl åpner systemegenskapene på klienten.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/118.png" alt="Klientens System Properties viser CLT-001 i en arbeidsgruppe"></p>
-<p><em>Klientens System Properties viser CLT-001 i en arbeidsgruppe.</em></p>
+<p><img src="images/screenshots/118.png" alt="Klientens System Properties viser CLT-001 i en arbeidsgruppe"><br><em>Klientens System Properties viser CLT-001 i en arbeidsgruppe.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/119.png" alt="LAB.local angis som domene for CLT-001"></p>
-<p><em>LAB.local angis som domene for CLT-001.</em></p>
+<p><img src="images/screenshots/119.png" alt="LAB.local angis som domene for CLT-001"><br><em>LAB.local angis som domene for CLT-001.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/120.png" alt="En konto med rettighet til å melde klienten inn i domenet oppgis"></p>
-<p><em>En konto med rettighet til å melde klienten inn i domenet oppgis.</em></p>
+<p><img src="images/screenshots/120.png" alt="En konto med rettighet til å melde klienten inn i domenet oppgis"><br><em>En konto med rettighet til å melde klienten inn i domenet oppgis.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/121.png" alt="Velkomstmeldingen bekrefter vellykket tilknytning til LAB.local"></p>
-<p><em>Velkomstmeldingen bekrefter vellykket tilknytning til LAB.local.</em></p>
+<p><img src="images/screenshots/121.png" alt="Velkomstmeldingen bekrefter vellykket tilknytning til LAB.local"><br><em>Velkomstmeldingen bekrefter vellykket tilknytning til LAB.local.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/122.png" alt="Klienten må startes på nytt etter domenetilknytningen"></p>
-<p><em>Klienten må startes på nytt etter domenetilknytningen.</em></p>
+<p><img src="images/screenshots/122.png" alt="Klienten må startes på nytt etter domenetilknytningen"><br><em>Klienten må startes på nytt etter domenetilknytningen.</em></p>
 </details>
 
 <h2>4. Brukere, grupper og OU-er</h2>
 <details>
 <summary>Opprett OU-ene Accounts og Groups</summary>
 
-<p><img src="images/screenshots/094.png" alt="Active Directory Users and Computers åpnes på DC01"></p>
-<p><em>Active Directory Users and Computers åpnes på DC01.</em></p>
+<p><img src="images/screenshots/094.png" alt="Active Directory Users and Computers åpnes på DC01"><br><em>Active Directory Users and Computers åpnes på DC01.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/095.png" alt="New Organizational Unit velges under LAB.local"></p>
-<p><em>New Organizational Unit velges under LAB.local.</em></p>
+<p><img src="images/screenshots/095.png" alt="New Organizational Unit velges under LAB.local"><br><em>New Organizational Unit velges under LAB.local.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/096.png" alt="OU-en Accounts opprettes med beskyttelse mot utilsiktet sletting"></p>
-<p><em>OU-en Accounts opprettes med beskyttelse mot utilsiktet sletting.</em></p>
+<p><img src="images/screenshots/096.png" alt="OU-en Accounts opprettes med beskyttelse mot utilsiktet sletting"><br><em>OU-en Accounts opprettes med beskyttelse mot utilsiktet sletting.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/097.png" alt="OU-en Groups opprettes med beskyttelse mot utilsiktet sletting"></p>
-<p><em>OU-en Groups opprettes med beskyttelse mot utilsiktet sletting.</em></p>
+<p><img src="images/screenshots/097.png" alt="OU-en Groups opprettes med beskyttelse mot utilsiktet sletting"><br><em>OU-en Groups opprettes med beskyttelse mot utilsiktet sletting.</em></p>
 </details>
 
 <details>
 <summary>Opprett brukerkontoene</summary>
 
-<p><img src="images/screenshots/098.png" alt="En ny bruker opprettes i Accounts"></p>
-<p><em>En ny bruker opprettes i Accounts.</em></p>
+<p><img src="images/screenshots/098.png" alt="En ny bruker opprettes i Accounts"><br><em>En ny bruker opprettes i Accounts.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/099.png" alt="Eirik Solbergs navn og påloggingsnavn eirsol fylles inn"></p>
-<p><em>Eirik Solbergs navn og påloggingsnavn eirsol fylles inn.</em></p>
+<p><img src="images/screenshots/099.png" alt="Eirik Solbergs navn og påloggingsnavn eirsol fylles inn"><br><em>Eirik Solbergs navn og påloggingsnavn eirsol fylles inn.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/100.png" alt="Brukeren får et midlertidig passord som må endres ved neste pålogging"></p>
-<p><em>Brukeren får et midlertidig passord som må endres ved neste pålogging.</em></p>
+<p><img src="images/screenshots/100.png" alt="Brukeren får et midlertidig passord som må endres ved neste pålogging"><br><em>Brukeren får et midlertidig passord som må endres ved neste pålogging.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/101.png" alt="Oppsummering før Eiriks konto opprettes"></p>
-<p><em>Oppsummering før Eiriks konto opprettes.</em></p>
+<p><img src="images/screenshots/101.png" alt="Oppsummering før Eiriks konto opprettes"><br><em>Oppsummering før Eiriks konto opprettes.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/102.png" alt="Alle ti labkontoene vises i Accounts"></p>
-<p><em>Alle ti labkontoene vises i Accounts.</em></p>
+<p><img src="images/screenshots/102.png" alt="Alle ti labkontoene vises i Accounts"><br><em>Alle ti labkontoene vises i Accounts.</em></p>
 </details>
 
 <details>
 <summary>Opprett avdelingsgruppene</summary>
 
-<p><img src="images/screenshots/103.png" alt="En ny gruppe opprettes i Groups"></p>
-<p><em>En ny gruppe opprettes i Groups.</em></p>
+<p><img src="images/screenshots/103.png" alt="En ny gruppe opprettes i Groups"><br><em>En ny gruppe opprettes i Groups.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/104.png" alt="HR opprettes som global sikkerhetsgruppe"></p>
-<p><em>HR opprettes som global sikkerhetsgruppe.</em></p>
+<p><img src="images/screenshots/104.png" alt="HR opprettes som global sikkerhetsgruppe"><br><em>HR opprettes som global sikkerhetsgruppe.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/105.png" alt="De fem avdelingsgruppene vises i katalogen"></p>
-<p><em>De fem avdelingsgruppene vises i katalogen.</em></p>
+<p><img src="images/screenshots/105.png" alt="De fem avdelingsgruppene vises i katalogen"><br><em>De fem avdelingsgruppene vises i katalogen.</em></p>
 </details>
 
 <details>
 <summary>Legg brukerne i riktig gruppe</summary>
 
-<p><img src="images/screenshots/106.png" alt="Eiriks brukeregenskaper åpnes for å endre medlemskap"></p>
-<p><em>Eiriks brukeregenskaper åpnes for å endre medlemskap.</em></p>
+<p><img src="images/screenshots/106.png" alt="Eiriks brukeregenskaper åpnes for å endre medlemskap"><br><em>Eiriks brukeregenskaper åpnes for å endre medlemskap.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/107.png" alt="Egenskapene for Eiriks brukerkonto vises"></p>
-<p><em>Egenskapene for Eiriks brukerkonto vises.</em></p>
+<p><img src="images/screenshots/107.png" alt="Egenskapene for Eiriks brukerkonto vises"><br><em>Egenskapene for Eiriks brukerkonto vises.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/108.png" alt="Member Of viser Domain Users før avdelingsgruppen legges til"></p>
-<p><em>Member Of viser Domain Users før avdelingsgruppen legges til.</em></p>
+<p><img src="images/screenshots/108.png" alt="Member Of viser Domain Users før avdelingsgruppen legges til"><br><em>Member Of viser Domain Users før avdelingsgruppen legges til.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/109.png" alt="IT søkes opp som gruppenavn i LAB.local"></p>
-<p><em>IT søkes opp som gruppenavn i LAB.local.</em></p>
+<p><img src="images/screenshots/109.png" alt="IT søkes opp som gruppenavn i LAB.local"><br><em>IT søkes opp som gruppenavn i LAB.local.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/110.png" alt="Check Names bekrefter at IT-gruppen finnes"></p>
-<p><em>Check Names bekrefter at IT-gruppen finnes.</em></p>
+<p><img src="images/screenshots/110.png" alt="Check Names bekrefter at IT-gruppen finnes"><br><em>Check Names bekrefter at IT-gruppen finnes.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/111.png" alt="Eirik er nå medlem av IT og Domain Users"></p>
-<p><em>Eirik er nå medlem av IT og Domain Users.</em></p>
+<p><img src="images/screenshots/111.png" alt="Eirik er nå medlem av IT og Domain Users"><br><em>Eirik er nå medlem av IT og Domain Users.</em></p>
 </details>
 
 <h2>5. Delte mapper og rettigheter</h2>
 <details>
 <summary>Opprett mappene</summary>
 
-<p><img src="images/screenshots/123.png" alt="File Explorer åpnes på serveren"></p>
-<p><em>File Explorer åpnes på serveren.</em></p>
+<p><img src="images/screenshots/123.png" alt="File Explorer åpnes på serveren"><br><em>File Explorer åpnes på serveren.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/124.png" alt="Serverens C-disk åpnes"></p>
-<p><em>Serverens C-disk åpnes.</em></p>
+<p><img src="images/screenshots/124.png" alt="Serverens C-disk åpnes"><br><em>Serverens C-disk åpnes.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/125.png" alt="En ny mappe opprettes på serveren"></p>
-<p><em>En ny mappe opprettes på serveren.</em></p>
+<p><img src="images/screenshots/125.png" alt="En ny mappe opprettes på serveren"><br><em>En ny mappe opprettes på serveren.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/126.png" alt="Hovedmappen C:\Shares er opprettet"></p>
-<p><em>Hovedmappen C:\Shares er opprettet.</em></p>
+<p><img src="images/screenshots/126.png" alt="Hovedmappen C:\Shares er opprettet"><br><em>Hovedmappen C:\Shares er opprettet.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/127.png" alt="Avdelingsmappene Finance, HR, IT, Marketing og Sales er opprettet"></p>
-<p><em>Avdelingsmappene Finance, HR, IT, Marketing og Sales er opprettet.</em></p>
+<p><img src="images/screenshots/127.png" alt="Avdelingsmappene Finance, HR, IT, Marketing og Sales er opprettet"><br><em>Avdelingsmappene Finance, HR, IT, Marketing og Sales er opprettet.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/128.png" alt="HR Forms og Resumes er opprettet under HR"></p>
-<p><em>HR Forms og Resumes er opprettet under HR.</em></p>
+<p><img src="images/screenshots/128.png" alt="HR Forms og Resumes er opprettet under HR"><br><em>HR Forms og Resumes er opprettet under HR.</em></p>
 </details>
 
 <details>
 <summary>Del HR-mappen og sett delingsrettigheter</summary>
 
-<p><img src="images/screenshots/129.png" alt="HR-mappens egenskaper åpnes"></p>
-<p><em>HR-mappens egenskaper åpnes.</em></p>
+<p><img src="images/screenshots/129.png" alt="HR-mappens egenskaper åpnes"><br><em>HR-mappens egenskaper åpnes.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/130.png" alt="Sharing-fanen åpnes for å dele HR-mappen"></p>
-<p><em>Sharing-fanen åpnes for å dele HR-mappen.</em></p>
+<p><img src="images/screenshots/130.png" alt="Sharing-fanen åpnes for å dele HR-mappen"><br><em>Sharing-fanen åpnes for å dele HR-mappen.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/131.png" alt="HR aktiveres som deling i Advanced Sharing"></p>
-<p><em>HR aktiveres som deling i Advanced Sharing.</em></p>
+<p><img src="images/screenshots/131.png" alt="HR aktiveres som deling i Advanced Sharing"><br><em>HR aktiveres som deling i Advanced Sharing.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/132.png" alt="Everyone får Full Control under delingsrettighetene"></p>
-<p><em>Everyone får Full Control under delingsrettighetene.</em></p>
+<p><img src="images/screenshots/132.png" alt="Everyone får Full Control under delingsrettighetene"><br><em>Everyone får Full Control under delingsrettighetene.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/133.png" alt="Delingsinnstillingene bekreftes i Advanced Sharing"></p>
-<p><em>Delingsinnstillingene bekreftes i Advanced Sharing.</em></p>
+<p><img src="images/screenshots/133.png" alt="Delingsinnstillingene bekreftes i Advanced Sharing"><br><em>Delingsinnstillingene bekreftes i Advanced Sharing.</em></p>
 </details>
 
 <details>
 <summary>Gi HR-gruppen Modify-tilgang med NTFS</summary>
 
-<p><img src="images/screenshots/134.png" alt="Security-fanen åpnes for å endre NTFS-rettighetene"></p>
-<p><em>Security-fanen åpnes for å endre NTFS-rettighetene.</em></p>
+<p><img src="images/screenshots/134.png" alt="Security-fanen åpnes for å endre NTFS-rettighetene"><br><em>Security-fanen åpnes for å endre NTFS-rettighetene.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/135.png" alt="Edit åpner redigering av NTFS-rettighetene"></p>
-<p><em>Edit åpner redigering av NTFS-rettighetene.</em></p>
+<p><img src="images/screenshots/135.png" alt="Edit åpner redigering av NTFS-rettighetene"><br><em>Edit åpner redigering av NTFS-rettighetene.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/136.png" alt="HR-gruppen søkes opp og bekreftes med Check Names"></p>
-<p><em>HR-gruppen søkes opp og bekreftes med Check Names.</em></p>
+<p><img src="images/screenshots/136.png" alt="HR-gruppen søkes opp og bekreftes med Check Names"><br><em>HR-gruppen søkes opp og bekreftes med Check Names.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/137.png" alt="HR-gruppen får Modify-tilgang til HR-mappen"></p>
-<p><em>HR-gruppen får Modify-tilgang til HR-mappen.</em></p>
+<p><img src="images/screenshots/137.png" alt="HR-gruppen får Modify-tilgang til HR-mappen"><br><em>HR-gruppen får Modify-tilgang til HR-mappen.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/138.png" alt="Security-fanen viser de valgte tillatelsene for HR"></p>
-<p><em>Security-fanen viser de valgte tillatelsene for HR.</em></p>
+<p><img src="images/screenshots/138.png" alt="Security-fanen viser de valgte tillatelsene for HR"><br><em>Security-fanen viser de valgte tillatelsene for HR.</em></p>
 </details>
 
 <h2>6. Test av tilgang</h2>
 <details>
 <summary>Logg på med en domenekonto</summary>
 
-<p><img src="images/screenshots/139.png" alt="Maja logger på klienten med domenekontoen sin"></p>
-<p><em>Maja logger på klienten med domenekontoen sin.</em></p>
+<p><img src="images/screenshots/139.png" alt="Maja logger på klienten med domenekontoen sin"><br><em>Maja logger på klienten med domenekontoen sin.</em></p>
 </details>
 
 <details>
 <summary>Koble til HR-mappen som nettverksstasjon</summary>
 
-<p><img src="images/screenshots/140.png" alt="Map network drive åpnes fra klientens File Explorer"></p>
-<p><em>Map network drive åpnes fra klientens File Explorer.</em></p>
+<p><img src="images/screenshots/140.png" alt="Map network drive åpnes fra klientens File Explorer"><br><em>Map network drive åpnes fra klientens File Explorer.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/141.png" alt="Nettverksstasjonen Z: kobles til \LAB.LOCAL\HR"></p>
-<p><em>Nettverksstasjonen Z: kobles til \LAB.LOCAL\HR.</em></p>
+<p><img src="images/screenshots/141.png" alt="Nettverksstasjonen Z: kobles til \LAB.LOCAL\HR"><br><em>Nettverksstasjonen Z: kobles til \LAB.LOCAL\HR.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/142.png" alt="HR-delingen åpnes fra klienten og viser undermappene"></p>
-<p><em>HR-delingen åpnes fra klienten og viser undermappene.</em></p>
+<p><img src="images/screenshots/142.png" alt="HR-delingen åpnes fra klienten og viser undermappene"><br><em>HR-delingen åpnes fra klienten og viser undermappene.</em></p>
 </details>
 
 <details>
 <summary>Test at brukeren kan opprette en mappe</summary>
 
-<p><img src="images/screenshots/143.png" alt="Maja oppretter en mappe i HR-delingen for å teste skrivetilgangen"></p>
-<p><em>Maja oppretter en mappe i HR-delingen for å teste skrivetilgangen.</em></p>
+<p><img src="images/screenshots/143.png" alt="Maja oppretter en mappe i HR-delingen for å teste skrivetilgangen"><br><em>Maja oppretter en mappe i HR-delingen for å teste skrivetilgangen.</em></p>
 </details>
 
 <h2>7. Vanlige supportsaker</h2>
 <details>
 <summary>Glemt passord</summary>
 
-<p><img src="images/screenshots/144.png" alt="Søk etter brukere i Active Directory Users and Computers"></p>
-<p><em>Søk etter brukere i Active Directory Users and Computers.</em></p>
+<p><img src="images/screenshots/144.png" alt="Søk etter brukere i Active Directory Users and Computers"><br><em>Søk etter brukere i Active Directory Users and Computers.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/145.png" alt="Nora Eidem finnes med Find Now"></p>
-<p><em>Nora Eidem finnes med Find Now.</em></p>
+<p><img src="images/screenshots/145.png" alt="Nora Eidem finnes med Find Now"><br><em>Nora Eidem finnes med Find Now.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/146.png" alt="Reset Password velges for Noras konto"></p>
-<p><em>Reset Password velges for Noras konto.</em></p>
+<p><img src="images/screenshots/146.png" alt="Reset Password velges for Noras konto"><br><em>Reset Password velges for Noras konto.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/147.png" alt="Et midlertidig passord settes med krav om passordbytte ved neste pålogging"></p>
-<p><em>Et midlertidig passord settes med krav om passordbytte ved neste pålogging.</em></p>
+<p><img src="images/screenshots/147.png" alt="Et midlertidig passord settes med krav om passordbytte ved neste pålogging"><br><em>Et midlertidig passord settes med krav om passordbytte ved neste pålogging.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/148.png" alt="Active Directory bekrefter at passordet er tilbakestilt"></p>
-<p><em>Active Directory bekrefter at passordet er tilbakestilt.</em></p>
+<p><img src="images/screenshots/148.png" alt="Active Directory bekrefter at passordet er tilbakestilt"><br><em>Active Directory bekrefter at passordet er tilbakestilt.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/149.png" alt="Klienten krever passordbytte før pålogging"></p>
-<p><em>Klienten krever passordbytte før pålogging.</em></p>
+<p><img src="images/screenshots/149.png" alt="Klienten krever passordbytte før pålogging"><br><em>Klienten krever passordbytte før pålogging.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/150.png" alt="Nora fyller inn et nytt passord"></p>
-<p><em>Nora fyller inn et nytt passord.</em></p>
+<p><img src="images/screenshots/150.png" alt="Nora fyller inn et nytt passord"><br><em>Nora fyller inn et nytt passord.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/151.png" alt="Windows bekrefter at passordet er endret"></p>
-<p><em>Windows bekrefter at passordet er endret.</em></p>
+<p><img src="images/screenshots/151.png" alt="Windows bekrefter at passordet er endret"><br><em>Windows bekrefter at passordet er endret.</em></p>
 </details>
 
 <details>
 <summary>Låst konto</summary>
 
-<p><img src="images/screenshots/152.png" alt="Group Policy Management åpnes med gpmc.msc"></p>
-<p><em>Group Policy Management åpnes med gpmc.msc.</em></p>
+<p><img src="images/screenshots/152.png" alt="Group Policy Management åpnes med gpmc.msc"><br><em>Group Policy Management åpnes med gpmc.msc.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/153.png" alt="Domenet vises i Group Policy Management"></p>
-<p><em>Domenet vises i Group Policy Management.</em></p>
+<p><img src="images/screenshots/153.png" alt="Domenet vises i Group Policy Management"><br><em>Domenet vises i Group Policy Management.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/154.png" alt="Default Domain Policy åpnes for redigering"></p>
-<p><em>Default Domain Policy åpnes for redigering.</em></p>
+<p><img src="images/screenshots/154.png" alt="Default Domain Policy åpnes for redigering"><br><em>Default Domain Policy åpnes for redigering.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/155.png" alt="Account Lockout Policy viser innstillingene for kontolåsing"></p>
-<p><em>Account Lockout Policy viser innstillingene for kontolåsing.</em></p>
+<p><img src="images/screenshots/155.png" alt="Account Lockout Policy viser innstillingene for kontolåsing"><br><em>Account Lockout Policy viser innstillingene for kontolåsing.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/156.png" alt="Account lockout threshold åpnes for endring"></p>
-<p><em>Account lockout threshold åpnes for endring.</em></p>
+<p><img src="images/screenshots/156.png" alt="Account lockout threshold åpnes for endring"><br><em>Account lockout threshold åpnes for endring.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/157.png" alt="Windows foreslår følgeendringer til kontolåsingen"></p>
-<p><em>Windows foreslår følgeendringer til kontolåsingen.</em></p>
+<p><img src="images/screenshots/157.png" alt="Windows foreslår følgeendringer til kontolåsingen"><br><em>Windows foreslår følgeendringer til kontolåsingen.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/158.png" alt="Terskelen settes til tre mislykkede påloggingsforsøk"></p>
-<p><em>Terskelen settes til tre mislykkede påloggingsforsøk.</em></p>
+<p><img src="images/screenshots/158.png" alt="Terskelen settes til tre mislykkede påloggingsforsøk"><br><em>Terskelen settes til tre mislykkede påloggingsforsøk.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/159.png" alt="Kontoen låses i 30 minutter etter tre mislykkede påloggingsforsøk"></p>
-<p><em>Kontoen låses i 30 minutter etter tre mislykkede påloggingsforsøk.</em></p>
+<p><img src="images/screenshots/159.png" alt="Kontoen låses i 30 minutter etter tre mislykkede påloggingsforsøk"><br><em>Kontoen låses i 30 minutter etter tre mislykkede påloggingsforsøk.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/160.png" alt="Klienten viser en feilmelding ved feil passord"></p>
-<p><em>Klienten viser en feilmelding ved feil passord.</em></p>
+<p><img src="images/screenshots/160.png" alt="Klienten viser en feilmelding ved feil passord"><br><em>Klienten viser en feilmelding ved feil passord.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/161.png" alt="Klienten viser at kontoen er låst"></p>
-<p><em>Klienten viser at kontoen er låst.</em></p>
+<p><img src="images/screenshots/161.png" alt="Klienten viser at kontoen er låst"><br><em>Klienten viser at kontoen er låst.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/162.png" alt="Unlock account låser opp Noras konto"></p>
-<p><em>Unlock account låser opp Noras konto.</em></p>
+<p><img src="images/screenshots/162.png" alt="Unlock account låser opp Noras konto"><br><em>Unlock account låser opp Noras konto.</em></p>
 </details>
 
 <details>
 <summary>Deaktivere og aktivere konto</summary>
 
-<p><img src="images/screenshots/163.png" alt="Disable Account velges for Nora"></p>
-<p><em>Disable Account velges for Nora.</em></p>
+<p><img src="images/screenshots/163.png" alt="Disable Account velges for Nora"><br><em>Disable Account velges for Nora.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/164.png" alt="Active Directory bekrefter at kontoen er deaktivert"></p>
-<p><em>Active Directory bekrefter at kontoen er deaktivert.</em></p>
+<p><img src="images/screenshots/164.png" alt="Active Directory bekrefter at kontoen er deaktivert"><br><em>Active Directory bekrefter at kontoen er deaktivert.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/165.png" alt="Enable Account velges for Nora"></p>
-<p><em>Enable Account velges for Nora.</em></p>
+<p><img src="images/screenshots/165.png" alt="Enable Account velges for Nora"><br><em>Enable Account velges for Nora.</em></p>
 <p><br><br></p>
-<p><img src="images/screenshots/166.png" alt="Active Directory bekrefter at kontoen er aktivert"></p>
-<p><em>Active Directory bekrefter at kontoen er aktivert.</em></p>
+<p><img src="images/screenshots/166.png" alt="Active Directory bekrefter at kontoen er aktivert"><br><em>Active Directory bekrefter at kontoen er aktivert.</em></p>
 </details>
 </section>
 <section id="del-9"><h1>Kilder</h1>
