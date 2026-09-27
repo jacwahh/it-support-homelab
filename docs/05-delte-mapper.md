@@ -66,7 +66,7 @@ Vi gir Everyone **Full Control** under delingsrettighetene og bruker **NTFS-rett
 
 <br>
 
-![Share gir Full Control og NTFS gir HR-gruppen Modify-tilgang. Begge tillater at Maja oppretter en mappe.](../images/diagrams/share-og-ntfs-avrundet.png)
+![Share gir Full Control og NTFS gir HR-gruppen Modify-tilgang. Begge tillater at Maja oppretter en mappe.](../images/diagrams/share-og-ntfs-original.png)
 
 ## Gi HR-gruppen Modify-tilgang
 
@@ -90,7 +90,7 @@ Vi tildeler rettigheter til gruppene, slik at vi slipper å sette dem for hver b
 
 <br>
 
-![Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.](../images/diagrams/gruppetilgang-avrundet.png)  
+![Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.](../images/diagrams/gruppetilgang-original.png)  
 *Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.*
 
 <br>

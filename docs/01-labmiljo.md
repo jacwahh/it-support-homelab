@@ -6,7 +6,7 @@ En **virtuell maskin (VM)** er en datamaskin som kjører inne på den vanlige PC
 
 <br>
 
-![Vertsmaskinen er den fysiske PC-en. VirtualBox kjører på denne og har to virtuelle maskiner: klienten CLT-001 og serveren DC01, koblet til et felles labnettverk.](../images/diagrams/labnettverk-avrundet.png)  
+![Vertsmaskinen er den fysiske PC-en. VirtualBox kjører på denne og har to virtuelle maskiner: klienten CLT-001 og serveren DC01, koblet til et felles labnettverk.](../images/diagrams/labnettverk-original.png)  
 *Begge de virtuelle maskinene kjører på den samme fysiske PC-en, men har hvert sitt operativsystem.*
 
 <br>
@@ -90,7 +90,7 @@ Subnettmasken angir hvilket lokalt nettverk maskinen tilhører. DNS settes til s
 
 ## Adresseoversikt for labben
 
-![VirtualBox DHCP gir klienten en IP-adresse. Klienten bruker DC01 på 192.168.56.55 som DNS.](../images/diagrams/lab-ip-kart-avrundet.png)
+![VirtualBox DHCP gir klienten en IP-adresse. Klienten bruker DC01 på 192.168.56.55 som DNS.](../images/diagrams/lab-ip-kart-original.png)
 
 <br>
 
