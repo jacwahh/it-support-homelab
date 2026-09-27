@@ -29,9 +29,10 @@ C:\Shares
 
 <br>
 
-![De fem avdelingsmappene samles under C:\Shares.](../images/screenshots/127.png)
-
+![De fem avdelingsmappene samles under C:\Shares.](../images/screenshots/127.png)  
 *De fem avdelingsmappene samles under C:\Shares.*
+
+<br>
 
 ## Del HR-mappen
 
@@ -42,9 +43,10 @@ C:\Shares
 
 <br>
 
-![Everyone får Full Control på delingsnivå.](../images/screenshots/132.png)
-
+![Everyone får Full Control på delingsnivå.](../images/screenshots/132.png)  
 *Everyone får Full Control på delingsnivå.*
+
+<br>
 
 ## Hvorfor finnes det to typer rettigheter?
 
@@ -77,8 +79,7 @@ Vi gir Everyone **Full Control** under delingsrettighetene og bruker **NTFS-rett
 
 <br>
 
-![HR-gruppen får Modify-tilgang til HR-mappen.](../images/screenshots/137.png)
-
+![HR-gruppen får Modify-tilgang til HR-mappen.](../images/screenshots/137.png)  
 *HR-gruppen får Modify-tilgang til HR-mappen.*
 
 <br>
@@ -89,9 +90,10 @@ Vi tildeler rettigheter til gruppene, slik at vi slipper å sette dem for hver b
 
 <br>
 
-![Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.](../images/diagrams/gruppetilgang-avrundet.png)
-
+![Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.](../images/diagrams/gruppetilgang-avrundet.png)  
 *Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.*
+
+<br>
 
 ## Nettverksstien til HR-mappen
 

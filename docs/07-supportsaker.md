@@ -15,8 +15,7 @@ Nora har glemt passordet og trenger hjelp til å logge på. Før et passord tilb
 
 <br>
 
-![Et midlertidig passord settes for Nora, med krav om passordbytte ved neste pålogging.](../images/screenshots/147.png)
-
+![Et midlertidig passord settes for Nora, med krav om passordbytte ved neste pålogging.](../images/screenshots/147.png)  
 *Nora må velge sitt eget passord ved neste pålogging.*
 
 <br>
@@ -25,15 +24,15 @@ Formidle det midlertidige passordet til Nora gjennom virksomhetens godkjente kan
 
 <br>
 
-![Klienten ber Nora endre passordet før hun kan logge på.](../images/screenshots/149.png)
-
+![Klienten ber Nora endre passordet før hun kan logge på.](../images/screenshots/149.png)  
 *Klienten krever passordbytte før påloggingen fullføres.*
 
 <br>
 
-![Windows bekrefter at Noras passord er endret.](../images/screenshots/151.png)
-
+![Windows bekrefter at Noras passord er endret.](../images/screenshots/151.png)  
 *Passordet er endret. Kontroller at Nora får logget på før saken avsluttes.*
+
+<br>
 
 ## Sak 2: Låst konto
 
@@ -60,9 +59,10 @@ Dette er labbens testinnstillinger; i et arbeidsmiljø følger vi virksomhetens 
 
 <br>
 
-![Kontolåsingsreglene er satt til tre feilforsøk og 30 minutter.](../images/screenshots/159.png)
-
+![Kontolåsingsreglene er satt til tre feilforsøk og 30 minutter.](../images/screenshots/159.png)  
 *De ferdige innstillingene for kontolåsing i labben.*
+
+<br>
 
 ### Gjenskap problemet og lås opp kontoen
 
@@ -70,8 +70,7 @@ Når policyen har trådt i kraft, prøver vi å logge på klienten med Noras kon
 
 <br>
 
-![Klienten viser at Noras konto er låst.](../images/screenshots/161.png)
-
+![Klienten viser at Noras konto er låst.](../images/screenshots/161.png)  
 *En låst konto må låses opp, eller vente til låsetiden utløper.*
 
 <br>
@@ -82,8 +81,7 @@ Når policyen har trådt i kraft, prøver vi å logge på klienten med Noras kon
 
 <br>
 
-![Unlock account er tilgjengelig på fanen Account for Noras låste konto.](../images/screenshots/162.png)
-
+![Unlock account er tilgjengelig på fanen Account for Noras låste konto.](../images/screenshots/162.png)  
 *Unlock account låser opp kontoen uten å endre passordet.*
 
 <br>
@@ -101,8 +99,7 @@ En **låst konto** skyldes feilforsøk og kan låses opp. En **deaktivert konto*
 
 <br>
 
-![Active Directory bekrefter at Noras konto er deaktivert.](../images/screenshots/164.png)
-
+![Active Directory bekrefter at Noras konto er deaktivert.](../images/screenshots/164.png)  
 *Vi deaktiverer kontoen uten å slette den, slik at den kan aktiveres igjen.*
 
 <br>
@@ -112,8 +109,7 @@ En **låst konto** skyldes feilforsøk og kan låses opp. En **deaktivert konto*
 
 <br>
 
-![Active Directory bekrefter at Noras konto er aktivert igjen.](../images/screenshots/166.png)
-
+![Active Directory bekrefter at Noras konto er aktivert igjen.](../images/screenshots/166.png)  
 *Kontoen er aktivert igjen. Kontroller påloggingen før saken avsluttes.*
 
 <br>

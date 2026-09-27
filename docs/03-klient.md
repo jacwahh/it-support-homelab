@@ -19,9 +19,10 @@ I denne labben ga to virtuelle prosessorer svart skjerm, mens tre fungerte. Bruk
 
 <br>
 
-![Windows 11 Pro velges under installasjonen.](../images/screenshots/069.png)
-
+![Windows 11 Pro velges under installasjonen.](../images/screenshots/069.png)  
 *Windows 11 Pro velges under installasjonen.*
+
+<br>
 
 ## Koble klienten til labnettverket
 
@@ -39,9 +40,10 @@ Serveren og klienten er nå koblet til samme labnettverk, slik at de kan kommuni
 
 <br>
 
-![Klienten får IP-adresse automatisk, men bruker DC01 som DNS-server.](../images/screenshots/115.png)
-
+![Klienten får IP-adresse automatisk, men bruker DC01 som DNS-server.](../images/screenshots/115.png)  
 *Klienten får IP-adresse automatisk, men bruker DC01 som DNS-server.*
+
+<br>
 
 ## Meld klienten inn i domenet
 
@@ -53,8 +55,7 @@ Serveren og klienten er nå koblet til samme labnettverk, slik at de kan kommuni
 
 <br>
 
-![Velkomstmeldingen bekrefter at klienten er meldt inn i LAB.local.](../images/screenshots/121.png)
-
+![Velkomstmeldingen bekrefter at klienten er meldt inn i LAB.local.](../images/screenshots/121.png)  
 *Velkomstmeldingen bekrefter at klienten er meldt inn i LAB.local.*
 
 <br>

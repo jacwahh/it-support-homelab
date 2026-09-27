@@ -6,9 +6,10 @@ En **virtuell maskin (VM)** er en datamaskin som kjører inne på den vanlige PC
 
 <br>
 
-![Vertsmaskinen er den fysiske PC-en. VirtualBox kjører på denne og har to virtuelle maskiner: klienten CLT-001 og serveren DC01, koblet til et felles labnettverk.](../images/diagrams/labnettverk-avrundet.png)
-
+![Vertsmaskinen er den fysiske PC-en. VirtualBox kjører på denne og har to virtuelle maskiner: klienten CLT-001 og serveren DC01, koblet til et felles labnettverk.](../images/diagrams/labnettverk-avrundet.png)  
 *Begge de virtuelle maskinene kjører på den samme fysiske PC-en, men har hvert sitt operativsystem.*
+
+<br>
 
 ## Installer VirtualBox og serveren
 
@@ -23,9 +24,10 @@ Last ned VirtualBox for Windows fra [den offisielle siden](https://www.virtualbo
 
 <br>
 
-![Velg Windows Server med Desktop Experience.](../images/screenshots/007.png)
-
+![Velg Windows Server med Desktop Experience.](../images/screenshots/007.png)  
 *Velg Windows Server med Desktop Experience.*
+
+<br>
 
 ## Sett opp nettverket
 
@@ -42,9 +44,10 @@ Klienten får ikke automatisk internett bare fordi serveren har et NAT-kort.
 
 <br>
 
-![Serverens første nettverkskort bruker Host-only. Klienten skal senere bruke samme nettverk.](../images/screenshots/018.png)
-
+![Serverens første nettverkskort bruker Host-only. Klienten skal senere bruke samme nettverk.](../images/screenshots/018.png)  
 *Serverens første nettverkskort bruker Host-only. Klienten skal senere bruke samme nettverk.*
+
+<br>
 
 ## Gi serveren en fast IP-adresse
 
@@ -54,8 +57,7 @@ Serveren skal ha en fast IP-adresse, slik at klienten alltid finner den på samm
 
 <br>
 
-![DHCP Server-fanen i VirtualBox viser Lower Address Bound som 192.168.56.101 og Upper Address Bound som 192.168.56.254.](../images/screenshots/021.png)
-
+![DHCP Server-fanen i VirtualBox viser Lower Address Bound som 192.168.56.101 og Upper Address Bound som 192.168.56.254.](../images/screenshots/021.png)  
 *Lower Address Bound er den første adressen DHCP kan dele ut, og Upper Address Bound er den siste. I labben er området 192.168.56.101–192.168.56.254. Server Address (192.168.56.100) er adressen til VirtualBox sin DHCP-tjeneste, ikke Windows-serveren DC01.*
 
 <br>
@@ -81,9 +83,10 @@ Subnettmasken angir hvilket lokalt nettverk maskinen tilhører. DNS settes til s
 
 <br>
 
-![Fast IP-adresse og DNS på serverens labkort.](../images/screenshots/025.png)
-
+![Fast IP-adresse og DNS på serverens labkort.](../images/screenshots/025.png)  
 *Fast IP-adresse og DNS på serverens labkort.*
+
+<br>
 
 ## Adresseoversikt for labben
 

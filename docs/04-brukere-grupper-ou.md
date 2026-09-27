@@ -22,8 +22,7 @@ I brukernavn bruker vi **æ → ae, ø → oe og å → aa**, for eksempel Rønn
 
 <br>
 
-![Eirik opprettes som bruker. Påloggingsnavnet er et eget felt, adskilt fra fullt navn.](../images/screenshots/099.png)
-
+![Eirik opprettes som bruker. Påloggingsnavnet er et eget felt, adskilt fra fullt navn.](../images/screenshots/099.png)  
 *Eirik opprettes som bruker. Påloggingsnavnet er et eget felt, adskilt fra fullt navn.*
 
 <br>
@@ -51,9 +50,10 @@ Gruppene samler brukere som skal ha samme tilgang. Vi bruker de engelske avdelin
 
 <br>
 
-![HR opprettes som en global sikkerhetsgruppe.](../images/screenshots/104.png)
-
+![HR opprettes som en global sikkerhetsgruppe.](../images/screenshots/104.png)  
 *HR opprettes som en global sikkerhetsgruppe.*
+
+<br>
 
 ## Legg brukerne i riktig gruppe
 
@@ -64,15 +64,15 @@ Gruppene samler brukere som skal ha samme tilgang. Vi bruker de engelske avdelin
 
 <br>
 
-![Eirik er lagt til i IT-gruppen.](../images/screenshots/111.png)
-
+![Eirik er lagt til i IT-gruppen.](../images/screenshots/111.png)  
 *Eirik er lagt til i IT-gruppen.*
 
 <br>
 
-![Maja Hovland er medlem av HR-gruppen. Eirik Solberg er medlem av IT-gruppen.](../images/diagrams/gruppemedlemskap-avrundet.png)
-
+![Maja Hovland er medlem av HR-gruppen. Eirik Solberg er medlem av IT-gruppen.](../images/diagrams/gruppemedlemskap-avrundet.png)  
 *Maja Hovland og Eirik Solberg er medlemmer av hver sin avdelingsgruppe.*
+
+<br>
 
 ---
 

@@ -33,9 +33,10 @@ Rollen er nå installert. Neste steg er å gjøre serveren til domenekontroller.
 
 <br>
 
-![AD DS-rollen er valgt med de nødvendige administrasjonsverktøyene.](../images/screenshots/033.png)
-
+![AD DS-rollen er valgt med de nødvendige administrasjonsverktøyene.](../images/screenshots/033.png)  
 *AD DS-rollen er valgt med de nødvendige administrasjonsverktøyene.*
+
+<br>
 
 ## Opprett domenet
 
@@ -49,9 +50,10 @@ Rollen er nå installert. Neste steg er å gjøre serveren til domenekontroller.
 
 <br>
 
-![LAB.local opprettes som labbens første domene.](../images/screenshots/040.png)
-
+![LAB.local opprettes som labbens første domene.](../images/screenshots/040.png)  
 *LAB.local opprettes som labbens første domene.*
+
+<br>
 
 ## Hvorfor trenger vi DNS?
 

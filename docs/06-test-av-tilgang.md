@@ -12,8 +12,7 @@ Vi tester fra klienten som **Maja Hovland**, som er medlem av HR-gruppen.
 
 <br>
 
-![HR-delingen kobles til Z: via LAB.LOCAL, slik den ble brukt i labben.](../images/screenshots/141.png)
-
+![HR-delingen kobles til Z: via LAB.LOCAL, slik den ble brukt i labben.](../images/screenshots/141.png)  
 *HR-delingen kobles til Z: via LAB.LOCAL, slik den ble brukt i labben.*
 
 <br>
@@ -24,9 +23,10 @@ Når delingen åpnes, ser vi **HR Forms** og **Resumes**. Opprett en ny mappe fo
 
 <br>
 
-![Maja oppretter en ny mappe i HR-delingen.](../images/screenshots/143.png)
-
+![Maja oppretter en ny mappe i HR-delingen.](../images/screenshots/143.png)  
 *Maja oppretter en ny mappe i HR-delingen.*
+
+<br>
 
 ## Resultat
 
