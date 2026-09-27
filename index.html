@@ -1,5 +1,5 @@
 <!doctype html><html lang="nb"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>IT-support-homelab — guiden</title><style>
- *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:#25313c;font:17px/1.7 system-ui,Segoe UI,sans-serif}main{max-width:1000px;margin:auto;padding:30px 32px 80px}section{padding:22px 0 42px;border-bottom:1px solid #e3e7ea;scroll-margin-top:55px}h1{font-size:32px;line-height:1.25;margin:24px 0}h2{font-size:23px;margin-top:32px}h3{font-size:19px}a{color:#276b60;text-underline-offset:3px}img{display:block;max-width:100%;height:auto;margin:0 auto 8px;border-radius:3px}p:has(>img){margin:24px 0 0}p:has(>img)>br{display:none}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:16px}td,th{padding:10px 15px;border-bottom:1px solid #dfe5e8;text-align:left}th{background:#f5f7f8}pre{overflow:auto;padding:20px;background:#f5f7f8;border-radius:6px;font-size:14px;line-height:1.6}code{font-family:Consolas,monospace}p code,li code,td code{background:#f3f5f6;padding:2px 4px}li{margin:5px 0}summary{cursor:pointer;color:#276b60;padding:12px 0}header{position:sticky;top:0;background:#ffffffef;border-bottom:1px solid #e3e7ea;padding:10px 24px;z-index:1;font-size:14px}header a{margin-right:20px;text-decoration:none}@media(max-width:600px){main{padding:16px}h1{font-size:27px}body{font-size:16px}td,th{padding:8px}}@media print{header{display:none}section{break-before:page}img{max-height:650px;object-fit:contain}}
+ *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:#25313c;font:17px/1.7 system-ui,Segoe UI,sans-serif}main{max-width:1000px;margin:auto;padding:30px 32px 80px}section{padding:22px 0 42px;border-bottom:1px solid #e3e7ea;scroll-margin-top:55px}h1{font-size:32px;line-height:1.25;margin:24px 0}h2{font-size:23px;margin-top:32px}h3{font-size:19px}a{color:#276b60;text-underline-offset:3px}img{display:block;max-width:100%;height:auto;margin:0 auto 8px;border-radius:3px}img.diagram{border-radius:0}p:has(>img){margin:24px 0 0}p:has(>img)>br{display:none}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:16px}td,th{padding:10px 15px;border-bottom:1px solid #dfe5e8;text-align:left}th{background:#f5f7f8}pre{overflow:auto;padding:20px;background:#f5f7f8;border-radius:6px;font-size:14px;line-height:1.6}code{font-family:Consolas,monospace}p code,li code,td code{background:#f3f5f6;padding:2px 4px}li{margin:5px 0}summary{cursor:pointer;color:#276b60;padding:12px 0}header{position:sticky;top:0;background:#ffffffef;border-bottom:1px solid #e3e7ea;padding:10px 24px;z-index:1;font-size:14px}header a{margin-right:20px;text-decoration:none}@media(max-width:600px){main{padding:16px}h1{font-size:27px}body{font-size:16px}td,th{padding:8px}}@media print{header{display:none}section{break-before:page}img{max-height:650px;object-fit:contain}}
  </style></head><body><header><a href="#del-0">IT-support-homelab</a><a href="#del-1">Start guiden</a><a href="#del-8">Alle skjermbilder</a></header><main><section id="del-0"><h1>IT-support-homelab</h1>
 <p>I denne Windows-labben med Active Directory (AD) setter vi opp brukere, grupper og delte mapper, og løser vanlige supportsaker. Målet er å lære mer om profesjonelle IT-miljøer gjennom praktisk arbeid i et simulert miljø.</p>
 <p>Den detaljerte fremgangsmåten er dokumentert med skjermbilder i <a href="#del-8">bilderegisteret</a>. Se der hvis du lurer på et konkret steg eller en innstilling.</p>
@@ -45,7 +45,7 @@
 <p>En <strong>virtuell maskin (VM)</strong> er en datamaskin som kjører inne på den vanlige PC-en din. Vi bruker VirtualBox til å lage en server og en klient med hvert sitt operativsystem.</p>
 <br>
 
-<p><img src="images/diagrams/labnettverk-avrundet.png" alt="Vertsmaskinen er den fysiske PC-en. VirtualBox kjører på denne og har to virtuelle maskiner: klienten CLT-001 og serveren DC01, koblet til et felles labnettverk."><br><em>Begge de virtuelle maskinene kjører på den samme fysiske PC-en, men har hvert sitt operativsystem.</em></p>
+<p><img class="diagram" src="images/diagrams/labnettverk-original.png" alt="Vertsmaskinen er den fysiske PC-en. VirtualBox kjører på denne og har to virtuelle maskiner: klienten CLT-001 og serveren DC01, koblet til et felles labnettverk."><br><em>Begge de virtuelle maskinene kjører på den samme fysiske PC-en, men har hvert sitt operativsystem.</em></p>
 <br>
 
 <h2>Installer VirtualBox og serveren</h2>
@@ -138,7 +138,7 @@
 <br>
 
 <h2>Adresseoversikt for labben</h2>
-<p><img src="images/diagrams/lab-ip-kart-avrundet.png" alt="VirtualBox DHCP gir klienten en IP-adresse. Klienten bruker DC01 på 192.168.56.55 som DNS."></p>
+<p><img class="diagram" src="images/diagrams/lab-ip-kart-original.png" alt="VirtualBox DHCP gir klienten en IP-adresse. Klienten bruker DC01 på 192.168.56.55 som DNS."></p>
 <br>
 
 <table>
@@ -181,7 +181,7 @@
 <p>En <strong>organisatorisk enhet (Organizational Unit, OU)</strong> er en administrativ mappe i AD. Vi bruker Accounts til brukerkontoer og Groups til sikkerhetsgrupper.</p>
 <br>
 
-<p><img src="images/diagrams/skog-domene-lab-avrundet.png" alt="Skogen LAB.local inneholder domenet LAB.local. DC01 er domenekontroller og CLT-001 er klient. Accounts er OU-en for brukere, mens Groups er OU-en for sikkerhetsgrupper."></p>
+<p><img class="diagram" src="images/diagrams/skog-domene-lab-original.png" alt="Skogen LAB.local inneholder domenet LAB.local. DC01 er domenekontroller og CLT-001 er klient. Accounts er OU-en for brukere, mens Groups er OU-en for sikkerhetsgrupper."></p>
 <br>
 
 <p><strong>Skogen</strong> er den ytterste rammen. Den kan inneholde flere domener, men i labben har vi bare ett. Skogen får navn etter det første domenet, så begge heter <code>LAB.local</code>.</p>
@@ -373,7 +373,7 @@
 <p><img src="images/screenshots/111.png" alt="Eirik er lagt til i IT-gruppen."><br><em>Eirik er lagt til i IT-gruppen.</em></p>
 <br>
 
-<p><img src="images/diagrams/gruppemedlemskap-avrundet.png" alt="Maja Hovland er medlem av HR-gruppen. Eirik Solberg er medlem av IT-gruppen."><br><em>Maja Hovland og Eirik Solberg er medlemmer av hver sin avdelingsgruppe.</em></p>
+<p><img class="diagram" src="images/diagrams/gruppemedlemskap-original.png" alt="Maja Hovland er medlem av HR-gruppen. Eirik Solberg er medlem av IT-gruppen."><br><em>Maja Hovland og Eirik Solberg er medlemmer av hver sin avdelingsgruppe.</em></p>
 <br>
 
 <hr>
@@ -449,7 +449,7 @@
 <p>Vi gir Everyone <strong>Full Control</strong> under delingsrettighetene og bruker <strong>NTFS-rettighetene</strong> til å styre hva brukerne kan gjøre med filene.</p>
 <br>
 
-<p><img src="images/diagrams/share-og-ntfs-avrundet.png" alt="Share gir Full Control og NTFS gir HR-gruppen Modify-tilgang. Begge tillater at Maja oppretter en mappe."></p>
+<p><img class="diagram" src="images/diagrams/share-og-ntfs-original.png" alt="Share gir Full Control og NTFS gir HR-gruppen Modify-tilgang. Begge tillater at Maja oppretter en mappe."></p>
 <h2>Gi HR-gruppen Modify-tilgang</h2>
 <ol>
 <li>Åpne <strong>HR → Properties → Security</strong>.</li>
@@ -467,7 +467,7 @@
 <p>Vi tildeler rettigheter til gruppene, slik at vi slipper å sette dem for hver bruker separat.</p>
 <br>
 
-<p><img src="images/diagrams/gruppetilgang-avrundet.png" alt="Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet."><br><em>Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.</em></p>
+<p><img class="diagram" src="images/diagrams/gruppetilgang-original.png" alt="Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet."><br><em>Maja Hovland og Eirik Solberg får Modify-tilgang til hver sin avdelingsmappe gjennom gruppemedlemskapet.</em></p>
 <br>
 
 <h2>Nettverksstien til HR-mappen</h2>
