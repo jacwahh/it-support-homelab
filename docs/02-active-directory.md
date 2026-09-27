@@ -10,17 +10,15 @@ Et **domene** samler brukere og datamaskiner under felles administrasjon og regl
 
 ## Slik henger labben sammen
 
-En **organisatorisk enhet (Organizational Unit, OU)** er en administrativ mappe i AD. Vi bruker Accounts til brukerkontoer og Groups til sikkerhetsgrupper.
-
-<br>
-
 ![Skogen LAB.local inneholder domenet LAB.local. DC01 er domenekontroller og CLT-001 er klient. Accounts er OU-en for brukere, mens Groups er OU-en for sikkerhetsgrupper.](../images/diagrams/skog-domene-lab-original.png)
 
 <br>
 
 **Skogen** er den ytterste rammen. Den kan inneholde flere domener, men i labben har vi bare ett. Skogen får navn etter det første domenet, så begge heter `LAB.local`.
 
-**DC01 er maskinen som kjører AD DS**, mens `LAB.local` er domenet den betjener. Klienten `CLT-001` kobles til dette domenet. Inne i AD bruker vi OU-ene **Accounts** og **Groups** til å organisere brukerkontoer og sikkerhetsgrupper; disse oppretter vi i kapittel 4.
+**DC01 er maskinen som kjører AD DS**, mens `LAB.local` er domenet den betjener. Klienten `CLT-001` kobles til dette domenet.
+
+En **organisatorisk enhet (Organizational Unit, OU)** er en administrativ mappe i AD. Vi bruker **Accounts** til brukerkontoer og **Groups** til sikkerhetsgrupper. Disse oppretter vi i kapittel 4.
 
 ## Installer AD DS
 
